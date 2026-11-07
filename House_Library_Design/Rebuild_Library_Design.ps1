@@ -1,6 +1,2 @@
-param([Parameter(Mandatory=$true)][string]$BlenderPath,[switch]$Render)
-& $BlenderPath -b --disable-autoexec --python-exit-code 1 --python (Join-Path $PSScriptRoot 'scripts/build_library_design.py')
-if ($LASTEXITCODE -ne 0) {throw 'Build failed'}
-& $BlenderPath -b --disable-autoexec --python-exit-code 1 --python (Join-Path $PSScriptRoot 'scripts/verify_library.py')
-if ($LASTEXITCODE -ne 0) {throw 'Verification failed'}
-if ($Render) {& $BlenderPath -b --disable-autoexec --python-exit-code 1 --python (Join-Path $PSScriptRoot 'scripts/render_library.py')}
+param([string]$BlenderPath,[switch]$Render)
+throw 'Historical master rebuild disabled: it overwrites later design revisions. To pack current GLBs and renders, use Build-Viewer.ps1 in the repository root. See README.md.'

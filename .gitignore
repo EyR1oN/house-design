@@ -22,3 +22,6 @@ Thumbs.db
 *.pem
 *.key
 .env.*
+
+# Local smoke renders and rebuilt review files
+/.local-preview/
