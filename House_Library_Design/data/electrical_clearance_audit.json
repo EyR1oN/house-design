@@ -1,0 +1,32 @@
+{
+  "general_points_clear": true,
+  "intentional_service_positions": [
+    {
+      "id": "E1_007_SOCKET",
+      "intersects": "Kitchen_Fridge_Housing",
+      "purpose": "Fridge; accessible upper cabinet service position"
+    },
+    {
+      "id": "E1_008_SOCKET",
+      "intersects": "Kitchen_Oven_Housing",
+      "purpose": "Oven; accessible upper cabinet service position"
+    },
+    {
+      "id": "E1_009_SOCKET",
+      "intersects": "Kitchen_Oven_Housing",
+      "purpose": "Microwave; upper cabinet service position"
+    },
+    {
+      "id": "E1_015_SOCKET",
+      "intersects": "Living_Media_Console",
+      "purpose": "Media equipment inside console"
+    }
+  ],
+  "note": "Dedicated cabinet back cutouts added for these service points",
+  "revision4_updates": {
+    "E2_080_SOCKET": "East wall above child study shelf",
+    "E2_081_DATA": "East wall above child study shelf",
+    "E2_083_SWITCH": "Clear of wardrobe side and door opening",
+    "E2_035_SOCKET": "Clear of new bedroom wall mirror"
+  }
+}

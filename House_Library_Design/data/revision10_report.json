@@ -1,0 +1,9 @@
+{
+  "revision": 10,
+  "removed_objects": [],
+  "boiler_shift_m": -0.35,
+  "boiler_side_gap_m": 0.5139999389648438,
+  "door_sweep_separation_m": 0.15199975395202614,
+  "passed": true,
+  "scope": "Model geometry and proposed positions; engineering routes unconfirmed"
+}

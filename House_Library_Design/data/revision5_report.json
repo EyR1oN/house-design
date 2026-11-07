@@ -1,0 +1,12 @@
+{
+  "revision": 5,
+  "table": "Arlos Dining Table",
+  "table_size_m": [
+    1.56,
+    0.8,
+    0.775
+  ],
+  "shift_toward_kitchen_m": 0.25,
+  "chair_count": 4,
+  "kitchen_exit_gap_m": 0.35999979019165007
+}

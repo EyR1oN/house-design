@@ -1,0 +1,16 @@
+{
+  "revision": 6,
+  "additional_shift_m": 0.32,
+  "chair_to_island_countertop_gap_m": 0.12249946594238281,
+  "changed_placements": [
+    "Dining_Table",
+    "Dining_Chair_7.99",
+    "Dining_Chair_8.99",
+    "Dining_Ceramics",
+    "Pendant_Dining1",
+    "Pendant_Dining2",
+    "Dining_Chair_3",
+    "Dining_Chair_4"
+  ],
+  "checks_passed": true
+}

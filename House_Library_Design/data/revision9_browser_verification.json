@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "updated_renders": 4,
+  "total_renders": 33,
+  "utf8_titles_verified": true,
+  "embedded_models_match_glb": true,
+  "zip_crc_verified": true,
+  "interactive_browser_check": "Not performed; local file tab unavailable through browser automation"
+}

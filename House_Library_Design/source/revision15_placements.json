@@ -1,0 +1,5459 @@
+[
+  {
+    "label": "Living_Corner_Sofa",
+    "role": "corner_sofa",
+    "group": "Living_Dining",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/a2de83d8-20a1-4bcf-9880-f24a0b493c18/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.15000057220459,
+        10.34000015258789
+      ],
+      [
+        8.989999771118164,
+        11.680000305175781
+      ],
+      [
+        -4.2965879742951074e-08,
+        0.9100001454353333
+      ]
+    ],
+    "scale": [
+      0.8476658027307119,
+      0.8120486734989958,
+      0.9620695603435917
+    ],
+    "objects": [
+      "LIB_Living_Corner_Sofa_sofa_body_PREPARED",
+      "LIB_Living_Corner_Sofa_pillow_PREPARED",
+      "LIB_Living_Corner_Sofa_pillow.006_PREPARED",
+      "LIB_Living_Corner_Sofa_pillow.005_PREPARED",
+      "LIB_Living_Corner_Sofa_pillow.004_PREPARED",
+      "LIB_Living_Corner_Sofa_pillow.003_PREPARED",
+      "LIB_Living_Corner_Sofa_pillow.002_PREPARED",
+      "LIB_Living_Corner_Sofa_pillow.001_PREPARED",
+      "LIB_Living_Corner_Sofa_blanket_PREPARED",
+      "LIB_Living_Corner_Sofa_bed_legs_PREPARED"
+    ]
+  },
+  {
+    "label": "Living_Coffee_Table",
+    "role": "coffee_table",
+    "group": "Living_Dining",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/9b2cb029-893c-4320-8070-296cdfe4fc7e/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.204999923706055,
+        8.875
+      ],
+      [
+        9.809999465942383,
+        10.40999984741211
+      ],
+      [
+        0.014999999664723873,
+        0.44499996304512024
+      ]
+    ],
+    "scale": [
+      0.4187499937601389,
+      0.36363634261874905,
+      1.2852419007006635
+    ],
+    "objects": [
+      "LIB_Living_Coffee_Table_Cube.241_PREPARED",
+      "LIB_Living_Coffee_Table_Coffee Table_PREPARED"
+    ]
+  },
+  {
+    "label": "Dining_Table",
+    "role": "dining_table",
+    "group": "Living_Dining",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/f30d21dc-529f-4fb9-b39a-0a5106eee9d0/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.710000038146973,
+        9.270000457763672
+      ],
+      [
+        7.71999979019165,
+        8.519999504089355
+      ],
+      [
+        2.1222120949460077e-08,
+        0.7749999761581421
+      ]
+    ],
+    "scale": [
+      0.7058823407568895,
+      0.8,
+      1.00780206699065
+    ],
+    "objects": [
+      "LIB_Dining_Table_Table top_PREPARED",
+      "LIB_Dining_Table_Support frame_PREPARED",
+      "LIB_Dining_Table_Leg_PREPARED"
+    ],
+    "asset_name": "Arlos Dining Table"
+  },
+  {
+    "label": "Dining_Chair_7.99",
+    "role": "dining_chair",
+    "group": "Living_Dining",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/6089f275-3f1e-4304-822c-b9ca8403b011/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.729999542236328,
+        8.25
+      ],
+      [
+        7.149999618530273,
+        7.7099995613098145
+      ],
+      [
+        0.0,
+        0.8100000619888306
+      ]
+    ],
+    "scale": [
+      0.8865026004994061,
+      0.853081129248873,
+      1.0072728218993365
+    ],
+    "objects": [
+      "LIB_Dining_Chair_7.99_Chair_PREPARED"
+    ]
+  },
+  {
+    "label": "Dining_Chair_8.99",
+    "role": "dining_chair",
+    "group": "Living_Dining",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/6089f275-3f1e-4304-822c-b9ca8403b011/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.729999542236328,
+        9.25
+      ],
+      [
+        7.149999618530273,
+        7.7099995613098145
+      ],
+      [
+        0.0,
+        0.8100000619888306
+      ]
+    ],
+    "scale": [
+      0.8865026004994061,
+      0.853081129248873,
+      1.0072728218993365
+    ],
+    "objects": [
+      "LIB_Dining_Chair_8.99_Chair_PREPARED"
+    ]
+  },
+  {
+    "label": "Dining_Ceramics",
+    "role": "tableware",
+    "group": "Living_Dining",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/a6bf81fc-a2fe-4000-920e-900be7f1ca81/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.25,
+        8.550000190734863
+      ],
+      [
+        7.8949995040893555,
+        8.344999313354492
+      ],
+      [
+        0.7749999761581421,
+        0.8949999809265137
+      ]
+    ],
+    "scale": [
+      0.8117153149722826,
+      0.8110266797502362,
+      0.8147289682122331
+    ],
+    "objects": [
+      "LIB_Dining_Ceramics_Plate_PREPARED",
+      "LIB_Dining_Ceramics_Glass_PREPARED",
+      "LIB_Dining_Ceramics_Coffee Cup_PREPARED",
+      "LIB_Dining_Ceramics_Coffee Cup.001_PREPARED",
+      "LIB_Dining_Ceramics_Bowl_PREPARED"
+    ]
+  },
+  {
+    "label": "Living_Vase",
+    "role": "ceramic_vase",
+    "group": "Living_Dining",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/327f84c7-ddcf-46a9-a726-41cacd90ac85/",
+    "license": "cc_zero",
+    "bounds": [
+      [
+        8.52500057220459,
+        8.654999732971191
+      ],
+      [
+        10.055000305175781,
+        10.184999465942383
+      ],
+      [
+        0.4449999928474426,
+        0.625
+      ]
+    ],
+    "scale": [
+      0.595293329009958,
+      0.5952879266130067,
+      0.5821760814657642
+    ],
+    "objects": [
+      "LIB_Living_Vase_ceramic_vase_02_PREPARED"
+    ]
+  },
+  {
+    "label": "Living_Rug",
+    "role": "rug",
+    "group": "Living_Dining",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/cbb45e91-fb1c-4cc3-834c-1af5ba1deb60/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.559999465942383,
+        10.15999984741211
+      ],
+      [
+        9.139999389648438,
+        11.260000228881836
+      ],
+      [
+        0.0020000000949949026,
+        0.010999999940395355
+      ]
+    ],
+    "scale": [
+      1.2093022719404412,
+      1.4133332210117007,
+      1.7996791932994873
+    ],
+    "objects": [
+      "LIB_Living_Rug_Tapis 7.001_PREPARED"
+    ]
+  },
+  {
+    "label": "Bedroom_Bed",
+    "role": "bed",
+    "group": "Bedroom",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/b2d82197-5844-43a8-bfd2-85cab629a94f/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.953067779541016,
+        11.356932640075684
+      ],
+      [
+        8.70893669128418,
+        11.331064224243164
+      ],
+      [
+        3.2079999446868896,
+        4.308591365814209
+      ]
+    ],
+    "scale": [
+      0.9,
+      0.9,
+      0.9
+    ],
+    "objects": [
+      "LIB_Bedroom_Bed_Plane.008_PREPARED",
+      "LIB_Bedroom_Bed_Plane.004_PREPARED",
+      "LIB_Bedroom_Bed_Plane.003_PREPARED",
+      "LIB_Bedroom_Bed_Icosphere.003_PREPARED",
+      "LIB_Bedroom_Bed_Cube.005_PREPARED",
+      "LIB_Bedroom_Bed_Cube.004_PREPARED",
+      "LIB_Bedroom_Bed_Cube.003_PREPARED",
+      "LIB_Bedroom_Bed_Cube.002_PREPARED"
+    ]
+  },
+  {
+    "label": "Bedroom_Wardrobe_9.205",
+    "role": "wardrobe",
+    "group": "Bedroom",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/e5ed3e5f-f06c-4bf5-ae4c-28b65c00d65d/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.479999542236328,
+        9.930000305175781
+      ],
+      [
+        7.510000228881836,
+        8.09000015258789
+      ],
+      [
+        3.200000047683716,
+        5.875
+      ]
+    ],
+    "scale": [
+      0.7178217042323424,
+      0.9354827845642607,
+      1.1630433818117736
+    ],
+    "objects": [
+      "LIB_Bedroom_Wardrobe_9.205_Modern Wardrobe_PREPARED"
+    ]
+  },
+  {
+    "label": "Bedroom_Wardrobe_10.655",
+    "role": "wardrobe",
+    "group": "Bedroom",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/e5ed3e5f-f06c-4bf5-ae4c-28b65c00d65d/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.929999351501465,
+        11.380000114440918
+      ],
+      [
+        7.510000228881836,
+        8.09000015258789
+      ],
+      [
+        3.200000047683716,
+        5.875
+      ]
+    ],
+    "scale": [
+      0.7178217042323424,
+      0.9354827845642607,
+      1.1630433818117736
+    ],
+    "objects": [
+      "LIB_Bedroom_Wardrobe_10.655_Modern Wardrobe_PREPARED"
+    ]
+  },
+  {
+    "label": "Bedroom_Nightstand_8.78",
+    "role": "bedside_table",
+    "group": "Bedroom",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/c124e7cf-442b-4c3e-9fa5-bf2cb54ef9e2/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        10.869999885559082,
+        11.229999542236328
+      ],
+      [
+        8.604999542236328,
+        8.954999923706055
+      ],
+      [
+        3.200000047683716,
+        3.680000066757202
+      ]
+    ],
+    "scale": [
+      1.0080485121231488,
+      0.7399316945971707,
+      0.8638458309658124
+    ],
+    "objects": [
+      "LIB_Bedroom_Nightstand_8.78_Sm_Right_PREPARED",
+      "LIB_Bedroom_Nightstand_8.78_SM_Lower_PREPARED",
+      "LIB_Bedroom_Nightstand_8.78_SM_Left_PREPARED",
+      "LIB_Bedroom_Nightstand_8.78_SM_Front_PREPARED",
+      "LIB_Bedroom_Nightstand_8.78_SM_Base_PREPARED",
+      "LIB_Bedroom_Nightstand_8.78_SM_Back_PREPARED"
+    ]
+  },
+  {
+    "label": "Bedroom_Nightstand_11.32",
+    "role": "bedside_table",
+    "group": "Bedroom",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/c124e7cf-442b-4c3e-9fa5-bf2cb54ef9e2/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        10.869999885559082,
+        11.229999542236328
+      ],
+      [
+        11.144999504089355,
+        11.494999885559082
+      ],
+      [
+        3.200000047683716,
+        3.680000066757202
+      ]
+    ],
+    "scale": [
+      1.0080485121231488,
+      0.7399316945971707,
+      0.8638458309658124
+    ],
+    "objects": [
+      "LIB_Bedroom_Nightstand_11.32_Sm_Right_PREPARED",
+      "LIB_Bedroom_Nightstand_11.32_SM_Lower_PREPARED",
+      "LIB_Bedroom_Nightstand_11.32_SM_Left_PREPARED",
+      "LIB_Bedroom_Nightstand_11.32_SM_Front_PREPARED",
+      "LIB_Bedroom_Nightstand_11.32_SM_Base_PREPARED",
+      "LIB_Bedroom_Nightstand_11.32_SM_Back_PREPARED"
+    ]
+  },
+  {
+    "label": "Bedroom_TV",
+    "role": "television",
+    "group": "Bedroom",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/1e825c5a-75d7-4790-bd49-500724b7d535/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.647500038146973,
+        6.7325005531311035
+      ],
+      [
+        9.319999694824219,
+        10.720000267028809
+      ],
+      [
+        4.360000133514404,
+        5.170000076293945
+      ]
+    ],
+    "scale": [
+      0.2072754892629761,
+      1.0347379504964984,
+      1.0135753883125027
+    ],
+    "objects": [
+      "LIB_Bedroom_TV_Plane.082_PREPARED"
+    ]
+  },
+  {
+    "label": "Bedroom_Rug",
+    "role": "rug",
+    "group": "Bedroom",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/cbb45e91-fb1c-4cc3-834c-1af5ba1deb60/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.549999237060547,
+        11.34999942779541
+      ],
+      [
+        8.664999961853027,
+        11.4350004196167
+      ],
+      [
+        3.2019999027252197,
+        3.2109997272491455
+      ]
+    ],
+    "scale": [
+      1.8666666666666665,
+      1.2883720358750084,
+      1.7996791932994873
+    ],
+    "objects": [
+      "LIB_Bedroom_Rug_Tapis 7.001_PREPARED"
+    ]
+  },
+  {
+    "label": "Bedroom_Art",
+    "role": "wall_art",
+    "group": "Bedroom",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/41236cc9-007d-4750-90f3-e4563842ae27/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        11.34749984741211,
+        11.372499465942383
+      ],
+      [
+        9.475000381469727,
+        10.725000381469727
+      ],
+      [
+        4.699999809265137,
+        5.439999580383301
+      ]
+    ],
+    "scale": [
+      0.9827382907797345,
+      1.7573740884963525,
+      0.7047618567538132
+    ],
+    "objects": [
+      "LIB_Bedroom_Art_Image_PREPARED",
+      "LIB_Bedroom_Art_Glass_PREPARED",
+      "LIB_Bedroom_Art_Cube_PREPARED",
+      "LIB_Bedroom_Art_Cube.003_PREPARED",
+      "LIB_Bedroom_Art_Cube.002_PREPARED",
+      "LIB_Bedroom_Art_Cube.001_PREPARED",
+      "LIB_Bedroom_Art_Back Board_PREPARED"
+    ]
+  },
+  {
+    "label": "Bedroom_Vanity_Chair",
+    "role": "dining_chair",
+    "group": "Bedroom",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/6089f275-3f1e-4304-822c-b9ca8403b011/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.130000114440918,
+        7.670000076293945
+      ],
+      [
+        10.995000839233398,
+        11.495000839233398
+      ],
+      [
+        3.200000047683716,
+        4.010000228881836
+      ]
+    ],
+    "scale": [
+      0.8226140207541753,
+      0.8524063899425774,
+      1.0072728218993365
+    ],
+    "objects": [
+      "LIB_Bedroom_Vanity_Chair_Chair_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Desk_1",
+    "role": "desk_wooden",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/9931fdd8-30a6-4b32-af05-b9f50a901eb0/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        10.730000495910645,
+        11.380000114440918
+      ],
+      [
+        2.625,
+        3.815000057220459
+      ],
+      [
+        3.200000047683716,
+        4.139999866485596
+      ]
+    ],
+    "scale": [
+      0.65,
+      0.5666666924007366,
+      1.0000000342409672
+    ],
+    "objects": [
+      "LIB_Office_Desk_1_Wooden modern Desk_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Chair_1",
+    "role": "office_chair",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/1e29cd60-661b-4943-ab3f-8f899c4a0787/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.760000228881836,
+        10.40000057220459
+      ],
+      [
+        2.9000000953674316,
+        3.5400002002716064
+      ],
+      [
+        3.200000047683716,
+        4.230000019073486
+      ]
+    ],
+    "scale": [
+      0.9195400594736063,
+      0.9195401775961397,
+      0.9716981146236884
+    ],
+    "objects": [
+      "LIB_Office_Chair_1_Office Chair.001_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Monitor_1_1",
+    "role": "monitor",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/a89acc61-5bdd-4909-b60f-5c653e3ab24b/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        11.164999961853027,
+        11.295000076293945
+      ],
+      [
+        2.690000057220459,
+        3.200000047683716
+      ],
+      [
+        4.140999794006348,
+        4.530999660491943
+      ]
+    ],
+    "scale": [
+      0.8947653061527989,
+      0.8676050661990974,
+      0.8670799158617197
+    ],
+    "objects": [
+      "LIB_Office_Monitor_1_1_usb_PREPARED",
+      "LIB_Office_Monitor_1_1_usb2_PREPARED",
+      "LIB_Office_Monitor_1_1_suport_PREPARED",
+      "LIB_Office_Monitor_1_1_Stand_PREPARED",
+      "LIB_Office_Monitor_1_1_screen_PREPARED",
+      "LIB_Office_Monitor_1_1_Power jack_PREPARED",
+      "LIB_Office_Monitor_1_1_p2 jack_PREPARED",
+      "LIB_Office_Monitor_1_1_Logo _PREPARED",
+      "LIB_Office_Monitor_1_1_Housing_PREPARED",
+      "LIB_Office_Monitor_1_1_Cylinder.001_PREPARED",
+      "LIB_Office_Monitor_1_1_Bolt.002_PREPARED",
+      "LIB_Office_Monitor_1_1_Bezel_PREPARED",
+      "LIB_Office_Monitor_1_1_base_PREPARED",
+      "LIB_Office_Monitor_1_1_base.002_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Monitor_1_2",
+    "role": "monitor",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/a89acc61-5bdd-4909-b60f-5c653e3ab24b/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        11.164999961853027,
+        11.295000076293945
+      ],
+      [
+        3.240000009536743,
+        3.75
+      ],
+      [
+        4.140999794006348,
+        4.530999660491943
+      ]
+    ],
+    "scale": [
+      0.8947653061527989,
+      0.8676050661990974,
+      0.8670799158617197
+    ],
+    "objects": [
+      "LIB_Office_Monitor_1_2_usb_PREPARED",
+      "LIB_Office_Monitor_1_2_usb2_PREPARED",
+      "LIB_Office_Monitor_1_2_suport_PREPARED",
+      "LIB_Office_Monitor_1_2_Stand_PREPARED",
+      "LIB_Office_Monitor_1_2_screen_PREPARED",
+      "LIB_Office_Monitor_1_2_Power jack_PREPARED",
+      "LIB_Office_Monitor_1_2_p2 jack_PREPARED",
+      "LIB_Office_Monitor_1_2_Logo _PREPARED",
+      "LIB_Office_Monitor_1_2_Housing_PREPARED",
+      "LIB_Office_Monitor_1_2_Cylinder.001_PREPARED",
+      "LIB_Office_Monitor_1_2_Bolt.002_PREPARED",
+      "LIB_Office_Monitor_1_2_Bezel_PREPARED",
+      "LIB_Office_Monitor_1_2_base_PREPARED",
+      "LIB_Office_Monitor_1_2_base.002_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Keyboard_1",
+    "role": "keyboard_mouse",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/278d7a2d-9eaf-4df4-a33b-4ee305933aa6/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        10.84999942779541,
+        10.989999771118164
+      ],
+      [
+        3.0,
+        3.440000057220459
+      ],
+      [
+        4.000999927520752,
+        4.0239996910095215
+      ]
+    ],
+    "scale": [
+      1.1498706532722514,
+      0.9466851755230399,
+      0.9870710623033886
+    ],
+    "objects": [
+      "LIB_Office_Keyboard_1_mouse.002_PREPARED",
+      "LIB_Office_Keyboard_1_keyboard.003_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Desk_2",
+    "role": "desk_wooden",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/9931fdd8-30a6-4b32-af05-b9f50a901eb0/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        10.730000495910645,
+        11.380000114440918
+      ],
+      [
+        3.924999952316284,
+        5.114999771118164
+      ],
+      [
+        3.200000047683716,
+        4.139999866485596
+      ]
+    ],
+    "scale": [
+      0.65,
+      0.5666666924007366,
+      1.0000000342409672
+    ],
+    "objects": [
+      "LIB_Office_Desk_2_Wooden modern Desk_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Chair_2",
+    "role": "office_chair",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/1e29cd60-661b-4943-ab3f-8f899c4a0787/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.760000228881836,
+        10.40000057220459
+      ],
+      [
+        4.199999809265137,
+        4.839999675750732
+      ],
+      [
+        3.200000047683716,
+        4.230000019073486
+      ]
+    ],
+    "scale": [
+      0.9195400594736063,
+      0.9195401775961397,
+      0.9716981146236884
+    ],
+    "objects": [
+      "LIB_Office_Chair_2_Office Chair.001_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Monitor_2_1",
+    "role": "monitor",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/a89acc61-5bdd-4909-b60f-5c653e3ab24b/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        11.164999961853027,
+        11.295000076293945
+      ],
+      [
+        3.989999771118164,
+        4.5
+      ],
+      [
+        4.140999794006348,
+        4.530999660491943
+      ]
+    ],
+    "scale": [
+      0.8947653061527989,
+      0.8676050661990974,
+      0.8670799158617197
+    ],
+    "objects": [
+      "LIB_Office_Monitor_2_1_usb_PREPARED",
+      "LIB_Office_Monitor_2_1_usb2_PREPARED",
+      "LIB_Office_Monitor_2_1_suport_PREPARED",
+      "LIB_Office_Monitor_2_1_Stand_PREPARED",
+      "LIB_Office_Monitor_2_1_screen_PREPARED",
+      "LIB_Office_Monitor_2_1_Power jack_PREPARED",
+      "LIB_Office_Monitor_2_1_p2 jack_PREPARED",
+      "LIB_Office_Monitor_2_1_Logo _PREPARED",
+      "LIB_Office_Monitor_2_1_Housing_PREPARED",
+      "LIB_Office_Monitor_2_1_Cylinder.001_PREPARED",
+      "LIB_Office_Monitor_2_1_Bolt.002_PREPARED",
+      "LIB_Office_Monitor_2_1_Bezel_PREPARED",
+      "LIB_Office_Monitor_2_1_base_PREPARED",
+      "LIB_Office_Monitor_2_1_base.002_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Monitor_2_2",
+    "role": "monitor",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/a89acc61-5bdd-4909-b60f-5c653e3ab24b/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        11.164999961853027,
+        11.295000076293945
+      ],
+      [
+        4.539999961853027,
+        5.050000190734863
+      ],
+      [
+        4.140999794006348,
+        4.530999660491943
+      ]
+    ],
+    "scale": [
+      0.8947653061527989,
+      0.8676050661990974,
+      0.8670799158617197
+    ],
+    "objects": [
+      "LIB_Office_Monitor_2_2_usb_PREPARED",
+      "LIB_Office_Monitor_2_2_usb2_PREPARED",
+      "LIB_Office_Monitor_2_2_suport_PREPARED",
+      "LIB_Office_Monitor_2_2_Stand_PREPARED",
+      "LIB_Office_Monitor_2_2_screen_PREPARED",
+      "LIB_Office_Monitor_2_2_Power jack_PREPARED",
+      "LIB_Office_Monitor_2_2_p2 jack_PREPARED",
+      "LIB_Office_Monitor_2_2_Logo _PREPARED",
+      "LIB_Office_Monitor_2_2_Housing_PREPARED",
+      "LIB_Office_Monitor_2_2_Cylinder.001_PREPARED",
+      "LIB_Office_Monitor_2_2_Bolt.002_PREPARED",
+      "LIB_Office_Monitor_2_2_Bezel_PREPARED",
+      "LIB_Office_Monitor_2_2_base_PREPARED",
+      "LIB_Office_Monitor_2_2_base.002_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Keyboard_2",
+    "role": "keyboard_mouse",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/278d7a2d-9eaf-4df4-a33b-4ee305933aa6/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        10.84999942779541,
+        10.989999771118164
+      ],
+      [
+        4.300000190734863,
+        4.740000247955322
+      ],
+      [
+        4.000999927520752,
+        4.0239996910095215
+      ]
+    ],
+    "scale": [
+      1.1498706532722514,
+      0.9466851755230399,
+      0.9870710623033886
+    ],
+    "objects": [
+      "LIB_Office_Keyboard_2_mouse.002_PREPARED",
+      "LIB_Office_Keyboard_2_keyboard.003_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Task_Lamp_1",
+    "role": "desk_lamp",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/a65e7882-2580-43a1-bf12-009357404065/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        10.989986419677734,
+        11.390012741088867
+      ],
+      [
+        2.725485324859619,
+        2.834514856338501
+      ],
+      [
+        4.000999927520752,
+        4.47623348236084
+      ]
+    ],
+    "scale": [
+      0.65,
+      0.65,
+      0.65
+    ],
+    "objects": [
+      "LIB_Office_Task_Lamp_1_vise_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_upper_pin_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_upper_pin.004_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_upper_pin.003_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_upper_pin.002_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_upper_pin.001_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_upper_arm_stopper_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_upper_arm_stopper.001_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_upper_arm_spring_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_upper_arm_plate_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_upper_arm_bar_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_upper_arm_bar.001_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_shade_holder_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_pivot_hook_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_pivot_bar_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_lower_pin.004_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_lower_pin.003_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_lower_arm_stopper_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_lower_arm_spring_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_lower_arm_plate_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_lower_arm_bar.002_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_lower_arm_bar.001_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_knob_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_clamp_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_cable_mount_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_cable_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_bulb_mount_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_1_bulb_low.004_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Task_Lamp_2",
+    "role": "desk_lamp",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/a65e7882-2580-43a1-bf12-009357404065/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        10.989986419677734,
+        11.390012741088867
+      ],
+      [
+        4.025485038757324,
+        4.134514808654785
+      ],
+      [
+        4.000999927520752,
+        4.47623348236084
+      ]
+    ],
+    "scale": [
+      0.65,
+      0.65,
+      0.65
+    ],
+    "objects": [
+      "LIB_Office_Task_Lamp_2_vise_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_upper_pin_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_upper_pin.004_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_upper_pin.003_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_upper_pin.002_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_upper_pin.001_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_upper_arm_stopper_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_upper_arm_stopper.001_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_upper_arm_spring_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_upper_arm_plate_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_upper_arm_bar_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_upper_arm_bar.001_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_shade_holder_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_pivot_hook_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_pivot_bar_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_lower_pin.004_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_lower_pin.003_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_lower_arm_stopper_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_lower_arm_spring_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_lower_arm_plate_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_lower_arm_bar.002_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_lower_arm_bar.001_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_knob_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_clamp_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_cable_mount_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_cable_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_bulb_mount_low.004_PREPARED",
+      "LIB_Office_Task_Lamp_2_bulb_low.004_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_3D_Printer",
+    "role": "3d_printer",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/85c0378d-c78b-48f2-9c67-5812706f7c8f/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.556133270263672,
+        8.983868598937988
+      ],
+      [
+        0.7911163568496704,
+        1.4888836145401
+      ],
+      [
+        4.074999809265137,
+        4.800880432128906
+      ]
+    ],
+    "scale": [
+      0.72,
+      0.72,
+      0.72
+    ],
+    "objects": [
+      "LIB_Office_3D_Printer_Zuf\u00fchrung_PREPARED",
+      "LIB_Office_3D_Printer_USB-Port_PREPARED",
+      "LIB_Office_3D_Printer_Umlenkrolle_PREPARED",
+      "LIB_Office_3D_Printer_Umlenkrolle.winkel_PREPARED",
+      "LIB_Office_3D_Printer_U trapezoid_PREPARED",
+      "LIB_Office_3D_Printer_U trapezoid001_PREPARED",
+      "LIB_Office_3D_Printer_Trennwand_PREPARED",
+      "LIB_Office_3D_Printer_trapezoid screw.Z.001_PREPARED",
+      "LIB_Office_3D_Printer_trapezoid screw.Z.000_PREPARED",
+      "LIB_Office_3D_Printer_trapezoid screw.Y.001_PREPARED",
+      "LIB_Office_3D_Printer_trapezoid screw.Y.000_PREPARED",
+      "LIB_Office_3D_Printer_trapezoid screw.X.000_PREPARED",
+      "LIB_Office_3D_Printer_Tisch_PREPARED",
+      "LIB_Office_3D_Printer_Schlitten.vertikal.Bolt.005_PREPARED",
+      "LIB_Office_3D_Printer_Schlitten.vertikal.Bolt.001_PREPARED",
+      "LIB_Office_3D_Printer_Schelle_PREPARED",
+      "LIB_Office_3D_Printer_scchlitten_PREPARED",
+      "LIB_Office_3D_Printer_Rollen_PREPARED",
+      "LIB_Office_3D_Printer_Rollen.Gondel_PREPARED",
+      "LIB_Office_3D_Printer_power conektor_PREPARED",
+      "LIB_Office_3D_Printer_Plug.005_PREPARED",
+      "LIB_Office_3D_Printer_Plug.004_PREPARED",
+      "LIB_Office_3D_Printer_Plug.003_PREPARED",
+      "LIB_Office_3D_Printer_Plug.002_PREPARED",
+      "LIB_Office_3D_Printer_Plug.001_PREPARED",
+      "LIB_Office_3D_Printer_Plug.000_PREPARED",
+      "LIB_Office_3D_Printer_Plug-220v_PREPARED",
+      "LIB_Office_3D_Printer_PCB.oben_PREPARED",
+      "LIB_Office_3D_Printer_pcb below.002_PREPARED",
+      "LIB_Office_3D_Printer_Nevelierungsschalter_PREPARED",
+      "LIB_Office_3D_Printer_Muffen_PREPARED",
+      "LIB_Office_3D_Printer_Motor.Vorschub_PREPARED",
+      "LIB_Office_3D_Printer_Motor.Horizontal_PREPARED",
+      "LIB_Office_3D_Printer_Motor.Horizontal.Bolt.001_PREPARED",
+      "LIB_Office_3D_Printer_Klammern.vertikal_PREPARED",
+      "LIB_Office_3D_Printer_Kabel.Schrittmotor.Filament_PREPARED",
+      "LIB_Office_3D_Printer_Kabel.schritmotor.X_PREPARED",
+      "LIB_Office_3D_Printer_Kabel.Nevelierung_PREPARED",
+      "LIB_Office_3D_Printer_Kabel.Nevelierung.Gondel_PREPARED",
+      "LIB_Office_3D_Printer_Kabel.Heizung_PREPARED",
+      "LIB_Office_3D_Printer_Kabel.Heizung.Gondel_PREPARED",
+      "LIB_Office_3D_Printer_Kabel.Fan2.Gondel_PREPARED",
+      "LIB_Office_3D_Printer_Kabel.Fan1.Gondel_PREPARED",
+      "LIB_Office_3D_Printer_Kabel.Fan.002_PREPARED",
+      "LIB_Office_3D_Printer_Kabel.Fan.001_PREPARED",
+      "LIB_Office_3D_Printer_Kabel-Gondel-main_PREPARED",
+      "LIB_Office_3D_Printer_IEC connector_PREPARED",
+      "LIB_Office_3D_Printer_Haube_PREPARED",
+      "LIB_Office_3D_Printer_gondel.Bolt.009_PREPARED",
+      "LIB_Office_3D_Printer_Gondel.001_PREPARED",
+      "LIB_Office_3D_Printer_Gondel-anschlussgummi_PREPARED",
+      "LIB_Office_3D_Printer_Galgen.Horizontral_PREPARED",
+      "LIB_Office_3D_Printer_Filament_PREPARED",
+      "LIB_Office_3D_Printer_Filament.Rol_PREPARED",
+      "LIB_Office_3D_Printer_Filament.Arm_PREPARED",
+      "LIB_Office_3D_Printer_filament cap_PREPARED",
+      "LIB_Office_3D_Printer_Feder_PREPARED",
+      "LIB_Office_3D_Printer_Fan2.geh\u00e4use1_PREPARED",
+      "LIB_Office_3D_Printer_Fan2.Blades_PREPARED",
+      "LIB_Office_3D_Printer_Fan housing_PREPARED",
+      "LIB_Office_3D_Printer_Fan blades_PREPARED",
+      "LIB_Office_3D_Printer_Fan blades.001_PREPARED",
+      "LIB_Office_3D_Printer_Extruder_PREPARED",
+      "LIB_Office_3D_Printer_Druckkopf_PREPARED",
+      "LIB_Office_3D_Printer_Decal.USB-Port_PREPARED",
+      "LIB_Office_3D_Printer_Decal.TF Card_PREPARED",
+      "LIB_Office_3D_Printer_Decal.SD-Card_PREPARED",
+      "LIB_Office_3D_Printer_casing_PREPARED",
+      "LIB_Office_3D_Printer_Case back_PREPARED",
+      "LIB_Office_3D_Printer_Cable ribbon_PREPARED",
+      "LIB_Office_3D_Printer_Bolt_PREPARED",
+      "LIB_Office_3D_Printer_Bolt.003_PREPARED",
+      "LIB_Office_3D_Printer_Bolt.002_PREPARED",
+      "LIB_Office_3D_Printer_Bolt.001_PREPARED",
+      "LIB_Office_3D_Printer_220v cable_PREPARED"
+    ]
+  },
+  {
+    "label": "Closet_West_4.768333",
+    "role": "open_wardrobe",
+    "group": "Wardrobe",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/910bb738-d3b6-4e60-8f80-9b4c6468a8a8/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        5.489999771118164,
+        6.039999961853027
+      ],
+      [
+        4.319999694824219,
+        5.2166666984558105
+      ],
+      [
+        3.200000047683716,
+        5.875
+      ]
+    ],
+    "scale": [
+      1.0999994754793763,
+      0.9962964951131815,
+      1.5373562080870615
+    ],
+    "objects": [
+      "LIB_Closet_West_4.768333_ClosetDoor_PREPARED",
+      "LIB_Closet_West_4.768333_Closet open cabinets Nordic W&N_PREPAR"
+    ]
+  },
+  {
+    "label": "Closet_West_5.665",
+    "role": "open_wardrobe",
+    "group": "Wardrobe",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/910bb738-d3b6-4e60-8f80-9b4c6468a8a8/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        5.489999771118164,
+        6.039999961853027
+      ],
+      [
+        5.2166666984558105,
+        6.113333702087402
+      ],
+      [
+        3.200000047683716,
+        5.875
+      ]
+    ],
+    "scale": [
+      1.0999994754793763,
+      0.9962964951131815,
+      1.5373562080870615
+    ],
+    "objects": [
+      "LIB_Closet_West_5.665_ClosetDoor_PREPARED",
+      "LIB_Closet_West_5.665_Closet open cabinets Nordic W&N_PREPARED"
+    ]
+  },
+  {
+    "label": "Closet_West_6.561667",
+    "role": "open_wardrobe",
+    "group": "Wardrobe",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/910bb738-d3b6-4e60-8f80-9b4c6468a8a8/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        5.489999771118164,
+        6.039999961853027
+      ],
+      [
+        6.113333702087402,
+        7.010000705718994
+      ],
+      [
+        3.200000047683716,
+        5.875
+      ]
+    ],
+    "scale": [
+      1.0999994754793763,
+      0.9962964951131815,
+      1.5373562080870615
+    ],
+    "objects": [
+      "LIB_Closet_West_6.561667_ClosetDoor_PREPARED",
+      "LIB_Closet_West_6.561667_Closet open cabinets Nordic W&N_PREPAR"
+    ]
+  },
+  {
+    "label": "Closet_North",
+    "role": "open_wardrobe",
+    "group": "Wardrobe",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/910bb738-d3b6-4e60-8f80-9b4c6468a8a8/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.039999961853027,
+        6.909999847412109
+      ],
+      [
+        6.460000038146973,
+        7.010000228881836
+      ],
+      [
+        3.200000047683716,
+        5.875
+      ]
+    ],
+    "scale": [
+      0.9666665642349916,
+      1.0999996066094853,
+      1.5373562080870615
+    ],
+    "objects": [
+      "LIB_Closet_North_ClosetDoor_PREPARED",
+      "LIB_Closet_North_Closet open cabinets Nordic W&N_PREPARED"
+    ]
+  },
+  {
+    "label": "Closet_South",
+    "role": "open_wardrobe",
+    "group": "Wardrobe",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/910bb738-d3b6-4e60-8f80-9b4c6468a8a8/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.039999961853027,
+        6.909999847412109
+      ],
+      [
+        4.319999694824219,
+        4.869999885559082
+      ],
+      [
+        3.200000047683716,
+        5.875
+      ]
+    ],
+    "scale": [
+      0.9666665002152058,
+      1.0999994754793763,
+      1.5373562080870615
+    ],
+    "objects": [
+      "LIB_Closet_South_ClosetDoor_PREPARED",
+      "LIB_Closet_South_Closet open cabinets Nordic W&N_PREPARED"
+    ]
+  },
+  {
+    "label": "Closet_Full_Mirror",
+    "role": "bathroom_mirror",
+    "group": "Wardrobe",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/7e98168f-219d-46c3-85a1-d7cc8ca7621e/",
+    "license": "cc_zero",
+    "bounds": [
+      [
+        6.881499767303467,
+        6.896500110626221
+      ],
+      [
+        6.12999963760376,
+        6.4300007820129395
+      ],
+      [
+        3.549999713897705,
+        5.599999904632568
+      ]
+    ],
+    "scale": [
+      4.796786921621563,
+      0.3360041528833593,
+      2.2960283780362882
+    ],
+    "objects": [
+      "LIB_Closet_Full_Mirror_BathroomMirror_PREPARED"
+    ]
+  },
+  {
+    "label": "Kitchen_Base_Return",
+    "role": "kitchen_cabinet",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/1de7c416-bc0c-425e-8b70-e480d528acfe/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.749999046325684,
+        10.389999389648438
+      ],
+      [
+        4.599999904632568,
+        5.049999713897705
+      ],
+      [
+        0.0,
+        0.8600000143051147
+      ]
+    ],
+    "scale": [
+      0.9523801204846528,
+      0.749999749565129,
+      1.075000064074997
+    ],
+    "objects": [
+      "LIB_Kitchen_Base_Return_Low Poly Kitchen Cabinet V5_PREPARED",
+      "LIB_Kitchen_Base_Return_KCC_OpeningCover_V1_Front600_Cabinet5_P",
+      "LIB_Kitchen_Base_Return_KCC_Handle_V6_Medium_D1C5_PREPARED",
+      "LIB_Kitchen_Base_Return_KC-F600_Drawer_SizeL_V1_D1C5_PREPARED",
+      "LIB_Kitchen_Base_Return_KC-F600_Drawer_Front_SizeL_V3_D1C5_PREP"
+    ]
+  },
+  {
+    "label": "Kitchen_Base_Sink",
+    "role": "kitchen_cabinet",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/1de7c416-bc0c-425e-8b70-e480d528acfe/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.749999046325684,
+        10.389999389648438
+      ],
+      [
+        5.049999713897705,
+        5.694999694824219
+      ],
+      [
+        0.0,
+        0.8600000143051147
+      ]
+    ],
+    "scale": [
+      0.9523801204846528,
+      1.0749996410433518,
+      1.075000064074997
+    ],
+    "objects": [
+      "LIB_Kitchen_Base_Sink_Low Poly Kitchen Cabinet V5_PREPARED",
+      "LIB_Kitchen_Base_Sink_KCC_OpeningCover_V1_Front600_Cabinet5_PRE",
+      "LIB_Kitchen_Base_Sink_KCC_Handle_V6_Medium_D1C5_PREPARED",
+      "LIB_Kitchen_Base_Sink_KC-F600_Drawer_SizeL_V1_D1C5_PREPARED",
+      "LIB_Kitchen_Base_Sink_KC-F600_Drawer_Front_SizeL_V3_D1C5_PREPAR"
+    ]
+  },
+  {
+    "label": "Kitchen_Base_Hob",
+    "role": "kitchen_cabinet",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/1de7c416-bc0c-425e-8b70-e480d528acfe/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.749999046325684,
+        10.389999389648438
+      ],
+      [
+        6.144999980926514,
+        7.109999656677246
+      ],
+      [
+        0.0,
+        0.8600000143051147
+      ]
+    ],
+    "scale": [
+      0.9523801204846528,
+      1.6083327962896656,
+      1.075000064074997
+    ],
+    "objects": [
+      "LIB_Kitchen_Base_Hob_Low Poly Kitchen Cabinet V5_PREPARED",
+      "LIB_Kitchen_Base_Hob_KCC_OpeningCover_V1_Front600_Cabinet5_PREP",
+      "LIB_Kitchen_Base_Hob_KCC_Handle_V6_Medium_D1C5_PREPARED",
+      "LIB_Kitchen_Base_Hob_KC-F600_Drawer_SizeL_V1_D1C5_PREPARED",
+      "LIB_Kitchen_Base_Hob_KC-F600_Drawer_Front_SizeL_V3_D1C5_PREPARE"
+    ]
+  },
+  {
+    "label": "Kitchen_Crockery_6.185",
+    "role": "kitchen_cabinet",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/1de7c416-bc0c-425e-8b70-e480d528acfe/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.980000019073486,
+        8.680000305175781
+      ],
+      [
+        5.710000514984131,
+        6.3600006103515625
+      ],
+      [
+        0.0,
+        0.8600000143051147
+      ]
+    ],
+    "scale": [
+      0.8184516660414985,
+      0.9166663300336402,
+      1.075000064074997
+    ],
+    "objects": [
+      "LIB_Kitchen_Crockery_6.185_Low Poly Kitchen Cabinet V5_PREPARED",
+      "LIB_Kitchen_Crockery_6.185_KCC_OpeningCover_V1_Front600_Cabinet",
+      "LIB_Kitchen_Crockery_6.185_KCC_Handle_V6_Medium_D1C5_PREPARED",
+      "LIB_Kitchen_Crockery_6.185_KC-F600_Drawer_SizeL_V1_D1C5_PREPARE",
+      "LIB_Kitchen_Crockery_6.185_KC-F600_Drawer_Front_SizeL_V3_D1C5_P"
+    ]
+  },
+  {
+    "label": "Kitchen_Crockery_6.735",
+    "role": "kitchen_cabinet",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/1de7c416-bc0c-425e-8b70-e480d528acfe/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.980000019073486,
+        8.680000305175781
+      ],
+      [
+        6.3600006103515625,
+        7.010000705718994
+      ],
+      [
+        0.0,
+        0.8600000143051147
+      ]
+    ],
+    "scale": [
+      0.8184516660414985,
+      0.9166663300336402,
+      1.075000064074997
+    ],
+    "objects": [
+      "LIB_Kitchen_Crockery_6.735_Low Poly Kitchen Cabinet V5_PREPARED",
+      "LIB_Kitchen_Crockery_6.735_KCC_OpeningCover_V1_Front600_Cabinet",
+      "LIB_Kitchen_Crockery_6.735_KCC_Handle_V6_Medium_D1C5_PREPARED",
+      "LIB_Kitchen_Crockery_6.735_KC-F600_Drawer_SizeL_V1_D1C5_PREPARE",
+      "LIB_Kitchen_Crockery_6.735_KC-F600_Drawer_Front_SizeL_V3_D1C5_P"
+    ]
+  },
+  {
+    "label": "Kitchen_Dishwasher_45cm",
+    "role": "dishwasher",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/02f0e9e0-af34-44a7-bc84-8f5d80bcb21f/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.769999504089355,
+        10.369999885559082
+      ],
+      [
+        5.695000171661377,
+        6.144999980926514
+      ],
+      [
+        0.10000000149011612,
+        0.8500000238418579
+      ]
+    ],
+    "scale": [
+      1.1529061394364883,
+      0.8181818004482052,
+      1.2604471850628063
+    ],
+    "objects": [
+      "LIB_Kitchen_Dishwasher_45cm_Electrolux dishwasher_PREPARED"
+    ]
+  },
+  {
+    "label": "Kitchen_Window_Sink",
+    "role": "kitchen_sink",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/c0bcd9bb-6c68-4578-8296-cf4f24216998/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.830000877380371,
+        10.290000915527344
+      ],
+      [
+        5.039999961853027,
+        5.659999847412109
+      ],
+      [
+        0.6990000009536743,
+        1.287410855293274
+      ]
+    ],
+    "scale": [
+      0.9450358036646052,
+      0.7826005019402551,
+      1
+    ],
+    "objects": [
+      "LIB_Kitchen_Window_Sink_tube_PREPARED",
+      "LIB_Kitchen_Window_Sink_tip_PREPARED",
+      "LIB_Kitchen_Window_Sink_sink_PREPARED",
+      "LIB_Kitchen_Window_Sink_ring.002_PREPARED",
+      "LIB_Kitchen_Window_Sink_ring.001_PREPARED",
+      "LIB_Kitchen_Window_Sink_regulator_PREPARED",
+      "LIB_Kitchen_Window_Sink_regulator.001_PREPARED",
+      "LIB_Kitchen_Window_Sink_main_tube_PREPARED",
+      "LIB_Kitchen_Window_Sink_joint_PREPARED",
+      "LIB_Kitchen_Window_Sink_handle_PREPARED",
+      "LIB_Kitchen_Window_Sink_cap_PREPARED",
+      "LIB_Kitchen_Window_Sink_cap.007_PREPARED",
+      "LIB_Kitchen_Window_Sink_cap.006_PREPARED",
+      "LIB_Kitchen_Window_Sink_cap.004_PREPARED",
+      "LIB_Kitchen_Window_Sink_Bolt_PREPARED",
+      "LIB_Kitchen_Window_Sink_bobles_PREPARED",
+      "LIB_Kitchen_Window_Sink_base_PREPARED"
+    ]
+  },
+  {
+    "label": "Kitchen_Hob",
+    "role": "induction_cooktop",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/9b0f1bb9-39b7-468f-bc9d-1b0e2a8f5fb1/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.8100004196167,
+        10.300000190734863
+      ],
+      [
+        6.194999694824219,
+        6.784999847412109
+      ],
+      [
+        0.9110000133514404,
+        0.9190000295639038
+      ]
+    ],
+    "scale": [
+      0.9423077268713337,
+      1.0000000444509234,
+      1.6000000357627877
+    ],
+    "objects": [
+      "LIB_Kitchen_Hob_CookTop Induction_PREPARED"
+    ]
+  },
+  {
+    "label": "Kitchen_Fridge",
+    "role": "refrigerator",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/28e8b164-f76e-4a90-8ca9-d5a636e46bdf/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.02500057220459,
+        8.654999732971191
+      ],
+      [
+        3.950000047683716,
+        4.590000152587891
+      ],
+      [
+        0.11999999731779099,
+        2.0
+      ]
+    ],
+    "scale": [
+      1.154043749112533,
+      1.051549142240304,
+      1.1323957289540445
+    ],
+    "objects": [
+      "LIB_Kitchen_Fridge_Logo_PREPARED",
+      "LIB_Kitchen_Fridge_Legs_PREPARED",
+      "LIB_Kitchen_Fridge_Door.Top_PREPARED",
+      "LIB_Kitchen_Fridge_Door.Hinge_PREPARED",
+      "LIB_Kitchen_Fridge_Door.Bottom_PREPARED",
+      "LIB_Kitchen_Fridge_Body_PREPARED"
+    ]
+  },
+  {
+    "label": "Kitchen_Oven",
+    "role": "oven",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/8b2ffd81-3ac7-445f-8399-7e280a3d61b7/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.72499942779541,
+        9.305000305175781
+      ],
+      [
+        4.069999694824219,
+        4.650000095367432
+      ],
+      [
+        0.6800000071525574,
+        1.2400000095367432
+      ]
+    ],
+    "scale": [
+      0.9747897714437694,
+      1.0124483937496709,
+      1.2307691146837798
+    ],
+    "objects": [
+      "LIB_Kitchen_Oven_Midea Electric Oven_PREPARED"
+    ]
+  },
+  {
+    "label": "Kitchen_Microwave",
+    "role": "microwave",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/13adce73-815b-4480-8886-ac176c629a89/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.730000495910645,
+        9.300000190734863
+      ],
+      [
+        4.150000095367432,
+        4.650000095367432
+      ],
+      [
+        1.3600000143051147,
+        1.7400000095367432
+      ]
+    ],
+    "scale": [
+      1.057513788825192,
+      1.1621421265520948,
+      1.196887724778561
+    ],
+    "objects": [
+      "LIB_Kitchen_Microwave_Microwave Brastemp BMS45CB_PREPARED",
+      "LIB_Kitchen_Microwave_Cube.004_PREPARED",
+      "LIB_Kitchen_Microwave_Circle.002_PREPARED",
+      "LIB_Kitchen_Microwave_Circle.001_PREPARED"
+    ]
+  },
+  {
+    "label": "Kitchen_Hood",
+    "role": "integrated_hood_with_storage_cabinet",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.bosch-home.com/ae/en/specials/ventilation/built-in-solutions",
+    "license": "original spatial design; generic appliance, not a specified product",
+    "bounds": [
+      [
+        9.995000839233398,
+        10.390000343322754
+      ],
+      [
+        6.190000057220459,
+        7.089999675750732
+      ],
+      [
+        1.753000020980835,
+        2.875
+      ]
+    ],
+    "scale": [
+      0.8986946620486149,
+      0.7894733535782515,
+      0.8300388228480614
+    ],
+    "objects": [
+      "R15_Hood_Cabinet_Side_6.199",
+      "R15_Hood_Cabinet_Side_7.081",
+      "R15_Hood_Cabinet_Top",
+      "R15_Integrated_Hood_Body",
+      "R15_Filter_Frame",
+      "R15_Filter_Slat_0",
+      "R15_Filter_Slat_1",
+      "R15_Filter_Slat_2",
+      "R15_Filter_Slat_3",
+      "R15_Filter_Slat_4",
+      "R15_Filter_Slat_5",
+      "R15_Filter_Slat_6",
+      "R15_Filter_Slat_7",
+      "R15_Filter_Slat_8",
+      "R15_Filter_Slat_9",
+      "R15_Filter_Slat_10",
+      "R15_Filter_Slat_11",
+      "R15_Filter_Slat_12",
+      "R15_Filter_Slat_13",
+      "R15_Filter_Slat_14",
+      "R15_Filter_Slat_15",
+      "R15_Hood_Underside_Light_6.233",
+      "R15_Hood_Underside_Light_6.747",
+      "R15_Hood_Underside_Button_6.43",
+      "R15_Hood_Underside_Button_6.47",
+      "R15_Hood_Underside_Button_6.51",
+      "R15_Hood_Concealing_Fascia",
+      "R15_Bottom_Return_Long",
+      "R15_Bottom_Return_Short",
+      "R15_Duct_Service_Bay_Side_6.381",
+      "R15_Duct_Service_Bay_Side_6.599",
+      "R15_Removable_Duct_Service_Cover",
+      "R15_Concealed_150mm_Duct",
+      "R15_Storage_Shelf_Left_2.015",
+      "R15_Storage_Shelf_Right_2.015",
+      "R15_Storage_Shelf_Left_2.425",
+      "R15_Storage_Shelf_Right_2.425",
+      "R15_Storage_Shelf_Left_2.775",
+      "R15_Storage_Shelf_Right_2.775",
+      "R15_Hood_Door_0",
+      "R15_Hood_Door_Handle_0",
+      "R15_Hood_Door_1",
+      "R15_Hood_Door_Handle_1"
+    ]
+  },
+  {
+    "label": "Kitchen_Fridge_Housing",
+    "role": "tall_cabinet",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/ab8e6566-152f-4325-9c5f-957cacc68bf8/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.949999809265137,
+        8.6899995803833
+      ],
+      [
+        3.9200003147125244,
+        4.600000381469727
+      ],
+      [
+        0.0,
+        2.875
+      ]
+    ],
+    "scale": [
+      0.74,
+      1.7894724435762042,
+      1.5972222645341625
+    ],
+    "objects": [
+      "LIB_Kitchen_Fridge_Housing_Aybike Tall Kitchen Pantry Cabinet.0"
+    ]
+  },
+  {
+    "label": "Kitchen_Oven_Housing",
+    "role": "tall_cabinet",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/ab8e6566-152f-4325-9c5f-957cacc68bf8/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.690000534057617,
+        9.34000015258789
+      ],
+      [
+        3.9200003147125244,
+        4.600000381469727
+      ],
+      [
+        0.0,
+        2.875
+      ]
+    ],
+    "scale": [
+      0.65,
+      1.7894724435762042,
+      1.5972222645341625
+    ],
+    "objects": [
+      "LIB_Kitchen_Oven_Housing_Aybike Tall Kitchen Pantry Cabinet.001"
+    ]
+  },
+  {
+    "label": "Kitchen_Fridge_Upper_Storage",
+    "role": "kitchen_cabinet",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/1de7c416-bc0c-425e-8b70-e480d528acfe/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.015000343322754,
+        8.664999961853027
+      ],
+      [
+        3.950000047683716,
+        4.590000152587891
+      ],
+      [
+        2.0374999046325684,
+        2.875
+      ]
+    ],
+    "scale": [
+      1.0833327572074614,
+      0.9523800360111049,
+      0.9852942281940941
+    ],
+    "objects": [
+      "LIB_Kitchen_Fridge_Upper_Storage_Low Poly Kitchen Cabinet V5_PR",
+      "LIB_Kitchen_Fridge_Upper_Storage_KCC_OpeningCover_V1_Front600_C",
+      "LIB_Kitchen_Fridge_Upper_Storage_KCC_Handle_V6_Medium_D1C5_PREP",
+      "LIB_Kitchen_Fridge_Upper_Storage_KCC-F600_Top_V3_Cabinet5_PREPA",
+      "LIB_Kitchen_Fridge_Upper_Storage_KC-F600_Drawer_SizeL_V1_D1C5_P",
+      "LIB_Kitchen_Fridge_Upper_Storage_KC-F600_Drawer_Front_SizeL_V3_"
+    ]
+  },
+  {
+    "label": "Kitchen_Oven_Upper_Storage",
+    "role": "kitchen_cabinet",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/1de7c416-bc0c-425e-8b70-e480d528acfe/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.715001106262207,
+        9.315000534057617
+      ],
+      [
+        3.950000047683716,
+        4.590000152587891
+      ],
+      [
+        1.777500033378601,
+        2.875
+      ]
+    ],
+    "scale": [
+      0.9999994681915026,
+      0.9523800360111049,
+      1.29117661545435
+    ],
+    "objects": [
+      "LIB_Kitchen_Oven_Upper_Storage_Low Poly Kitchen Cabinet V5_PREP",
+      "LIB_Kitchen_Oven_Upper_Storage_KCC_OpeningCover_V1_Front600_Cab",
+      "LIB_Kitchen_Oven_Upper_Storage_KCC_Handle_V6_Medium_D1C5_PREPAR",
+      "LIB_Kitchen_Oven_Upper_Storage_KCC-F600_Top_V3_Cabinet5_PREPARE",
+      "LIB_Kitchen_Oven_Upper_Storage_KC-F600_Drawer_SizeL_V1_D1C5_PRE",
+      "LIB_Kitchen_Oven_Upper_Storage_KC-F600_Drawer_Front_SizeL_V3_D1"
+    ]
+  },
+  {
+    "label": "Living_TV",
+    "role": "television",
+    "group": "Stair_Storage",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/1e825c5a-75d7-4790-bd49-500724b7d535/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.789999485015869,
+        6.869999885559082
+      ],
+      [
+        8.94999885559082,
+        10.34999942779541
+      ],
+      [
+        1.0,
+        1.8100000619888306
+      ]
+    ],
+    "scale": [
+      0.19508281342397749,
+      1.0347379504964984,
+      1.0135753883125027
+    ],
+    "objects": [
+      "LIB_Living_TV_Plane.082_PREPARED"
+    ]
+  },
+  {
+    "label": "Living_Media_Console",
+    "role": "media_console",
+    "group": "Stair_Storage",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/8fda8634-6b47-45e5-9996-e69c0be96269/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.65500020980835,
+        7.025000095367432
+      ],
+      [
+        8.824999809265137,
+        10.47499942779541
+      ],
+      [
+        0.0,
+        0.5
+      ]
+    ],
+    "scale": [
+      0.7283463052607835,
+      1.7094901431882306,
+      0.984251706123836
+    ],
+    "objects": [
+      "LIB_Living_Media_Console_legs_PREPARED",
+      "LIB_Living_Media_Console_body_PREPARED"
+    ]
+  },
+  {
+    "label": "Upper_Bath_Tub",
+    "role": "bathtub",
+    "group": "Upper_Bath",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/395ae88d-796d-4720-a963-8960c20f43f1/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        10.580000877380371,
+        11.360000610351562
+      ],
+      [
+        5.574999809265137,
+        7.275000095367432
+      ],
+      [
+        3.2249999046325684,
+        4.055999755859375
+      ]
+    ],
+    "scale": [
+      0.8860896630433054,
+      1.0631452724585704,
+      0.9998623756798324
+    ],
+    "objects": [
+      "LIB_Upper_Bath_Tub_WineGlass_PREPARED",
+      "LIB_Upper_Bath_Tub_Vidro_PREPARED",
+      "LIB_Upper_Bath_Tub_Vidro.001_PREPARED",
+      "LIB_Upper_Bath_Tub_Tub Faucet _PREPARED",
+      "LIB_Upper_Bath_Tub_Toalha_PREPARED",
+      "LIB_Upper_Bath_Tub_Tampa_pote_PREPARED",
+      "LIB_Upper_Bath_Tub_Sabonete_PREPARED",
+      "LIB_Upper_Bath_Tub_Pote_PREPARED",
+      "LIB_Upper_Bath_Tub_Pote.001_PREPARED",
+      "LIB_Upper_Bath_Tub_Porta_sabonete_PREPARED",
+      "LIB_Upper_Bath_Tub_Plane_PREPARED",
+      "LIB_Upper_Bath_Tub_Cylinder_PREPARED",
+      "LIB_Upper_Bath_Tub_Cube.020_PREPARED",
+      "LIB_Upper_Bath_Tub_Circle.003_PREPARED",
+      "LIB_Upper_Bath_Tub_Bathtub + set_PREPARED"
+    ]
+  },
+  {
+    "label": "Upper_Bath_Vanity",
+    "role": "bathroom_basin",
+    "group": "Upper_Bath",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/ac1d6866-a121-4d34-bd6b-a1b0724a9d6a/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.350000381469727,
+        10.15000057220459
+      ],
+      [
+        5.505000114440918,
+        6.025000095367432
+      ],
+      [
+        3.5399999618530273,
+        4.099999904632568
+      ]
+    ],
+    "scale": [
+      1.5401428770049674,
+      1.0730350240837516,
+      0.8806552638248258
+    ],
+    "objects": [
+      "LIB_Upper_Bath_Vanity_Cube_PREPARED",
+      "LIB_Upper_Bath_Vanity_Cube.001_PREPARED",
+      "LIB_Upper_Bath_Vanity_Cube.000_PREPARED"
+    ]
+  },
+  {
+    "label": "Upper_Bath_Mirror",
+    "role": "bathroom_mirror",
+    "group": "Upper_Bath",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/7e98168f-219d-46c3-85a1-d7cc8ca7621e/",
+    "license": "cc_zero",
+    "bounds": [
+      [
+        9.350000381469727,
+        10.149999618530273
+      ],
+      [
+        5.509500503540039,
+        5.524500370025635
+      ],
+      [
+        4.320000171661377,
+        5.169999599456787
+      ]
+    ],
+    "scale": [
+      1.1760145350917577,
+      4.796890410506819,
+      0.9520117665028514
+    ],
+    "objects": [
+      "LIB_Upper_Bath_Mirror_BathroomMirror_PREPARED"
+    ]
+  },
+  {
+    "label": "Upper_Bath_Toilet",
+    "role": "toilet",
+    "group": "Upper_Bath",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/9d165081-2d66-43d9-9ead-d5485eb1289a/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.702499389648438,
+        9.09749984741211
+      ],
+      [
+        6.480000019073486,
+        7.12000036239624
+      ],
+      [
+        3.359999895095825,
+        4.289999961853027
+      ]
+    ],
+    "scale": [
+      0.996140623422862,
+      0.9131063115221167,
+      0.9989670320077162
+    ],
+    "objects": [
+      "LIB_Upper_Bath_Toilet_Toilet_PREPARED",
+      "LIB_Upper_Bath_Toilet_Toilet FlushPlate _PREPARED",
+      "LIB_Upper_Bath_Toilet_Seat_PREPARED",
+      "LIB_Upper_Bath_Toilet_Cover_PREPARED"
+    ]
+  },
+  {
+    "label": "Upper_Bath_Towels",
+    "role": "towel",
+    "group": "Upper_Bath",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/c9362ddd-103e-495d-a16a-9bdd389bb43e/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.50999927520752,
+        9.869998931884766
+      ],
+      [
+        6.924999713897705,
+        7.074999809265137
+      ],
+      [
+        4.894999980926514,
+        4.980000019073486
+      ]
+    ],
+    "scale": [
+      2.748666640422999,
+      0.6208941304388254,
+      1.1393809269560133
+    ],
+    "objects": [
+      "LIB_Upper_Bath_Towels_towels_PREPARED"
+    ]
+  },
+  {
+    "label": "Ground_Shower_Fittings",
+    "role": "shower",
+    "group": "WC",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/9633934c-2130-4137-ac03-cb938ffbbcbd/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        5.549832344055176,
+        5.970559120178223
+      ],
+      [
+        4.254151344299316,
+        4.593354225158691
+      ],
+      [
+        0.24473930895328522,
+        2.0306975841522217
+      ]
+    ],
+    "scale": [
+      1.1843600269800423,
+      1.1844567214403132,
+      1.0015671579121517
+    ],
+    "objects": [
+      "LIB_Ground_Shower_Cube_PREPARED"
+    ]
+  },
+  {
+    "label": "Ground_Compact_Vanity",
+    "role": "bathroom_basin",
+    "group": "WC",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/ac1d6866-a121-4d34-bd6b-a1b0724a9d6a/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        5.509999752044678,
+        5.809999942779541
+      ],
+      [
+        5.409999847412109,
+        5.96999979019165
+      ],
+      [
+        0.3999999761581421,
+        0.89000004529953
+      ]
+    ],
+    "scale": [
+      0.6190586475154922,
+      0.7840727046672494,
+      0.7705733558467226
+    ],
+    "objects": [
+      "LIB_Ground_Compact_Vanity_Cube_PREPARED",
+      "LIB_Ground_Compact_Vanity_Cube.001_PREPARED",
+      "LIB_Ground_Compact_Vanity_Cube.000_PREPARED"
+    ]
+  },
+  {
+    "label": "Ground_Vanity_Mirror",
+    "role": "bathroom_mirror",
+    "group": "WC",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/7e98168f-219d-46c3-85a1-d7cc8ca7621e/",
+    "license": "cc_zero",
+    "bounds": [
+      [
+        5.508999824523926,
+        5.520999908447266
+      ],
+      [
+        5.434999942779541,
+        5.945000171661377
+      ],
+      [
+        1.100000023841858,
+        1.8600000143051147
+      ]
+    ],
+    "scale": [
+      3.8374643801032184,
+      0.5712070599017108,
+      0.8512105206378436
+    ],
+    "objects": [
+      "LIB_Ground_Vanity_Mirror_BathroomMirror_PREPARED"
+    ]
+  },
+  {
+    "label": "Ground_Toilet",
+    "role": "toilet",
+    "group": "WC",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/9d165081-2d66-43d9-9ead-d5485eb1289a/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        5.744999885559082,
+        6.135000228881836
+      ],
+      [
+        6.099999904632568,
+        6.720000267028809
+      ],
+      [
+        0.1599999964237213,
+        1.090000033378601
+      ]
+    ],
+    "scale": [
+      0.9835312484428258,
+      0.8845717392870506,
+      0.9989670320077162
+    ],
+    "objects": [
+      "LIB_Ground_Toilet_Toilet_PREPARED",
+      "LIB_Ground_Toilet_Toilet FlushPlate _PREPARED",
+      "LIB_Ground_Toilet_Seat_PREPARED",
+      "LIB_Ground_Toilet_Cover_PREPARED"
+    ]
+  },
+  {
+    "label": "Entry_Wardrobe_1.0825",
+    "role": "wardrobe",
+    "group": "Entry",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/e5ed3e5f-f06c-4bf5-ae4c-28b65c00d65d/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        5.5,
+        6.100000381469727
+      ],
+      [
+        0.21999990940093994,
+        1.9449999332427979
+      ],
+      [
+        0.0,
+        2.875
+      ]
+    ],
+    "scale": [
+      0.9677408116182007,
+      0.8539603033108901,
+      1.2499998963397567
+    ],
+    "objects": [
+      "LIB_Entry_Wardrobe_1.0825_Modern Wardrobe_PREPARED"
+    ]
+  },
+  {
+    "label": "Entry_Wardrobe_2.8075",
+    "role": "wardrobe",
+    "group": "Entry",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/e5ed3e5f-f06c-4bf5-ae4c-28b65c00d65d/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        5.5,
+        6.100000381469727
+      ],
+      [
+        1.9449999332427979,
+        3.6700000762939453
+      ],
+      [
+        0.0,
+        2.875
+      ]
+    ],
+    "scale": [
+      0.9677408116182007,
+      0.8539603033108901,
+      1.2499998963397567
+    ],
+    "objects": [
+      "LIB_Entry_Wardrobe_2.8075_Modern Wardrobe_PREPARED"
+    ]
+  },
+  {
+    "label": "Entry_Rug",
+    "role": "rug",
+    "group": "Entry",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/cbb45e91-fb1c-4cc3-834c-1af5ba1deb60/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.739999771118164,
+        7.460000038146973
+      ],
+      [
+        0.8249999284744263,
+        3.2750000953674316
+      ],
+      [
+        0.0020000000949949026,
+        0.010999999940395355
+      ]
+    ],
+    "scale": [
+      0.48,
+      1.1395348331746464,
+      1.7996791932994873
+    ],
+    "objects": [
+      "LIB_Entry_Rug_Tapis 7.001_PREPARED"
+    ]
+  },
+  {
+    "label": "Laundry_Washer",
+    "role": "washing_machine",
+    "group": "Laundry",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/fff4a07c-b19a-4893-a1f6-83312803b245/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.6850004196167,
+        10.335000038146973
+      ],
+      [
+        3.1500000953674316,
+        3.750000238418579
+      ],
+      [
+        0.019999999552965164,
+        0.8600000143051147
+      ]
+    ],
+    "scale": [
+      0.9913731893723127,
+      1.3996729522197529,
+      0.990538095624169
+    ],
+    "objects": [
+      "LIB_Laundry_Washer_Top_PREPARED",
+      "LIB_Laundry_Washer_Sides_PREPARED",
+      "LIB_Laundry_Washer_Midea_PREPARED",
+      "LIB_Laundry_Washer_LEDDisplay_PREPARED",
+      "LIB_Laundry_Washer_FrontTop.004_PREPARED",
+      "LIB_Laundry_Washer_FrontTop.002_PREPARED",
+      "LIB_Laundry_Washer_Front_PREPARED",
+      "LIB_Laundry_Washer_Feet_PREPARED",
+      "LIB_Laundry_Washer_DrumRib_PREPARED",
+      "LIB_Laundry_Washer_Drum_PREPARED",
+      "LIB_Laundry_Washer_DoorWindow_PREPARED",
+      "LIB_Laundry_Washer_DoorRubber_PREPARED",
+      "LIB_Laundry_Washer_Door_PREPARED",
+      "LIB_Laundry_Washer_ControlRollerDisplay_PREPARED",
+      "LIB_Laundry_Washer_ControlRoller_PREPARED",
+      "LIB_Laundry_Washer_BottomPlastic_PREPARED",
+      "LIB_Laundry_Washer_Bolt_PREPARED",
+      "LIB_Laundry_Washer_BackCorpus_PREPARED",
+      "LIB_Laundry_Washer_10Year_PREPARED"
+    ]
+  },
+  {
+    "label": "Laundry_Dryer",
+    "role": "dryer",
+    "group": "Laundry",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/8ec6d215-3906-47b5-92b2-baaf096d5c42/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.6850004196167,
+        10.335000038146973
+      ],
+      [
+        3.1500000953674316,
+        3.75
+      ],
+      [
+        0.8899999856948853,
+        1.7300000190734863
+      ]
+    ],
+    "scale": [
+      0.853483283171668,
+      0.7648684463269281,
+      0.841427052339749
+    ],
+    "objects": [
+      "LIB_Laundry_Dryer_Top_PREPARED",
+      "LIB_Laundry_Dryer_Sides_PREPARED",
+      "LIB_Laundry_Dryer_RightPannel_PREPARED",
+      "LIB_Laundry_Dryer_RightButton_PREPARED",
+      "LIB_Laundry_Dryer_LeftPannel_PREPARED",
+      "LIB_Laundry_Dryer_LeftButton_PREPARED",
+      "LIB_Laundry_Dryer_Knob_PREPARED",
+      "LIB_Laundry_Dryer_Front_PREPARED",
+      "LIB_Laundry_Dryer_Drum_PREPARED",
+      "LIB_Laundry_Dryer_DoorGlass_PREPARED",
+      "LIB_Laundry_Dryer_Door_PREPARED",
+      "LIB_Laundry_Dryer_Back_PREPARED"
+    ]
+  },
+  {
+    "label": "Laundry_Towels",
+    "role": "towel",
+    "group": "Laundry",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/c9362ddd-103e-495d-a16a-9bdd389bb43e/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.864999771118164,
+        10.154999732971191
+      ],
+      [
+        3.309999942779541,
+        3.5900001525878906
+      ],
+      [
+        1.8189998865127563,
+        1.928999900817871
+      ]
+    ],
+    "scale": [
+      2.3669073848086937,
+      1.2417882608776507,
+      1.474492964296017
+    ],
+    "objects": [
+      "LIB_Laundry_Towels_towels_PREPARED"
+    ]
+  },
+  {
+    "label": "Entry_Bench",
+    "role": "entry_bench",
+    "group": "Entry",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/e0b4dd66-862e-4ef0-b3c2-13204461ad08/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.25,
+        8.149999618530273
+      ],
+      [
+        0.23000000417232513,
+        0.7099999785423279
+      ],
+      [
+        0.0,
+        0.4699999988079071
+      ]
+    ],
+    "scale": [
+      0.6447857377842746,
+      1.0121700997915408,
+      0.9602940717277225
+    ],
+    "objects": [
+      "LIB_Entry_Bench_Cube.003_PREPARED",
+      "LIB_Entry_Bench_Cube.002_PREPARED"
+    ]
+  },
+  {
+    "label": "Pendant_Dining1",
+    "role": "pendant_lamp",
+    "group": "Living_Dining",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/034ab2bf-712b-4c6c-bd4d-d2b04b5eb203/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.774999618530273,
+        8.204999923706055
+      ],
+      [
+        7.904999256134033,
+        8.334999084472656
+      ],
+      [
+        2.0199999809265137,
+        2.8399999141693115
+      ]
+    ],
+    "scale": [
+      0.6231883541172121,
+      0.6231883541172121,
+      0.7135338044067588
+    ],
+    "objects": [
+      "LIB_Pendant_Dining1_Inner Bulb_PREPARED",
+      "LIB_Pendant_Dining1_Cube_PREPARED",
+      "LIB_Pendant_Dining1_Circle.003_PREPARED",
+      "LIB_Pendant_Dining1_Circle.002_PREPARED"
+    ]
+  },
+  {
+    "label": "Pendant_Dining2",
+    "role": "pendant_lamp",
+    "group": "Living_Dining",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/034ab2bf-712b-4c6c-bd4d-d2b04b5eb203/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.774999618530273,
+        9.204999923706055
+      ],
+      [
+        7.904999256134033,
+        8.334999084472656
+      ],
+      [
+        2.0199999809265137,
+        2.8399999141693115
+      ]
+    ],
+    "scale": [
+      0.6231883541172121,
+      0.6231883541172121,
+      0.7135338044067588
+    ],
+    "objects": [
+      "LIB_Pendant_Dining2_Inner Bulb_PREPARED",
+      "LIB_Pendant_Dining2_Cube_PREPARED",
+      "LIB_Pendant_Dining2_Circle.003_PREPARED",
+      "LIB_Pendant_Dining2_Circle.002_PREPARED"
+    ]
+  },
+  {
+    "label": "Pendant_Bedroom",
+    "role": "pendant_lamp",
+    "group": "Bedroom",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/034ab2bf-712b-4c6c-bd4d-d2b04b5eb203/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.505000114440918,
+        9.9350004196167
+      ],
+      [
+        9.404999732971191,
+        9.834999084472656
+      ],
+      [
+        5.420000076293945,
+        5.849999904632568
+      ]
+    ],
+    "scale": [
+      0.6231883541172121,
+      0.6231883541172121,
+      0.37417016572549555
+    ],
+    "objects": [
+      "LIB_Pendant_Bedroom_Inner Bulb_PREPARED",
+      "LIB_Pendant_Bedroom_Cube_PREPARED",
+      "LIB_Pendant_Bedroom_Circle.003_PREPARED",
+      "LIB_Pendant_Bedroom_Circle.002_PREPARED"
+    ]
+  },
+  {
+    "label": "Pendant_Office",
+    "role": "pendant_lamp",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/034ab2bf-712b-4c6c-bd4d-d2b04b5eb203/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.53499984741211,
+        9.96500015258789
+      ],
+      [
+        2.8849997520446777,
+        3.31499981880188
+      ],
+      [
+        5.449999809265137,
+        5.849999904632568
+      ]
+    ],
+    "scale": [
+      0.6231883541172121,
+      0.6231883541172121,
+      0.34806527044232144
+    ],
+    "objects": [
+      "LIB_Pendant_Office_Inner Bulb_PREPARED",
+      "LIB_Pendant_Office_Cube_PREPARED",
+      "LIB_Pendant_Office_Circle.003_PREPARED",
+      "LIB_Pendant_Office_Circle.002_PREPARED"
+    ]
+  },
+  {
+    "label": "Plant_Office",
+    "role": "potted_plant",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/3190e179-4d27-4c4d-9b8e-2cd375cf0112/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.409998893737793,
+        9.989999771118164
+      ],
+      [
+        2.0099997520446777,
+        2.5899999141693115
+      ],
+      [
+        3.200000047683716,
+        3.7220001220703125
+      ]
+    ],
+    "scale": [
+      1.4286255815068258,
+      1.2546710683629017,
+      1.4392938902949401
+    ],
+    "objects": [
+      "LIB_Plant_Office_pot_PREPARED",
+      "LIB_Plant_Office_plant_PREPARED"
+    ]
+  },
+  {
+    "label": "Plant_Upper_Bath",
+    "role": "potted_plant",
+    "group": "Upper_Bath",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/3190e179-4d27-4c4d-9b8e-2cd375cf0112/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        10.085000991821289,
+        10.27500057220459
+      ],
+      [
+        6.904999732971191,
+        7.09499979019165
+      ],
+      [
+        4.90500020980835,
+        5.076000213623047
+      ]
+    ],
+    "scale": [
+      0.4679980353212016,
+      0.4110129361878471,
+      0.4714928261311011
+    ],
+    "objects": [
+      "LIB_Plant_Upper_Bath_pot_PREPARED",
+      "LIB_Plant_Upper_Bath_plant_PREPARED"
+    ]
+  },
+  {
+    "label": "Plant_Kitchen",
+    "role": "potted_plant",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/3190e179-4d27-4c4d-9b8e-2cd375cf0112/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.154999732971191,
+        8.355000495910645
+      ],
+      [
+        6.699999809265137,
+        6.900000095367432
+      ],
+      [
+        0.8899999856948853,
+        1.0699999332427979
+      ]
+    ],
+    "scale": [
+      0.49262951086442275,
+      0.4326451959872075,
+      0.496308238032738
+    ],
+    "objects": [
+      "LIB_Plant_Kitchen_pot_PREPARED",
+      "LIB_Plant_Kitchen_plant_PREPARED"
+    ]
+  },
+  {
+    "label": "Living_Art",
+    "role": "wall_art",
+    "group": "Living_Dining",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/41236cc9-007d-4750-90f3-e4563842ae27/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        10.34749984741211,
+        10.372499465942383
+      ],
+      [
+        7.779999732971191,
+        8.779999732971191
+      ],
+      [
+        1.3399999141693115,
+        2.0399999618530273
+      ]
+    ],
+    "scale": [
+      0.9827382907797345,
+      1.4058992707970819,
+      0.666666621253607
+    ],
+    "objects": [
+      "LIB_Living_Art_Image_PREPARED",
+      "LIB_Living_Art_Glass_PREPARED",
+      "LIB_Living_Art_Cube_PREPARED",
+      "LIB_Living_Art_Cube.003_PREPARED",
+      "LIB_Living_Art_Cube.002_PREPARED",
+      "LIB_Living_Art_Cube.001_PREPARED",
+      "LIB_Living_Art_Back Board_PREPARED"
+    ]
+  },
+  {
+    "label": "Curtain_Living_Dining_6.72",
+    "role": "curtain",
+    "group": "Living_Dining",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/93f849d0-1f40-424c-9536-46c8a9a89c19/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.59499979019165,
+        6.84499979019165
+      ],
+      [
+        11.630000114440918,
+        11.769999504089355
+      ],
+      [
+        0.03999999910593033,
+        2.6600000858306885
+      ]
+    ],
+    "scale": [
+      0.21240733553348562,
+      0.6228425446698244,
+      0.9631804067557315
+    ],
+    "objects": [
+      "LIB_Curtain_Living_Dining_6.72_Plane02_PREPARED"
+    ]
+  },
+  {
+    "label": "Curtain_Living_Dining_9.27",
+    "role": "curtain",
+    "group": "Living_Dining",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/93f849d0-1f40-424c-9536-46c8a9a89c19/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.140000343322754,
+        9.399999618530273
+      ],
+      [
+        11.630000114440918,
+        11.769999504089355
+      ],
+      [
+        0.03999999910593033,
+        2.6600000858306885
+      ]
+    ],
+    "scale": [
+      0.22090362895482504,
+      0.6228425446698244,
+      0.9631804067557315
+    ],
+    "objects": [
+      "LIB_Curtain_Living_Dining_9.27_Plane02_PREPARED"
+    ]
+  },
+  {
+    "label": "Curtain_Bedroom_7.7",
+    "role": "curtain",
+    "group": "Bedroom",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/93f849d0-1f40-424c-9536-46c8a9a89c19/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.569999694824219,
+        7.829999923706055
+      ],
+      [
+        11.630000114440918,
+        11.769999504089355
+      ],
+      [
+        3.240000009536743,
+        5.859999656677246
+      ]
+    ],
+    "scale": [
+      0.22090362895482504,
+      0.6228425446698244,
+      0.9631804067557315
+    ],
+    "objects": [
+      "LIB_Curtain_Bedroom_7.7_Plane02_PREPARED"
+    ]
+  },
+  {
+    "label": "Curtain_Bedroom_10.31",
+    "role": "curtain",
+    "group": "Bedroom",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/93f849d0-1f40-424c-9536-46c8a9a89c19/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        10.135001182556152,
+        10.485000610351562
+      ],
+      [
+        11.630000114440918,
+        11.769999504089355
+      ],
+      [
+        3.240000009536743,
+        5.859999656677246
+      ]
+    ],
+    "scale": [
+      0.29737026974687986,
+      0.6228425446698244,
+      0.9631804067557315
+    ],
+    "objects": [
+      "LIB_Curtain_Bedroom_10.31_Plane02_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Printer_Sideboard",
+    "role": "printer_sideboard",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/f96683ba-bfd0-473c-b3df-7461201594b3/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.480000495910645,
+        9.0600004196167
+      ],
+      [
+        0.7099999785423279,
+        2.0899999141693115
+      ],
+      [
+        3.200000047683716,
+        4.074999809265137
+      ]
+    ],
+    "scale": [
+      1.1710248155393643,
+      1.064313328276986,
+      1.1187515877927925
+    ],
+    "objects": [
+      "LIB_Office_Printer_Sideboard_walnutparts_PREPARED",
+      "LIB_Office_Printer_Sideboard_rightwing_PREPARED",
+      "LIB_Office_Printer_Sideboard_middlewing_PREPARED",
+      "LIB_Office_Printer_Sideboard_legs_PREPARED",
+      "LIB_Office_Printer_Sideboard_leftwing_PREPARED",
+      "LIB_Office_Printer_Sideboard_caps_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Weight_Cabinet",
+    "role": "printer_sideboard",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/f96683ba-bfd0-473c-b3df-7461201594b3/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.5,
+        8.860000610351562
+      ],
+      [
+        2.7899997234344482,
+        3.9499998092651367
+      ],
+      [
+        3.200000047683716,
+        3.9000000953674316
+      ]
+    ],
+    "scale": [
+      0.7268429889554675,
+      0.8946401889864521,
+      0.8950012702342338
+    ],
+    "objects": [
+      "LIB_Office_Weight_Cabinet_walnutparts_PREPARED",
+      "LIB_Office_Weight_Cabinet_rightwing_PREPARED",
+      "LIB_Office_Weight_Cabinet_middlewing_PREPARED",
+      "LIB_Office_Weight_Cabinet_legs_PREPARED",
+      "LIB_Office_Weight_Cabinet_leftwing_PREPARED",
+      "LIB_Office_Weight_Cabinet_caps_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Bookcase",
+    "role": "bookcase",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/14333933-41dd-4e71-bc44-970f9743892a/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.970000267028809,
+        10.050000190734863
+      ],
+      [
+        0.23499998450279236,
+        0.5550000667572021
+      ],
+      [
+        3.200000047683716,
+        5.480000019073486
+      ]
+    ],
+    "scale": [
+      1.6981132673852277,
+      1.2499992130329198,
+      1.5199999999999998
+    ],
+    "objects": [
+      "LIB_Office_Bookcase_Bookshelf.001_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Books_0",
+    "role": "books",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/585219d4-27fe-4d13-ac40-f8dfbfab8c62/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.09000015258789,
+        9.350000381469727
+      ],
+      [
+        0.30000001192092896,
+        0.5
+      ],
+      [
+        3.677000045776367,
+        3.927000045776367
+      ]
+    ],
+    "scale": [
+      0.9888413648560875,
+      0.7497612364979804,
+      0.811419681778811
+    ],
+    "objects": [
+      "LIB_Office_Books_0_sapiens_PREPARED",
+      "LIB_Office_Books_0_Mark Manson_PREPARED",
+      "LIB_Office_Books_0_ikigai_PREPARED",
+      "LIB_Office_Books_0_hygge_PREPARED",
+      "LIB_Office_Books_0_how to_PREPARED",
+      "LIB_Office_Books_0_green_PREPARED",
+      "LIB_Office_Books_0_factfullness_PREPARED",
+      "LIB_Office_Books_0_Book Collectipon 01_PREPARED",
+      "LIB_Office_Books_0_1984_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Books_2",
+    "role": "books",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/585219d4-27fe-4d13-ac40-f8dfbfab8c62/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.609999656677246,
+        9.869999885559082
+      ],
+      [
+        0.30000001192092896,
+        0.5
+      ],
+      [
+        4.579999923706055,
+        4.829999923706055
+      ]
+    ],
+    "scale": [
+      0.9888413648560875,
+      0.7497612364979804,
+      0.811419681778811
+    ],
+    "objects": [
+      "LIB_Office_Books_2_sapiens_PREPARED",
+      "LIB_Office_Books_2_Mark Manson_PREPARED",
+      "LIB_Office_Books_2_ikigai_PREPARED",
+      "LIB_Office_Books_2_hygge_PREPARED",
+      "LIB_Office_Books_2_how to_PREPARED",
+      "LIB_Office_Books_2_green_PREPARED",
+      "LIB_Office_Books_2_factfullness_PREPARED",
+      "LIB_Office_Books_2_Book Collectipon 01_PREPARED",
+      "LIB_Office_Books_2_1984_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Shelf_Plant",
+    "role": "potted_plant",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/3190e179-4d27-4c4d-9b8e-2cd375cf0112/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.589999198913574,
+        9.829999923706055
+      ],
+      [
+        0.28999999165534973,
+        0.5099999904632568
+      ],
+      [
+        5.03000020980835,
+        5.300000190734863
+      ]
+    ],
+    "scale": [
+      0.5911554130373072,
+      0.47590971558592826,
+      0.744462357049107
+    ],
+    "objects": [
+      "LIB_Office_Shelf_Plant_pot_PREPARED",
+      "LIB_Office_Shelf_Plant_plant_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Fitness_Mirror",
+    "role": "bathroom_mirror",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/7e98168f-219d-46c3-85a1-d7cc8ca7621e/",
+    "license": "cc_zero",
+    "bounds": [
+      [
+        8.468999862670898,
+        8.484999656677246
+      ],
+      [
+        2.869999885559082,
+        3.869999885559082
+      ],
+      [
+        3.819999933242798,
+        5.519999980926514
+      ]
+    ],
+    "scale": [
+      5.116619173470958,
+      1.120013842944531,
+      1.9040235330057027
+    ],
+    "objects": [
+      "LIB_Office_Fitness_Mirror_BathroomMirror_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Curtain_0.3",
+    "role": "curtain",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/93f849d0-1f40-424c-9536-46c8a9a89c19/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        10.280000686645508,
+        10.420001029968262
+      ],
+      [
+        0.22499999403953552,
+        0.375
+      ],
+      [
+        3.234999895095825,
+        5.854999542236328
+      ]
+    ],
+    "scale": [
+      0.6228427717668602,
+      0.12744440132009136,
+      0.9631804067557315
+    ],
+    "objects": [
+      "LIB_Office_Curtain_0.3_Plane02_PREPARED"
+    ]
+  },
+  {
+    "label": "Office_Curtain_2.28",
+    "role": "curtain",
+    "group": "Office",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/93f849d0-1f40-424c-9536-46c8a9a89c19/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        10.280000686645508,
+        10.420001029968262
+      ],
+      [
+        2.1449999809265137,
+        2.4149999618530273
+      ],
+      [
+        3.234999895095825,
+        5.854999542236328
+      ]
+    ],
+    "scale": [
+      0.6228427717668602,
+      0.22939992237616447,
+      0.9631804067557315
+    ],
+    "objects": [
+      "LIB_Office_Curtain_2.28_Plane02_PREPARED"
+    ]
+  },
+  {
+    "label": "Understair_Bookcase",
+    "role": "bookcase",
+    "group": "Stair_Storage",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/14333933-41dd-4e71-bc44-970f9743892a/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        5.5,
+        5.850000381469727
+      ],
+      [
+        8.75,
+        9.209999084472656
+      ],
+      [
+        0.029999999329447746,
+        1.7300000190734863
+      ]
+    ],
+    "scale": [
+      1.367186639254756,
+      0.7232704657381525,
+      1.1333333333333333
+    ],
+    "objects": [
+      "LIB_Understair_Bookcase_Bookshelf.001_PREPARED"
+    ]
+  },
+  {
+    "label": "Understair_Drawer_Cabinet",
+    "role": "kitchen_cabinet",
+    "group": "Stair_Storage",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/1de7c416-bc0c-425e-8b70-e480d528acfe/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        5.5,
+        5.849999904632568
+      ],
+      [
+        9.399999618530273,
+        9.899999618530273
+      ],
+      [
+        0.029999999329447746,
+        0.8299999833106995
+      ]
+    ],
+    "scale": [
+      0.5208328783900444,
+      0.8333329009250862,
+      0.9411765761854033
+    ],
+    "objects": [
+      "LIB_Understair_Drawer_Cabinet_Low Poly Kitchen Cabinet V5_PREPA",
+      "LIB_Understair_Drawer_Cabinet_KCC_OpeningCover_V1_Front600_Cabi",
+      "LIB_Understair_Drawer_Cabinet_KCC_Handle_V6_Medium_D1C5_PREPARE",
+      "LIB_Understair_Drawer_Cabinet_KCC-F600_Top_V3_Cabinet5_PREPARED",
+      "LIB_Understair_Drawer_Cabinet_KC-F600_Drawer_SizeL_V1_D1C5_PREP",
+      "LIB_Understair_Drawer_Cabinet_KC-F600_Drawer_Front_SizeL_V3_D1C"
+    ]
+  },
+  {
+    "label": "Understair_Basket",
+    "role": "storage_basket",
+    "group": "Stair_Storage",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/91773b84-b452-4dab-9f4b-1e1f10c42a42/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        5.559999942779541,
+        5.839999675750732
+      ],
+      [
+        10.029999732971191,
+        10.369999885559082
+      ],
+      [
+        0.029999999329447746,
+        0.2800000011920929
+      ]
+    ],
+    "scale": [
+      0.9333332962460004,
+      1.3076922057648463,
+      1.0416667308769965
+    ],
+    "objects": [
+      "LIB_Understair_Basket_Straw basket-02_PREPARED"
+    ]
+  },
+  {
+    "label": "Understair_Books",
+    "role": "books",
+    "group": "Stair_Storage",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/585219d4-27fe-4d13-ac40-f8dfbfab8c62/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        5.569999694824219,
+        5.769999980926514
+      ],
+      [
+        8.869999885559082,
+        9.089999198913574
+      ],
+      [
+        0.38600000739097595,
+        0.5760000348091125
+      ]
+    ],
+    "scale": [
+      0.7497611946151466,
+      0.8367119241089971,
+      0.6166789581518963
+    ],
+    "objects": [
+      "LIB_Understair_Books_sapiens_PREPARED",
+      "LIB_Understair_Books_Mark Manson_PREPARED",
+      "LIB_Understair_Books_ikigai_PREPARED",
+      "LIB_Understair_Books_hygge_PREPARED",
+      "LIB_Understair_Books_how to_PREPARED",
+      "LIB_Understair_Books_green_PREPARED",
+      "LIB_Understair_Books_factfullness_PREPARED",
+      "LIB_Understair_Books_Book Collectipon 01_PREPARED",
+      "LIB_Understair_Books_1984_PREPARED"
+    ]
+  },
+  {
+    "label": "Bedroom_Bedside_Pendant_8.82",
+    "role": "pendant_lamp",
+    "group": "Bedroom",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/034ab2bf-712b-4c6c-bd4d-d2b04b5eb203/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        10.829999923706055,
+        11.049999237060547
+      ],
+      [
+        8.709999084472656,
+        8.929999351501465
+      ],
+      [
+        4.420000076293945,
+        5.875
+      ]
+    ],
+    "scale": [
+      0.3188405532692713,
+      0.3188405532692713,
+      1.2660874212339441
+    ],
+    "objects": [
+      "LIB_Bedroom_Bedside_Pendant_8.82_Inner Bulb_PREPARED",
+      "LIB_Bedroom_Bedside_Pendant_8.82_Cube_PREPARED",
+      "LIB_Bedroom_Bedside_Pendant_8.82_Circle.003_PREPARED",
+      "LIB_Bedroom_Bedside_Pendant_8.82_Circle.002_PREPARED"
+    ]
+  },
+  {
+    "label": "Bedroom_Bedside_Pendant_11.2",
+    "role": "pendant_lamp",
+    "group": "Bedroom",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/034ab2bf-712b-4c6c-bd4d-d2b04b5eb203/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        10.829999923706055,
+        11.049999237060547
+      ],
+      [
+        11.089999198913574,
+        11.309999465942383
+      ],
+      [
+        4.420000076293945,
+        5.875
+      ]
+    ],
+    "scale": [
+      0.3188405532692713,
+      0.3188405532692713,
+      1.2660874212339441
+    ],
+    "objects": [
+      "LIB_Bedroom_Bedside_Pendant_11.2_Inner Bulb_PREPARED",
+      "LIB_Bedroom_Bedside_Pendant_11.2_Cube_PREPARED",
+      "LIB_Bedroom_Bedside_Pendant_11.2_Circle.003_PREPARED",
+      "LIB_Bedroom_Bedside_Pendant_11.2_Circle.002_PREPARED"
+    ]
+  },
+  {
+    "label": "Ground_Flush_Entry",
+    "role": "ceiling_light",
+    "group": "Entry",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/c8c6bf76-0991-4a38-b340-c155bc2e925c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.909999847412109,
+        7.289999961853027
+      ],
+      [
+        1.5099999904632568,
+        1.8899999856948853
+      ],
+      [
+        2.7850000858306885,
+        2.877000093460083
+      ]
+    ],
+    "scale": [
+      1.4816230396637093,
+      1.5112423923769438,
+      1.0008741389888474
+    ],
+    "objects": [
+      "LIB_Ground_Flush_Entry_Cylinder.011_PREPARED",
+      "LIB_Ground_Flush_Entry_Cylinder.010_PREPARED",
+      "LIB_Ground_Flush_Entry_Cylinder.009_PREPARED",
+      "LIB_Ground_Flush_Entry_Cylinder.008_PREPARED",
+      "LIB_Ground_Flush_Entry_Cube.079_PREPARED",
+      "LIB_Ground_Flush_Entry_Cube.078_PREPARED",
+      "LIB_Ground_Flush_Entry_Cube.076_PREPARED",
+      "LIB_Ground_Flush_Entry_Cube.075_PREPARED",
+      "LIB_Ground_Flush_Entry_Cube.074_PREPARED"
+    ]
+  },
+  {
+    "label": "Ground_Flush_Kitchen",
+    "role": "ceiling_light",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/c8c6bf76-0991-4a38-b340-c155bc2e925c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.970000267028809,
+        9.390000343322754
+      ],
+      [
+        5.090000152587891,
+        5.510000228881836
+      ],
+      [
+        2.7850000858306885,
+        2.877000093460083
+      ]
+    ],
+    "scale": [
+      1.6375833596283103,
+      1.6703205389429379,
+      1.0008741389888474
+    ],
+    "objects": [
+      "LIB_Ground_Flush_Kitchen_Cylinder.011_PREPARED",
+      "LIB_Ground_Flush_Kitchen_Cylinder.010_PREPARED",
+      "LIB_Ground_Flush_Kitchen_Cylinder.009_PREPARED",
+      "LIB_Ground_Flush_Kitchen_Cylinder.008_PREPARED",
+      "LIB_Ground_Flush_Kitchen_Cube.079_PREPARED",
+      "LIB_Ground_Flush_Kitchen_Cube.078_PREPARED",
+      "LIB_Ground_Flush_Kitchen_Cube.076_PREPARED",
+      "LIB_Ground_Flush_Kitchen_Cube.075_PREPARED",
+      "LIB_Ground_Flush_Kitchen_Cube.074_PREPARED"
+    ]
+  },
+  {
+    "label": "Ground_Flush_Living_Dining",
+    "role": "ceiling_light",
+    "group": "Living_Dining",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/c8c6bf76-0991-4a38-b340-c155bc2e925c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.039999961853027,
+        8.460000038146973
+      ],
+      [
+        10.1899995803833,
+        10.609999656677246
+      ],
+      [
+        2.7850000858306885,
+        2.877000093460083
+      ]
+    ],
+    "scale": [
+      1.6375833596283103,
+      1.6703205389429379,
+      1.0008741389888474
+    ],
+    "objects": [
+      "LIB_Ground_Flush_Living_Dining_Cylinder.011_PREPARED",
+      "LIB_Ground_Flush_Living_Dining_Cylinder.010_PREPARED",
+      "LIB_Ground_Flush_Living_Dining_Cylinder.009_PREPARED",
+      "LIB_Ground_Flush_Living_Dining_Cylinder.008_PREPARED",
+      "LIB_Ground_Flush_Living_Dining_Cube.079_PREPARED",
+      "LIB_Ground_Flush_Living_Dining_Cube.078_PREPARED",
+      "LIB_Ground_Flush_Living_Dining_Cube.076_PREPARED",
+      "LIB_Ground_Flush_Living_Dining_Cube.075_PREPARED",
+      "LIB_Ground_Flush_Living_Dining_Cube.074_PREPARED"
+    ]
+  },
+  {
+    "label": "Ground_Flush_WC",
+    "role": "ceiling_light",
+    "group": "WC",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/c8c6bf76-0991-4a38-b340-c155bc2e925c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        5.7900004386901855,
+        6.090000152587891
+      ],
+      [
+        5.529999732971191,
+        5.829999923706055
+      ],
+      [
+        2.7850000858306885,
+        2.877000093460083
+      ]
+    ],
+    "scale": [
+      1.1697023997345073,
+      1.1930860992449557,
+      1.0008741389888474
+    ],
+    "objects": [
+      "LIB_Ground_Flush_WC_Cylinder.011_PREPARED",
+      "LIB_Ground_Flush_WC_Cylinder.010_PREPARED",
+      "LIB_Ground_Flush_WC_Cylinder.009_PREPARED",
+      "LIB_Ground_Flush_WC_Cylinder.008_PREPARED",
+      "LIB_Ground_Flush_WC_Cube.079_PREPARED",
+      "LIB_Ground_Flush_WC_Cube.078_PREPARED",
+      "LIB_Ground_Flush_WC_Cube.076_PREPARED",
+      "LIB_Ground_Flush_WC_Cube.075_PREPARED",
+      "LIB_Ground_Flush_WC_Cube.074_PREPARED"
+    ]
+  },
+  {
+    "label": "Ground_Flush_Laundry",
+    "role": "ceiling_light",
+    "group": "Laundry",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/c8c6bf76-0991-4a38-b340-c155bc2e925c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.260000228881836,
+        9.539999961853027
+      ],
+      [
+        3.1599998474121094,
+        3.43999981880188
+      ],
+      [
+        2.7850000858306885,
+        2.877000093460083
+      ]
+    ],
+    "scale": [
+      1.091722239752207,
+      1.1135470259619586,
+      1.0008741389888474
+    ],
+    "objects": [
+      "LIB_Ground_Flush_Laundry_Cylinder.011_PREPARED",
+      "LIB_Ground_Flush_Laundry_Cylinder.010_PREPARED",
+      "LIB_Ground_Flush_Laundry_Cylinder.009_PREPARED",
+      "LIB_Ground_Flush_Laundry_Cylinder.008_PREPARED",
+      "LIB_Ground_Flush_Laundry_Cube.079_PREPARED",
+      "LIB_Ground_Flush_Laundry_Cube.078_PREPARED",
+      "LIB_Ground_Flush_Laundry_Cube.076_PREPARED",
+      "LIB_Ground_Flush_Laundry_Cube.075_PREPARED",
+      "LIB_Ground_Flush_Laundry_Cube.074_PREPARED"
+    ]
+  },
+  {
+    "label": "Upper_Bath_Flush",
+    "role": "ceiling_light",
+    "group": "Upper_Bath",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/c8c6bf76-0991-4a38-b340-c155bc2e925c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.579999923706055,
+        9.920000076293945
+      ],
+      [
+        6.230000019073486,
+        6.569999694824219
+      ],
+      [
+        5.789999961853027,
+        5.881999969482422
+      ]
+    ],
+    "scale": [
+      1.3256627196991084,
+      1.3521642458109497,
+      1.0008741389888474
+    ],
+    "objects": [
+      "LIB_Upper_Bath_Flush_Cylinder.011_PREPARED",
+      "LIB_Upper_Bath_Flush_Cylinder.010_PREPARED",
+      "LIB_Upper_Bath_Flush_Cylinder.009_PREPARED",
+      "LIB_Upper_Bath_Flush_Cylinder.008_PREPARED",
+      "LIB_Upper_Bath_Flush_Cube.079_PREPARED",
+      "LIB_Upper_Bath_Flush_Cube.078_PREPARED",
+      "LIB_Upper_Bath_Flush_Cube.076_PREPARED",
+      "LIB_Upper_Bath_Flush_Cube.075_PREPARED",
+      "LIB_Upper_Bath_Flush_Cube.074_PREPARED"
+    ]
+  },
+  {
+    "label": "Upper_Bath_Sconce_9.06",
+    "role": "sconce",
+    "group": "Upper_Bath",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/31efb392-2e16-4b9c-8046-8bf1f5f1f56c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.149999618530273,
+        9.270000457763672
+      ],
+      [
+        5.5,
+        5.619999885559082
+      ],
+      [
+        4.639999866485596,
+        5.130000114440918
+      ]
+    ],
+    "scale": [
+      0.9999999292194893,
+      0.7225621317874261,
+      1.0067135381734023
+    ],
+    "objects": [
+      "LIB_Upper_Bath_Sconce_9.06_Object014_PREPARED",
+      "LIB_Upper_Bath_Sconce_9.06_Cylinder008_PREPARED",
+      "LIB_Upper_Bath_Sconce_9.06_Cylinder.010_PREPARED",
+      "LIB_Upper_Bath_Sconce_9.06_Cylinder.008_PREPARED",
+      "LIB_Upper_Bath_Sconce_9.06_Cylinder.002_PREPARED",
+      "LIB_Upper_Bath_Sconce_9.06_Cylinder.001_PREPARED"
+    ]
+  },
+  {
+    "label": "Upper_Bath_Sconce_10.44",
+    "role": "sconce",
+    "group": "Upper_Bath",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/31efb392-2e16-4b9c-8046-8bf1f5f1f56c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        10.229999542236328,
+        10.350000381469727
+      ],
+      [
+        5.5,
+        5.619999885559082
+      ],
+      [
+        4.639999866485596,
+        5.130000114440918
+      ]
+    ],
+    "scale": [
+      0.9999999292194893,
+      0.7225621317874261,
+      1.0067135381734023
+    ],
+    "objects": [
+      "LIB_Upper_Bath_Sconce_10.44_Object014_PREPARED",
+      "LIB_Upper_Bath_Sconce_10.44_Cylinder008_PREPARED",
+      "LIB_Upper_Bath_Sconce_10.44_Cylinder.010_PREPARED",
+      "LIB_Upper_Bath_Sconce_10.44_Cylinder.008_PREPARED",
+      "LIB_Upper_Bath_Sconce_10.44_Cylinder.002_PREPARED",
+      "LIB_Upper_Bath_Sconce_10.44_Cylinder.001_PREPARED"
+    ]
+  },
+  {
+    "label": "Upper_Bath_Towel_Radiator",
+    "role": "radiator",
+    "group": "Upper_Bath",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/91483cd6-908f-4704-b8b3-1d0f2753b9b3/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.477500915527344,
+        8.55250072479248
+      ],
+      [
+        6.699999809265137,
+        7.079999923706055
+      ],
+      [
+        3.819999933242798,
+        4.860000133514404
+      ]
+    ],
+    "scale": [
+      0.9799626682951399,
+      0.7609786866379731,
+      0.9161855379844376
+    ],
+    "objects": [
+      "LIB_Upper_Bath_Towel_Radiator_Towel Rariator_PREPARED"
+    ]
+  },
+  {
+    "label": "Upper_Bath_Hanging_Towel",
+    "role": "towel",
+    "group": "Upper_Bath",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/c9362ddd-103e-495d-a16a-9bdd389bb43e/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.5,
+        8.569999694824219
+      ],
+      [
+        6.759999752044678,
+        7.0199995040893555
+      ],
+      [
+        4.860000133514404,
+        4.910000324249268
+      ]
+    ],
+    "scale": [
+      0.5344629578600277,
+      1.0762164927606306,
+      0.6702240746800078
+    ],
+    "objects": [
+      "LIB_Upper_Bath_Hanging_Towel_towels_PREPARED"
+    ]
+  },
+  {
+    "label": "Upper_Hall_Runner",
+    "role": "rug",
+    "group": "Upper_Hall",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/cbb45e91-fb1c-4cc3-834c-1af5ba1deb60/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.329999923706055,
+        7.909999847412109
+      ],
+      [
+        4.860000133514404,
+        6.940000057220459
+      ],
+      [
+        3.2019999027252197,
+        3.2109997272491455
+      ]
+    ],
+    "scale": [
+      0.38666666666666666,
+      0.9674418175523529,
+      1.7996791932994873
+    ],
+    "objects": [
+      "LIB_Upper_Hall_Runner_Tapis 7.001_PREPARED"
+    ]
+  },
+  {
+    "label": "Upper_Hall_Flush",
+    "role": "ceiling_light",
+    "group": "Upper_Hall",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/c8c6bf76-0991-4a38-b340-c155bc2e925c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.46999979019165,
+        7.75
+      ],
+      [
+        5.559999942779541,
+        5.839999675750732
+      ],
+      [
+        5.789999961853027,
+        5.881999969482422
+      ]
+    ],
+    "scale": [
+      1.091722239752207,
+      1.1135470259619586,
+      1.0008741389888474
+    ],
+    "objects": [
+      "LIB_Upper_Hall_Flush_Cylinder.011_PREPARED",
+      "LIB_Upper_Hall_Flush_Cylinder.010_PREPARED",
+      "LIB_Upper_Hall_Flush_Cylinder.009_PREPARED",
+      "LIB_Upper_Hall_Flush_Cylinder.008_PREPARED",
+      "LIB_Upper_Hall_Flush_Cube.079_PREPARED",
+      "LIB_Upper_Hall_Flush_Cube.078_PREPARED",
+      "LIB_Upper_Hall_Flush_Cube.076_PREPARED",
+      "LIB_Upper_Hall_Flush_Cube.075_PREPARED",
+      "LIB_Upper_Hall_Flush_Cube.074_PREPARED"
+    ]
+  },
+  {
+    "label": "Closet_Flush",
+    "role": "ceiling_light",
+    "group": "Wardrobe",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/c8c6bf76-0991-4a38-b340-c155bc2e925c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.349999904632568,
+        6.599999904632568
+      ],
+      [
+        5.525000095367432,
+        5.77500057220459
+      ],
+      [
+        5.789999961853027,
+        5.881999969482422
+      ]
+    ],
+    "scale": [
+      0.9747519997787562,
+      0.9942384160374631,
+      1.0008741389888474
+    ],
+    "objects": [
+      "LIB_Closet_Flush_Cylinder.011_PREPARED",
+      "LIB_Closet_Flush_Cylinder.010_PREPARED",
+      "LIB_Closet_Flush_Cylinder.009_PREPARED",
+      "LIB_Closet_Flush_Cylinder.008_PREPARED",
+      "LIB_Closet_Flush_Cube.079_PREPARED",
+      "LIB_Closet_Flush_Cube.078_PREPARED",
+      "LIB_Closet_Flush_Cube.076_PREPARED",
+      "LIB_Closet_Flush_Cube.075_PREPARED",
+      "LIB_Closet_Flush_Cube.074_PREPARED"
+    ]
+  },
+  {
+    "label": "Entry_Ready_Plant",
+    "role": "potted_plant",
+    "group": "Entry",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/3190e179-4d27-4c4d-9b8e-2cd375cf0112/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.360000133514404,
+        7.539999961853027
+      ],
+      [
+        0.3400000035762787,
+        0.5199999809265137
+      ],
+      [
+        0.4699999988079071,
+        0.6800000071525574
+      ]
+    ],
+    "scale": [
+      0.4433665597779804,
+      0.3893806763884867,
+      0.5790262777048609
+    ],
+    "objects": [
+      "LIB_Entry_Ready_Plant_pot_PREPARED",
+      "LIB_Entry_Ready_Plant_plant_PREPARED"
+    ]
+  },
+  {
+    "label": "Entry_Ready_Books",
+    "role": "books",
+    "group": "Entry",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/585219d4-27fe-4d13-ac40-f8dfbfab8c62/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.680000305175781,
+        7.880000114440918
+      ],
+      [
+        0.3349999785423279,
+        0.5049999952316284
+      ],
+      [
+        0.4699999988079071,
+        0.6499999761581421
+      ]
+    ],
+    "scale": [
+      0.7606472037354519,
+      0.6372970510232834,
+      0.5842221708807439
+    ],
+    "objects": [
+      "LIB_Entry_Ready_Books_sapiens_PREPARED",
+      "LIB_Entry_Ready_Books_Mark Manson_PREPARED",
+      "LIB_Entry_Ready_Books_ikigai_PREPARED",
+      "LIB_Entry_Ready_Books_hygge_PREPARED",
+      "LIB_Entry_Ready_Books_how to_PREPARED",
+      "LIB_Entry_Ready_Books_green_PREPARED",
+      "LIB_Entry_Ready_Books_factfullness_PREPARED",
+      "LIB_Entry_Ready_Books_Book Collectipon 01_PREPARED",
+      "LIB_Entry_Ready_Books_1984_PREPARED"
+    ]
+  },
+  {
+    "label": "Kitchen_Cutting_Boards",
+    "role": "kitchen_accessories",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/7586e35e-2b7c-4c2f-a245-2608726eda3a/",
+    "license": "cc_zero",
+    "bounds": [
+      [
+        8.204999923706055,
+        8.454999923706055
+      ],
+      [
+        5.940000057220459,
+        6.259999752044678
+      ],
+      [
+        0.8920000195503235,
+        0.9170000553131104
+      ]
+    ],
+    "scale": [
+      0.8787962913880644,
+      0.7874274247641743,
+      1.764850098449389
+    ],
+    "objects": [
+      "LIB_Kitchen_Cutting_Boards_Cutting Board Small.Mesh_PREPARED",
+      "LIB_Kitchen_Cutting_Boards_Cutting Board Medium.Mesh_PREPARED",
+      "LIB_Kitchen_Cutting_Boards_Cutting Board Large.Mesh_PREPARED"
+    ]
+  },
+  {
+    "label": "Ground_Vanity_Soap",
+    "role": "bath_accessories",
+    "group": "WC",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/e69e8001-c1a0-495f-ae90-9c967d128c6c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        5.522500038146973,
+        5.577499866485596
+      ],
+      [
+        5.862500190734863,
+        5.917500019073486
+      ],
+      [
+        0.7851377129554749,
+        0.9451377391815186
+      ]
+    ],
+    "scale": [
+      0.6673163009507256,
+      0.7281926826844279,
+      0.7652907132592267
+    ],
+    "objects": [
+      "LIB_Ground_Vanity_Soap_Delphine Lotion Dispenser White_PREPARED"
+    ]
+  },
+  {
+    "label": "Upper_Vanity_Soap",
+    "role": "bath_accessories",
+    "group": "Upper_Bath",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/e69e8001-c1a0-495f-ae90-9c967d128c6c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        10.0254545211792,
+        10.085453987121582
+      ],
+      [
+        5.519999980926514,
+        5.580000400543213
+      ],
+      [
+        3.9800143241882324,
+        4.150014400482178
+      ]
+    ],
+    "scale": [
+      0.7279814192189733,
+      0.7943920174739214,
+      0.8131213828379285
+    ],
+    "objects": [
+      "LIB_Upper_Vanity_Soap_Delphine Lotion Dispenser White_PREPARED"
+    ]
+  },
+  {
+    "label": "Upper_Vanity_Cup",
+    "role": "bath_accessories",
+    "group": "Upper_Bath",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/e69e8001-c1a0-495f-ae90-9c967d128c6c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.947955131530762,
+        10.002954483032227
+      ],
+      [
+        5.522500038146973,
+        5.577500343322754
+      ],
+      [
+        3.9800143241882324,
+        4.080014228820801
+      ]
+    ],
+    "scale": [
+      0.7047876111247214,
+      0.7047876447692135,
+      1.016197410023138
+    ],
+    "objects": [
+      "LIB_Upper_Vanity_Cup_Delphine Tumbler White_PREPARED"
+    ]
+  },
+  {
+    "label": "Upper_Vanity_Tray",
+    "role": "bath_accessories",
+    "group": "Upper_Bath",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/e69e8001-c1a0-495f-ae90-9c967d128c6c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.400909423828125,
+        9.560909271240234
+      ],
+      [
+        5.515000343322754,
+        5.585000038146973
+      ],
+      [
+        3.9800140857696533,
+        3.995014190673828
+      ]
+    ],
+    "scale": [
+      0.4521517381834744,
+      0.4724274838639605,
+      0.386393031104369
+    ],
+    "objects": [
+      "LIB_Upper_Vanity_Tray_Delphine Tray White_PREPARED"
+    ]
+  },
+  {
+    "label": "Upper_Bath_Tissues",
+    "role": "bath_accessories",
+    "group": "Upper_Bath",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/e69e8001-c1a0-495f-ae90-9c967d128c6c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.329999923706055,
+        9.450000762939453
+      ],
+      [
+        6.939999580383301,
+        7.059999942779541
+      ],
+      [
+        4.90500020980835,
+        5.055000305175781
+      ]
+    ],
+    "scale": [
+      0.7566235801147215,
+      0.756623722291506,
+      0.6689874841099076
+    ],
+    "objects": [
+      "LIB_Upper_Bath_Tissues_Delphine Tissue Cover White_PREPARED"
+    ]
+  },
+  {
+    "label": "Upper_Bath_Bin",
+    "role": "bath_accessories",
+    "group": "Upper_Bath",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/e69e8001-c1a0-495f-ae90-9c967d128c6c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.559999465942383,
+        8.739999771118164
+      ],
+      [
+        5.559999942779541,
+        5.739999771118164
+      ],
+      [
+        3.200000047683716,
+        3.430000066757202
+      ]
+    ],
+    "scale": [
+      0.869261782057836,
+      0.8692618446109321,
+      0.8811019529445928
+    ],
+    "objects": [
+      "LIB_Upper_Bath_Bin_Delphine Wastebasket White_PREPARED"
+    ]
+  },
+  {
+    "label": "Upper_Bath_Linen_Shelf",
+    "role": "kitchen_cabinet",
+    "group": "Upper_Bath",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/1de7c416-bc0c-425e-8b70-e480d528acfe/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        9.244999885559082,
+        10.3149995803833
+      ],
+      [
+        6.934999942779541,
+        7.09499979019165
+      ],
+      [
+        4.880000114440918,
+        4.904999732971191
+      ]
+    ],
+    "scale": [
+      1.7833332624700364,
+      0.24615384389662887,
+      0.500000476837613
+    ],
+    "objects": [
+      "LIB_Upper_Bath_Linen_Shelf_KCC-F600_Top_V3_Cabinet5_PREPARED"
+    ]
+  },
+  {
+    "label": "Door_L1_ENTRY_DOOR",
+    "role": "hinged_door",
+    "group": "Entry",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/5b017692-720c-4d46-942a-3e69bb30d817/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.5933732986450195,
+        8.574055671691895
+      ],
+      [
+        0.8825620412826538,
+        1.9199999570846558
+      ],
+      [
+        0.006000000052154064,
+        2.0999999046325684
+      ]
+    ],
+    "scale": [
+      1.0007829062664853,
+      1.1473015100596673,
+      1.0156161870268792
+    ],
+    "objects": [
+      "LIB_Door_L1_ENTRY_DOOR_Latch_PREPARED",
+      "LIB_Door_L1_ENTRY_DOOR_Latch.001_PREPARED",
+      "LIB_Door_L1_ENTRY_DOOR_Hinge Pin.002_PREPARED",
+      "LIB_Door_L1_ENTRY_DOOR_Hinge Door Side.002_PREPARED",
+      "LIB_Door_L1_ENTRY_DOOR_Handle_PREPARED",
+      "LIB_Door_L1_ENTRY_DOOR_Handle Base_PREPARED",
+      "LIB_Door_L1_ENTRY_DOOR_Door.001_PREPARED",
+      "LIB_Door_L1_ENTRY_DOOR_Door Frame_PREPARED",
+      "LIB_Door_L1_ENTRY_DOOR_Cube_PREPARED"
+    ]
+  },
+  {
+    "label": "Door_L1_KITCHEN_DOOR",
+    "role": "hinged_door",
+    "group": "Entry",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/5b017692-720c-4d46-942a-3e69bb30d817/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.662562370300293,
+        7.699999809265137
+      ],
+      [
+        3.815943956375122,
+        4.796626567840576
+      ],
+      [
+        0.006000000052154064,
+        2.0999999046325684
+      ]
+    ],
+    "scale": [
+      1.1473015100596675,
+      1.0007832906856433,
+      1.0156161870268792
+    ],
+    "objects": [
+      "LIB_Door_L1_KITCHEN_DOOR_Latch_PREPARED",
+      "LIB_Door_L1_KITCHEN_DOOR_Latch.001_PREPARED",
+      "LIB_Door_L1_KITCHEN_DOOR_Hinge Pin.002_PREPARED",
+      "LIB_Door_L1_KITCHEN_DOOR_Hinge Door Side.002_PREPARED",
+      "LIB_Door_L1_KITCHEN_DOOR_Handle_PREPARED",
+      "LIB_Door_L1_KITCHEN_DOOR_Handle Base_PREPARED",
+      "LIB_Door_L1_KITCHEN_DOOR_Door.001_PREPARED",
+      "LIB_Door_L1_KITCHEN_DOOR_Door Frame_PREPARED",
+      "LIB_Door_L1_KITCHEN_DOOR_Cube_PREPARED"
+    ]
+  },
+  {
+    "label": "Door_L1_WC_DOOR",
+    "role": "hinged_door",
+    "group": "Entry",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/5b017692-720c-4d46-942a-3e69bb30d817/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.367499828338623,
+        7.124891757965088
+      ],
+      [
+        4.912440776824951,
+        5.659999847412109
+      ],
+      [
+        0.006000000052154064,
+        2.0999999046325684
+      ]
+    ],
+    "scale": [
+      1.0007829062664853,
+      0.8031110570417674,
+      1.0156161870268792
+    ],
+    "objects": [
+      "LIB_Door_L1_WC_DOOR_Latch_PREPARED",
+      "LIB_Door_L1_WC_DOOR_Latch.001_PREPARED",
+      "LIB_Door_L1_WC_DOOR_Hinge Pin.002_PREPARED",
+      "LIB_Door_L1_WC_DOOR_Hinge Door Side.002_PREPARED",
+      "LIB_Door_L1_WC_DOOR_Handle_PREPARED",
+      "LIB_Door_L1_WC_DOOR_Handle Base_PREPARED",
+      "LIB_Door_L1_WC_DOOR_Door.001_PREPARED",
+      "LIB_Door_L1_WC_DOOR_Door Frame_PREPARED",
+      "LIB_Door_L1_WC_DOOR_Cube_PREPARED"
+    ]
+  },
+  {
+    "label": "Door_L1_LAUNDRY_DOOR",
+    "role": "hinged_door",
+    "group": "Entry",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/5b017692-720c-4d46-942a-3e69bb30d817/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.317499160766602,
+        9.074891090393066
+      ],
+      [
+        2.552440881729126,
+        3.299999952316284
+      ],
+      [
+        0.006000000052154064,
+        2.0999999046325684
+      ]
+    ],
+    "scale": [
+      1.0007829062664853,
+      0.803111057041767,
+      1.0156161870268792
+    ],
+    "objects": [
+      "LIB_Door_L1_LAUNDRY_DOOR_Latch_PREPARED",
+      "LIB_Door_L1_LAUNDRY_DOOR_Latch.001_PREPARED",
+      "LIB_Door_L1_LAUNDRY_DOOR_Hinge Pin.002_PREPARED",
+      "LIB_Door_L1_LAUNDRY_DOOR_Hinge Door Side.002_PREPARED",
+      "LIB_Door_L1_LAUNDRY_DOOR_Handle_PREPARED",
+      "LIB_Door_L1_LAUNDRY_DOOR_Handle Base_PREPARED",
+      "LIB_Door_L1_LAUNDRY_DOOR_Door.001_PREPARED",
+      "LIB_Door_L1_LAUNDRY_DOOR_Door Frame_PREPARED",
+      "LIB_Door_L1_LAUNDRY_DOOR_Cube_PREPARED"
+    ]
+  },
+  {
+    "label": "Door_L2_REAR_BEDROOM_DOOR",
+    "role": "hinged_door",
+    "group": "Upper_Hall",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/5b017692-720c-4d46-942a-3e69bb30d817/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.699188232421875,
+        7.639999866485596
+      ],
+      [
+        8.41594409942627,
+        9.30183219909668
+      ],
+      [
+        3.2060000896453857,
+        5.300000190734863
+      ]
+    ],
+    "scale": [
+      1.0325713590537002,
+      1.0007832906856433,
+      1.0156161870268794
+    ],
+    "objects": [
+      "LIB_Door_L2_REAR_BEDROOM_DOOR_Latch_PREPARED",
+      "LIB_Door_L2_REAR_BEDROOM_DOOR_Latch.001_PREPARED",
+      "LIB_Door_L2_REAR_BEDROOM_DOOR_Hinge Pin.002_PREPARED",
+      "LIB_Door_L2_REAR_BEDROOM_DOOR_Hinge Door Side.002_PREPARED",
+      "LIB_Door_L2_REAR_BEDROOM_DOOR_Handle_PREPARED",
+      "LIB_Door_L2_REAR_BEDROOM_DOOR_Handle Base_PREPARED",
+      "LIB_Door_L2_REAR_BEDROOM_DOOR_Door.001_PREPARED",
+      "LIB_Door_L2_REAR_BEDROOM_DOOR_Door Frame_PREPARED",
+      "LIB_Door_L2_REAR_BEDROOM_DOOR_Cube_PREPARED"
+    ]
+  },
+  {
+    "label": "Door_L2_BATHROOM_DOOR",
+    "role": "hinged_door",
+    "group": "Upper_Hall",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/5b017692-720c-4d46-942a-3e69bb30d817/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.317499160766602,
+        9.075459480285645
+      ],
+      [
+        5.691861152648926,
+        6.440000057220459
+      ],
+      [
+        3.2060000896453857,
+        5.300000190734863
+      ]
+    ],
+    "scale": [
+      1.0007829062664853,
+      0.8037994379478037,
+      1.0156161870268794
+    ],
+    "objects": [
+      "LIB_Door_L2_BATHROOM_DOOR_Latch_PREPARED",
+      "LIB_Door_L2_BATHROOM_DOOR_Latch.001_PREPARED",
+      "LIB_Door_L2_BATHROOM_DOOR_Hinge Pin.002_PREPARED",
+      "LIB_Door_L2_BATHROOM_DOOR_Hinge Door Side.002_PREPARED",
+      "LIB_Door_L2_BATHROOM_DOOR_Handle_PREPARED",
+      "LIB_Door_L2_BATHROOM_DOOR_Handle Base_PREPARED",
+      "LIB_Door_L2_BATHROOM_DOOR_Door.001_PREPARED",
+      "LIB_Door_L2_BATHROOM_DOOR_Door Frame_PREPARED",
+      "LIB_Door_L2_BATHROOM_DOOR_Cube_PREPARED"
+    ]
+  },
+  {
+    "label": "Door_L2_WARDROBE_DOOR",
+    "role": "hinged_door",
+    "group": "Upper_Hall",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/5b017692-720c-4d46-942a-3e69bb30d817/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.887499809265137,
+        7.644891738891602
+      ],
+      [
+        5.152440547943115,
+        5.900000095367432
+      ],
+      [
+        3.2060000896453857,
+        5.300000190734863
+      ]
+    ],
+    "scale": [
+      1.0007829062664853,
+      0.8031110570417674,
+      1.0156161870268794
+    ],
+    "objects": [
+      "LIB_Door_L2_WARDROBE_DOOR_Latch_PREPARED",
+      "LIB_Door_L2_WARDROBE_DOOR_Latch.001_PREPARED",
+      "LIB_Door_L2_WARDROBE_DOOR_Hinge Pin.002_PREPARED",
+      "LIB_Door_L2_WARDROBE_DOOR_Hinge Door Side.002_PREPARED",
+      "LIB_Door_L2_WARDROBE_DOOR_Handle_PREPARED",
+      "LIB_Door_L2_WARDROBE_DOOR_Handle Base_PREPARED",
+      "LIB_Door_L2_WARDROBE_DOOR_Door.001_PREPARED",
+      "LIB_Door_L2_WARDROBE_DOOR_Door Frame_PREPARED",
+      "LIB_Door_L2_WARDROBE_DOOR_Cube_PREPARED"
+    ]
+  },
+  {
+    "label": "Door_L2_FRONT_BEDROOM_DOOR",
+    "role": "hinged_door",
+    "group": "Upper_Hall",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/5b017692-720c-4d46-942a-3e69bb30d817/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.26918888092041,
+        8.210000038146973
+      ],
+      [
+        3.375518321990967,
+        4.322499752044678
+      ],
+      [
+        3.2060000896453857,
+        5.300000190734863
+      ]
+    ],
+    "scale": [
+      1.0325713590537022,
+      1.0007832906856433,
+      1.0156161870268794
+    ],
+    "objects": [
+      "LIB_Door_L2_FRONT_BEDROOM_DOOR_Latch_PREPARED",
+      "LIB_Door_L2_FRONT_BEDROOM_DOOR_Latch.001_PREPARED",
+      "LIB_Door_L2_FRONT_BEDROOM_DOOR_Hinge Pin.002_PREPARED",
+      "LIB_Door_L2_FRONT_BEDROOM_DOOR_Hinge Door Side.002_PREPARED",
+      "LIB_Door_L2_FRONT_BEDROOM_DOOR_Handle_PREPARED",
+      "LIB_Door_L2_FRONT_BEDROOM_DOOR_Handle Base_PREPARED",
+      "LIB_Door_L2_FRONT_BEDROOM_DOOR_Door.001_PREPARED",
+      "LIB_Door_L2_FRONT_BEDROOM_DOOR_Door Frame_PREPARED",
+      "LIB_Door_L2_FRONT_BEDROOM_DOOR_Cube_PREPARED"
+    ]
+  },
+  {
+    "label": "Door_L2_SIDE_BEDROOM_DOOR",
+    "role": "hinged_door",
+    "group": "Upper_Hall",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/5b017692-720c-4d46-942a-3e69bb30d817/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.317499160766602,
+        9.264481544494629
+      ],
+      [
+        4.259188175201416,
+        5.199999809265137
+      ],
+      [
+        3.2060000896453857,
+        5.300000190734863
+      ]
+    ],
+    "scale": [
+      1.0007829062664853,
+      1.0325713590537011,
+      1.0156161870268794
+    ],
+    "objects": [
+      "LIB_Door_L2_SIDE_BEDROOM_DOOR_Latch_PREPARED",
+      "LIB_Door_L2_SIDE_BEDROOM_DOOR_Latch.001_PREPARED",
+      "LIB_Door_L2_SIDE_BEDROOM_DOOR_Hinge Pin.002_PREPARED",
+      "LIB_Door_L2_SIDE_BEDROOM_DOOR_Hinge Door Side.002_PREPARED",
+      "LIB_Door_L2_SIDE_BEDROOM_DOOR_Handle_PREPARED",
+      "LIB_Door_L2_SIDE_BEDROOM_DOOR_Handle Base_PREPARED",
+      "LIB_Door_L2_SIDE_BEDROOM_DOOR_Door.001_PREPARED",
+      "LIB_Door_L2_SIDE_BEDROOM_DOOR_Door Frame_PREPARED",
+      "LIB_Door_L2_SIDE_BEDROOM_DOOR_Cube_PREPARED"
+    ]
+  },
+  {
+    "label": "Door_STORAGE",
+    "role": "hinged_door",
+    "group": "Entry",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/5b017692-720c-4d46-942a-3e69bb30d817/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        5.9027581214904785,
+        6.599055767059326
+      ],
+      [
+        7.932440757751465,
+        8.680000305175781
+      ],
+      [
+        0.006000000052154064,
+        2.0999999046325684
+      ]
+    ],
+    "scale": [
+      1.0007829062664853,
+      0.8031110570417664,
+      1.0156161870268792
+    ],
+    "objects": [
+      "LIB_Door_STORAGE_Latch_PREPARED",
+      "LIB_Door_STORAGE_Latch.001_PREPARED",
+      "LIB_Door_STORAGE_Hinge Pin.002_PREPARED",
+      "LIB_Door_STORAGE_Hinge Door Side.002_PREPARED",
+      "LIB_Door_STORAGE_Handle_PREPARED",
+      "LIB_Door_STORAGE_Handle Base_PREPARED",
+      "LIB_Door_STORAGE_Door.001_PREPARED",
+      "LIB_Door_STORAGE_Door Frame_PREPARED",
+      "LIB_Door_STORAGE_Cube_PREPARED"
+    ]
+  },
+  {
+    "label": "Bedroom_Makeup_Vanity",
+    "role": "makeup_vanity",
+    "group": "Bedroom",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/63ec816c-6778-43a5-b9aa-e9529b50ebbf/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.635000228881836,
+        7.115000247955322
+      ],
+      [
+        10.694999694824219,
+        11.794999122619629
+      ],
+      [
+        3.1999998092651367,
+        3.978541374206543
+      ]
+    ],
+    "scale": [
+      0.6329750495988976,
+      0.7418153970365792,
+      0.8423880251636253
+    ],
+    "objects": [
+      "LIB_Bedroom_Makeup_Vanity_Plane_PREPARED",
+      "LIB_Bedroom_Makeup_Vanity_Plane.004_PREPARED",
+      "LIB_Bedroom_Makeup_Vanity_Plane.003_PREPARED",
+      "LIB_Bedroom_Makeup_Vanity_Plane.001_PREPARED",
+      "R12_Vanity_Plinth_0",
+      "R12_Vanity_Side_0_10.744",
+      "R12_Vanity_Side_0_10.946000000000002",
+      "R12_Vanity_Back_0",
+      "R12_Vanity_Support_0_3.269",
+      "R12_Vanity_Support_0_3.903",
+      "R12_Vanity_Drawer_Base_0_0",
+      "R12_Vanity_Drawer_Side_0_0_10.753",
+      "R12_Vanity_Drawer_Side_0_0_10.937000000000001",
+      "R12_Vanity_Drawer_Back_0_0",
+      "R12_Vanity_Drawer_Front_0_0",
+      "R12_Vanity_Drawer_Pull_0_0",
+      "R12_Vanity_Drawer_Base_0_1",
+      "R12_Vanity_Drawer_Side_0_1_10.753",
+      "R12_Vanity_Drawer_Side_0_1_10.937000000000001",
+      "R12_Vanity_Drawer_Back_0_1",
+      "R12_Vanity_Drawer_Front_0_1",
+      "R12_Vanity_Drawer_Pull_0_1",
+      "R12_Vanity_Drawer_Base_0_2",
+      "R12_Vanity_Drawer_Side_0_2_10.753",
+      "R12_Vanity_Drawer_Side_0_2_10.937000000000001",
+      "R12_Vanity_Drawer_Back_0_2",
+      "R12_Vanity_Drawer_Front_0_2",
+      "R12_Vanity_Drawer_Pull_0_2",
+      "R12_Vanity_Plinth_1",
+      "R12_Vanity_Side_1_11.543999999999999",
+      "R12_Vanity_Side_1_11.746",
+      "R12_Vanity_Back_1",
+      "R12_Vanity_Support_1_3.269",
+      "R12_Vanity_Support_1_3.903",
+      "R12_Vanity_Drawer_Base_1_0",
+      "R12_Vanity_Drawer_Side_1_0_11.552999999999999",
+      "R12_Vanity_Drawer_Side_1_0_11.737",
+      "R12_Vanity_Drawer_Back_1_0",
+      "R12_Vanity_Drawer_Front_1_0",
+      "R12_Vanity_Drawer_Pull_1_0",
+      "R12_Vanity_Drawer_Base_1_1",
+      "R12_Vanity_Drawer_Side_1_1_11.552999999999999",
+      "R12_Vanity_Drawer_Side_1_1_11.737",
+      "R12_Vanity_Drawer_Back_1_1",
+      "R12_Vanity_Drawer_Front_1_1",
+      "R12_Vanity_Drawer_Pull_1_1",
+      "R12_Vanity_Drawer_Base_1_2",
+      "R12_Vanity_Drawer_Side_1_2_11.552999999999999",
+      "R12_Vanity_Drawer_Side_1_2_11.737",
+      "R12_Vanity_Drawer_Back_1_2",
+      "R12_Vanity_Drawer_Front_1_2",
+      "R12_Vanity_Drawer_Pull_1_2"
+    ],
+    "custom_modification": "Original marble top retained; two 220mm drawer pedestals replace metal legs; six drawers"
+  },
+  {
+    "label": "Bedroom_Makeup_Cream",
+    "role": "cosmetic_jar",
+    "group": "Bedroom",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/a9643598-d111-4743-afc6-6ae89b14dc83/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.907500267028809,
+        6.972499847412109
+      ],
+      [
+        11.4975004196167,
+        11.5625
+      ],
+      [
+        3.9669995307922363,
+        4.026999473571777
+      ]
+    ],
+    "scale": [
+      0.8623339871728577,
+      0.9765872576505976,
+      0.9241738170745603
+    ],
+    "objects": [
+      "LIB_Bedroom_Makeup_Cream_thread_PREPARED",
+      "LIB_Bedroom_Makeup_Cream_label_PREPARED",
+      "LIB_Bedroom_Makeup_Cream_glass_PREPARED",
+      "LIB_Bedroom_Makeup_Cream_cream_PREPARED",
+      "LIB_Bedroom_Makeup_Cream_cover_PREPARED",
+      "LIB_Bedroom_Makeup_Cream_cover.002_PREPARED",
+      "LIB_Bedroom_Makeup_Cream_cover.001_PREPARED"
+    ]
+  },
+  {
+    "label": "Bedroom_Makeup_Tray",
+    "role": "bath_accessories",
+    "group": "Bedroom",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/e69e8001-c1a0-495f-ae90-9c967d128c6c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.880000114440918,
+        7.0
+      ],
+      [
+        11.380000114440918,
+        11.460000038146973
+      ],
+      [
+        3.9669976234436035,
+        3.9789977073669434
+      ]
+    ],
+    "scale": [
+      0.3391138036376058,
+      0.5399171244159549,
+      0.3091144248834953
+    ],
+    "objects": [
+      "LIB_Bedroom_Makeup_Tray_Delphine Tray White_PREPARED"
+    ]
+  },
+  {
+    "label": "Child_Single_Bed",
+    "role": "child_bed",
+    "group": "Child_Room",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/d7c52dd0-81a1-4635-81b0-4062a795e336/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        5.520000457763672,
+        6.5400004386901855
+      ],
+      [
+        0.5300002098083496,
+        2.5900001525878906
+      ],
+      [
+        3.200000047683716,
+        4.0
+      ]
+    ],
+    "scale": [
+      1.0609589577719338,
+      1.2034659782886246,
+      1.1619722349557675
+    ],
+    "objects": [
+      "LIB_Child_Single_Bed_Plane.009_PREPARED",
+      "LIB_Child_Single_Bed_Plane.007_PREPARED",
+      "LIB_Child_Single_Bed_Plane.006_PREPARED",
+      "LIB_Child_Single_Bed_Plane.005_PREPARED",
+      "LIB_Child_Single_Bed_Plane.004_PREPARED",
+      "LIB_Child_Single_Bed_Plane.003_PREPARED",
+      "LIB_Child_Single_Bed_Plane.002_PREPARED",
+      "LIB_Child_Single_Bed_Plane.001_PREPARED",
+      "LIB_Child_Single_Bed_handle closet.003_PREPARED",
+      "LIB_Child_Single_Bed_handle closet.002_PREPARED",
+      "LIB_Child_Single_Bed_handle closet.001_PREPARED",
+      "LIB_Child_Single_Bed_Cube_PREPARED",
+      "LIB_Child_Single_Bed_Cube.001_PREPARED",
+      "LIB_Child_Single_Bed_childbed3_PREPARED",
+      "LIB_Child_Single_Bed_childbed3.001_PREPARED"
+    ]
+  },
+  {
+    "label": "Child_Desk",
+    "role": "desk_wooden",
+    "group": "Child_Room",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/9931fdd8-30a6-4b32-af05-b9f50a901eb0/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.704999923706055,
+        8.305000305175781
+      ],
+      [
+        0.7199999094009399,
+        2.059999942779541
+      ],
+      [
+        3.200000047683716,
+        4.100000381469727
+      ]
+    ],
+    "scale": [
+      0.6380952670730985,
+      0.5999999284744347,
+      0.9574468412945432
+    ],
+    "objects": [
+      "LIB_Child_Desk_Wooden modern Desk_PREPARED"
+    ]
+  },
+  {
+    "label": "Child_Desk_Chair",
+    "role": "dining_chair",
+    "group": "Child_Room",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/6089f275-3f1e-4304-822c-b9ca8403b011/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.930000305175781,
+        7.449999809265137
+      ],
+      [
+        1.1400001049041748,
+        1.6400001049041748
+      ],
+      [
+        3.200000047683716,
+        4.0
+      ]
+    ],
+    "scale": [
+      0.8524063466340442,
+      0.7921467628739535,
+      0.9948373549623076
+    ],
+    "objects": [
+      "LIB_Child_Desk_Chair_Chair_PREPARED"
+    ]
+  },
+  {
+    "label": "Child_Wardrobe",
+    "role": "wardrobe",
+    "group": "Child_Room",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/e5ed3e5f-f06c-4bf5-ae4c-28b65c00d65d/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        5.549999713897705,
+        7.150000095367432
+      ],
+      [
+        3.5799996852874756,
+        4.159999847412109
+      ],
+      [
+        3.200000047683716,
+        5.875
+      ]
+    ],
+    "scale": [
+      0.9354829644322125,
+      0.603960330457557,
+      1.1630433818117736
+    ],
+    "objects": [
+      "LIB_Child_Wardrobe_Modern Wardrobe_PREPARED"
+    ]
+  },
+  {
+    "label": "Child_Play_Rug",
+    "role": "rug",
+    "group": "Child_Room",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/cbb45e91-fb1c-4cc3-834c-1af5ba1deb60/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.194999694824219,
+        7.644999980926514
+      ],
+      [
+        2.0399999618530273,
+        3.0399999618530273
+      ],
+      [
+        3.202000141143799,
+        3.2110002040863037
+      ]
+    ],
+    "scale": [
+      0.9333333333333332,
+      0.6744185747360152,
+      1.7996791932994873
+    ],
+    "objects": [
+      "LIB_Child_Play_Rug_Tapis 7.001_PREPARED"
+    ]
+  },
+  {
+    "label": "Child_Plush_Toy",
+    "role": "child_toy",
+    "group": "Child_Room",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/622c7af4-51d4-402f-b8a7-a9b26fb1ce6c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        6.059999942779541,
+        6.259999752044678
+      ],
+      [
+        1.3799998760223389,
+        1.659999966621399
+      ],
+      [
+        3.8114891052246094,
+        4.061489105224609
+      ]
+    ],
+    "scale": [
+      0.5291280333323978,
+      0.4515551631977995,
+      0.5048749887001182
+    ],
+    "objects": [
+      "LIB_Child_Plush_Toy_Kids Toy Fur_PREPARED"
+    ]
+  },
+  {
+    "label": "Child_Desk_Books",
+    "role": "books",
+    "group": "Child_Room",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/585219d4-27fe-4d13-ac40-f8dfbfab8c62/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.974999904632568,
+        8.225000381469727
+      ],
+      [
+        0.8700000047683716,
+        1.0499999523162842
+      ],
+      [
+        3.9669573307037354,
+        4.166957378387451
+      ]
+    ],
+    "scale": [
+      0.950809004669315,
+      0.6747851128481823,
+      0.6491357454230489
+    ],
+    "objects": [
+      "LIB_Child_Desk_Books_sapiens_PREPARED",
+      "LIB_Child_Desk_Books_Mark Manson_PREPARED",
+      "LIB_Child_Desk_Books_ikigai_PREPARED",
+      "LIB_Child_Desk_Books_hygge_PREPARED",
+      "LIB_Child_Desk_Books_how to_PREPARED",
+      "LIB_Child_Desk_Books_green_PREPARED",
+      "LIB_Child_Desk_Books_factfullness_PREPARED",
+      "LIB_Child_Desk_Books_Book Collectipon 01_PREPARED",
+      "LIB_Child_Desk_Books_1984_PREPARED"
+    ]
+  },
+  {
+    "label": "Child_Pencil_Cup",
+    "role": "bath_accessories",
+    "group": "Child_Room",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/e69e8001-c1a0-495f-ae90-9c967d128c6c/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.90749979019165,
+        7.972499847412109
+      ],
+      [
+        1.817500114440918,
+        1.8825000524520874
+      ],
+      [
+        3.9669575691223145,
+        4.066957473754883
+      ]
+    ],
+    "scale": [
+      0.8329308131473981,
+      0.8329308529090705,
+      1.016197410023138
+    ],
+    "objects": [
+      "LIB_Child_Pencil_Cup_Delphine Tumbler White_PREPARED"
+    ]
+  },
+  {
+    "label": "Child_Art",
+    "role": "wall_art",
+    "group": "Child_Room",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/41236cc9-007d-4750-90f3-e4563842ae27/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        5.498500347137451,
+        5.523500442504883
+      ],
+      [
+        1.0999996662139893,
+        1.999999761581421
+      ],
+      [
+        4.440000057220459,
+        5.059999942779541
+      ]
+    ],
+    "scale": [
+      0.9827374530331392,
+      1.2653093437173737,
+      0.5904761502531949
+    ],
+    "objects": [
+      "LIB_Child_Art_Image_PREPARED",
+      "LIB_Child_Art_Glass_PREPARED",
+      "LIB_Child_Art_Cube_PREPARED",
+      "LIB_Child_Art_Cube.003_PREPARED",
+      "LIB_Child_Art_Cube.002_PREPARED",
+      "LIB_Child_Art_Cube.001_PREPARED",
+      "LIB_Child_Art_Back Board_PREPARED"
+    ]
+  },
+  {
+    "label": "Bedroom_Wall_Makeup_Mirror",
+    "role": "round_makeup_mirror",
+    "group": "Bedroom",
+    "level": 2,
+    "source_url": "",
+    "license": "PROJECT_CUSTOM",
+    "bounds": [
+      [
+        6.6479997634887695,
+        6.665999889373779
+      ],
+      [
+        10.838000297546387,
+        11.651999473571777
+      ],
+      [
+        4.2729997634887695,
+        5.086999893188477
+      ]
+    ],
+    "objects": [
+      "R12_Round_Mirror_Glass",
+      "R12_Round_Mirror_Frame"
+    ]
+  },
+  {
+    "label": "Dining_Chair_3",
+    "role": "dining_chair",
+    "group": "Living_Dining",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/6089f275-3f1e-4304-822c-b9ca8403b011/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        7.730000019073486,
+        8.25
+      ],
+      [
+        8.530000686645508,
+        9.090001106262207
+      ],
+      [
+        0.0,
+        0.8100000619888306
+      ]
+    ],
+    "scale": [
+      0.8865026004994061,
+      0.853081129248873,
+      1.0072728218993365
+    ],
+    "objects": [
+      "LIB_Dining_Chair_3_Chair"
+    ]
+  },
+  {
+    "label": "Dining_Chair_4",
+    "role": "dining_chair",
+    "group": "Living_Dining",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/6089f275-3f1e-4304-822c-b9ca8403b011/",
+    "license": "royalty_free",
+    "bounds": [
+      [
+        8.729998588562012,
+        9.249999046325684
+      ],
+      [
+        8.530000686645508,
+        9.090001106262207
+      ],
+      [
+        0.0,
+        0.8100000619888306
+      ]
+    ],
+    "scale": [
+      0.8865026004994061,
+      0.853081129248873,
+      1.0072728218993365
+    ],
+    "objects": [
+      "LIB_Dining_Chair_4_Chair"
+    ]
+  },
+  {
+    "label": "TV_Continuous_Plain_Wall",
+    "role": "custom_tv_finish",
+    "group": "Living_Dining",
+    "level": 1,
+    "source_url": "",
+    "license": "PROJECT_CUSTOM",
+    "objects": [
+      "R7_TV_Continuous_Plaster"
+    ],
+    "bounds": [
+      [
+        6.619999885559082,
+        6.63599967956543
+      ],
+      [
+        8.680000305175781,
+        10.809999465942383
+      ],
+      [
+        0.0,
+        2.9000000953674316
+      ]
+    ]
+  },
+  {
+    "label": "Laundry_Stacking_Kit",
+    "role": "stacking_kit",
+    "group": "Laundry",
+    "level": 1,
+    "source_url": "",
+    "license": "PROJECT_CUSTOM",
+    "objects": [
+      "R7_Laundry_Stacking_Kit"
+    ],
+    "bounds": [
+      [
+        9.6850004196167,
+        10.335000038146973
+      ],
+      [
+        3.1500000953674316,
+        3.75
+      ],
+      [
+        0.8600000143051147,
+        0.8899999856948853
+      ]
+    ]
+  },
+  {
+    "label": "Laundry_Gas_Boiler",
+    "role": "generic_gas_boiler",
+    "group": "Laundry",
+    "level": 1,
+    "source_url": "",
+    "license": "PROJECT_CUSTOM",
+    "objects": [
+      "R7_Gas_Boiler_Body",
+      "R7_Boiler_Control_Panel",
+      "R7_Boiler_Display",
+      "R7_Boiler_Control_Knob_3.43",
+      "R7_Boiler_Control_Knob_3.65",
+      "R7_Boiler_Proposed_Connector_0",
+      "R7_Boiler_Proposed_Connector_1",
+      "R7_Boiler_Proposed_Connector_2",
+      "R7_Boiler_Proposed_Connector_3",
+      "R7_Boiler_Proposed_Connector_4",
+      "R7_Boiler_Flue_Connection_Only"
+    ],
+    "bounds": [
+      [
+        9.995999336242676,
+        10.37399959564209
+      ],
+      [
+        2.6599998474121094,
+        3.0999999046325684
+      ],
+      [
+        1.409999966621399,
+        2.4100000858306885
+      ]
+    ]
+  },
+  {
+    "label": "Laundry_Aligned_Tower",
+    "role": "custom_laundry_joinery",
+    "group": "Laundry",
+    "level": 1,
+    "source_url": "",
+    "license": "PROJECT_CUSTOM",
+    "objects": [
+      "R9_Tower_Side_2.652",
+      "R9_Tower_Side_3.288",
+      "R9_Tower_Upper_Shelf_1.81",
+      "R9_Tower_Upper_Shelf_2.61",
+      "R9_Tower_Upper_Front",
+      "R9_Tower_Upper_Pull"
+    ],
+    "bounds": [
+      [
+        9.668999671936035,
+        10.359999656677246
+      ],
+      [
+        3.122999906539917,
+        3.7770001888275146
+      ],
+      [
+        0.03000009059906006,
+        2.619999885559082
+      ]
+    ]
+  },
+  {
+    "label": "Laundry_Boiler_Low_Storage",
+    "role": "custom_ventilated_bins",
+    "group": "Laundry",
+    "level": 1,
+    "source_url": "",
+    "license": "PROJECT_CUSTOM",
+    "objects": [
+      "R9_Potato_Base",
+      "R9_Potato_Side_3.337",
+      "R9_Potato_Side_3.767",
+      "R9_Potato_Back",
+      "R9_Potato_Vent_Front_0",
+      "R9_Potato_Vent_Front_1",
+      "R9_Potato_Vent_Front_2",
+      "R9_Potato_Vent_Front_3",
+      "R9_Potato_Vent_Front_4",
+      "R9_Potato_Vent_Front_5",
+      "R9_Potato_Pull",
+      "R9_Vegetable_Base_0",
+      "R9_Vegetable_Side_0_3.3400000000000003",
+      "R9_Vegetable_Side_0_3.544",
+      "R9_Vegetable_Back_0",
+      "R9_Vegetable_Vent_Front_0_0",
+      "R9_Vegetable_Vent_Front_0_1",
+      "R9_Vegetable_Vent_Front_0_2",
+      "R9_Vegetable_Vent_Front_0_3",
+      "R9_Vegetable_Pull_0",
+      "R9_Vegetable_Base_1",
+      "R9_Vegetable_Side_1_3.56",
+      "R9_Vegetable_Side_1_3.764",
+      "R9_Vegetable_Back_1",
+      "R9_Vegetable_Vent_Front_1_0",
+      "R9_Vegetable_Vent_Front_1_1",
+      "R9_Vegetable_Vent_Front_1_2",
+      "R9_Vegetable_Vent_Front_1_3",
+      "R9_Vegetable_Pull_1",
+      "R9_Potato_Sack",
+      "R11_Boiler_Bin_Side_2.659",
+      "R11_Boiler_Bin_Side_3.101",
+      "R11_Boiler_Bin_Back",
+      "R11_Boiler_Bin_Shelf_0.105",
+      "R11_Boiler_Bin_Shelf_0.685",
+      "R11_Boiler_Bin_Shelf_1.13"
+    ],
+    "bounds": [
+      [
+        9.654999732971191,
+        10.34000015258789
+      ],
+      [
+        2.6499998569488525,
+        3.1100001335144043
+      ],
+      [
+        0.029999971389770508,
+        1.1399999856948853
+      ]
+    ]
+  },
+  {
+    "label": "Laundry_Shallow_Pantry",
+    "role": "custom_sidewall_pantry",
+    "group": "Laundry",
+    "level": 1,
+    "source_url": "",
+    "license": "PROJECT_CUSTOM",
+    "objects": [
+      "R11_Side_Pantry_Side_8.499",
+      "R11_Side_Pantry_Side_9.121",
+      "R11_Side_Pantry_Back",
+      "R11_Side_Pantry_Shelf_0.105",
+      "R11_Side_Pantry_Shelf_0.685",
+      "R11_Side_Pantry_Shelf_1.12",
+      "R11_Side_Pantry_Shelf_1.42",
+      "R11_Side_Pantry_Shelf_1.72",
+      "R11_Side_Pantry_Shelf_2.02",
+      "R11_Side_Pantry_Shelf_2.32",
+      "R11_Side_Pantry_Shelf_2.61",
+      "R11_Side_Pantry_Sliding_Front_0",
+      "R11_Side_Pantry_Sliding_Pull_0",
+      "R11_Side_Pantry_Sliding_Front_1",
+      "R11_Side_Pantry_Sliding_Pull_1",
+      "R11_Side_Vegetable_Base_0",
+      "R11_Side_Vegetable_Side_0_8.515",
+      "R11_Side_Vegetable_Side_0_9.105",
+      "R11_Side_Vegetable_Back_0",
+      "R11_Side_Vegetable_Vent_0_0",
+      "R11_Side_Vegetable_Vent_0_1",
+      "R11_Side_Vegetable_Vent_0_2",
+      "R11_Side_Vegetable_Vent_0_3",
+      "R11_Side_Vegetable_Vent_0_4",
+      "R11_Side_Vegetable_Vent_0_5",
+      "R11_Side_Vegetable_Pull_0",
+      "R11_Side_Vegetable_Base_1",
+      "R11_Side_Vegetable_Side_1_8.515",
+      "R11_Side_Vegetable_Side_1_9.105",
+      "R11_Side_Vegetable_Back_1",
+      "R11_Side_Vegetable_Vent_1_0",
+      "R11_Side_Vegetable_Vent_1_1",
+      "R11_Side_Vegetable_Vent_1_2",
+      "R11_Side_Vegetable_Vent_1_3",
+      "R11_Side_Vegetable_Pull_1",
+      "R11_Preserves_Jar_0_0_0",
+      "R11_Preserves_Lid_0_0_0",
+      "R11_Preserves_Jar_0_0_1",
+      "R11_Preserves_Lid_0_0_1",
+      "R11_Preserves_Jar_0_0_2",
+      "R11_Preserves_Lid_0_0_2",
+      "R11_Preserves_Jar_0_0_3",
+      "R11_Preserves_Lid_0_0_3",
+      "R11_Preserves_Jar_0_0_4",
+      "R11_Preserves_Lid_0_0_4",
+      "R11_Preserves_Jar_0_0_5",
+      "R11_Preserves_Lid_0_0_5",
+      "R11_Preserves_Jar_0_1_0",
+      "R11_Preserves_Lid_0_1_0",
+      "R11_Preserves_Jar_0_1_1",
+      "R11_Preserves_Lid_0_1_1",
+      "R11_Preserves_Jar_0_1_2",
+      "R11_Preserves_Lid_0_1_2",
+      "R11_Preserves_Jar_0_1_3",
+      "R11_Preserves_Lid_0_1_3",
+      "R11_Preserves_Jar_0_1_4",
+      "R11_Preserves_Lid_0_1_4",
+      "R11_Preserves_Jar_0_1_5",
+      "R11_Preserves_Lid_0_1_5",
+      "R11_Preserves_Jar_1_0_0",
+      "R11_Preserves_Lid_1_0_0",
+      "R11_Preserves_Jar_1_0_1",
+      "R11_Preserves_Lid_1_0_1",
+      "R11_Preserves_Jar_1_0_2",
+      "R11_Preserves_Lid_1_0_2",
+      "R11_Preserves_Jar_1_0_3",
+      "R11_Preserves_Lid_1_0_3",
+      "R11_Preserves_Jar_1_0_4",
+      "R11_Preserves_Lid_1_0_4",
+      "R11_Preserves_Jar_1_0_5",
+      "R11_Preserves_Lid_1_0_5",
+      "R11_Preserves_Jar_1_1_0",
+      "R11_Preserves_Lid_1_1_0",
+      "R11_Preserves_Jar_1_1_1",
+      "R11_Preserves_Lid_1_1_1",
+      "R11_Preserves_Jar_1_1_2",
+      "R11_Preserves_Lid_1_1_2",
+      "R11_Preserves_Jar_1_1_3",
+      "R11_Preserves_Lid_1_1_3",
+      "R11_Preserves_Jar_1_1_4",
+      "R11_Preserves_Lid_1_1_4",
+      "R11_Preserves_Jar_1_1_5",
+      "R11_Preserves_Lid_1_1_5",
+      "R11_Preserves_Jar_2_0_0",
+      "R11_Preserves_Lid_2_0_0",
+      "R11_Preserves_Jar_2_0_1",
+      "R11_Preserves_Lid_2_0_1",
+      "R11_Preserves_Jar_2_0_2",
+      "R11_Preserves_Lid_2_0_2",
+      "R11_Preserves_Jar_2_0_3",
+      "R11_Preserves_Lid_2_0_3",
+      "R11_Preserves_Jar_2_0_4",
+      "R11_Preserves_Lid_2_0_4",
+      "R11_Preserves_Jar_2_0_5",
+      "R11_Preserves_Lid_2_0_5",
+      "R11_Preserves_Jar_2_1_0",
+      "R11_Preserves_Lid_2_1_0",
+      "R11_Preserves_Jar_2_1_1",
+      "R11_Preserves_Lid_2_1_1",
+      "R11_Preserves_Jar_2_1_2",
+      "R11_Preserves_Lid_2_1_2",
+      "R11_Preserves_Jar_2_1_3",
+      "R11_Preserves_Lid_2_1_3",
+      "R11_Preserves_Jar_2_1_4",
+      "R11_Preserves_Lid_2_1_4",
+      "R11_Preserves_Jar_2_1_5",
+      "R11_Preserves_Lid_2_1_5",
+      "R11_Preserves_Jar_3_0_0",
+      "R11_Preserves_Lid_3_0_0",
+      "R11_Preserves_Jar_3_0_1",
+      "R11_Preserves_Lid_3_0_1",
+      "R11_Preserves_Jar_3_0_2",
+      "R11_Preserves_Lid_3_0_2",
+      "R11_Preserves_Jar_3_0_3",
+      "R11_Preserves_Lid_3_0_3",
+      "R11_Preserves_Jar_3_0_4",
+      "R11_Preserves_Lid_3_0_4",
+      "R11_Preserves_Jar_3_0_5",
+      "R11_Preserves_Lid_3_0_5",
+      "R11_Preserves_Jar_3_1_0",
+      "R11_Preserves_Lid_3_1_0",
+      "R11_Preserves_Jar_3_1_1",
+      "R11_Preserves_Lid_3_1_1",
+      "R11_Preserves_Jar_3_1_2",
+      "R11_Preserves_Lid_3_1_2",
+      "R11_Preserves_Jar_3_1_3",
+      "R11_Preserves_Lid_3_1_3",
+      "R11_Preserves_Jar_3_1_4",
+      "R11_Preserves_Lid_3_1_4",
+      "R11_Preserves_Jar_3_1_5",
+      "R11_Preserves_Lid_3_1_5",
+      "R11_Preserves_Jar_4_0_0",
+      "R11_Preserves_Lid_4_0_0",
+      "R11_Preserves_Jar_4_0_1",
+      "R11_Preserves_Lid_4_0_1",
+      "R11_Preserves_Jar_4_0_2",
+      "R11_Preserves_Lid_4_0_2",
+      "R11_Preserves_Jar_4_0_3",
+      "R11_Preserves_Lid_4_0_3",
+      "R11_Preserves_Jar_4_0_4",
+      "R11_Preserves_Lid_4_0_4",
+      "R11_Preserves_Jar_4_0_5",
+      "R11_Preserves_Lid_4_0_5",
+      "R11_Preserves_Jar_4_1_0",
+      "R11_Preserves_Lid_4_1_0",
+      "R11_Preserves_Jar_4_1_1",
+      "R11_Preserves_Lid_4_1_1",
+      "R11_Preserves_Jar_4_1_2",
+      "R11_Preserves_Lid_4_1_2",
+      "R11_Preserves_Jar_4_1_3",
+      "R11_Preserves_Lid_4_1_3",
+      "R11_Preserves_Jar_4_1_4",
+      "R11_Preserves_Lid_4_1_4",
+      "R11_Preserves_Jar_4_1_5",
+      "R11_Preserves_Lid_4_1_5"
+    ],
+    "bounds": [
+      [
+        8.489999771118164,
+        9.070000648498535
+      ],
+      [
+        3.4789998531341553,
+        3.7850000858306885
+      ],
+      [
+        0.03000009059906006,
+        2.619999885559082
+      ]
+    ]
+  },
+  {
+    "label": "Kitchen_Tall_Corner_Pantry",
+    "role": "oak_pivot_bookcase_and_rounded_white_corner_shelves",
+    "group": "Kitchen",
+    "level": 1,
+    "source_url": "",
+    "license": "PROJECT_CUSTOM",
+    "objects": [
+      "R13_Pantry_Side_9.359",
+      "R13_Pantry_Side_10.381",
+      "R13_Pantry_Back",
+      "R13_Pantry_Fixed_Shelf_0.109",
+      "R13_Pantry_Fixed_Shelf_2.866",
+      "R13_Pantry_Toe_Kick",
+      "R13_Pantry_Blind_Front",
+      "R13_Counter_Return_Filler",
+      "R14_Pivot_Outer_Face",
+      "R14_Pivot_Oak_Back",
+      "R14_Pivot_Oak_Side_9.379",
+      "R14_Pivot_Oak_Side_9.711",
+      "R14_Pivot_Oak_Shelf_0",
+      "R14_Pivot_Oak_Front_Lip_0",
+      "R14_Pivot_Oak_Shelf_1",
+      "R14_Pivot_Oak_Front_Lip_1",
+      "R14_Pivot_Oak_Shelf_2",
+      "R14_Pivot_Oak_Front_Lip_2",
+      "R14_Pivot_Oak_Shelf_3",
+      "R14_Pivot_Oak_Front_Lip_3",
+      "R14_Pivot_Oak_Shelf_4",
+      "R14_Pivot_Oak_Front_Lip_4",
+      "R14_Pivot_Oak_Shelf_5",
+      "R14_Pivot_Oak_Front_Lip_5",
+      "R14_Pivot_Oak_Shelf_6",
+      "R14_Pivot_Pull_Handle",
+      "R14_Rounded_White_Corner_Shelf_0",
+      "R14_Rounded_White_Corner_Shelf_1",
+      "R14_Rounded_White_Corner_Shelf_2",
+      "R14_Rounded_White_Corner_Shelf_3",
+      "R14_Rounded_White_Corner_Shelf_4",
+      "R14_Rounded_White_Corner_Shelf_5",
+      "R14_Rounded_White_Corner_Shelf_6",
+      "R14_Pivot_Fixed_Track_0.12",
+      "R14_Pivot_Moving_Hinge_0.12",
+      "R14_Pivot_Fixed_Track_2.79",
+      "R14_Pivot_Moving_Hinge_2.79"
+    ],
+    "bounds": [
+      [
+        9.350000381469727,
+        10.389999389648438
+      ],
+      [
+        3.93999981880188,
+        4.600000381469727
+      ],
+      [
+        0.0,
+        2.875
+      ]
+    ]
+  }
+]

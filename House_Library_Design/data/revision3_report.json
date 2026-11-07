@@ -1,0 +1,2638 @@
+{
+  "revision": 3,
+  "doors": [
+    {
+      "id": "L1_ENTRY_DOOR",
+      "hinge": [
+        8.541324615478516,
+        0.9537366032600403,
+        0.0
+      ],
+      "angle_deg": 90,
+      "frame_fixed": true
+    },
+    {
+      "id": "L1_KITCHEN_DOOR",
+      "hinge": [
+        6.733736515045166,
+        3.848674774169922,
+        0.0
+      ],
+      "angle_deg": 90,
+      "frame_fixed": true
+    },
+    {
+      "id": "L1_WC_DOOR",
+      "hinge": [
+        6.461325168609619,
+        4.983615398406982,
+        0.0
+      ],
+      "angle_deg": -90,
+      "frame_fixed": true
+    },
+    {
+      "id": "L1_LAUNDRY_DOOR",
+      "hinge": [
+        8.411324501037598,
+        2.6236157417297363,
+        0.0
+      ],
+      "angle_deg": -90,
+      "frame_fixed": true
+    },
+    {
+      "id": "L2_REAR_BEDROOM_DOOR",
+      "hinge": [
+        6.770362854003906,
+        8.448675155639648,
+        3.200000047683716
+      ],
+      "angle_deg": 90,
+      "frame_fixed": true
+    },
+    {
+      "id": "L2_BATHROOM_DOOR",
+      "hinge": [
+        8.411324501037598,
+        5.763036251068115,
+        3.200000047683716
+      ],
+      "angle_deg": -90,
+      "frame_fixed": true
+    },
+    {
+      "id": "L2_WARDROBE_DOOR",
+      "hinge": [
+        6.981325149536133,
+        5.223615646362305,
+        3.200000047683716
+      ],
+      "angle_deg": -90,
+      "frame_fixed": true
+    },
+    {
+      "id": "L2_FRONT_BEDROOM_DOOR",
+      "hinge": [
+        7.340363502502441,
+        4.228674411773682,
+        3.200000047683716
+      ],
+      "angle_deg": -90,
+      "frame_fixed": true
+    },
+    {
+      "id": "L2_SIDE_BEDROOM_DOOR",
+      "hinge": [
+        8.411324501037598,
+        4.330362796783447,
+        3.200000047683716
+      ],
+      "angle_deg": -90,
+      "frame_fixed": true
+    },
+    {
+      "id": "STORAGE",
+      "hinge": [
+        6.5663251876831055,
+        8.003615379333496,
+        0.0
+      ],
+      "angle_deg": 90,
+      "frame_fixed": true
+    }
+  ],
+  "electrical_relocations": [
+    {
+      "id": "E1_001_SOCKET",
+      "from": {
+        "id": "E1_001_SOCKET",
+        "room": "Entry",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 5.525,
+        "y_m": 0.7,
+        "height_aff_m": 0.3,
+        "face": "E",
+        "purpose": "Vacuum and general use",
+        "proposed_group": "GROUND_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_001_SOCKET",
+        "room": "Entry",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 6.05,
+        "y_m": 0.245,
+        "height_aff_m": 0.3,
+        "face": "N",
+        "purpose": "Vacuum and general use",
+        "proposed_group": "GROUND_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_018_SOCKET",
+      "from": {
+        "id": "E1_018_SOCKET",
+        "room": "Living",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 9.7,
+        "y_m": 11.797,
+        "height_aff_m": 0.3,
+        "face": "S",
+        "purpose": "Terrace-side general use",
+        "proposed_group": "GROUND_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_018_SOCKET",
+        "room": "Living",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 7.95,
+        "y_m": 11.797,
+        "height_aff_m": 0.3,
+        "face": "S",
+        "purpose": "Terrace-side general use",
+        "proposed_group": "GROUND_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_028_SOCKET",
+      "from": {
+        "id": "E2_028_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 11.365,
+        "y_m": 11.22,
+        "height_aff_m": 0.68,
+        "face": "W",
+        "purpose": "Left bedside charging",
+        "proposed_group": "BEDROOM_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_028_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 10.95,
+        "y_m": 11.797,
+        "height_aff_m": 0.68,
+        "face": "S",
+        "purpose": "Left bedside charging",
+        "proposed_group": "BEDROOM_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_029_SOCKET",
+      "from": {
+        "id": "E2_029_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 11.365,
+        "y_m": 8.8,
+        "height_aff_m": 0.68,
+        "face": "W",
+        "purpose": "Right bedside charging",
+        "proposed_group": "BEDROOM_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_029_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 11.365,
+        "y_m": 8.6,
+        "height_aff_m": 0.68,
+        "face": "W",
+        "purpose": "Right bedside charging",
+        "proposed_group": "BEDROOM_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_030_SWITCH",
+      "from": {
+        "id": "E2_030_SWITCH",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 11.365,
+        "y_m": 11.22,
+        "height_aff_m": 0.98,
+        "face": "W",
+        "purpose": "Bedside scene / ceiling switching",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_030_SWITCH",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 10.95,
+        "y_m": 11.797,
+        "height_aff_m": 0.98,
+        "face": "S",
+        "purpose": "Bedside scene / ceiling switching",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_031_SWITCH",
+      "from": {
+        "id": "E2_031_SWITCH",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 11.365,
+        "y_m": 8.8,
+        "height_aff_m": 0.98,
+        "face": "W",
+        "purpose": "Bedside scene / ceiling switching",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_031_SWITCH",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 11.365,
+        "y_m": 8.6,
+        "height_aff_m": 0.98,
+        "face": "W",
+        "purpose": "Bedside scene / ceiling switching",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_035_SOCKET",
+      "from": {
+        "id": "E2_035_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 6.651,
+        "y_m": 10.95,
+        "height_aff_m": 0.92,
+        "face": "E",
+        "purpose": "Vanity table appliances",
+        "proposed_group": "BEDROOM_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_035_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 6.651,
+        "y_m": 11.6,
+        "height_aff_m": 0.92,
+        "face": "E",
+        "purpose": "Vanity table appliances",
+        "proposed_group": "BEDROOM_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_036_SOCKET",
+      "from": {
+        "id": "E2_036_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 11.365,
+        "y_m": 9.13,
+        "height_aff_m": 0.3,
+        "face": "W",
+        "purpose": "Cleaning / occasional use",
+        "proposed_group": "BEDROOM_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_036_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 6.651,
+        "y_m": 9.12,
+        "height_aff_m": 0.3,
+        "face": "E",
+        "purpose": "Cleaning / occasional use",
+        "proposed_group": "BEDROOM_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_080_SOCKET",
+      "from": {
+        "id": "E2_080_SOCKET",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 10.95,
+        "y_m": 11.797,
+        "height_aff_m": 0.68,
+        "face": "S",
+        "purpose": "Child desk power / charger",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_080_SOCKET",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 7.8,
+        "y_m": 0.245,
+        "height_aff_m": 0.95,
+        "face": "N",
+        "purpose": "Child desk power / charger",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_081_DATA",
+      "from": {
+        "id": "E2_081_DATA",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "DATA",
+        "x_m": 6.651,
+        "y_m": 10.03,
+        "height_aff_m": 1.43,
+        "face": "E",
+        "purpose": "Child desk network",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_081_DATA",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "DATA",
+        "x_m": 7.55,
+        "y_m": 0.245,
+        "height_aff_m": 0.95,
+        "face": "N",
+        "purpose": "Child desk network",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_082_SOCKET",
+      "from": {
+        "id": "E2_082_SOCKET",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 10.95,
+        "y_m": 11.797,
+        "height_aff_m": 0.68,
+        "face": "S",
+        "purpose": "Child bedside charging",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_082_SOCKET",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 5.525,
+        "y_m": 2.6,
+        "height_aff_m": 0.95,
+        "face": "E",
+        "purpose": "Child bedside charging",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_083_SWITCH",
+      "from": {
+        "id": "E2_083_SWITCH",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 7.85,
+        "y_m": 8.543,
+        "height_aff_m": 1.05,
+        "face": "N",
+        "purpose": "Child main and reading light",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 3,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_083_SWITCH",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 7.07,
+        "y_m": 4.155,
+        "height_aff_m": 1.05,
+        "face": "S",
+        "purpose": "Child main and reading light",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 3,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_084_SOCKET",
+      "from": {
+        "id": "E2_084_SOCKET",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 10.95,
+        "y_m": 11.797,
+        "height_aff_m": 0.68,
+        "face": "S",
+        "purpose": "Child cleaning / general use",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_084_SOCKET",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 8.319,
+        "y_m": 3.43,
+        "height_aff_m": 0.3,
+        "face": "W",
+        "purpose": "Child cleaning / general use",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_085_SWITCH",
+      "from": {
+        "id": "E2_085_SWITCH",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 7.85,
+        "y_m": 8.543,
+        "height_aff_m": 1.05,
+        "face": "N",
+        "purpose": "Child bedside switching",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 3,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_085_SWITCH",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 5.525,
+        "y_m": 2.3,
+        "height_aff_m": 1.1,
+        "face": "E",
+        "purpose": "Child bedside switching",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 3,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_090_SWITCH",
+      "from": {
+        "id": "E1_090_SWITCH",
+        "room": "Living",
+        "level": 1,
+        "type": "SWITCH",
+        "x_m": 8.319,
+        "y_m": 2.08,
+        "height_aff_m": 1.05,
+        "face": "W",
+        "purpose": "Living LED strips dimmer",
+        "proposed_group": "GROUND_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_090_SWITCH",
+        "room": "Living",
+        "level": 1,
+        "type": "SWITCH",
+        "x_m": 10.365,
+        "y_m": 7.94,
+        "height_aff_m": 1.05,
+        "face": "W",
+        "purpose": "Living LED strips dimmer",
+        "proposed_group": "GROUND_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_091_SWITCH",
+      "from": {
+        "id": "E2_091_SWITCH",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 7.85,
+        "y_m": 8.543,
+        "height_aff_m": 1.05,
+        "face": "N",
+        "purpose": "Bedroom LED strips dimmer",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 3,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_091_SWITCH",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 8.1,
+        "y_m": 8.543,
+        "height_aff_m": 1.05,
+        "face": "N",
+        "purpose": "Bedroom LED strips dimmer",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 3,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_001_SOCKET",
+      "from": {
+        "id": "E1_001_SOCKET",
+        "room": "Entry",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 6.05,
+        "y_m": 0.245,
+        "height_aff_m": 0.3,
+        "face": "N",
+        "purpose": "Vacuum and general use",
+        "proposed_group": "GROUND_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_001_SOCKET",
+        "room": "Entry",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 6.050000190734863,
+        "y_m": 0.2055000215768814,
+        "height_aff_m": 0.3,
+        "face": "N",
+        "purpose": "Vacuum and general use",
+        "proposed_group": "GROUND_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_002_SOCKET",
+      "from": {
+        "id": "E1_002_SOCKET",
+        "room": "Entry",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 8.0,
+        "y_m": 0.245,
+        "height_aff_m": 0.66,
+        "face": "N",
+        "purpose": "Bench charging",
+        "proposed_group": "GROUND_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_002_SOCKET",
+        "room": "Entry",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 8.0,
+        "y_m": 0.20565000176429749,
+        "height_aff_m": 0.66,
+        "face": "N",
+        "purpose": "Bench charging",
+        "proposed_group": "GROUND_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_003_SWITCH",
+      "from": {
+        "id": "E1_003_SWITCH",
+        "room": "Entry",
+        "level": 1,
+        "type": "SWITCH",
+        "x_m": 8.319,
+        "y_m": 2.08,
+        "height_aff_m": 1.05,
+        "face": "W",
+        "purpose": "Entry + hall light",
+        "proposed_group": "GROUND_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_003_SWITCH",
+        "room": "Entry",
+        "level": 1,
+        "type": "SWITCH",
+        "x_m": 8.334701538085938,
+        "y_m": 2.0799999237060547,
+        "height_aff_m": 1.05,
+        "face": "W",
+        "purpose": "Entry + hall light",
+        "proposed_group": "GROUND_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_004_SWITCH",
+      "from": {
+        "id": "E1_004_SWITCH",
+        "room": "Kitchen",
+        "level": 1,
+        "type": "SWITCH",
+        "x_m": 7.86,
+        "y_m": 3.775,
+        "height_aff_m": 1.05,
+        "face": "S",
+        "purpose": "Kitchen ceiling + task lights",
+        "proposed_group": "GROUND_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_004_SWITCH",
+        "room": "Kitchen",
+        "level": 1,
+        "type": "SWITCH",
+        "x_m": 7.860000133514404,
+        "y_m": 3.794118881225586,
+        "height_aff_m": 1.05,
+        "face": "S",
+        "purpose": "Kitchen ceiling + task lights",
+        "proposed_group": "GROUND_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_005_SOCKET",
+      "from": {
+        "id": "E1_005_SOCKET",
+        "room": "Kitchen",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 9.55,
+        "y_m": 3.973,
+        "height_aff_m": 1.14,
+        "face": "N",
+        "purpose": "Kettle / corner worktop appliances",
+        "proposed_group": "KITCHEN_WORKTOP",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_005_SOCKET",
+        "room": "Kitchen",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 9.550000190734863,
+        "y_m": 3.9253921508789062,
+        "height_aff_m": 1.14,
+        "face": "N",
+        "purpose": "Kettle / corner worktop appliances",
+        "proposed_group": "KITCHEN_WORKTOP",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_006_SOCKET",
+      "from": {
+        "id": "E1_006_SOCKET",
+        "room": "Kitchen",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 10.1,
+        "y_m": 3.973,
+        "height_aff_m": 1.14,
+        "face": "N",
+        "purpose": "Preparation worktop appliances",
+        "proposed_group": "KITCHEN_WORKTOP",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_006_SOCKET",
+        "room": "Kitchen",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 10.100000381469727,
+        "y_m": 3.9253921508789062,
+        "height_aff_m": 1.14,
+        "face": "N",
+        "purpose": "Preparation worktop appliances",
+        "proposed_group": "KITCHEN_WORKTOP",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_007_SOCKET",
+      "from": {
+        "id": "E1_007_SOCKET",
+        "room": "Kitchen",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 8.34,
+        "y_m": 3.973,
+        "height_aff_m": 2.22,
+        "face": "N",
+        "purpose": "Fridge; accessible upper cabinet service position",
+        "proposed_group": "FRIDGE",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_007_SOCKET",
+        "room": "Kitchen",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 8.34000015258789,
+        "y_m": 3.9253921508789062,
+        "height_aff_m": 2.22,
+        "face": "N",
+        "purpose": "Fridge; accessible upper cabinet service position",
+        "proposed_group": "FRIDGE",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_008_SOCKET",
+      "from": {
+        "id": "E1_008_SOCKET",
+        "room": "Kitchen",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 8.88,
+        "y_m": 3.973,
+        "height_aff_m": 2.22,
+        "face": "N",
+        "purpose": "Oven; accessible upper cabinet service position",
+        "proposed_group": "OVEN",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_008_SOCKET",
+        "room": "Kitchen",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 8.880000114440918,
+        "y_m": 3.9253921508789062,
+        "height_aff_m": 2.22,
+        "face": "N",
+        "purpose": "Oven; accessible upper cabinet service position",
+        "proposed_group": "OVEN",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_009_SOCKET",
+      "from": {
+        "id": "E1_009_SOCKET",
+        "room": "Kitchen",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 9.15,
+        "y_m": 3.973,
+        "height_aff_m": 2.22,
+        "face": "N",
+        "purpose": "Microwave; upper cabinet service position",
+        "proposed_group": "MICROWAVE",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_009_SOCKET",
+        "room": "Kitchen",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 9.149999618530273,
+        "y_m": 3.9253921508789062,
+        "height_aff_m": 2.22,
+        "face": "N",
+        "purpose": "Microwave; upper cabinet service position",
+        "proposed_group": "MICROWAVE",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_010_SOCKET",
+      "from": {
+        "id": "E1_010_SOCKET",
+        "room": "Kitchen",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 10.36,
+        "y_m": 6.92,
+        "height_aff_m": 0.35,
+        "face": "W",
+        "purpose": "Dishwasher; adjacent cabinet dry service compartment",
+        "proposed_group": "DISHWASHER",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_010_SOCKET",
+        "room": "Kitchen",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 10.39460277557373,
+        "y_m": 6.920000076293945,
+        "height_aff_m": 0.35,
+        "face": "W",
+        "purpose": "Dishwasher; adjacent cabinet dry service compartment",
+        "proposed_group": "DISHWASHER",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_011_HOB_CONNECTION",
+      "from": {
+        "id": "E1_011_HOB_CONNECTION",
+        "room": "Kitchen",
+        "level": 1,
+        "type": "HOB_CONNECTION",
+        "x_m": 10.36,
+        "y_m": 6.45,
+        "height_aff_m": 0.35,
+        "face": "W",
+        "purpose": "Induction connection; final supply by appliance specification",
+        "proposed_group": "HOB",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_011_HOB_CONNECTION",
+        "room": "Kitchen",
+        "level": 1,
+        "type": "HOB_CONNECTION",
+        "x_m": 10.39460277557373,
+        "y_m": 6.449999809265137,
+        "height_aff_m": 0.35,
+        "face": "W",
+        "purpose": "Induction connection; final supply by appliance specification",
+        "proposed_group": "HOB",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_012_SOCKET",
+      "from": {
+        "id": "E1_012_SOCKET",
+        "room": "Kitchen",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 10.36,
+        "y_m": 6.82,
+        "height_aff_m": 2.3,
+        "face": "W",
+        "purpose": "Extractor hood; service access required",
+        "proposed_group": "HOOD",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_012_SOCKET",
+        "room": "Kitchen",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 10.39460277557373,
+        "y_m": 6.820000171661377,
+        "height_aff_m": 2.3,
+        "face": "W",
+        "purpose": "Extractor hood; service access required",
+        "proposed_group": "HOOD",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_013_SOCKET",
+      "from": {
+        "id": "E1_013_SOCKET",
+        "room": "Living",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 6.675,
+        "y_m": 9.49,
+        "height_aff_m": 1.35,
+        "face": "E",
+        "purpose": "Behind wall-mounted TV",
+        "proposed_group": "MEDIA",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_013_SOCKET",
+        "room": "Living",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 6.635476589202881,
+        "y_m": 9.489999771118164,
+        "height_aff_m": 1.35,
+        "face": "E",
+        "purpose": "Behind wall-mounted TV",
+        "proposed_group": "MEDIA",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_014_DATA",
+      "from": {
+        "id": "E1_014_DATA",
+        "room": "Living",
+        "level": 1,
+        "type": "DATA",
+        "x_m": 6.675,
+        "y_m": 9.76,
+        "height_aff_m": 1.35,
+        "face": "E",
+        "purpose": "TV Ethernet / signal route",
+        "proposed_group": "DATA",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_014_DATA",
+        "room": "Living",
+        "level": 1,
+        "type": "DATA",
+        "x_m": 6.661086559295654,
+        "y_m": 9.760000228881836,
+        "height_aff_m": 1.35,
+        "face": "E",
+        "purpose": "TV Ethernet / signal route",
+        "proposed_group": "DATA",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_015_SOCKET",
+      "from": {
+        "id": "E1_015_SOCKET",
+        "room": "Living",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 6.675,
+        "y_m": 9.8,
+        "height_aff_m": 0.32,
+        "face": "E",
+        "purpose": "Media equipment inside console",
+        "proposed_group": "MEDIA",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_015_SOCKET",
+        "room": "Living",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 6.651934623718262,
+        "y_m": 9.800000190734863,
+        "height_aff_m": 0.32,
+        "face": "E",
+        "purpose": "Media equipment inside console",
+        "proposed_group": "MEDIA",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_016_SOCKET",
+      "from": {
+        "id": "E1_016_SOCKET",
+        "room": "Living",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 10.365,
+        "y_m": 8.76,
+        "height_aff_m": 0.3,
+        "face": "W",
+        "purpose": "Cleaning / occasional appliance",
+        "proposed_group": "GROUND_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_016_SOCKET",
+        "room": "Living",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 10.39460277557373,
+        "y_m": 8.760000228881836,
+        "height_aff_m": 0.3,
+        "face": "W",
+        "purpose": "Cleaning / occasional appliance",
+        "proposed_group": "GROUND_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_017_SOCKET",
+      "from": {
+        "id": "E1_017_SOCKET",
+        "room": "Living",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 10.365,
+        "y_m": 10.55,
+        "height_aff_m": 0.98,
+        "face": "W",
+        "purpose": "Sofa charging / floor lamp",
+        "proposed_group": "GROUND_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_017_SOCKET",
+        "room": "Living",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 10.39460277557373,
+        "y_m": 10.550000190734863,
+        "height_aff_m": 0.98,
+        "face": "W",
+        "purpose": "Sofa charging / floor lamp",
+        "proposed_group": "GROUND_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_018_SOCKET",
+      "from": {
+        "id": "E1_018_SOCKET",
+        "room": "Living",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 7.95,
+        "y_m": 11.797,
+        "height_aff_m": 0.3,
+        "face": "S",
+        "purpose": "Terrace-side general use",
+        "proposed_group": "GROUND_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_018_SOCKET",
+        "room": "Living",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 7.949999809265137,
+        "y_m": 11.82450008392334,
+        "height_aff_m": 0.3,
+        "face": "S",
+        "purpose": "Terrace-side general use",
+        "proposed_group": "GROUND_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_019_SWITCH",
+      "from": {
+        "id": "E1_019_SWITCH",
+        "room": "Living",
+        "level": 1,
+        "type": "SWITCH",
+        "x_m": 10.365,
+        "y_m": 7.77,
+        "height_aff_m": 1.05,
+        "face": "W",
+        "purpose": "Living ceiling + dining pendants",
+        "proposed_group": "GROUND_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_019_SWITCH",
+        "room": "Living",
+        "level": 1,
+        "type": "SWITCH",
+        "x_m": 10.39460277557373,
+        "y_m": 7.769999980926514,
+        "height_aff_m": 1.05,
+        "face": "W",
+        "purpose": "Living ceiling + dining pendants",
+        "proposed_group": "GROUND_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_020_SWITCH",
+      "from": {
+        "id": "E1_020_SWITCH",
+        "room": "Stair_storage",
+        "level": 1,
+        "type": "SWITCH",
+        "x_m": 6.675,
+        "y_m": 7.91,
+        "height_aff_m": 1.05,
+        "face": "E",
+        "purpose": "Storage light",
+        "proposed_group": "GROUND_LIGHT",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_020_SWITCH",
+        "room": "Stair_storage",
+        "level": 1,
+        "type": "SWITCH",
+        "x_m": 6.625499725341797,
+        "y_m": 7.909999847412109,
+        "height_aff_m": 1.05,
+        "face": "E",
+        "purpose": "Storage light",
+        "proposed_group": "GROUND_LIGHT",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_021_SOCKET",
+      "from": {
+        "id": "E1_021_SOCKET",
+        "room": "Stair_storage",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 5.53,
+        "y_m": 8.61,
+        "height_aff_m": 0.3,
+        "face": "E",
+        "purpose": "Cordless vacuum charging",
+        "proposed_group": "GROUND_GENERAL",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_021_SOCKET",
+        "room": "Stair_storage",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 5.495484828948975,
+        "y_m": 8.609999656677246,
+        "height_aff_m": 0.3,
+        "face": "E",
+        "purpose": "Cordless vacuum charging",
+        "proposed_group": "GROUND_GENERAL",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_022_SOCKET",
+      "from": {
+        "id": "E1_022_SOCKET",
+        "room": "Laundry",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 8.99,
+        "y_m": 3.771,
+        "height_aff_m": 1.14,
+        "face": "S",
+        "purpose": "Washer; accessible above counter",
+        "proposed_group": "WASHER",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_022_SOCKET",
+        "room": "Laundry",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 8.989999771118164,
+        "y_m": 3.794118881225586,
+        "height_aff_m": 1.14,
+        "face": "S",
+        "purpose": "Washer; accessible above counter",
+        "proposed_group": "WASHER",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_023_SOCKET",
+      "from": {
+        "id": "E1_023_SOCKET",
+        "room": "Laundry",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 9.64,
+        "y_m": 3.771,
+        "height_aff_m": 1.14,
+        "face": "S",
+        "purpose": "Dryer; accessible above counter",
+        "proposed_group": "DRYER",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_023_SOCKET",
+        "room": "Laundry",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 9.640000343322754,
+        "y_m": 3.794118881225586,
+        "height_aff_m": 1.14,
+        "face": "S",
+        "purpose": "Dryer; accessible above counter",
+        "proposed_group": "DRYER",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_024_SWITCH",
+      "from": {
+        "id": "E1_024_SWITCH",
+        "room": "Laundry",
+        "level": 1,
+        "type": "SWITCH",
+        "x_m": 8.491,
+        "y_m": 3.49,
+        "height_aff_m": 1.05,
+        "face": "E",
+        "purpose": "Laundry light",
+        "proposed_group": "GROUND_LIGHT",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_024_SWITCH",
+        "room": "Laundry",
+        "level": 1,
+        "type": "SWITCH",
+        "x_m": 8.46561050415039,
+        "y_m": 3.490000009536743,
+        "height_aff_m": 1.05,
+        "face": "E",
+        "purpose": "Laundry light",
+        "proposed_group": "GROUND_LIGHT",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_025_SWITCH",
+      "from": {
+        "id": "E1_025_SWITCH",
+        "room": "Ground_WC",
+        "level": 1,
+        "type": "SWITCH",
+        "x_m": 6.548,
+        "y_m": 4.76,
+        "height_aff_m": 1.05,
+        "face": "E",
+        "purpose": "Shower room light / extract control",
+        "proposed_group": "GROUND_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_025_SWITCH",
+        "room": "Ground_WC",
+        "level": 1,
+        "type": "SWITCH",
+        "x_m": 6.515443801879883,
+        "y_m": 4.760000228881836,
+        "height_aff_m": 1.05,
+        "face": "E",
+        "purpose": "Shower room light / extract control",
+        "proposed_group": "GROUND_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_026_SOCKET",
+      "from": {
+        "id": "E1_026_SOCKET",
+        "room": "Ground_WC",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 5.522,
+        "y_m": 6.04,
+        "height_aff_m": 1.12,
+        "face": "E",
+        "purpose": "Grooming point outside shower footprint; wet-zone review required",
+        "proposed_group": "WET_ROOM_REVIEW",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_026_SOCKET",
+        "room": "Ground_WC",
+        "level": 1,
+        "type": "SOCKET",
+        "x_m": 5.495484828948975,
+        "y_m": 6.039999961853027,
+        "height_aff_m": 1.12,
+        "face": "E",
+        "purpose": "Grooming point outside shower footprint; wet-zone review required",
+        "proposed_group": "WET_ROOM_REVIEW",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_070_FAN_POINT",
+      "from": {
+        "id": "E1_070_FAN_POINT",
+        "room": "Ground_WC",
+        "level": 1,
+        "type": "FAN_POINT",
+        "x_m": 5.94,
+        "y_m": 3.975,
+        "height_aff_m": 2.4,
+        "face": "N",
+        "purpose": "Humidity extraction provision; duct and supply specification pending",
+        "proposed_group": "VENTILATION",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_070_FAN_POINT",
+        "room": "Ground_WC",
+        "level": 1,
+        "type": "FAN_POINT",
+        "x_m": 5.940000057220459,
+        "y_m": 3.9253921508789062,
+        "height_aff_m": 2.4,
+        "face": "N",
+        "purpose": "Humidity extraction provision; duct and supply specification pending",
+        "proposed_group": "VENTILATION",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E1_090_SWITCH",
+      "from": {
+        "id": "E1_090_SWITCH",
+        "room": "Living",
+        "level": 1,
+        "type": "SWITCH",
+        "x_m": 10.365,
+        "y_m": 7.94,
+        "height_aff_m": 1.05,
+        "face": "W",
+        "purpose": "Living LED strips dimmer",
+        "proposed_group": "GROUND_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E1_090_SWITCH",
+        "room": "Living",
+        "level": 1,
+        "type": "SWITCH",
+        "x_m": 10.39460277557373,
+        "y_m": 7.940000057220459,
+        "height_aff_m": 1.05,
+        "face": "W",
+        "purpose": "Living LED strips dimmer",
+        "proposed_group": "GROUND_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_027_SWITCH",
+      "from": {
+        "id": "E2_027_SWITCH",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 7.85,
+        "y_m": 8.543,
+        "height_aff_m": 1.05,
+        "face": "N",
+        "purpose": "Bedroom main / reading / ambience",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 3,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_027_SWITCH",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 7.849999904632568,
+        "y_m": 8.525365829467773,
+        "height_aff_m": 1.05,
+        "face": "N",
+        "purpose": "Bedroom main / reading / ambience",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 3,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_028_SOCKET",
+      "from": {
+        "id": "E2_028_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 10.95,
+        "y_m": 11.797,
+        "height_aff_m": 0.68,
+        "face": "S",
+        "purpose": "Left bedside charging",
+        "proposed_group": "BEDROOM_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_028_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 10.949999809265137,
+        "y_m": 11.824599266052246,
+        "height_aff_m": 0.68,
+        "face": "S",
+        "purpose": "Left bedside charging",
+        "proposed_group": "BEDROOM_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_029_SOCKET",
+      "from": {
+        "id": "E2_029_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 11.365,
+        "y_m": 8.6,
+        "height_aff_m": 0.68,
+        "face": "W",
+        "purpose": "Right bedside charging",
+        "proposed_group": "BEDROOM_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_029_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 11.394638061523438,
+        "y_m": 8.600000381469727,
+        "height_aff_m": 0.68,
+        "face": "W",
+        "purpose": "Right bedside charging",
+        "proposed_group": "BEDROOM_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_030_SWITCH",
+      "from": {
+        "id": "E2_030_SWITCH",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 10.95,
+        "y_m": 11.797,
+        "height_aff_m": 0.98,
+        "face": "S",
+        "purpose": "Bedside scene / ceiling switching",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_030_SWITCH",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 10.949999809265137,
+        "y_m": 11.824599266052246,
+        "height_aff_m": 0.98,
+        "face": "S",
+        "purpose": "Bedside scene / ceiling switching",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_031_SWITCH",
+      "from": {
+        "id": "E2_031_SWITCH",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 11.365,
+        "y_m": 8.6,
+        "height_aff_m": 0.98,
+        "face": "W",
+        "purpose": "Bedside scene / ceiling switching",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_031_SWITCH",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 11.394638061523438,
+        "y_m": 8.600000381469727,
+        "height_aff_m": 0.98,
+        "face": "W",
+        "purpose": "Bedside scene / ceiling switching",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_032_SOCKET",
+      "from": {
+        "id": "E2_032_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 6.651,
+        "y_m": 9.75,
+        "height_aff_m": 1.43,
+        "face": "E",
+        "purpose": "TV behind screen",
+        "proposed_group": "BEDROOM_MEDIA",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_032_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 6.615428924560547,
+        "y_m": 9.75,
+        "height_aff_m": 1.43,
+        "face": "E",
+        "purpose": "TV behind screen",
+        "proposed_group": "BEDROOM_MEDIA",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_033_DATA",
+      "from": {
+        "id": "E2_033_DATA",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "DATA",
+        "x_m": 6.651,
+        "y_m": 10.03,
+        "height_aff_m": 1.43,
+        "face": "E",
+        "purpose": "Bedroom TV Ethernet",
+        "proposed_group": "DATA",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_033_DATA",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "DATA",
+        "x_m": 6.615428924560547,
+        "y_m": 10.029999732971191,
+        "height_aff_m": 1.43,
+        "face": "E",
+        "purpose": "Bedroom TV Ethernet",
+        "proposed_group": "DATA",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_034_SOCKET",
+      "from": {
+        "id": "E2_034_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 6.651,
+        "y_m": 10.27,
+        "height_aff_m": 0.32,
+        "face": "E",
+        "purpose": "Media console / soundbar",
+        "proposed_group": "BEDROOM_MEDIA",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_034_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 6.615428924560547,
+        "y_m": 10.270000457763672,
+        "height_aff_m": 0.32,
+        "face": "E",
+        "purpose": "Media console / soundbar",
+        "proposed_group": "BEDROOM_MEDIA",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_035_SOCKET",
+      "from": {
+        "id": "E2_035_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 6.651,
+        "y_m": 11.6,
+        "height_aff_m": 0.92,
+        "face": "E",
+        "purpose": "Vanity table appliances",
+        "proposed_group": "BEDROOM_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_035_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 6.615428924560547,
+        "y_m": 11.600000381469727,
+        "height_aff_m": 0.92,
+        "face": "E",
+        "purpose": "Vanity table appliances",
+        "proposed_group": "BEDROOM_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_036_SOCKET",
+      "from": {
+        "id": "E2_036_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 6.651,
+        "y_m": 9.12,
+        "height_aff_m": 0.3,
+        "face": "E",
+        "purpose": "Cleaning / occasional use",
+        "proposed_group": "BEDROOM_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_036_SOCKET",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 6.615428924560547,
+        "y_m": 9.119999885559082,
+        "height_aff_m": 0.3,
+        "face": "E",
+        "purpose": "Cleaning / occasional use",
+        "proposed_group": "BEDROOM_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_037_SWITCH",
+      "from": {
+        "id": "E2_037_SWITCH",
+        "room": "Office",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 8.488,
+        "y_m": 4.08,
+        "height_aff_m": 1.05,
+        "face": "E",
+        "purpose": "Office general / task / ambience",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 3,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_037_SWITCH",
+        "room": "Office",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 8.465670585632324,
+        "y_m": 4.079999923706055,
+        "height_aff_m": 1.05,
+        "face": "E",
+        "purpose": "Office general / task / ambience",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 3,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_038_SOCKET",
+      "from": {
+        "id": "E2_038_SOCKET",
+        "room": "Office",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 11.363,
+        "y_m": 3.04,
+        "height_aff_m": 1.12,
+        "face": "W",
+        "purpose": "PC, two monitors, task lamp, charger and spare socket",
+        "proposed_group": "OFFICE_1",
+        "modules": 6,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_038_SOCKET",
+        "room": "Office",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 11.394638061523438,
+        "y_m": 3.0399999618530273,
+        "height_aff_m": 1.12,
+        "face": "W",
+        "purpose": "PC, two monitors, task lamp, charger and spare socket",
+        "proposed_group": "OFFICE_1",
+        "modules": 6,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_039_SOCKET",
+      "from": {
+        "id": "E2_039_SOCKET",
+        "room": "Office",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 11.363,
+        "y_m": 4.36,
+        "height_aff_m": 1.12,
+        "face": "W",
+        "purpose": "PC, two monitors, task lamp, charger and spare socket",
+        "proposed_group": "OFFICE_2",
+        "modules": 6,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_039_SOCKET",
+        "room": "Office",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 11.394638061523438,
+        "y_m": 4.360000133514404,
+        "height_aff_m": 1.12,
+        "face": "W",
+        "purpose": "PC, two monitors, task lamp, charger and spare socket",
+        "proposed_group": "OFFICE_2",
+        "modules": 6,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_040_DATA",
+      "from": {
+        "id": "E2_040_DATA",
+        "room": "Office",
+        "level": 2,
+        "type": "DATA",
+        "x_m": 11.363,
+        "y_m": 3.48,
+        "height_aff_m": 1.12,
+        "face": "W",
+        "purpose": "Desk 1 Ethernet",
+        "proposed_group": "DATA",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_040_DATA",
+        "room": "Office",
+        "level": 2,
+        "type": "DATA",
+        "x_m": 11.394638061523438,
+        "y_m": 3.4800000190734863,
+        "height_aff_m": 1.12,
+        "face": "W",
+        "purpose": "Desk 1 Ethernet",
+        "proposed_group": "DATA",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_041_DATA",
+      "from": {
+        "id": "E2_041_DATA",
+        "room": "Office",
+        "level": 2,
+        "type": "DATA",
+        "x_m": 11.363,
+        "y_m": 4.81,
+        "height_aff_m": 1.12,
+        "face": "W",
+        "purpose": "Desk 2 Ethernet",
+        "proposed_group": "DATA",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_041_DATA",
+        "room": "Office",
+        "level": 2,
+        "type": "DATA",
+        "x_m": 11.394638061523438,
+        "y_m": 4.809999942779541,
+        "height_aff_m": 1.12,
+        "face": "W",
+        "purpose": "Desk 2 Ethernet",
+        "proposed_group": "DATA",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_042_SOCKET",
+      "from": {
+        "id": "E2_042_SOCKET",
+        "room": "Office",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 8.488,
+        "y_m": 1.61,
+        "height_aff_m": 1.14,
+        "face": "E",
+        "purpose": "3D printer workbench",
+        "proposed_group": "PRINTER",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_042_SOCKET",
+        "room": "Office",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 8.465670585632324,
+        "y_m": 1.6100000143051147,
+        "height_aff_m": 1.14,
+        "face": "E",
+        "purpose": "3D printer workbench",
+        "proposed_group": "PRINTER",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_043_SOCKET",
+      "from": {
+        "id": "E2_043_SOCKET",
+        "room": "Office",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 8.488,
+        "y_m": 2.69,
+        "height_aff_m": 0.3,
+        "face": "E",
+        "purpose": "Fitness / cleaning",
+        "proposed_group": "OFFICE_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_043_SOCKET",
+        "room": "Office",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 8.465670585632324,
+        "y_m": 2.690000057220459,
+        "height_aff_m": 0.3,
+        "face": "E",
+        "purpose": "Fitness / cleaning",
+        "proposed_group": "OFFICE_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_044_SOCKET",
+      "from": {
+        "id": "E2_044_SOCKET",
+        "room": "Office",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 10.42,
+        "y_m": 0.235,
+        "height_aff_m": 0.3,
+        "face": "N",
+        "purpose": "Balcony-side general use",
+        "proposed_group": "OFFICE_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_044_SOCKET",
+        "room": "Office",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 10.420000076293945,
+        "y_m": 0.20545299351215363,
+        "height_aff_m": 0.3,
+        "face": "N",
+        "purpose": "Balcony-side general use",
+        "proposed_group": "OFFICE_GENERAL",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_045_SWITCH",
+      "from": {
+        "id": "E2_045_SWITCH",
+        "room": "Upper_Bath",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 8.31,
+        "y_m": 6.65,
+        "height_aff_m": 1.05,
+        "face": "W",
+        "purpose": "Bathroom ceiling / mirror / extract",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 3,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_045_SWITCH",
+        "room": "Upper_Bath",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 8.33439826965332,
+        "y_m": 6.650000095367432,
+        "height_aff_m": 1.05,
+        "face": "W",
+        "purpose": "Bathroom ceiling / mirror / extract",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 3,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_046_SOCKET",
+      "from": {
+        "id": "E2_046_SOCKET",
+        "room": "Upper_Bath",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 8.495,
+        "y_m": 6.67,
+        "height_aff_m": 1.12,
+        "face": "E",
+        "purpose": "Grooming candidate location; wet-zone review required",
+        "proposed_group": "WET_ROOM_REVIEW",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_046_SOCKET",
+        "room": "Upper_Bath",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 8.465670585632324,
+        "y_m": 6.670000076293945,
+        "height_aff_m": 1.12,
+        "face": "E",
+        "purpose": "Grooming candidate location; wet-zone review required",
+        "proposed_group": "WET_ROOM_REVIEW",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_047_SWITCH",
+      "from": {
+        "id": "E2_047_SWITCH",
+        "room": "Wardrobe",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 6.881,
+        "y_m": 6.0,
+        "height_aff_m": 1.05,
+        "face": "W",
+        "purpose": "Wardrobe general + cabinet light",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_047_SWITCH",
+        "room": "Wardrobe",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 6.904567241668701,
+        "y_m": 6.0,
+        "height_aff_m": 1.05,
+        "face": "W",
+        "purpose": "Wardrobe general + cabinet light",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_048_SOCKET",
+      "from": {
+        "id": "E2_048_SOCKET",
+        "room": "Wardrobe",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 6.881,
+        "y_m": 5.03,
+        "height_aff_m": 1.05,
+        "face": "W",
+        "purpose": "Steamer / cleaning",
+        "proposed_group": "WARDROBE_GENERAL",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_048_SOCKET",
+        "room": "Wardrobe",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 6.904567241668701,
+        "y_m": 5.03000020980835,
+        "height_aff_m": 1.05,
+        "face": "W",
+        "purpose": "Steamer / cleaning",
+        "proposed_group": "WARDROBE_GENERAL",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_049_SOCKET",
+      "from": {
+        "id": "E2_049_SOCKET",
+        "room": "Upper_Hall",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 8.31,
+        "y_m": 7.1,
+        "height_aff_m": 0.3,
+        "face": "W",
+        "purpose": "Hall vacuum point",
+        "proposed_group": "UPPER_GENERAL",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_049_SOCKET",
+        "room": "Upper_Hall",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 8.33439826965332,
+        "y_m": 7.099999904632568,
+        "height_aff_m": 0.3,
+        "face": "W",
+        "purpose": "Hall vacuum point",
+        "proposed_group": "UPPER_GENERAL",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_050_SWITCH",
+      "from": {
+        "id": "E2_050_SWITCH",
+        "room": "Upper_Hall",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 7.07,
+        "y_m": 4.329,
+        "height_aff_m": 1.05,
+        "face": "N",
+        "purpose": "Hall and stairs; linked control proposal",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_050_SWITCH",
+        "room": "Upper_Hall",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 7.070000171661377,
+        "y_m": 4.305635929107666,
+        "height_aff_m": 1.05,
+        "face": "N",
+        "purpose": "Hall and stairs; linked control proposal",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_071_FAN_POINT",
+      "from": {
+        "id": "E2_071_FAN_POINT",
+        "room": "Upper_Bath",
+        "level": 2,
+        "type": "FAN_POINT",
+        "x_m": 8.5,
+        "y_m": 7.32,
+        "height_aff_m": 2.36,
+        "face": "S",
+        "purpose": "Humidity extraction provision; duct and supply specification pending",
+        "proposed_group": "VENTILATION",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_071_FAN_POINT",
+        "room": "Upper_Bath",
+        "level": 2,
+        "type": "FAN_POINT",
+        "x_m": 8.5,
+        "y_m": 7.364686012268066,
+        "height_aff_m": 2.36,
+        "face": "S",
+        "purpose": "Humidity extraction provision; duct and supply specification pending",
+        "proposed_group": "VENTILATION",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_080_SOCKET",
+      "from": {
+        "id": "E2_080_SOCKET",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 7.8,
+        "y_m": 0.245,
+        "height_aff_m": 0.95,
+        "face": "N",
+        "purpose": "Child desk power / charger",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_080_SOCKET",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 7.800000190734863,
+        "y_m": 0.20550000667572021,
+        "height_aff_m": 0.95,
+        "face": "N",
+        "purpose": "Child desk power / charger",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_081_DATA",
+      "from": {
+        "id": "E2_081_DATA",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "DATA",
+        "x_m": 7.55,
+        "y_m": 0.245,
+        "height_aff_m": 0.95,
+        "face": "N",
+        "purpose": "Child desk network",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_081_DATA",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "DATA",
+        "x_m": 7.550000190734863,
+        "y_m": 0.20549999177455902,
+        "height_aff_m": 0.95,
+        "face": "N",
+        "purpose": "Child desk network",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 1,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_082_SOCKET",
+      "from": {
+        "id": "E2_082_SOCKET",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 5.525,
+        "y_m": 2.6,
+        "height_aff_m": 0.95,
+        "face": "E",
+        "purpose": "Child bedside charging",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_082_SOCKET",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 5.495545864105225,
+        "y_m": 2.5999999046325684,
+        "height_aff_m": 0.95,
+        "face": "E",
+        "purpose": "Child bedside charging",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_083_SWITCH",
+      "from": {
+        "id": "E2_083_SWITCH",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 7.07,
+        "y_m": 4.155,
+        "height_aff_m": 1.05,
+        "face": "S",
+        "purpose": "Child main and reading light",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 3,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_083_SWITCH",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 7.070000171661377,
+        "y_m": 4.174363136291504,
+        "height_aff_m": 1.05,
+        "face": "S",
+        "purpose": "Child main and reading light",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 3,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_084_SOCKET",
+      "from": {
+        "id": "E2_084_SOCKET",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 8.319,
+        "y_m": 3.43,
+        "height_aff_m": 0.3,
+        "face": "W",
+        "purpose": "Child cleaning / general use",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_084_SOCKET",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SOCKET",
+        "x_m": 8.33439826965332,
+        "y_m": 3.430000066757202,
+        "height_aff_m": 0.3,
+        "face": "W",
+        "purpose": "Child cleaning / general use",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 2,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_085_SWITCH",
+      "from": {
+        "id": "E2_085_SWITCH",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 5.525,
+        "y_m": 2.3,
+        "height_aff_m": 1.1,
+        "face": "E",
+        "purpose": "Child bedside switching",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 3,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_085_SWITCH",
+        "room": "Child_Room",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 5.495545864105225,
+        "y_m": 2.299999952316284,
+        "height_aff_m": 1.1,
+        "face": "E",
+        "purpose": "Child bedside switching",
+        "proposed_group": "UPPER_CHILD",
+        "modules": 3,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    },
+    {
+      "id": "E2_091_SWITCH",
+      "from": {
+        "id": "E2_091_SWITCH",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 8.1,
+        "y_m": 8.543,
+        "height_aff_m": 1.05,
+        "face": "N",
+        "purpose": "Bedroom LED strips dimmer",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 3,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      },
+      "to": {
+        "id": "E2_091_SWITCH",
+        "room": "Bedroom",
+        "level": 2,
+        "type": "SWITCH",
+        "x_m": 8.100000381469727,
+        "y_m": 8.525365829467773,
+        "height_aff_m": 1.05,
+        "face": "N",
+        "purpose": "Bedroom LED strips dimmer",
+        "proposed_group": "UPPER_LIGHT",
+        "modules": 3,
+        "status": "PROPOSED_NOT_AS_BUILT"
+      }
+    }
+  ],
+  "supported_props": [
+    {
+      "label": "Ground_Vanity_Soap",
+      "support": "Ground_Compact_Vanity",
+      "position": [
+        5.55,
+        5.89,
+        0.7851377258300781
+      ]
+    },
+    {
+      "label": "Upper_Vanity_Soap",
+      "support": "Upper_Bath_Vanity",
+      "position": [
+        10.17,
+        5.55,
+        3.9800143966674804
+      ]
+    },
+    {
+      "label": "Upper_Vanity_Cup",
+      "support": "Upper_Bath_Vanity",
+      "position": [
+        10.06,
+        5.55,
+        3.9800143966674804
+      ]
+    },
+    {
+      "label": "Upper_Vanity_Tray",
+      "support": "Upper_Bath_Vanity",
+      "position": [
+        9.38,
+        5.55,
+        3.9800143966674804
+      ]
+    },
+    {
+      "label": "Bedroom_Makeup_Cream",
+      "support": "Bedroom_Makeup_Vanity",
+      "position": [
+        6.94,
+        11.53,
+        3.9669996032714843
+      ]
+    },
+    {
+      "label": "Bedroom_Makeup_Tray",
+      "support": "Bedroom_Makeup_Vanity",
+      "position": [
+        6.94,
+        11.42,
+        3.9669976959228515
+      ]
+    },
+    {
+      "label": "Child_Desk_Books",
+      "support": "Child_Desk",
+      "position": [
+        7.76,
+        0.52,
+        3.966957164764404
+      ]
+    },
+    {
+      "label": "Child_Pencil_Cup",
+      "support": "Child_Desk",
+      "position": [
+        6.85,
+        0.52,
+        3.9669581184387206
+      ]
+    },
+    {
+      "label": "Child_Plush_Toy",
+      "support": "Child_Single_Bed",
+      "position": [
+        6.16,
+        2.84,
+        3.8114891777038573
+      ]
+    },
+    {
+      "label": "Office_Keyboard_1",
+      "support": "Office_Desk_1",
+      "position": [
+        10.89,
+        3.22,
+        4.001
+      ]
+    },
+    {
+      "label": "Office_Task_Lamp_1",
+      "support": "Office_Desk_1",
+      "position": [
+        11.06,
+        2.7800000000000002,
+        4.001
+      ]
+    },
+    {
+      "label": "Office_Monitor_1_1",
+      "support": "Office_Desk_1",
+      "position": [
+        11.13,
+        2.9450000000000003,
+        4.000999523162842
+      ]
+    },
+    {
+      "label": "Office_Monitor_1_2",
+      "support": "Office_Desk_1",
+      "position": [
+        11.13,
+        3.495,
+        4.001
+      ]
+    },
+    {
+      "label": "Office_Keyboard_2",
+      "support": "Office_Desk_2",
+      "position": [
+        10.89,
+        4.52,
+        4.000999523162842
+      ]
+    },
+    {
+      "label": "Office_Task_Lamp_2",
+      "support": "Office_Desk_2",
+      "position": [
+        11.06,
+        4.079999999999999,
+        4.000999523162842
+      ]
+    },
+    {
+      "label": "Office_Monitor_2_1",
+      "support": "Office_Desk_2",
+      "position": [
+        11.13,
+        4.244999999999999,
+        4.0010004768371585
+      ]
+    },
+    {
+      "label": "Office_Monitor_2_2",
+      "support": "Office_Desk_2",
+      "position": [
+        11.13,
+        4.795,
+        4.000999523162842
+      ]
+    }
+  ],
+  "ready_asset_placements": 152,
+  "asset_types": 58,
+  "cabinet_service_cutouts": [
+    "E1_007_SOCKET",
+    "E1_008_SOCKET",
+    "E1_009_SOCKET",
+    "E1_015_SOCKET"
+  ],
+  "shower": {
+    "front_hinged_door_leaves": 1,
+    "tiled_sides": 3,
+    "tiled_integrated_base": true
+  },
+  "additional_project_lighting": "Only four requested LED profiles; no new general lighting",
+  "stair_landing": {
+    "opening_width_m": 1.0,
+    "headroom_m": 2.2,
+    "threshold_top_m": 3.2,
+    "unobstructed": true
+  }
+}

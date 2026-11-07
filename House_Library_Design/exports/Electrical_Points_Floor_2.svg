@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1660" height="1860" viewBox="0 0 1660 1860">
+<rect width="1660" height="1860" fill="#f5f1e8"/>
+<g font-family="Arial, sans-serif">
+<text x="80" y="66" font-size="30" fill="#312e28">Електричні точки · поверх 2 · права секція</text>
+<text x="80" y="104" font-size="18" fill="#665f52">Запропоновані позиції під дизайн. Висоти — від чистої підлоги відповідного поверху.</text>
+<path d="M80 1660 H885" stroke="#e0dacc"/><text x="44" y="1665" font-size="14" fill="#877d6b">0</text>
+<path d="M80 1545 H885" stroke="#e0dacc"/><text x="44" y="1550" font-size="14" fill="#877d6b">1</text>
+<path d="M80 1430 H885" stroke="#e0dacc"/><text x="44" y="1435" font-size="14" fill="#877d6b">2</text>
+<path d="M80 1315 H885" stroke="#e0dacc"/><text x="44" y="1320" font-size="14" fill="#877d6b">3</text>
+<path d="M80 1200 H885" stroke="#e0dacc"/><text x="44" y="1205" font-size="14" fill="#877d6b">4</text>
+<path d="M80 1085 H885" stroke="#e0dacc"/><text x="44" y="1090" font-size="14" fill="#877d6b">5</text>
+<path d="M80 970 H885" stroke="#e0dacc"/><text x="44" y="975" font-size="14" fill="#877d6b">6</text>
+<path d="M80 855 H885" stroke="#e0dacc"/><text x="44" y="860" font-size="14" fill="#877d6b">7</text>
+<path d="M80 740 H885" stroke="#e0dacc"/><text x="44" y="745" font-size="14" fill="#877d6b">8</text>
+<path d="M80 625 H885" stroke="#e0dacc"/><text x="44" y="630" font-size="14" fill="#877d6b">9</text>
+<path d="M80 510 H885" stroke="#e0dacc"/><text x="44" y="515" font-size="14" fill="#877d6b">10</text>
+<path d="M80 395 H885" stroke="#e0dacc"/><text x="44" y="400" font-size="14" fill="#877d6b">11</text>
+<path d="M80 280 H885" stroke="#e0dacc"/><text x="44" y="285" font-size="14" fill="#877d6b">12</text>
+<path d="M183.50000000000006 200 V1660" stroke="#e0dacc"/><text x="183.50000000000006" y="1690" font-size="14" fill="#877d6b">X=6</text>
+<path d="M298.5 200 V1660" stroke="#e0dacc"/><text x="298.5" y="1690" font-size="14" fill="#877d6b">X=7</text>
+<path d="M413.50000000000006 200 V1660" stroke="#e0dacc"/><text x="413.50000000000006" y="1690" font-size="14" fill="#877d6b">X=8</text>
+<path d="M528.5 200 V1660" stroke="#e0dacc"/><text x="528.5" y="1690" font-size="14" fill="#877d6b">X=9</text>
+<path d="M643.5 200 V1660" stroke="#e0dacc"/><text x="643.5" y="1690" font-size="14" fill="#877d6b">X=10</text>
+<path d="M758.5 200 V1660" stroke="#e0dacc"/><text x="758.5" y="1690" font-size="14" fill="#877d6b">X=11</text>
+<path d="M873.5 200 V1660" stroke="#e0dacc"/><text x="873.5" y="1690" font-size="14" fill="#877d6b">X=12</text>
+<polygon points="103.0,1680.7 124.9,1680.7 175.5,1680.7 175.5,1637.0 124.9,1637.0 124.9,1179.3 329.9,1179.3 334.2,1179.3 334.2,1166.1 334.2,1165.5 329.9,1165.5 301.9,1165.5 301.9,1066.2 301.9,1062.0 301.4,1062.0 288.2,1062.0 288.2,1066.2 288.2,1165.5 124.9,1165.5 124.9,851.5 239.9,851.5 288.2,851.5 288.2,977.2 288.2,981.5 301.4,981.5 301.9,981.5 301.9,977.2 301.9,837.8 239.9,837.8 239.9,807.8 124.9,807.8 124.9,299.5 124.9,250.1 103.0,250.1" fill="#cdc5b5" stroke="#948a78" stroke-width="1"/>
+<polygon points="804.5,798.6 689.5,798.6 555.0,798.6 466.4,798.6 466.4,694.0 466.4,680.2 376.4,680.2 372.1,680.2 372.1,693.4 372.1,694.0 376.4,694.0 452.6,694.0 452.6,915.2 452.6,919.4 453.2,919.4 466.4,919.4 466.4,915.2 466.4,812.4 555.0,812.4 555.0,842.3 689.5,842.3 689.5,812.4 804.5,812.4 804.5,842.3 804.5,874.6 853.9,874.6 853.9,842.3 853.9,250.1 653.8,250.1 653.8,299.5 804.5,299.5" fill="#cdc5b5" stroke="#948a78" stroke-width="1"/>
+<polygon points="659.6,1410.4 695.2,1410.4 695.2,1425.4 739.0,1425.4 739.0,1410.4 853.9,1410.4 853.9,966.5 804.5,966.5 804.5,1029.8 466.4,1029.8 466.4,1004.2 466.4,1000.0 453.2,1000.0 452.6,1000.0 452.6,1004.2 452.6,1057.8 452.6,1062.0 453.2,1062.0 466.4,1062.0 466.4,1057.8 466.4,1043.6 804.5,1043.6 804.5,1361.0 659.6,1361.0" fill="#cdc5b5" stroke="#948a78" stroke-width="1"/>
+<polygon points="405.5,1680.7 739.0,1680.7 739.0,1613.6 739.0,1609.3 725.7,1609.3 695.2,1609.3 695.2,1613.6 695.2,1637.0 466.4,1637.0 466.4,1179.3 466.4,1169.7 466.4,1165.5 453.2,1165.5 452.6,1165.5 452.6,1169.7 452.6,1165.5 441.9,1165.5 437.6,1165.5 437.6,1166.1 437.6,1179.3 441.9,1179.3 452.6,1179.3 452.6,1637.0 405.5,1637.0" fill="#cdc5b5" stroke="#948a78" stroke-width="1"/>
+<polygon points="239.9,299.5 239.9,694.0 264.3,694.0 268.6,694.0 268.6,693.4 268.6,680.2 264.3,680.2 253.6,680.2 253.6,299.5 396.6,299.5 400.8,299.5 400.8,263.3 400.8,250.1 396.6,250.1 239.9,250.1" fill="#cdc5b5" stroke="#948a78" stroke-width="1"/>
+<circle cx="396.25" cy="677.5550000000001" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E2_027_SWITCH / Bedroom main / reading / ambience / 1.05m</title></circle>
+<text x="406.25" y="670.5550000000001" font-size="13" font-weight="bold" fill="#4a8263">027</text>
+<circle cx="800.475" cy="369.6999999999998" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_028_SOCKET / Left bedside charging / 0.68m</title></circle>
+<text x="810.475" y="362.6999999999998" font-size="13" font-weight="bold" fill="#ae6928">028</text>
+<circle cx="800.475" cy="647.9999999999999" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_029_SOCKET / Right bedside charging / 0.68m</title></circle>
+<text x="810.475" y="640.9999999999999" font-size="13" font-weight="bold" fill="#ae6928">029</text>
+<circle cx="800.475" cy="369.6999999999998" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E2_030_SWITCH / Bedside scene / ceiling switching / 0.98m</title></circle>
+<text x="810.475" y="362.6999999999998" font-size="13" font-weight="bold" fill="#4a8263">030</text>
+<circle cx="800.475" cy="647.9999999999999" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E2_031_SWITCH / Bedside scene / ceiling switching / 0.98m</title></circle>
+<text x="810.475" y="640.9999999999999" font-size="13" font-weight="bold" fill="#4a8263">031</text>
+<circle cx="258.365" cy="538.75" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_032_SOCKET / TV behind screen / 1.43m</title></circle>
+<text x="268.365" y="531.75" font-size="13" font-weight="bold" fill="#ae6928">032</text>
+<circle cx="258.365" cy="506.5500000000002" r="8" fill="#516dac" stroke="#fff" stroke-width="2"><title>E2_033_DATA / Bedroom TV Ethernet / 1.43m</title></circle>
+<text x="268.365" y="499.5500000000002" font-size="13" font-weight="bold" fill="#516dac">033</text>
+<circle cx="258.365" cy="478.95000000000005" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_034_SOCKET / Media console / soundbar / 0.32m</title></circle>
+<text x="268.365" y="471.95000000000005" font-size="13" font-weight="bold" fill="#ae6928">034</text>
+<circle cx="258.365" cy="465.14999999999986" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_035_SOCKET / Vanity table appliances / 0.92m</title></circle>
+<text x="268.365" y="458.14999999999986" font-size="13" font-weight="bold" fill="#ae6928">035</text>
+<circle cx="800.475" cy="610.05" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_036_SOCKET / Cleaning / occasional use / 0.3m</title></circle>
+<text x="810.475" y="603.05" font-size="13" font-weight="bold" fill="#ae6928">036</text>
+<circle cx="469.62" cy="1190.8" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E2_037_SWITCH / Office general / task / ambience / 1.05m</title></circle>
+<text x="479.62" y="1183.8" font-size="13" font-weight="bold" fill="#4a8263">037</text>
+<circle cx="800.245" cy="1310.4" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_038_SOCKET / PC, two monitors, task lamp, charger and spare socket / 1.12m</title></circle>
+<text x="810.245" y="1303.4" font-size="13" font-weight="bold" fill="#ae6928">038</text>
+<circle cx="800.245" cy="1158.6" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_039_SOCKET / PC, two monitors, task lamp, charger and spare socket / 1.12m</title></circle>
+<text x="810.245" y="1151.6" font-size="13" font-weight="bold" fill="#ae6928">039</text>
+<circle cx="800.245" cy="1259.8" r="8" fill="#516dac" stroke="#fff" stroke-width="2"><title>E2_040_DATA / Desk 1 Ethernet / 1.12m</title></circle>
+<text x="810.245" y="1252.8" font-size="13" font-weight="bold" fill="#516dac">040</text>
+<circle cx="800.245" cy="1106.85" r="8" fill="#516dac" stroke="#fff" stroke-width="2"><title>E2_041_DATA / Desk 2 Ethernet / 1.12m</title></circle>
+<text x="810.245" y="1099.85" font-size="13" font-weight="bold" fill="#516dac">041</text>
+<circle cx="469.62" cy="1474.85" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_042_SOCKET / 3D printer workbench / 1.14m</title></circle>
+<text x="479.62" y="1467.85" font-size="13" font-weight="bold" fill="#ae6928">042</text>
+<circle cx="469.62" cy="1350.65" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_043_SOCKET / Fitness / cleaning / 0.3m</title></circle>
+<text x="479.62" y="1343.65" font-size="13" font-weight="bold" fill="#ae6928">043</text>
+<circle cx="691.8000000000001" cy="1632.975" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_044_SOCKET / Balcony-side general use / 0.3m</title></circle>
+<text x="701.8000000000001" y="1625.975" font-size="13" font-weight="bold" fill="#ae6928">044</text>
+<circle cx="449.1500000000001" cy="895.25" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E2_045_SWITCH / Bathroom ceiling / mirror / extract / 1.05m</title></circle>
+<text x="459.1500000000001" y="888.25" font-size="13" font-weight="bold" fill="#4a8263">045</text>
+<circle cx="470.42499999999995" cy="892.95" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_046_SOCKET / Grooming candidate location; wet-zone review required / 1.12m</title></circle>
+<text x="480.42499999999995" y="885.95" font-size="13" font-weight="bold" fill="#ae6928">046</text>
+<circle cx="284.81500000000005" cy="970.0" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E2_047_SWITCH / Wardrobe general + cabinet light / 1.05m</title></circle>
+<text x="294.81500000000005" y="963.0" font-size="13" font-weight="bold" fill="#4a8263">047</text>
+<circle cx="284.81500000000005" cy="1081.55" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_048_SOCKET / Steamer / cleaning / 1.05m</title></circle>
+<text x="294.81500000000005" y="1074.55" font-size="13" font-weight="bold" fill="#ae6928">048</text>
+<circle cx="449.1500000000001" cy="843.5" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_049_SOCKET / Hall vacuum point / 0.3m</title></circle>
+<text x="459.1500000000001" y="836.5" font-size="13" font-weight="bold" fill="#ae6928">049</text>
+<circle cx="306.55000000000007" cy="1162.165" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E2_050_SWITCH / Hall and stairs; linked control proposal / 1.05m</title></circle>
+<text x="316.55000000000007" y="1155.165" font-size="13" font-weight="bold" fill="#4a8263">050</text>
+<circle cx="611.3000000000001" cy="553.7" r="8" fill="#9b873d" stroke="#fff" stroke-width="2"><title>L2_060 / Ceiling / 2.62m</title></circle>
+<text x="621.3000000000001" y="546.7" font-size="13" font-weight="bold" fill="#9b873d">060</text>
+<circle cx="725.1500000000001" cy="372.0" r="8" fill="#9b873d" stroke="#fff" stroke-width="2"><title>L2_061 / Bedside pendant / 1.27m</title></circle>
+<text x="735.1500000000001" y="365.0" font-size="13" font-weight="bold" fill="#9b873d">061</text>
+<circle cx="725.1500000000001" cy="645.6999999999999" r="8" fill="#9b873d" stroke="#fff" stroke-width="2"><title>L2_062 / Bedside pendant / 1.27m</title></circle>
+<text x="735.1500000000001" y="638.6999999999999" font-size="13" font-weight="bold" fill="#9b873d">062</text>
+<circle cx="614.75" cy="1303.5" r="8" fill="#9b873d" stroke="#fff" stroke-width="2"><title>L2_063 / Ceiling / 2.62m</title></circle>
+<text x="624.75" y="1296.5" font-size="13" font-weight="bold" fill="#9b873d">063</text>
+<circle cx="753.9000000000001" cy="1342.6" r="8" fill="#9b873d" stroke="#fff" stroke-width="2"><title>L2_064 / Desk 1 task / 1.18m</title></circle>
+<text x="763.9000000000001" y="1335.6" font-size="13" font-weight="bold" fill="#9b873d">064</text>
+<circle cx="753.9000000000001" cy="1193.1" r="8" fill="#9b873d" stroke="#fff" stroke-width="2"><title>L2_065 / Desk 2 task / 1.18m</title></circle>
+<text x="763.9000000000001" y="1186.1" font-size="13" font-weight="bold" fill="#9b873d">065</text>
+<circle cx="614.75" cy="924.0" r="8" fill="#9b873d" stroke="#fff" stroke-width="2"><title>L2_066 / Ceiling / 2.62m</title></circle>
+<text x="624.75" y="917.0" font-size="13" font-weight="bold" fill="#9b873d">066</text>
+<circle cx="614.75" cy="1024.05" r="8" fill="#9b873d" stroke="#fff" stroke-width="2"><title>L2_067 / Mirror lights / 1.52m</title></circle>
+<text x="624.75" y="1017.05" font-size="13" font-weight="bold" fill="#9b873d">067</text>
+<circle cx="231.80000000000004" cy="1010.25" r="8" fill="#9b873d" stroke="#fff" stroke-width="2"><title>L2_068 / Ceiling / 2.62m</title></circle>
+<text x="241.80000000000004" y="1003.25" font-size="13" font-weight="bold" fill="#9b873d">068</text>
+<circle cx="368.6500000000001" cy="1004.5" r="8" fill="#9b873d" stroke="#fff" stroke-width="2"><title>L2_069 / Ceiling / 2.62m</title></circle>
+<text x="378.6500000000001" y="997.5" font-size="13" font-weight="bold" fill="#9b873d">069</text>
+<circle cx="471.00000000000006" cy="818.1999999999999" r="8" fill="#777b85" stroke="#fff" stroke-width="2"><title>E2_071_FAN_POINT / Humidity extraction provision; duct and supply specification pending / 2.36m</title></circle>
+<text x="481.00000000000006" y="811.1999999999999" font-size="13" font-weight="bold" fill="#777b85">071</text>
+<text x="950" y="166" font-size="22" fill="#312e28">Номер · приміщення · пристрій · висота</text>
+<circle cx="953" cy="195" r="5" fill="#4a8263"/><text x="970" y="201" font-size="17" fill="#39342d">027 · Спальня · Вимикач ×3 · 1.05 м</text>
+<circle cx="953" cy="230" r="5" fill="#ae6928"/><text x="970" y="236" font-size="17" fill="#39342d">028 · Спальня · Розетка ×2 · 0.68 м</text>
+<circle cx="953" cy="265" r="5" fill="#ae6928"/><text x="970" y="271" font-size="17" fill="#39342d">029 · Спальня · Розетка ×2 · 0.68 м</text>
+<circle cx="953" cy="300" r="5" fill="#4a8263"/><text x="970" y="306" font-size="17" fill="#39342d">030 · Спальня · Вимикач ×2 · 0.98 м</text>
+<circle cx="953" cy="335" r="5" fill="#4a8263"/><text x="970" y="341" font-size="17" fill="#39342d">031 · Спальня · Вимикач ×2 · 0.98 м</text>
+<circle cx="953" cy="370" r="5" fill="#ae6928"/><text x="970" y="376" font-size="17" fill="#39342d">032 · Спальня · Розетка ×2 · 1.43 м</text>
+<circle cx="953" cy="405" r="5" fill="#516dac"/><text x="970" y="411" font-size="17" fill="#39342d">033 · Спальня · Ethernet · 1.43 м</text>
+<circle cx="953" cy="440" r="5" fill="#ae6928"/><text x="970" y="446" font-size="17" fill="#39342d">034 · Спальня · Розетка ×2 · 0.32 м</text>
+<circle cx="953" cy="475" r="5" fill="#ae6928"/><text x="970" y="481" font-size="17" fill="#39342d">035 · Спальня · Розетка ×2 · 0.92 м</text>
+<circle cx="953" cy="510" r="5" fill="#ae6928"/><text x="970" y="516" font-size="17" fill="#39342d">036 · Спальня · Розетка ×2 · 0.30 м</text>
+<circle cx="953" cy="545" r="5" fill="#4a8263"/><text x="970" y="551" font-size="17" fill="#39342d">037 · Кабінет · Вимикач ×3 · 1.05 м</text>
+<circle cx="953" cy="580" r="5" fill="#ae6928"/><text x="970" y="586" font-size="17" fill="#39342d">038 · Кабінет · Розетка ×6 · 1.12 м</text>
+<circle cx="953" cy="615" r="5" fill="#ae6928"/><text x="970" y="621" font-size="17" fill="#39342d">039 · Кабінет · Розетка ×6 · 1.12 м</text>
+<circle cx="953" cy="650" r="5" fill="#516dac"/><text x="970" y="656" font-size="17" fill="#39342d">040 · Кабінет · Ethernet · 1.12 м</text>
+<circle cx="953" cy="685" r="5" fill="#516dac"/><text x="970" y="691" font-size="17" fill="#39342d">041 · Кабінет · Ethernet · 1.12 м</text>
+<circle cx="953" cy="720" r="5" fill="#ae6928"/><text x="970" y="726" font-size="17" fill="#39342d">042 · Кабінет · Розетка ×2 · 1.14 м</text>
+<circle cx="953" cy="755" r="5" fill="#ae6928"/><text x="970" y="761" font-size="17" fill="#39342d">043 · Кабінет · Розетка ×2 · 0.30 м</text>
+<circle cx="953" cy="790" r="5" fill="#ae6928"/><text x="970" y="796" font-size="17" fill="#39342d">044 · Кабінет · Розетка ×2 · 0.30 м</text>
+<circle cx="953" cy="825" r="5" fill="#4a8263"/><text x="970" y="831" font-size="17" fill="#39342d">045 · Ванна · Вимикач ×3 · 1.05 м</text>
+<circle cx="953" cy="860" r="5" fill="#ae6928"/><text x="970" y="866" font-size="17" fill="#39342d">046 · Ванна · Розетка · 1.12 м</text>
+<circle cx="953" cy="895" r="5" fill="#4a8263"/><text x="970" y="901" font-size="17" fill="#39342d">047 · Гардероб · Вимикач ×2 · 1.05 м</text>
+<circle cx="953" cy="930" r="5" fill="#ae6928"/><text x="970" y="936" font-size="17" fill="#39342d">048 · Гардероб · Розетка · 1.05 м</text>
+<circle cx="953" cy="965" r="5" fill="#ae6928"/><text x="970" y="971" font-size="17" fill="#39342d">049 · Хол · Розетка · 0.30 м</text>
+<circle cx="953" cy="1000" r="5" fill="#4a8263"/><text x="970" y="1006" font-size="17" fill="#39342d">050 · Хол · Вимикач ×2 · 1.05 м</text>
+<circle cx="953" cy="1035" r="5" fill="#9b873d"/><text x="970" y="1041" font-size="17" fill="#39342d">060 · Спальня · Світло · 2.62 м</text>
+<circle cx="953" cy="1070" r="5" fill="#9b873d"/><text x="970" y="1076" font-size="17" fill="#39342d">061 · Спальня · Світло · 1.27 м</text>
+<circle cx="953" cy="1105" r="5" fill="#9b873d"/><text x="970" y="1111" font-size="17" fill="#39342d">062 · Спальня · Світло · 1.27 м</text>
+<circle cx="953" cy="1140" r="5" fill="#9b873d"/><text x="970" y="1146" font-size="17" fill="#39342d">063 · Кабінет · Світло · 2.62 м</text>
+<circle cx="953" cy="1175" r="5" fill="#9b873d"/><text x="970" y="1181" font-size="17" fill="#39342d">064 · Кабінет · Світло · 1.18 м</text>
+<circle cx="953" cy="1210" r="5" fill="#9b873d"/><text x="970" y="1216" font-size="17" fill="#39342d">065 · Кабінет · Світло · 1.18 м</text>
+<circle cx="953" cy="1245" r="5" fill="#9b873d"/><text x="970" y="1251" font-size="17" fill="#39342d">066 · Ванна · Світло · 2.62 м</text>
+<circle cx="953" cy="1280" r="5" fill="#9b873d"/><text x="970" y="1286" font-size="17" fill="#39342d">067 · Ванна · Світло · 1.52 м</text>
+<circle cx="953" cy="1315" r="5" fill="#9b873d"/><text x="970" y="1321" font-size="17" fill="#39342d">068 · Гардероб · Світло · 2.62 м</text>
+<circle cx="953" cy="1350" r="5" fill="#9b873d"/><text x="970" y="1356" font-size="17" fill="#39342d">069 · Хол · Світло · 2.62 м</text>
+<circle cx="953" cy="1385" r="5" fill="#777b85"/><text x="970" y="1391" font-size="17" fill="#39342d">071 · Ванна · Вентилятор · 2.36 м</text>
+<text x="80" y="1754" font-size="18" fill="#39342d">Координати X/Y та призначення кожної точки: data/electrical_points.csv</text>
+<text x="80" y="1786" font-size="17" fill="#665f52">Розетки у вологих кімнатах — кандидати для перевірки зон. Траси кабелю та захист ще не запроєктовані.</text>
+<text x="80" y="1818" font-size="17" fill="#665f52">Номери можуть накладатися біля блоків техніки: наведіть курсор на точку або відкрийте таблицю.</text>
+</g></svg>

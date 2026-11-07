@@ -1,0 +1,40 @@
+{
+  "revision": 4,
+  "checks": [
+    "Lower stair doorway clear: 1000 mm wide, 2220 mm headroom"
+  ],
+  "desks": [
+    {
+      "desk": "Office_Desk_1",
+      "shelf_on_wall_side": true
+    },
+    {
+      "desk": "Office_Desk_2",
+      "shelf_on_wall_side": true
+    },
+    {
+      "desk": "Child_Desk",
+      "shelf_on_wall_side": true
+    }
+  ],
+  "ready_asset_placements": 148,
+  "child_layout": "Wardrobe north/door wall; bed west/window; study east/window",
+  "bath_vanity_width_m": 0.8,
+  "bedroom_wall_mirror_m": [
+    0.78,
+    1.15
+  ],
+  "removed": [
+    "child broken basket",
+    "redundant child bookcase",
+    "office weights",
+    "office foam roller",
+    "small bedroom mirror and its support"
+  ],
+  "electrical_relocations": [
+    "E2_080_SOCKET",
+    "E2_081_DATA",
+    "E2_083_SWITCH",
+    "E2_035_SOCKET"
+  ]
+}

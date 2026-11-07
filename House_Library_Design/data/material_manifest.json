@@ -1,0 +1,74 @@
+[
+  {
+    "asset": "wooden_floor_02",
+    "map": "nor_gl",
+    "file": "assets/materials/wooden_floor_02_nor_gl.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wooden_floor_02/wooden_floor_02_nor_gl_2k.jpg",
+    "license": "CC0",
+    "md5": "86b855fbc8c909a08e87dcd3b04273cd"
+  },
+  {
+    "asset": "white_plaster_02",
+    "map": "nor_gl",
+    "file": "assets/materials/white_plaster_02_nor_gl.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_plaster_02/white_plaster_02_nor_gl_2k.jpg",
+    "license": "CC0",
+    "md5": "a9fa643c4a200686ad89598b545b2adc"
+  },
+  {
+    "asset": "marble_01",
+    "map": "nor_gl",
+    "file": "assets/materials/marble_01_nor_gl.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/marble_01/marble_01_nor_gl_2k.jpg",
+    "license": "CC0",
+    "md5": "f25efb0b61ec7ac183b3b0f4d032ed17"
+  },
+  {
+    "asset": "wooden_floor_02",
+    "map": "diff",
+    "file": "assets/materials/wooden_floor_02_diff.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wooden_floor_02/wooden_floor_02_diff_2k.jpg",
+    "license": "CC0",
+    "md5": "bbe0d48cc577f6af31bf845216ad3a3c"
+  },
+  {
+    "asset": "wooden_floor_02",
+    "map": "rough",
+    "file": "assets/materials/wooden_floor_02_rough.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wooden_floor_02/wooden_floor_02_rough_2k.jpg",
+    "license": "CC0",
+    "md5": "c7d93e39d6cb043a60dcaa1718f126bd"
+  },
+  {
+    "asset": "white_plaster_02",
+    "map": "diff",
+    "file": "assets/materials/white_plaster_02_diff.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_plaster_02/white_plaster_02_diff_2k.jpg",
+    "license": "CC0",
+    "md5": "35f9c96c16aa0d934da7884b232f6d07"
+  },
+  {
+    "asset": "white_plaster_02",
+    "map": "rough",
+    "file": "assets/materials/white_plaster_02_rough.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_plaster_02/white_plaster_02_rough_2k.jpg",
+    "license": "CC0",
+    "md5": "47f989e9fd3e69e667244ff4b9f406f8"
+  },
+  {
+    "asset": "marble_01",
+    "map": "diff",
+    "file": "assets/materials/marble_01_diff.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/marble_01/marble_01_diff_2k.jpg",
+    "license": "CC0",
+    "md5": "4eeefea16242cecb3b429ac0c8f88740"
+  },
+  {
+    "asset": "marble_01",
+    "map": "rough",
+    "file": "assets/materials/marble_01_rough.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/marble_01/marble_01_rough_2k.jpg",
+    "license": "CC0",
+    "md5": "c4cf0375d84277c6020bf230823efdcc"
+  }
+]

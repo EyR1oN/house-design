@@ -1,0 +1,19 @@
+{
+  "status": "BUILT_VERIFIED_REVISION_3",
+  "ready_asset_types_used": 58,
+  "ready_asset_placements": 148,
+  "missing_auxiliary_maps_repaired": [
+    "green book_normal.png",
+    "Metal031_2K-PNG.usda"
+  ],
+  "custom_retained": [
+    "Structural house shell and stairs",
+    "Source-sized continuous L countertop and island worktop",
+    "Stair TV partition and storage door",
+    "Architectural finishes, door panels and MEP point markers"
+  ],
+  "dishwasher_nominal_width_m": 0.45,
+  "backup_unchanged": true,
+  "revision": 4,
+  "asset_types": 57
+}

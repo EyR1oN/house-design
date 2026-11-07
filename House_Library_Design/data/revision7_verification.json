@@ -1,0 +1,112 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "Island top enlarged east and south only",
+      "passed": true,
+      "detail": [
+        [
+          7.962500095367432,
+          8.697500228881836
+        ],
+        [
+          5.692500114440918,
+          7.027500152587891
+        ],
+        [
+          0.8600000143051147,
+          0.8899999856948853
+        ]
+      ]
+    },
+    {
+      "check": "Kitchen working aisle at least 1050mm",
+      "passed": true,
+      "detail": 1.052499771118164
+    },
+    {
+      "check": "Dining chair gap remains at least 120mm",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Fridge door sweep through 110deg clears island",
+      "passed": true,
+      "detail": 0.49230011444091826
+    },
+    {
+      "check": "Lower stair entrance still open",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TV cladding stops before lower stair entrance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Dryer stacked on washer via 30mm kit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Appliances face entrance west",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Laundry furniture stays within room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Open area in front of appliances >1200mm",
+      "passed": true,
+      "detail": 1.2250004196166984
+    },
+    {
+      "check": "Boiler service clearances reserved",
+      "passed": true,
+      "detail": [
+        [
+          10.022000312805176,
+          10.37399959564209
+        ],
+        [
+          3.319999933242798,
+          3.759999990463257
+        ],
+        [
+          1.4800000190734863,
+          2.200000047683716
+        ]
+      ]
+    },
+    {
+      "check": "Vegetable drawers separate from detergents upper storage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All recorded placement objects present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All used file textures packed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Unrelated placements unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Architecture unchanged",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "gas_design_status": "Spatial concept only; no gas or flue installation approval"
+}

@@ -1,0 +1,130 @@
+{
+  "revision": 10,
+  "passed": true,
+  "checks": [
+    {
+      "check": "Bulky north-wall pantry removed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All laundry joinery on same east end-wall run",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Laundry placements inside room including ceiling fixture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pantry and tower have side separation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Clear centre depth >=1150mm",
+      "passed": true,
+      "detail": 1.1840000534057609
+    },
+    {
+      "check": "Fully extended 560mm drawer leaves >=600mm user space",
+      "passed": true,
+      "detail": 0.6240000534057608
+    },
+    {
+      "check": "Entry door sweep clear of end-wall furniture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boiler is on north wall facing south",
+      "passed": true,
+      "detail": [
+        [
+          8.6899995803833,
+          9.130000114440918
+        ],
+        [
+          3.43399977684021,
+          3.7860000133514404
+        ],
+        [
+          1.4800000190734863,
+          2.200000047683716
+        ]
+      ]
+    },
+    {
+      "check": "Boiler service rectangle free of cabinets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boiler side gap >=510mm",
+      "passed": true,
+      "detail": 0.5139999389648438
+    },
+    {
+      "check": "Boiler clear of conservatively modelled entry door sweep",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Service sockets beside boiler clear of its pipes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pantry doors slide inside footprint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Dryer stays stacked with 30mm support kit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Sack rests on potato bin",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Four pantry levels with 36 modelled jars",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Washer/dryer service sockets remain exposed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TV slats remain absent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All placement objects exist",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All used file textures packed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Other rooms unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Architecture unchanged",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "scope": "Geometry, clear floor area, drawer extension and door swing; not gas installation approval"
+}

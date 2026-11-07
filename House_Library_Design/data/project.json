@@ -1,0 +1,52 @@
+{
+  "project": "Morozенка 10 - right section",
+  "revision": "1.0 - complete architectural design base",
+  "selected_section": "RIGHT",
+  "units": "metres",
+  "origin": "intersection of grid 1 / A on floor plans",
+  "axes_x_m": [
+    0,
+    2.06,
+    5.3,
+    8.54,
+    10.6
+  ],
+  "axes_y_m": [
+    0,
+    2.4,
+    7.3,
+    12.03
+  ],
+  "levels_m": {
+    "GROUND_FINISHED": 0.0,
+    "FIRST_FINISHED": 3.2,
+    "ATTIC_FINISHED": 6.4,
+    "GROUND_CEILING": 2.9,
+    "FIRST_CEILING": 5.9
+  },
+  "source_pages": {
+    "ground_plan": 2,
+    "first_plan": 3,
+    "section_1": 4,
+    "section_2": 5,
+    "roof": 11
+  },
+  "status": "ARCHITECTURAL_DESIGN_BASE_COMPLETE_NOT_AS_BUILT",
+  "decisions_document": "DECISIONS_UK.md",
+  "roof": {
+    "width_m": 15.06,
+    "depth_m": 14.44,
+    "eave_m": 6.277,
+    "ridge_m": 8.862,
+    "pitch_deg": 19.69905557496004,
+    "reason": "Envelope and explicit heights override inconsistent 17 degree label"
+  },
+  "resolved_source_discrepancies": [
+    "Floor-plan grid spans 10.600 x 12.030 m; sections/roof grid labels differ. Room plans take priority.",
+    "Upper-floor lateral cantilevers retained as confirmed in plans and elevations.",
+    "Roof ridge chosen +8.862 m; +9.260 m refers to stacks.",
+    "Dimensioned page 2 takes precedence over presentation page 1.",
+    "Upper 50 mm exterior band separated from the 380 mm core; 150 mm insulation modelled once.",
+    "Missing construction parameters assigned and documented in DECISIONS_UK.md."
+  ]
+}

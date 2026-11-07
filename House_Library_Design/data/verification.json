@@ -1,0 +1,51 @@
+{
+  "revision": 16,
+  "passed": true,
+  "checks": [
+    {
+      "check": "L2_SIDE_BEDROOM_DOOR 91-position leaf and handles sweep clear",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Office open door ends before chair",
+      "passed": true,
+      "detail": 0.496
+    },
+    {
+      "check": "L2_FRONT_BEDROOM_DOOR 91-position leaf and handles sweep clear",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "STORAGE 91-position leaf and handles sweep clear",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Office floor plant removed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "New kitchen finish uses exact reference material",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pantry timber retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Furniture placement unchanged outside requested doors and plant",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Child cleaning socket outside the door parking zone",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

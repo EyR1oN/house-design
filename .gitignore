@@ -1,0 +1,24 @@
+# Local programs and repeated snapshots
+/Tools/
+/House_Library_Revision*_Backup/
+/House_Library_Revision*_Browser_Backup/
+/TRANSFER_INFO/
+/Transfer_*/
+*.zip
+*.7z
+*.blend[0-9]*
+*.blend@
+__pycache__/
+*.pyc
+*.log
+Thumbs.db
+.DS_Store
+.env
+.env.*
+
+# Archive-only verification; Git revisions use commit and LFS checks
+/Verify-Transfer.ps1
+# Credentials and local environment
+*.pem
+*.key
+.env.*

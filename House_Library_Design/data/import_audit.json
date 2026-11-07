@@ -1,0 +1,41 @@
+{
+  "archive": {
+    "source_zip": "House_Transfer_Revision16_2026-11-07.zip",
+    "revision": 16,
+    "verified_manifest_files": 6067,
+    "extracted_files": 546,
+    "tools_verified_but_not_extracted": true,
+    "sha256_errors": [],
+    "original_zip_preserved": true
+  },
+  "content": {
+    "revision": 16,
+    "images_decoded": 118,
+    "embedded_views": 36,
+    "glb_embedded_models_match": true,
+    "gallery_links_complete": true,
+    "credential_scan_findings": []
+  },
+  "blender": {
+    "blend_opens": true,
+    "used_packed_images": 321,
+    "missing_used_images": [],
+    "external_image_files": [],
+    "linked_libraries": 0,
+    "placed_assets": 151,
+    "all_placement_objects_exist": true,
+    "scene_revision": "LIBRARY 16.0 Wall-side upper doors, outward storage door and matching kitchen finish"
+  },
+  "revision16_geometry_checks_passed": 9,
+  "recovered_original_pdf": true,
+  "master_unchanged": true,
+  "temporary_reference_pngs_missing": 4,
+  "git_excluded": [
+    "Tools/",
+    "House_Library_Revision15_Backup/",
+    "TRANSFER_INFO/",
+    "ZIP and automatic .blend backups",
+    "logs and credentials"
+  ],
+  "verification_baseline_included": "House_Library_Design/source/revision15_placements.json"
+}

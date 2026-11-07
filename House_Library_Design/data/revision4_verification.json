@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "Lower stair entrance unobstructed across its width and headroom",
+      "passed": true
+    },
+    {
+      "check": "Child bed lies left of window, study zone right",
+      "passed": true
+    },
+    {
+      "check": "Wardrobe sits on door wall without occupying doorway",
+      "passed": true
+    },
+    {
+      "check": "Children furniture remains inside room",
+      "passed": true
+    },
+    {
+      "check": "Study chair can pull back without touching bed",
+      "passed": true
+    },
+    {
+      "check": "Broken basket and redundant bookcase removed",
+      "passed": true
+    },
+    {
+      "check": "Weights and floating roller removed",
+      "passed": true
+    },
+    {
+      "check": "Bathroom vanity is 800mm wide",
+      "passed": true
+    },
+    {
+      "check": "Makeup wall mirror 780 by 1150mm",
+      "passed": true
+    },
+    {
+      "check": "Raised desk shelves all face their wall",
+      "passed": true
+    },
+    {
+      "check": "Office 1 monitor 1 rests at rear shelf height",
+      "passed": true
+    },
+    {
+      "check": "Office 1 monitor 2 rests at rear shelf height",
+      "passed": true
+    },
+    {
+      "check": "Office 2 monitor 1 rests at rear shelf height",
+      "passed": true
+    },
+    {
+      "check": "Office 2 monitor 2 rests at rear shelf height",
+      "passed": true
+    },
+    {
+      "check": "Original broad verification passes",
+      "passed": true
+    }
+  ]
+}

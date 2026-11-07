@@ -1,0 +1,133 @@
+<div id="kitchen-study-oct27">
+  <h3>Де додати зберігання</h3>
+  <div class="viz-controls" aria-label="Варіанти розташування">
+    <button class="btn" data-option="buffet" aria-pressed="false" type="button">Комод за стінкою</button>
+    <button class="btn" data-option="island" aria-pressed="true" type="button">Тильний бік острівця</button>
+    <button class="btn" data-option="wall" aria-pressed="false" type="button">Продовжити стінку</button>
+    <button class="btn" data-option="peninsula" aria-pressed="false" type="button">Півострів замість острова</button>
+  </div>
+  <div class="ks-legend text-small">
+    <span><i class="ks-existing"></i>Наявне</span>
+    <span><i class="ks-proposed"></i>Пропозиція</span>
+    <span><i class="ks-conflict"></i>Конфлікт / тісно</span>
+  </div>
+  <div class="ks-pictures">
+    <div class="ks-plan" role="img" aria-label="План кухні, обіднього столу та передньої частини дивана. Кольором позначено пропозицію."></div>
+    <div class="ks-side">
+      <div class="ks-detail" role="img" aria-label="Об’ємний ескіз додаткового зберігання"></div>
+      <div class="ks-facts" aria-live="polite"></div>
+    </div>
+  </div>
+  <div class="text-small text-muted">Схеми за габаритами моделі; нові меблі — попередній ескіз. Положення дивана показано частково.</div>
+</div>
+<style>
+  #kitchen-study-oct27 {color:var(--foreground);}
+  #kitchen-study-oct27 .ks-legend {display:flex;flex-wrap:wrap;gap:16px;margin:16px 0 8px;}
+  #kitchen-study-oct27 .ks-legend span {display:flex;align-items:center;gap:6px;}
+  #kitchen-study-oct27 .ks-legend i {display:inline-block;width:14px;height:10px;}
+  #kitchen-study-oct27 .ks-existing {background:var(--muted-foreground);opacity:.4;}
+  #kitchen-study-oct27 .ks-proposed {background:var(--viz-series-1);}
+  #kitchen-study-oct27 .ks-conflict {background:var(--destructive);opacity:.7;}
+  #kitchen-study-oct27 .ks-pictures {display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:20px;align-items:start;}
+  #kitchen-study-oct27 .ks-plan,#kitchen-study-oct27 .ks-detail {min-width:0;}
+  #kitchen-study-oct27 .ks-plan svg,#kitchen-study-oct27 .ks-detail svg {display:block;width:100%;overflow:visible;}
+  #kitchen-study-oct27 .ks-facts {display:grid;gap:14px;margin-top:12px;}
+  #kitchen-study-oct27 .ks-fact {display:grid;gap:3px;}
+  #kitchen-study-oct27 .ks-fact strong {font-weight:500;}
+  #kitchen-study-oct27 .ks-fact span {color:var(--muted-foreground);}
+  #kitchen-study-oct27 svg text {fill:var(--foreground);font-family:inherit;font-size:12px;font-weight:400;}
+  #kitchen-study-oct27 svg .ks-wall {fill:var(--muted-foreground);fill-opacity:.35;stroke:var(--border);stroke-width:1;}
+  #kitchen-study-oct27 svg .ks-furniture {fill:var(--muted);stroke:var(--muted-foreground);stroke-width:1;}
+  #kitchen-study-oct27 svg .ks-add {fill:var(--viz-series-1);fill-opacity:.23;stroke:var(--viz-series-1);stroke-width:1.5;}
+  #kitchen-study-oct27 svg .ks-danger {fill:var(--destructive);fill-opacity:.14;stroke:var(--destructive);stroke-width:1.5;}
+  #kitchen-study-oct27 svg .ks-ghost {fill:none;stroke:var(--muted-foreground);stroke-width:1;stroke-dasharray:4 4;opacity:.6;}
+  #kitchen-study-oct27 svg .ks-dim {fill:none;stroke:var(--muted-foreground);stroke-width:1;}
+  #kitchen-study-oct27 svg .ks-label {fill:var(--foreground);}
+  @media(max-width:600px){#kitchen-study-oct27 .ks-pictures{grid-template-columns:minmax(0,1fr);}#kitchen-study-oct27 .ks-side{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;align-items:center;}#kitchen-study-oct27 .ks-facts{margin-top:0;}}
+  @media(max-width:380px){#kitchen-study-oct27 .ks-side{grid-template-columns:minmax(0,1fr);}#kitchen-study-oct27 .ks-detail{max-width:240px;margin:auto;}#kitchen-study-oct27 .ks-facts{grid-template-columns:minmax(0,1fr) minmax(0,1fr);}}
+</style>
+<script>
+(() => {
+ const root=document.getElementById('kitchen-study-oct27');
+ const plan=root.querySelector('.ks-plan'),detail=root.querySelector('.ks-detail'),facts=root.querySelector('.ks-facts');
+ const options={
+  buffet:{title:'Комод на боці вітальні',facts:[['+ 90 × 35 см','Для посуду й сервірування'],['Стіл залишається','Доступ до комода — з боку дивана'],['Близько 115 см','Від фасаду комода до габариту дивана'],['22 см біля торця столу','Це зазор, не прохід між меблями']]},
+  island:{title:'Зберігання з тильного боку',facts:[['+ 130 × 25 см','Два неглибокі модулі по 65 см'],['Стіл залишається','Габарити острівця вздовж кухні ті самі'],['Близько 120 см','До стіни санвузла в цій ділянці'],['Близько 105 см','Робочий прохід до плити не змінюється']]},
+  wall:{title:'Стінка + глибокі тумби',facts:[['Лише близько 19 см','Між новими тумбами й островом'],['Стілець перетинає стінку','Потрібне переміщення обідньої групи'],['Диван уже поруч','Зсув столу до вітальні теж обмежений'],['З островом не раджу','Проблема одночасно у двох зонах']]},
+  peninsula:{title:'Півострів замість острова',facts:[['Прибрати острівець','Замість нього — приєднані тумби'],['Кут треба перепроєктувати','Щоб крайні шухляди відкривалися'],['Обідню групу змінити','Положення чи форму столу — окремо'],['Місткість не гарантовано більша','Частину виграшу забирає втрачений острів']]}
+ };
+ let chosen='island';const saved=window.openai?.widgetState?.modelContent;
+ if(saved&&options[saved.option])chosen=saved.option;
+ function escape(s){return String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');}
+ function drawPlan(){
+  const w=Math.max(280,Math.round(plan.getBoundingClientRect().width)),pad=24,xmin=6.30,xmax=10.65,ymin=3.72,ymax=9.53,s=Math.min(100,(w-pad*2)/(xmax-xmin)),h=(ymax-ymin)*s+42,ox=(w-(xmax-xmin)*s)/2;
+  const X=x=>ox+(x-xmin)*s,Y=y=>22+(ymax-y)*s;
+  let out=`<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img"><title>${escape(options[chosen].title)}</title><desc>Вид згори в масштабі моделі. Вітальня вгорі, холодильник унизу, плита й мийка праворуч.</desc>`;
+  function rect(x1,x2,y1,y2,cls,round=0){out+=`<rect x="${X(x1)}" y="${Y(y2)}" width="${(x2-x1)*s}" height="${(y2-y1)*s}" rx="${round}" class="${cls}"/>`;}
+  function text(x,y,t,anchor='middle'){out+=`<text x="${X(x)}" y="${Y(y)}" text-anchor="${anchor}">${escape(t)}</text>`;}
+  function line(x1,y1,x2,y2,cls='ks-dim'){out+=`<path d="M${X(x1)} ${Y(y1)}L${X(x2)} ${Y(y2)}" class="${cls}"/>`;}
+  function dimension(x1,y1,x2,y2,label,offset=0){line(x1,y1,x2,y2);const dx=(x2-x1),dy=(y2-y1),len=Math.hypot(dx,dy),nx=-dy/len*.035,ny=dx/len*.035;line(x1-nx,y1-ny,x1+nx,y1+ny);line(x2-nx,y2-ny,x2+nx,y2+ny);out+=`<text x="${(X(x1)+X(x2))/2}" y="${(Y(y1)+Y(y2))/2-6+offset}" text-anchor="middle">${escape(label)}</text>`;}
+  rect(10.4,10.55,3.92,9.53,'ks-wall');rect(6.39,6.51,5.70,7.41,'ks-wall');rect(6.30,6.51,7.03,7.41,'ks-wall');
+  rect(9.49,10.40,7.11,7.49,'ks-wall');
+  rect(8.15,10.34,8.99,9.53,'ks-furniture',4);text(9.25,9.20,'Диван · частково');
+  rect(9.745,10.39,4.60,7.11,'ks-furniture');
+  rect(7.95,8.69,3.92,4.60,'ks-furniture');rect(8.69,9.34,3.92,4.60,'ks-furniture');rect(9.35,10.39,3.94,4.54,'ks-furniture');
+  text(8.32,4.17,'Хол.');text(9.0,4.17,'Дух.');
+  rect(9.83,10.29,5.06,5.65,'ks-ghost',2);
+  for(const cx of [9.94,10.17])for(const cy of [6.34,6.62])out+=`<circle cx="${X(cx)}" cy="${Y(cy)}" r="${.075*s}" class="ks-dim"/>`;
+  const island=chosen==='peninsula'?'ks-ghost':'ks-furniture';rect(7.9625,8.6975,5.6925,7.0275,island,3);
+  if(chosen!=='peninsula')text(8.33,6.30,'Острів');
+  const chairClass=(chosen==='wall'||chosen==='peninsula')?'ks-danger':'ks-furniture';
+  rect(7.71,9.27,7.72,8.52,'ks-furniture',7);text(8.49,8.08,'Стіл');
+  for(const x of [7.73,8.73]){rect(x,x+.52,7.15,7.71,chairClass,4);rect(x,x+.52,8.53,9.09,'ks-furniture',4);}
+  if(chosen==='buffet'){
+   rect(9.49,10.39,7.49,7.84,'ks-add',2);text(9.94,8.04,'Комод');dimension(10.18,7.84,10.18,8.99,'115 см');
+   line(9.49,7.89,9.27,7.89);text(9.15,7.56,'22 см');
+  }else if(chosen==='island'){
+   rect(7.7125,7.9625,5.71,7.01,'ks-add',2);line(7.9625,5.71,7.9625,7.01,'ks-ghost');
+   dimension(6.51,6.75,7.7125,6.75,'≈120 см');dimension(8.6975,6.10,9.745,6.10,'≈105 см');
+   line(7.73,5.90,7.24,5.38);text(7.22,5.22,'+25 см');
+  }else if(chosen==='wall'){
+   rect(8.89,9.49,7.11,7.49,'ks-add');rect(8.89,9.745,6.51,7.11,'ks-add',2);
+   rect(8.6975,8.89,6.51,7.0275,'ks-danger');line(8.72,6.63,8.77,6.92);line(8.77,6.63,8.72,6.92);
+   line(8.79,6.74,9.22,6.13);text(9.22,5.97,'≈19 см');
+   text(7.77,5.00,'Острів заважає проходу');
+  }else{
+   rect(8.10,9.49,7.11,7.49,'ks-add');rect(8.10,9.745,6.51,7.11,'ks-add',2);
+   text(8.93,6.79,'Півострів');text(8.26,6.20,'Острів прибрати');
+   line(8.62,7.45,8.45,7.97);text(7.94,8.73,'Їдальню перепланувати');
+  }
+  dimension(7.9625,5.05,8.6975,5.05,chosen==='island'?'було 74 см':'74 см');
+  text(7.10,9.35,'Вітальня ↑');text(7.10,3.90,'Кухня ↓');
+  out+='</svg>';plan.innerHTML=out;
+ }
+ function drawDetail(){
+  const w=Math.max(140,Math.round(detail.getBoundingClientRect().width)),h=w*.95;
+  let svg=`<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img"><title>${escape(options[chosen].title)} · об’ємний ескіз</title>`;
+  const f=w/280,P=(u,v,z)=>[18+(u*.90+v*.38)*f,h-25+(-v*.35-z*.90)*f];
+  function face(points,cls){svg+=`<polygon points="${points.map(q=>q.join(',')).join(' ')}" class="${cls}"/>`;}
+  function cabinet(u,v,a,b,z,cls){face([P(u+a,v,0),P(u+a,v+b,0),P(u+a,v+b,z),P(u+a,v,z)],cls);face([P(u,v,z),P(u+a,v,z),P(u+a,v+b,z),P(u,v+b,z)],cls);face([P(u,v,0),P(u+a,v,0),P(u+a,v,z),P(u,v,z)],cls);}
+  function doors(u,v,width,z,count){for(let i=1;i<count;i++){const A=P(u+width*i/count,v,0),B=P(u+width*i/count,v,z);svg+=`<path d="M${A}L${B}" class="ks-dim"/>`;}for(let i=0;i<count;i++){const a=P(u+width*(i+.5)/count-8,v,z*.75),b=P(u+width*(i+.5)/count+8,v,z*.75);svg+=`<path d="M${a}L${b}" class="ks-dim"/>`;}}
+  if(chosen==='buffet'){
+   cabinet(15,0,175,65,115,'ks-add');doors(15,0,175,115,2);
+   svg+=`<text x="${w/2}" y="18" text-anchor="middle">Комод 90 × 35 см</text>`;
+  }else if(chosen==='island'){
+   cabinet(5,38,190,80,110,'ks-furniture');cabinet(5,0,190,38,110,'ks-add');doors(5,0,190,110,2);
+   face([P(0,-3,114),P(200,-3,114),P(200,120,114),P(0,120,114)],'ks-furniture');
+   svg+=`<text x="${w/2}" y="18" text-anchor="middle">Додані тумби ззаду</text>`;
+  }else if(chosen==='wall'){
+   cabinet(0,0,80,130,105,'ks-furniture');cabinet(116,65,70,100,105,'ks-add');
+   svg+=`<text x="${w/2}" y="18" text-anchor="middle">Занадто вузький проміжок</text>`;
+   const a=P(80,35,0),b=P(116,35,0);svg+=`<path d="M${a}L${b}" class="ks-dim"/><text x="${(a[0]+b[0])/2}" y="${a[1]-8}" text-anchor="middle">19 см</text>`;
+  }else{
+   cabinet(130,0,65,135,105,'ks-furniture');cabinet(0,80,130,55,105,'ks-add');doors(0,80,130,105,2);
+   svg+=`<text x="${w/2}" y="18" text-anchor="middle">Нова Г-подібна композиція</text>`;
+  }
+  detail.innerHTML=svg+'</svg>';
+ }
+ function render(){root.querySelectorAll('[data-option]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.option===chosen)));facts.innerHTML=options[chosen].facts.map(([a,b])=>`<div class="ks-fact"><strong>${escape(a)}</strong><span class="text-small">${escape(b)}</span></div>`).join('');drawPlan();drawDetail();}
+ root.querySelectorAll('[data-option]').forEach(b=>b.addEventListener('click',()=>{chosen=b.dataset.option;render();window.openai?.setWidgetState?.({modelContent:{option:chosen},privateContent:null}).catch(()=>{});}));
+ window.addEventListener('openai:set_globals',e=>{const v=e.detail?.globals?.widgetState?.modelContent?.option;if(options[v]){chosen=v;render();}});
+ new ResizeObserver(()=>{drawPlan();drawDetail();}).observe(root);render();
+})();
+</script>

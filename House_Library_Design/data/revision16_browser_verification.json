@@ -1,0 +1,16 @@
+{
+  "floor1_active_nodes": 519,
+  "floor2_active_nodes": 165,
+  "passed": true,
+  "revision": 16,
+  "updated_photos": 15,
+  "embedded_models_match": true,
+  "zip_crc_verified": true,
+  "door_floor_heights": {
+    "LIB_Door_STORAGE_Door.001_PREPARED": 0.006000000053205667,
+    "LIB_Door_L2_SIDE_BEDROOM_DOOR_Door.001_PREPARED": 0.006000206993081569,
+    "LIB_Door_L2_FRONT_BEDROOM_DOOR_Door.001_PREPARED": 0.006000206993081569
+  },
+  "exact_kitchen_finish_match": true,
+  "browser_ui": "Not interactively tested; GLB scene geometry, materials, floor heights and photos checked"
+}

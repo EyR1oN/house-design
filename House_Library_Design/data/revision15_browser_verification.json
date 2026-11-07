@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "photos": 36,
+  "replaced_hood_nodes": 6,
+  "new_nodes": 43,
+  "embedded_models_match": true,
+  "upper_floor_unchanged": true,
+  "zip_crc_verified": true,
+  "pantry_motion_nodes_preserved": 20,
+  "browser_ui": "Not interactively tested; GLB active scene and photos verified"
+}

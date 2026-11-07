@@ -1,0 +1,120 @@
+{
+  "revision": 11,
+  "passed": true,
+  "checks": [
+    {
+      "check": "All laundry placements inside room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boiler at right east-wall corner facing west",
+      "passed": true,
+      "detail": [
+        [
+          9.995999336242676,
+          10.37399959564209
+        ],
+        [
+          2.6599998474121094,
+          3.0999999046325684
+        ],
+        [
+          1.409999966621399,
+          2.4100000858306885
+        ]
+      ]
+    },
+    {
+      "check": "Appliance column left of boiler",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boiler and bins have vertical service space",
+      "passed": true,
+      "detail": 0.26999998092651367
+    },
+    {
+      "check": "All main furniture placements mutually separate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pantry leaves >=870mm aisle including handles",
+      "passed": true,
+      "detail": 0.8789998531341552
+    },
+    {
+      "check": "Conservative 550mm appliance door reach has >=60mm margin",
+      "passed": true,
+      "detail": 0.06499977111816335
+    },
+    {
+      "check": "Entry door conservative swing clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Deep potato drawer leaves >=600mm standing space",
+      "passed": true,
+      "detail": 0.6349997329711905
+    },
+    {
+      "check": "Shallow vegetable drawers leave >=650mm standing space",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Upper pantry doors slide inside footprint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Dryer supported by 30mm stacking kit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Sack rests on deep bin base",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "60 jars on five pantry shelf levels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Sockets on exposed side-wall patch",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Placement objects exist",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Textures packed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Old deep tall pantry removed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TV slats absent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Other rooms unchanged",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "scope": "Current model geometry; selected real appliances, flue suitability and installation requirements need confirmation"
+}

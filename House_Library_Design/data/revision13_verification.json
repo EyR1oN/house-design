@@ -1,0 +1,111 @@
+{
+  "revision": 13,
+  "passed": true,
+  "checks": [
+    {
+      "check": "Old prep base and upper corner removed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Carcass stops before window sill",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pantry rests on floor and below ceiling",
+      "passed": true,
+      "detail": [
+        [
+          9.350000381469727,
+          10.389999389648438
+        ],
+        [
+          3.93999981880188,
+          4.600000381469727
+        ],
+        [
+          0.0,
+          2.875
+        ]
+      ]
+    },
+    {
+      "check": "Pull-out fits accessible 410mm opening",
+      "passed": true,
+      "detail": [
+        9.360000610351562,
+        9.739999771118164
+      ]
+    },
+    {
+      "check": "61 motion samples clear oven fridge sink bases and island",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rear rack becomes accessible at front after transfer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Open tray banks retain >=150mm clear separation",
+      "passed": true,
+      "detail": 0.15999986648559616
+    },
+    {
+      "check": "56 food containers on fourteen trays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Trimmed worktop no longer crosses tall cabinet",
+      "passed": true,
+      "detail": [
+        [
+          9.744999885559082,
+          10.380082130432129
+        ],
+        [
+          4.599999904632568,
+          7.090000152587891
+        ],
+        [
+          0.8700000047683716,
+          0.9049999713897705
+        ]
+      ]
+    },
+    {
+      "check": "Boards supported on island",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Service sockets above carriage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Old sockets cleared from middle of pantry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Other furniture placements unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All placement objects exist",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Textures packed",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "limitation": "Kinematic envelope only; furniture maker must select engineered full-height mechanism and verify loads and fixings"
+}

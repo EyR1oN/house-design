@@ -1,0 +1,102 @@
+[
+  {
+    "id": "P1_SINK_WATER_DRAIN",
+    "room": "Kitchen",
+    "level": 1,
+    "type": "SINK_WATER_DRAIN",
+    "x_m": 10.32,
+    "y_m": 5.35,
+    "height_aff_m": 0.45,
+    "status": "PROPOSED_CONNECTION_POINT"
+  },
+  {
+    "id": "P1_DISHWASHER_WATER_DRAIN",
+    "room": "Kitchen",
+    "level": 1,
+    "type": "DISHWASHER_WATER_DRAIN",
+    "x_m": 10.32,
+    "y_m": 5.55,
+    "height_aff_m": 0.42,
+    "status": "PROPOSED_CONNECTION_POINT"
+  },
+  {
+    "id": "P1_WASHER_WATER_DRAIN",
+    "room": "Laundry",
+    "level": 1,
+    "type": "WASHER_WATER_DRAIN",
+    "x_m": 10.34,
+    "y_m": 3.22,
+    "height_aff_m": 0.55,
+    "status": "PROPOSED_CONNECTION_POINT"
+  },
+  {
+    "id": "P1_SHOWER_MIXER",
+    "room": "Ground_WC",
+    "level": 1,
+    "type": "SHOWER_MIXER",
+    "x_m": 5.75,
+    "y_m": 3.97,
+    "height_aff_m": 1.04,
+    "status": "PROPOSED_CONNECTION_POINT"
+  },
+  {
+    "id": "P1_BASIN_WATER_DRAIN",
+    "room": "Ground_WC",
+    "level": 1,
+    "type": "BASIN_WATER_DRAIN",
+    "x_m": 5.52,
+    "y_m": 5.69,
+    "height_aff_m": 0.6,
+    "status": "PROPOSED_CONNECTION_POINT"
+  },
+  {
+    "id": "P1_WC_SUPPLY",
+    "room": "Ground_WC",
+    "level": 1,
+    "type": "WC_SUPPLY",
+    "x_m": 5.94,
+    "y_m": 6.98,
+    "height_aff_m": 0.25,
+    "status": "PROPOSED_CONNECTION_POINT"
+  },
+  {
+    "id": "P2_BATH_MIXER",
+    "room": "Upper_Bath",
+    "level": 2,
+    "type": "BATH_MIXER",
+    "x_m": 11.36,
+    "y_m": 6.37,
+    "height_aff_m": 0.76,
+    "status": "PROPOSED_CONNECTION_POINT"
+  },
+  {
+    "id": "P2_BASIN_WATER_DRAIN",
+    "room": "Upper_Bath",
+    "level": 2,
+    "type": "BASIN_WATER_DRAIN",
+    "x_m": 9.75,
+    "y_m": 5.53,
+    "height_aff_m": 0.55,
+    "status": "PROPOSED_CONNECTION_POINT"
+  },
+  {
+    "id": "P2_WC_SUPPLY",
+    "room": "Upper_Bath",
+    "level": 2,
+    "type": "WC_SUPPLY",
+    "x_m": 8.9,
+    "y_m": 7.28,
+    "height_aff_m": 0.25,
+    "status": "PROPOSED_CONNECTION_POINT"
+  },
+  {
+    "id": "P1_BOILER_CONNECTION_ZONE",
+    "room": "Laundry",
+    "level": 1,
+    "type": "BOILER_SERVICE_ZONE",
+    "x_m": 10.3,
+    "y_m": 2.88,
+    "height_aff_m": 1.41,
+    "status": "PROPOSED_ONLY_GAS_FLUE_CONDENSATE_ENGINEERING_REQUIRED"
+  }
+]

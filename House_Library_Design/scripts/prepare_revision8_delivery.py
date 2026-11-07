@@ -1,0 +1,2 @@
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];h=(R/'scripts/verify_revision7_delivery.py').read_text(encoding='utf8').replace('revision7_browser_verification.json','revision8_browser_verification.json').replace('REVISION7_DELIVERY_VERIFIED','REVISION8_DELIVERY_VERIFIED').replace("'Ground_Hall_Reverse']","'Ground_Hall_Reverse','Laundry_Storage']").replace("'total_renders':32","'total_renders':33");(R/'scripts/verify_revision8_delivery.py').write_text(h,encoding='utf8')

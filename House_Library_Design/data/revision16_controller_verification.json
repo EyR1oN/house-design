@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "moving_objects": 20,
+  "forward_stage_checked": true,
+  "rotation_matches_blender": true,
+  "close_restores_positions": true,
+  "fixed_furniture_unchanged": true,
+  "button_event_cycle_checked": true,
+  "render_calls": 9,
+  "browser_ui": "Not performed: Computer Use stopped because browser URL could not be verified; controller tested in isolated JS runtime against actual GLB nodes"
+}

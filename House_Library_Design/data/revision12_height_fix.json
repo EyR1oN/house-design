@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "viewer_objects_corrected": 55,
+  "offset_m": -3.2,
+  "ground_contacts": [
+    {
+      "object": "R12_Vanity_Plinth_0",
+      "floor_gap_m": -1.0505318659426166e-07
+    },
+    {
+      "object": "R12_Vanity_Plinth_1",
+      "floor_gap_m": -1.0505318659426166e-07
+    }
+  ],
+  "blender_model_changed": false,
+  "floor1_changed": false
+}

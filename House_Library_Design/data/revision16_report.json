@@ -1,0 +1,809 @@
+{
+  "revision": 16,
+  "removed_objects": [
+    "LIB_Plant_Office_pot_PREPARED",
+    "LIB_Plant_Office_plant_PREPARED"
+  ],
+  "changed_objects": {
+    "1": [
+      "LIB_Door_STORAGE_Latch_PREPARED",
+      "LIB_Door_STORAGE_Latch.001_PREPARED",
+      "LIB_Door_STORAGE_Hinge Pin.002_PREPARED",
+      "LIB_Door_STORAGE_Hinge Door Side.002_PREPARED",
+      "LIB_Door_STORAGE_Handle_PREPARED",
+      "LIB_Door_STORAGE_Handle Base_PREPARED",
+      "LIB_Door_STORAGE_Door.001_PREPARED",
+      "LIB_Door_STORAGE_Door Frame_PREPARED",
+      "LIB_Door_STORAGE_Cube_PREPARED",
+      "R15_Hood_Cabinet_Side_6.199",
+      "R15_Hood_Cabinet_Side_7.081",
+      "R15_Hood_Cabinet_Top",
+      "R15_Hood_Concealing_Fascia",
+      "R15_Bottom_Return_Long",
+      "R15_Bottom_Return_Short",
+      "R15_Duct_Service_Bay_Side_6.381",
+      "R15_Duct_Service_Bay_Side_6.599",
+      "R15_Removable_Duct_Service_Cover",
+      "R15_Storage_Shelf_Left_2.015",
+      "R15_Storage_Shelf_Right_2.015",
+      "R15_Storage_Shelf_Left_2.425",
+      "R15_Storage_Shelf_Right_2.425",
+      "R15_Storage_Shelf_Left_2.775",
+      "R15_Storage_Shelf_Right_2.775",
+      "R15_Hood_Door_0",
+      "R15_Hood_Door_1",
+      "R13_Pantry_Side_9.359",
+      "R13_Pantry_Side_10.381",
+      "R13_Pantry_Back",
+      "R13_Pantry_Fixed_Shelf_0.109",
+      "R13_Pantry_Fixed_Shelf_2.866",
+      "R13_Pantry_Toe_Kick",
+      "R13_Pantry_Blind_Front",
+      "R14_Pivot_Outer_Face",
+      "R14_Rounded_White_Corner_Shelf_0",
+      "R14_Rounded_White_Corner_Shelf_1",
+      "R14_Rounded_White_Corner_Shelf_2",
+      "R14_Rounded_White_Corner_Shelf_3",
+      "R14_Rounded_White_Corner_Shelf_4",
+      "R14_Rounded_White_Corner_Shelf_5",
+      "R14_Rounded_White_Corner_Shelf_6",
+      "R13_Counter_Return_Filler",
+      "R14_Pivot_Oak_Back",
+      "R14_Pivot_Oak_Side_9.379",
+      "R14_Pivot_Oak_Side_9.711",
+      "R14_Pivot_Oak_Shelf_0",
+      "R14_Pivot_Oak_Front_Lip_0",
+      "R14_Pivot_Oak_Shelf_1",
+      "R14_Pivot_Oak_Front_Lip_1",
+      "R14_Pivot_Oak_Shelf_2",
+      "R14_Pivot_Oak_Front_Lip_2",
+      "R14_Pivot_Oak_Shelf_3",
+      "R14_Pivot_Oak_Front_Lip_3",
+      "R14_Pivot_Oak_Shelf_4",
+      "R14_Pivot_Oak_Front_Lip_4",
+      "R14_Pivot_Oak_Shelf_5",
+      "R14_Pivot_Oak_Front_Lip_5",
+      "R14_Pivot_Oak_Shelf_6",
+      "R14_Pivot_Pull_Handle",
+      "R14_Pivot_Fixed_Track_0.12",
+      "R14_Pivot_Moving_Hinge_0.12",
+      "R14_Pivot_Fixed_Track_2.79",
+      "R14_Pivot_Moving_Hinge_2.79"
+    ],
+    "2": [
+      "LIB_Door_L2_SIDE_BEDROOM_DOOR_Latch_PREPARED",
+      "LIB_Door_L2_SIDE_BEDROOM_DOOR_Latch.001_PREPARED",
+      "LIB_Door_L2_SIDE_BEDROOM_DOOR_Hinge Pin.002_PREPARED",
+      "LIB_Door_L2_SIDE_BEDROOM_DOOR_Hinge Door Side.002_PREPARED",
+      "LIB_Door_L2_SIDE_BEDROOM_DOOR_Handle_PREPARED",
+      "LIB_Door_L2_SIDE_BEDROOM_DOOR_Handle Base_PREPARED",
+      "LIB_Door_L2_SIDE_BEDROOM_DOOR_Door.001_PREPARED",
+      "LIB_Door_L2_SIDE_BEDROOM_DOOR_Door Frame_PREPARED",
+      "LIB_Door_L2_SIDE_BEDROOM_DOOR_Cube_PREPARED",
+      "LIB_Door_L2_FRONT_BEDROOM_DOOR_Latch_PREPARED",
+      "LIB_Door_L2_FRONT_BEDROOM_DOOR_Latch.001_PREPARED",
+      "LIB_Door_L2_FRONT_BEDROOM_DOOR_Hinge Pin.002_PREPARED",
+      "LIB_Door_L2_FRONT_BEDROOM_DOOR_Hinge Door Side.002_PREPARED",
+      "LIB_Door_L2_FRONT_BEDROOM_DOOR_Handle_PREPARED",
+      "LIB_Door_L2_FRONT_BEDROOM_DOOR_Handle Base_PREPARED",
+      "LIB_Door_L2_FRONT_BEDROOM_DOOR_Door.001_PREPARED",
+      "LIB_Door_L2_FRONT_BEDROOM_DOOR_Door Frame_PREPARED",
+      "LIB_Door_L2_FRONT_BEDROOM_DOOR_Cube_PREPARED",
+      "E2_084_SOCKET",
+      "E2_084_SOCKET_hole",
+      "E2_084_SOCKET_hole.001",
+      "E2_084_SOCKET_hole.002",
+      "E2_084_SOCKET_hole.003"
+    ]
+  },
+  "doors": [
+    {
+      "id": "L2_SIDE_BEDROOM_DOOR",
+      "level": 2,
+      "hinge": [
+        8.411324501037598,
+        5.169637203216553,
+        3.200000047683716
+      ],
+      "angle_deg": 90,
+      "description": "North jamb hinge; inward against bathroom-side wall",
+      "moving": [
+        "LIB_Door_L2_SIDE_BEDROOM_DOOR_Latch_PREPARED",
+        "LIB_Door_L2_SIDE_BEDROOM_DOOR_Latch.001_PREPARED",
+        "LIB_Door_L2_SIDE_BEDROOM_DOOR_Hinge Pin.002_PREPARED",
+        "LIB_Door_L2_SIDE_BEDROOM_DOOR_Hinge Door Side.002_PREPARED",
+        "LIB_Door_L2_SIDE_BEDROOM_DOOR_Handle_PREPARED",
+        "LIB_Door_L2_SIDE_BEDROOM_DOOR_Handle Base_PREPARED",
+        "LIB_Door_L2_SIDE_BEDROOM_DOOR_Door.001_PREPARED"
+      ],
+      "fixed": [
+        "LIB_Door_L2_SIDE_BEDROOM_DOOR_Door Frame_PREPARED",
+        "LIB_Door_L2_SIDE_BEDROOM_DOOR_Cube_PREPARED"
+      ],
+      "closed_matrices": {
+        "LIB_Door_L2_SIDE_BEDROOM_DOOR_Latch_PREPARED": [
+          [
+            -4.144114029713819e-07,
+            1.00078284740448,
+            0.0,
+            8.450233459472656
+          ],
+          [
+            -1.0325713157653809,
+            -4.016534376205527e-07,
+            0.0,
+            4.749999523162842
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            3.206000328063965
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LIB_Door_L2_SIDE_BEDROOM_DOOR_Latch.001_PREPARED": [
+          [
+            -4.144114029713819e-07,
+            1.00078284740448,
+            0.0,
+            8.450233459472656
+          ],
+          [
+            -1.0325713157653809,
+            -4.016534376205527e-07,
+            0.0,
+            4.749999523162842
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            3.206000328063965
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LIB_Door_L2_SIDE_BEDROOM_DOOR_Hinge Pin.002_PREPARED": [
+          [
+            -4.144114029713819e-07,
+            1.00078284740448,
+            0.0,
+            8.450233459472656
+          ],
+          [
+            -1.0325713157653809,
+            -4.016534376205527e-07,
+            0.0,
+            4.749999523162842
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            3.206000328063965
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LIB_Door_L2_SIDE_BEDROOM_DOOR_Hinge Door Side.002_PREPARED": [
+          [
+            -4.144114029713819e-07,
+            1.00078284740448,
+            0.0,
+            8.450233459472656
+          ],
+          [
+            -1.0325713157653809,
+            -4.016534376205527e-07,
+            0.0,
+            4.749999523162842
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            3.206000328063965
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LIB_Door_L2_SIDE_BEDROOM_DOOR_Handle_PREPARED": [
+          [
+            -4.144114029713819e-07,
+            1.00078284740448,
+            0.0,
+            8.450233459472656
+          ],
+          [
+            -1.0325713157653809,
+            -4.016534376205527e-07,
+            0.0,
+            4.749999523162842
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            3.206000328063965
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LIB_Door_L2_SIDE_BEDROOM_DOOR_Handle Base_PREPARED": [
+          [
+            -4.144114029713819e-07,
+            1.00078284740448,
+            0.0,
+            8.450233459472656
+          ],
+          [
+            -1.0325713157653809,
+            -4.016534376205527e-07,
+            0.0,
+            4.749999523162842
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            3.206000328063965
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LIB_Door_L2_SIDE_BEDROOM_DOOR_Door.001_PREPARED": [
+          [
+            -4.144114029713819e-07,
+            1.00078284740448,
+            0.0,
+            8.450233459472656
+          ],
+          [
+            -1.0325713157653809,
+            -4.016534376205527e-07,
+            0.0,
+            4.749999523162842
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            3.206000328063965
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "L2_FRONT_BEDROOM_DOOR",
+      "level": 2,
+      "hinge": [
+        8.17963695526123,
+        4.228674411773682,
+        3.200000047683716
+      ],
+      "angle_deg": 90,
+      "description": "East jamb hinge; inward against east room wall",
+      "moving": [
+        "LIB_Door_L2_FRONT_BEDROOM_DOOR_Latch_PREPARED",
+        "LIB_Door_L2_FRONT_BEDROOM_DOOR_Latch.001_PREPARED",
+        "LIB_Door_L2_FRONT_BEDROOM_DOOR_Hinge Pin.002_PREPARED",
+        "LIB_Door_L2_FRONT_BEDROOM_DOOR_Hinge Door Side.002_PREPARED",
+        "LIB_Door_L2_FRONT_BEDROOM_DOOR_Handle_PREPARED",
+        "LIB_Door_L2_FRONT_BEDROOM_DOOR_Handle Base_PREPARED",
+        "LIB_Door_L2_FRONT_BEDROOM_DOOR_Door.001_PREPARED"
+      ],
+      "fixed": [
+        "LIB_Door_L2_FRONT_BEDROOM_DOOR_Door Frame_PREPARED",
+        "LIB_Door_L2_FRONT_BEDROOM_DOOR_Cube_PREPARED"
+      ],
+      "closed_matrices": {
+        "LIB_Door_L2_FRONT_BEDROOM_DOOR_Latch_PREPARED": [
+          [
+            -1.0325713157653809,
+            -8.749125868234842e-08,
+            0.0,
+            7.759999752044678
+          ],
+          [
+            9.027024816532503e-08,
+            -1.0007833242416382,
+            0.0,
+            4.189764499664307
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            3.206000328063965
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LIB_Door_L2_FRONT_BEDROOM_DOOR_Latch.001_PREPARED": [
+          [
+            -1.0325713157653809,
+            -8.749125868234842e-08,
+            0.0,
+            7.759999752044678
+          ],
+          [
+            9.027024816532503e-08,
+            -1.0007833242416382,
+            0.0,
+            4.189764499664307
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            3.206000328063965
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LIB_Door_L2_FRONT_BEDROOM_DOOR_Hinge Pin.002_PREPARED": [
+          [
+            -1.0325713157653809,
+            -8.749125868234842e-08,
+            0.0,
+            7.759999752044678
+          ],
+          [
+            9.027024816532503e-08,
+            -1.0007833242416382,
+            0.0,
+            4.189764499664307
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            3.206000328063965
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LIB_Door_L2_FRONT_BEDROOM_DOOR_Hinge Door Side.002_PREPARED": [
+          [
+            -1.0325713157653809,
+            -8.749125868234842e-08,
+            0.0,
+            7.759999752044678
+          ],
+          [
+            9.027024816532503e-08,
+            -1.0007833242416382,
+            0.0,
+            4.189764499664307
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            3.206000328063965
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LIB_Door_L2_FRONT_BEDROOM_DOOR_Handle_PREPARED": [
+          [
+            -1.0325713157653809,
+            -8.749125868234842e-08,
+            0.0,
+            7.759999752044678
+          ],
+          [
+            9.027024816532503e-08,
+            -1.0007833242416382,
+            0.0,
+            4.189764499664307
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            3.206000328063965
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LIB_Door_L2_FRONT_BEDROOM_DOOR_Handle Base_PREPARED": [
+          [
+            -1.0325713157653809,
+            -8.749125868234842e-08,
+            0.0,
+            7.759999752044678
+          ],
+          [
+            9.027024816532503e-08,
+            -1.0007833242416382,
+            0.0,
+            4.189764499664307
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            3.206000328063965
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LIB_Door_L2_FRONT_BEDROOM_DOOR_Door.001_PREPARED": [
+          [
+            -1.0325713157653809,
+            -8.749125868234842e-08,
+            0.0,
+            7.759999752044678
+          ],
+          [
+            9.027024816532503e-08,
+            -1.0007833242416382,
+            0.0,
+            4.189764499664307
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            3.206000328063965
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "STORAGE",
+      "level": 1,
+      "hinge": [
+        6.5663251876831055,
+        8.003615379333496,
+        0.0
+      ],
+      "angle_deg": -90,
+      "description": "South jamb hinge; outward toward living room",
+      "moving": [
+        "LIB_Door_STORAGE_Latch_PREPARED",
+        "LIB_Door_STORAGE_Latch.001_PREPARED",
+        "LIB_Door_STORAGE_Hinge Pin.002_PREPARED",
+        "LIB_Door_STORAGE_Hinge Door Side.002_PREPARED",
+        "LIB_Door_STORAGE_Handle_PREPARED",
+        "LIB_Door_STORAGE_Handle Base_PREPARED",
+        "LIB_Door_STORAGE_Door.001_PREPARED"
+      ],
+      "fixed": [
+        "LIB_Door_STORAGE_Door Frame_PREPARED",
+        "LIB_Door_STORAGE_Cube_PREPARED"
+      ],
+      "closed_matrices": {
+        "LIB_Door_STORAGE_Latch_PREPARED": [
+          [
+            1.5637149886060797e-07,
+            -1.00078284740448,
+            0.0,
+            6.527415752410889
+          ],
+          [
+            0.8031110763549805,
+            1.9485960933707247e-07,
+            0.0,
+            8.329999923706055
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            0.006000121124088764
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LIB_Door_STORAGE_Latch.001_PREPARED": [
+          [
+            1.5637149886060797e-07,
+            -1.00078284740448,
+            0.0,
+            6.527415752410889
+          ],
+          [
+            0.8031110763549805,
+            1.9485960933707247e-07,
+            0.0,
+            8.329999923706055
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            0.006000121124088764
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LIB_Door_STORAGE_Hinge Pin.002_PREPARED": [
+          [
+            1.5637149886060797e-07,
+            -1.00078284740448,
+            0.0,
+            6.527415752410889
+          ],
+          [
+            0.8031110763549805,
+            1.9485960933707247e-07,
+            0.0,
+            8.329999923706055
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            0.006000121124088764
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LIB_Door_STORAGE_Hinge Door Side.002_PREPARED": [
+          [
+            1.5637149886060797e-07,
+            -1.00078284740448,
+            0.0,
+            6.527415752410889
+          ],
+          [
+            0.8031110763549805,
+            1.9485960933707247e-07,
+            0.0,
+            8.329999923706055
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            0.006000121124088764
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LIB_Door_STORAGE_Handle_PREPARED": [
+          [
+            1.5637149886060797e-07,
+            -1.00078284740448,
+            0.0,
+            6.527415752410889
+          ],
+          [
+            0.8031110763549805,
+            1.9485960933707247e-07,
+            0.0,
+            8.329999923706055
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            0.006000121124088764
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LIB_Door_STORAGE_Handle Base_PREPARED": [
+          [
+            1.5637149886060797e-07,
+            -1.00078284740448,
+            0.0,
+            6.527415752410889
+          ],
+          [
+            0.8031110763549805,
+            1.9485960933707247e-07,
+            0.0,
+            8.329999923706055
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            0.006000121124088764
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LIB_Door_STORAGE_Door.001_PREPARED": [
+          [
+            1.5637149886060797e-07,
+            -1.00078284740448,
+            0.0,
+            6.527415752410889
+          ],
+          [
+            0.8031110763549805,
+            1.9485960933707247e-07,
+            0.0,
+            8.329999923706055
+          ],
+          [
+            0.0,
+            0.0,
+            1.0156161785125732,
+            0.006000121124088764
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    }
+  ],
+  "color_objects": [
+    "R15_Hood_Cabinet_Side_6.199",
+    "R15_Hood_Cabinet_Side_7.081",
+    "R15_Hood_Cabinet_Top",
+    "R15_Hood_Concealing_Fascia",
+    "R15_Bottom_Return_Long",
+    "R15_Bottom_Return_Short",
+    "R15_Duct_Service_Bay_Side_6.381",
+    "R15_Duct_Service_Bay_Side_6.599",
+    "R15_Removable_Duct_Service_Cover",
+    "R15_Storage_Shelf_Left_2.015",
+    "R15_Storage_Shelf_Right_2.015",
+    "R15_Storage_Shelf_Left_2.425",
+    "R15_Storage_Shelf_Right_2.425",
+    "R15_Storage_Shelf_Left_2.775",
+    "R15_Storage_Shelf_Right_2.775",
+    "R15_Hood_Door_0",
+    "R15_Hood_Door_1",
+    "R13_Pantry_Side_9.359",
+    "R13_Pantry_Side_10.381",
+    "R13_Pantry_Back",
+    "R13_Pantry_Fixed_Shelf_0.109",
+    "R13_Pantry_Fixed_Shelf_2.866",
+    "R13_Pantry_Toe_Kick",
+    "R13_Pantry_Blind_Front",
+    "R14_Pivot_Outer_Face",
+    "R14_Rounded_White_Corner_Shelf_0",
+    "R14_Rounded_White_Corner_Shelf_1",
+    "R14_Rounded_White_Corner_Shelf_2",
+    "R14_Rounded_White_Corner_Shelf_3",
+    "R14_Rounded_White_Corner_Shelf_4",
+    "R14_Rounded_White_Corner_Shelf_5",
+    "R14_Rounded_White_Corner_Shelf_6"
+  ],
+  "kitchen_finish_material": "Main_Slot.001",
+  "pantry_roles": {
+    "fixed": [
+      "R13_Pantry_Side_9.359",
+      "R13_Pantry_Side_10.381",
+      "R13_Pantry_Back",
+      "R13_Pantry_Fixed_Shelf_0.109",
+      "R13_Pantry_Fixed_Shelf_2.866",
+      "R13_Pantry_Toe_Kick",
+      "R13_Pantry_Blind_Front",
+      "R13_Counter_Return_Filler",
+      "R14_Rounded_White_Corner_Shelf_0",
+      "R14_Rounded_White_Corner_Shelf_1",
+      "R14_Rounded_White_Corner_Shelf_2",
+      "R14_Rounded_White_Corner_Shelf_3",
+      "R14_Rounded_White_Corner_Shelf_4",
+      "R14_Rounded_White_Corner_Shelf_5",
+      "R14_Rounded_White_Corner_Shelf_6",
+      "R14_Pivot_Fixed_Track_0.12",
+      "R14_Pivot_Fixed_Track_2.79"
+    ],
+    "pivot": [
+      "R14_Pivot_Outer_Face",
+      "R14_Pivot_Oak_Back",
+      "R14_Pivot_Oak_Side_9.379",
+      "R14_Pivot_Oak_Side_9.711",
+      "R14_Pivot_Oak_Shelf_0",
+      "R14_Pivot_Oak_Front_Lip_0",
+      "R14_Pivot_Oak_Shelf_1",
+      "R14_Pivot_Oak_Front_Lip_1",
+      "R14_Pivot_Oak_Shelf_2",
+      "R14_Pivot_Oak_Front_Lip_2",
+      "R14_Pivot_Oak_Shelf_3",
+      "R14_Pivot_Oak_Front_Lip_3",
+      "R14_Pivot_Oak_Shelf_4",
+      "R14_Pivot_Oak_Front_Lip_4",
+      "R14_Pivot_Oak_Shelf_5",
+      "R14_Pivot_Oak_Front_Lip_5",
+      "R14_Pivot_Oak_Shelf_6",
+      "R14_Pivot_Pull_Handle",
+      "R14_Pivot_Moving_Hinge_0.12",
+      "R14_Pivot_Moving_Hinge_2.79"
+    ]
+  },
+  "electrical_relocation": {
+    "id": "E2_084_SOCKET",
+    "from_y": 3.43,
+    "to_y": 2.95,
+    "reason": "Keep cleaning socket clear of the new wall-side door and plugged-in cable away from its swing"
+  }
+}

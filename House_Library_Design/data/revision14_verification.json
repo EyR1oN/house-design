@@ -1,0 +1,42 @@
+{
+  "revision": 14,
+  "passed": true,
+  "checks": [
+    {
+      "check": "91 pivot-slide positions clear of oven return sink fridge island and worktop",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Oak shelf door instead of cargo baskets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Seven rounded white corner shelves",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Wood door depth 180mm",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Window sill clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pantry stands on floor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Other furniture unchanged",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "limitation": "Geometry and visual arrangement checked; actual pivot-slide hardware must be engineered for the cabinet"
+}

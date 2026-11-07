@@ -1,0 +1,94 @@
+{
+  "revision": 8,
+  "passed": true,
+  "checks": [
+    {
+      "check": "No vertical TV slats remain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Continuous TV wall remains",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Bulk cabinet fits room envelope",
+      "passed": true,
+      "detail": [
+        [
+          8.520000457763672,
+          9.479999542236328
+        ],
+        [
+          3.3420000076293945,
+          3.7850000858306885
+        ],
+        [
+          0.009999997913837433,
+          2.61899995803833
+        ]
+      ]
+    },
+    {
+      "check": "Boiler front service zone >=500mm",
+      "passed": true,
+      "detail": 0.5420007705688477
+    },
+    {
+      "check": "Access strip beside new cabinetry >=700mm",
+      "passed": true,
+      "detail": 0.7420000076293944
+    },
+    {
+      "check": "Entry door swing clears pantry",
+      "passed": true,
+      "detail": 0.0860000076293943
+    },
+    {
+      "check": "Socket accessible E1_022_SOCKET",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Socket accessible E1_023_SOCKET",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pantry reverse camera not inside cabinet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Large sack rests on bin base",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Five preserve shelf levels / forty jars",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Existing laundry appliances and all other furnishings unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All placed objects present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Used file textures packed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Architectural geometry unchanged",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

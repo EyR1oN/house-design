@@ -1,0 +1,450 @@
+{
+  "pk": 55017,
+  "url": "https://www.blenderkit.com/api/v1/assets/3524fa7f-03da-4318-b237-959fe84fcb1e/",
+  "id": "3524fa7f-03da-4318-b237-959fe84fcb1e",
+  "assetBaseId": "f30d21dc-529f-4fb9-b39a-0a5106eee9d0",
+  "versionNumber": 1,
+  "author": {
+    "id": 530359,
+    "firstName": "Duy",
+    "lastName": "Ngo",
+    "gravatarHash": "55abe5eafe7339000aaae93cdf202392",
+    "avatar128": "/avatar-redirect/8468f314-644c-4bd0-9dfd-60e65a9dc16a/128/",
+    "avatar256": "/avatar-redirect/8468f314-644c-4bd0-9dfd-60e65a9dc16a/256/",
+    "avatar512": "/avatar-redirect/8468f314-644c-4bd0-9dfd-60e65a9dc16a/512/",
+    "aboutMe": "Hi 3D Artists,\r\nI hope I will contribute more models for Blender community. \r\nAll my products are free, please respect free things and treat with love ~",
+    "aboutMeUrl": null,
+    "fullName": "Duy Ngo",
+    "socialNetworks": [
+      {
+        "socialNetwork": {
+          "name": "Facebook",
+          "icon": "<i class=\"fab fa-facebook\" title=\"Facebook\"></i><span class=\"sr-only\">Facebook</span>",
+          "order": 2
+        },
+        "url": "https://www.facebook.com/duy.bappp/"
+      }
+    ]
+  },
+  "name": "Arlos Dining Table",
+  "displayName": "Arlos Dining Table",
+  "description": "A dining table with Oak Natural",
+  "descriptionHtml": "<p>A dining table with Oak Natural</p>",
+  "assetType": "model",
+  "category": "table",
+  "isFree": true,
+  "isForSale": false,
+  "basePrice": null,
+  "tags": [
+    "diningtable",
+    "table",
+    "furniture",
+    "outdoor"
+  ],
+  "license": "royalty_free",
+  "sourceAppName": "blender",
+  "sourceAppVersion": "3.3.0",
+  "addonVersion": "3.6.1",
+  "created": "2023-05-31T16:44:07.161249+03:00",
+  "lastUserInteraction": "2023-05-31T16:44:24.691401+03:00",
+  "verificationStatus": "validated",
+  "isPrivate": false,
+  "files": [
+    {
+      "fileType": "blend",
+      "id": 199365,
+      "downloadUrl": "https://www.blenderkit.com/api/v1/downloads/db6e1fd7-a31a-40dc-b725-1d464cda5c94/",
+      "uuid": "db6e1fd7-a31a-40dc-b725-1d464cda5c94",
+      "created": "2023-05-31T16:44:23.959344+03:00",
+      "isThumbnail": false,
+      "modified": "2023-05-31T16:44:26.923404+03:00",
+      "mimeType": null,
+      "resolution": null,
+      "fileUploadSize": 14079765,
+      "isFeatured": false,
+      "filename": "assets/3524fa7f03da4318b237959fe84fcb1e/files/blend_422a130e-5c95-417a-a907-492cf470a339.blend",
+      "flexFactor": null
+    },
+    {
+      "fileType": "resolution_0_5K",
+      "id": 243087,
+      "downloadUrl": "https://www.blenderkit.com/api/v1/downloads/569a4723-a6ed-4f28-8c2c-744224ad3ca8/",
+      "uuid": "569a4723-a6ed-4f28-8c2c-744224ad3ca8",
+      "created": "2023-10-04T12:36:26.610738+03:00",
+      "isThumbnail": false,
+      "modified": "2023-10-04T12:36:26.610768+03:00",
+      "mimeType": null,
+      "resolution": null,
+      "fileUploadSize": 628594,
+      "isFeatured": false,
+      "filename": "assets/3524fa7f03da4318b237959fe84fcb1e/files/resolution_0_5K_95dc1ea5-4326-48f0-ba42-a422341a4c67.blend",
+      "flexFactor": null
+    },
+    {
+      "fileType": "resolution_1K",
+      "id": 243086,
+      "downloadUrl": "https://www.blenderkit.com/api/v1/downloads/62e174e7-f096-4ab7-bfbd-cc19416cce39/",
+      "uuid": "62e174e7-f096-4ab7-bfbd-cc19416cce39",
+      "created": "2023-10-04T12:36:23.802664+03:00",
+      "isThumbnail": false,
+      "modified": "2023-10-04T12:36:23.802705+03:00",
+      "mimeType": null,
+      "resolution": null,
+      "fileUploadSize": 1572143,
+      "isFeatured": false,
+      "filename": "assets/3524fa7f03da4318b237959fe84fcb1e/files/resolution_1K_8c778605-aeed-4a90-963e-9771d9034e08.blend",
+      "flexFactor": null
+    },
+    {
+      "fileType": "resolution_2K",
+      "id": 243084,
+      "downloadUrl": "https://www.blenderkit.com/api/v1/downloads/fc86b9ad-1ebc-4bbc-bb10-3212deff1863/",
+      "uuid": "fc86b9ad-1ebc-4bbc-bb10-3212deff1863",
+      "created": "2023-10-04T12:36:18.244981+03:00",
+      "isThumbnail": false,
+      "modified": "2023-10-04T12:36:18.245013+03:00",
+      "mimeType": null,
+      "resolution": null,
+      "fileUploadSize": 5126322,
+      "isFeatured": false,
+      "filename": "assets/3524fa7f03da4318b237959fe84fcb1e/files/resolution_2K_c1c18d5b-622d-4848-bb67-0c6bfb60f008.blend",
+      "flexFactor": null
+    },
+    {
+      "fileType": "thumbnail",
+      "id": 199364,
+      "downloadUrl": "https://www.blenderkit.com/api/v1/downloads/3e3b37ce-35f6-4124-8ee9-9290b6c32f86/",
+      "uuid": "3e3b37ce-35f6-4124-8ee9-9290b6c32f86",
+      "fileThumbnail": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.96x96_q85_crop-%2C.jpg",
+      "fileThumbnailLarge": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.1024x1024_q85_crop-%2C.jpg",
+      "created": "2023-05-31T16:44:18.001854+03:00",
+      "isThumbnail": true,
+      "modified": "2025-12-22T20:52:06.11088+02:00",
+      "mimeType": null,
+      "resolution": null,
+      "fileUploadSize": 593288,
+      "width": 2296,
+      "height": 2222,
+      "isFeatured": false,
+      "filename": "assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png",
+      "thumbnailSmallUrl": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.256x256_q85_crop-%2C.jpg",
+      "thumbnailMiddleUrl": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.512x512_q85_crop-%2C.jpg",
+      "thumbnailLargeUrl": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.1024x1024_q85_crop-%2C.jpg",
+      "thumbnailXlargeUrl": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.2048x2048_q85_crop-%2C.jpg",
+      "thumbnailSmallUrlNonsquared": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.256x256_q85.jpg",
+      "thumbnailMiddleUrlNonsquared": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.512x512_q85.jpg",
+      "thumbnailLargeUrlNonsquared": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.1024x1024_q85.jpg",
+      "thumbnailXlargeUrlNonsquared": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.2048x2048_q85.jpg",
+      "thumbnailSmallUrlWebp": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.256x256_q85_crop-%2C.jpg.webp?webp_generated=1766481619",
+      "thumbnailMiddleUrlWebp": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.512x512_q85_crop-%2C.jpg.webp?webp_generated=1766481619",
+      "thumbnailLargeUrlWebp": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.1024x1024_q85_crop-%2C.jpg.webp?webp_generated=1766481619",
+      "thumbnailXlargeUrlWebp": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.2048x2048_q85_crop-%2C.jpg.webp?webp_generated=1766481619",
+      "thumbnailSmallUrlNonsquaredWebp": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.256x256_q85.jpg.webp?webp_generated=1766481619",
+      "thumbnailMiddleUrlNonsquaredWebp": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.512x512_q85.jpg.webp?webp_generated=1766481619",
+      "thumbnailLargeUrlNonsquaredWebp": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.1024x1024_q85.jpg.webp?webp_generated=1766481619",
+      "thumbnailXlargeUrlNonsquaredWebp": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.2048x2048_q85.jpg.webp?webp_generated=1766481619",
+      "thumbnailSocialUrl": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.1200x630_q85_background-black.jpg",
+      "animationUrl": null,
+      "flexFactor": null
+    }
+  ],
+  "filesSize": 22000112,
+  "showMarketingLabels": true,
+  "webpGeneratedTimestamp": 1766481619,
+  "score": 290.0,
+  "ratingsMedian": {
+    "bookmarks": 1.0,
+    "workingHours": 3.0,
+    "quality": 10.0,
+    "virtualPrice": null
+  },
+  "ratingsAverage": {
+    "bookmarks": 0.9673076923076923,
+    "workingHours": 3.0,
+    "quality": 9.666666666666666,
+    "virtualPrice": null
+  },
+  "ratingsCount": {
+    "bookmarks": 520,
+    "workingHours": 3,
+    "quality": 3,
+    "virtualPrice": 0
+  },
+  "ratingsSum": {
+    "bookmarks": 503.0,
+    "workingHours": 15.0,
+    "quality": 29.0,
+    "virtualPrice": null,
+    "score": 290.0
+  },
+  "pageBlocks": null,
+  "access": "free",
+  "accessLabel": "Free",
+  "videoLink": "",
+  "dictParameters": {
+    "sexualizedContent": false,
+    "joinBlenderkitDiscounts": true,
+    "addons": true,
+    "platforms": [
+      "windows-x64",
+      "macos-arm64",
+      "linux-x64",
+      "macos-x64",
+      "windows-arm64"
+    ],
+    "faceCount": 5976,
+    "productionLevel": "finished",
+    "procedural": true,
+    "modelStyle": "realistic",
+    "condition": "new",
+    "validatedManufacturer": false,
+    "validatedManufacturerDate": "2026-05-06T08:39:55.785966+03:00",
+    "validatedManufacturerOutput": "No verifiable manufacturer, designer, or 'Oak Collection' found for 'Arlos Dining Table'. Searches return similar products like 'Arlo' tables from brands such as Alpine Furniture, but no exact match. Asset appears to be an original 3D model by author 'Duy Ng' on BlenderKit, not a real-world product.\nmanufacturer: n/a|designer: n/a|designCollection: Oak Collection|designVariant: n/a",
+    "validatedManufacturerActor": "ai",
+    "purePbr": false,
+    "shaders": [
+      ""
+    ],
+    "animated": false,
+    "uv": true,
+    "engines": [
+      "cycles"
+    ],
+    "modifiers": [
+      "bevel"
+    ],
+    "materials": [
+      "Oak Natural"
+    ],
+    "rig": false,
+    "simulation": false,
+    "dimensionX": 2.21,
+    "dimensionY": 1.0,
+    "dimensionZ": 0.769,
+    "boundBoxMinX": -1.105,
+    "boundBoxMinY": -0.5,
+    "boundBoxMinZ": 0.0,
+    "boundBoxMaxX": 1.105,
+    "boundBoxMaxY": 0.5,
+    "boundBoxMaxZ": 0.769,
+    "faceCountRender": 5976,
+    "meshPolyType": "quad_dominant",
+    "manifold": false,
+    "objectCount": 4,
+    "nodeCount": 0,
+    "textureCount": 0,
+    "megapixels": 0,
+    "imageCaptionInterrogator": "there is a wooden table with a wooden top on a white background, comprehensive 2 d render, ikea catalogue photo, kitboga, midsommar style, edd, golen ratio, in the design of eliot kohek, clear line, sitting at a table, ken, pfp, mojang, nothofagus, eats",
+    "imageAltTextGen3": "\"Oak Natural Dining Table - 3D Model: Arlos Dining Table for Table Category on BlenderKit\"",
+    "imageAltTextGen4v": "Realistic 3D model of a wooden dining table for Blender visualization projects, showcasing natural wood texture and simple design."
+  },
+  "lastGltfGodotUpload": null,
+  "lastZipFileUpload": null,
+  "lastVideoUpload": null,
+  "lastPhotoThumbnailUpload": null,
+  "lastAnimatedThumbnailUpload": null,
+  "lastResolutionUpload": "2023-10-04T12:36:26.610738+03:00",
+  "lastWireThumbnailUpload": null,
+  "lastGltfUpload": null,
+  "lastBlendUpload": "2023-05-31T16:44:23.959344+03:00",
+  "lastThumbnailUpload": "2023-05-31T16:44:18.001854+03:00",
+  "lastPrxcUpload": null,
+  "canDownload": true,
+  "canDownloadError": true,
+  "parameters": [
+    {
+      "parameterType": "sexualizedContent",
+      "value": false
+    },
+    {
+      "parameterType": "joinBlenderkitDiscounts",
+      "value": true
+    },
+    {
+      "parameterType": "addons",
+      "value": true
+    },
+    {
+      "parameterType": "platforms",
+      "value": [
+        "windows-x64",
+        "macos-arm64",
+        "linux-x64",
+        "macos-x64",
+        "windows-arm64"
+      ]
+    },
+    {
+      "parameterType": "faceCount",
+      "value": 5976
+    },
+    {
+      "parameterType": "productionLevel",
+      "value": "finished"
+    },
+    {
+      "parameterType": "procedural",
+      "value": true
+    },
+    {
+      "parameterType": "modelStyle",
+      "value": "realistic"
+    },
+    {
+      "parameterType": "condition",
+      "value": "new"
+    },
+    {
+      "parameterType": "validatedManufacturer",
+      "value": false
+    },
+    {
+      "parameterType": "validatedManufacturerDate",
+      "value": "2026-05-06T08:39:55.785966+03:00"
+    },
+    {
+      "parameterType": "validatedManufacturerOutput",
+      "value": "No verifiable manufacturer, designer, or 'Oak Collection' found for 'Arlos Dining Table'. Searches return similar products like 'Arlo' tables from brands such as Alpine Furniture, but no exact match. Asset appears to be an original 3D model by author 'Duy Ng' on BlenderKit, not a real-world product.\nmanufacturer: n/a|designer: n/a|designCollection: Oak Collection|designVariant: n/a"
+    },
+    {
+      "parameterType": "validatedManufacturerActor",
+      "value": "ai"
+    },
+    {
+      "parameterType": "purePbr",
+      "value": false
+    },
+    {
+      "parameterType": "shaders",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "parameterType": "animated",
+      "value": false
+    },
+    {
+      "parameterType": "uv",
+      "value": true
+    },
+    {
+      "parameterType": "engines",
+      "value": [
+        "cycles"
+      ]
+    },
+    {
+      "parameterType": "modifiers",
+      "value": [
+        "bevel"
+      ]
+    },
+    {
+      "parameterType": "materials",
+      "value": [
+        "Oak Natural"
+      ]
+    },
+    {
+      "parameterType": "rig",
+      "value": false
+    },
+    {
+      "parameterType": "simulation",
+      "value": false
+    },
+    {
+      "parameterType": "dimensionX",
+      "value": 2.21
+    },
+    {
+      "parameterType": "dimensionY",
+      "value": 1.0
+    },
+    {
+      "parameterType": "dimensionZ",
+      "value": 0.769
+    },
+    {
+      "parameterType": "boundBoxMinX",
+      "value": -1.105
+    },
+    {
+      "parameterType": "boundBoxMinY",
+      "value": -0.5
+    },
+    {
+      "parameterType": "boundBoxMinZ",
+      "value": 0.0
+    },
+    {
+      "parameterType": "boundBoxMaxX",
+      "value": 1.105
+    },
+    {
+      "parameterType": "boundBoxMaxY",
+      "value": 0.5
+    },
+    {
+      "parameterType": "boundBoxMaxZ",
+      "value": 0.769
+    },
+    {
+      "parameterType": "faceCountRender",
+      "value": 5976
+    },
+    {
+      "parameterType": "meshPolyType",
+      "value": "quad_dominant"
+    },
+    {
+      "parameterType": "manifold",
+      "value": false
+    },
+    {
+      "parameterType": "objectCount",
+      "value": 4
+    },
+    {
+      "parameterType": "nodeCount",
+      "value": 0
+    },
+    {
+      "parameterType": "textureCount",
+      "value": 0
+    },
+    {
+      "parameterType": "megapixels",
+      "value": 0
+    },
+    {
+      "parameterType": "imageCaptionInterrogator",
+      "value": "there is a wooden table with a wooden top on a white background, comprehensive 2 d render, ikea catalogue photo, kitboga, midsommar style, edd, golen ratio, in the design of eliot kohek, clear line, sitting at a table, ken, pfp, mojang, nothofagus, eats"
+    },
+    {
+      "parameterType": "imageAltTextGen3",
+      "value": "\"Oak Natural Dining Table - 3D Model: Arlos Dining Table for Table Category on BlenderKit\""
+    },
+    {
+      "parameterType": "imageAltTextGen4v",
+      "value": "Realistic 3D model of a wooden dining table for Blender visualization projects, showcasing natural wood texture and simple design."
+    }
+  ],
+  "thumbnailSmallUrl": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.256x256_q85_crop-%2C.jpg",
+  "thumbnailMiddleUrl": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.512x512_q85_crop-%2C.jpg",
+  "thumbnailLargeUrl": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.1024x1024_q85_crop-%2C.jpg",
+  "thumbnailXlargeUrl": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.2048x2048_q85_crop-%2C.jpg",
+  "thumbnailSmallUrlNonsquared": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.256x256_q85.jpg",
+  "thumbnailMiddleUrlNonsquared": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.512x512_q85.jpg",
+  "thumbnailLargeUrlNonsquared": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.1024x1024_q85.jpg",
+  "thumbnailXlargeUrlNonsquared": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.2048x2048_q85.jpg",
+  "thumbnailSmallUrlWebp": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.256x256_q85_crop-%2C.jpg.webp?webp_generated=1766481619",
+  "thumbnailMiddleUrlWebp": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.512x512_q85_crop-%2C.jpg.webp?webp_generated=1766481619",
+  "thumbnailLargeUrlWebp": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.1024x1024_q85_crop-%2C.jpg.webp?webp_generated=1766481619",
+  "thumbnailXlargeUrlWebp": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.2048x2048_q85_crop-%2C.jpg.webp?webp_generated=1766481619",
+  "thumbnailSmallUrlNonsquaredWebp": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.256x256_q85.jpg.webp?webp_generated=1766481619",
+  "thumbnailMiddleUrlNonsquaredWebp": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.512x512_q85.jpg.webp?webp_generated=1766481619",
+  "thumbnailLargeUrlNonsquaredWebp": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.1024x1024_q85.jpg.webp?webp_generated=1766481619",
+  "thumbnailXlargeUrlNonsquaredWebp": "https://public.blenderkit.com/thumbnails/assets/3524fa7f03da4318b237959fe84fcb1e/files/thumbnail_2878feda-843d-43c7-af26-7455841911e4.png.2048x2048_q85.jpg.webp?webp_generated=1766481619"
+}

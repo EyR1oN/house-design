@@ -1,0 +1,48 @@
+{
+  "before": [
+    {
+      "screen": "Animation",
+      "mode": "SOLID"
+    },
+    {
+      "screen": "Animation",
+      "mode": "SOLID"
+    },
+    {
+      "screen": "Geometry Nodes",
+      "mode": "SOLID"
+    },
+    {
+      "screen": "Layout",
+      "mode": "SOLID"
+    },
+    {
+      "screen": "Modeling",
+      "mode": "SOLID"
+    },
+    {
+      "screen": "Scripting",
+      "mode": "SOLID"
+    },
+    {
+      "screen": "Sculpting",
+      "mode": "SOLID"
+    },
+    {
+      "screen": "Shading",
+      "mode": "MATERIAL"
+    },
+    {
+      "screen": "Texture Paint",
+      "mode": "SOLID"
+    },
+    {
+      "screen": "UV Editing",
+      "mode": "SOLID"
+    }
+  ],
+  "after": "MATERIAL",
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "file_images": 228,
+  "unpacked_used_images": []
+}

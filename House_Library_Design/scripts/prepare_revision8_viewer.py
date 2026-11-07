@@ -1,0 +1,3 @@
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];h=(R/'scripts/update_revision7_viewer.py').read_text(encoding='utf8').replace('revision7_replacements.glb','revision8_replacements.glb')
+a=h.index('names=[');z=h.index('\nremove=',a);h=h[:a]+"names=json.loads((R/'data/revision8_report.json').read_text())['removed_objects']"+h[z:];h=h.replace('LIBRARY 7.0 TV continuous plaster and oak slats, larger island, stacked laundry pantry and proposed boiler','LIBRARY 8.0 Plain TV wall and large north-wall bulk pantry').replace('REVISION7_BROWSER_MERGED','REVISION8_BROWSER_MERGED');(R/'scripts/update_revision8_viewer.py').write_text(h,encoding='utf8')

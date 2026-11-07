@@ -1,0 +1,52 @@
+{
+  "revision": 15,
+  "passed": true,
+  "checks": [
+    {
+      "check": "Old chimney and exposed hood removed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Cabinet clears window and partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Cabinet below ceiling",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Extraction underside height retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Six usable shelves clear duct",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Shelves avoid existing socket",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All other furniture and rooms unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Both cabinet door arcs clear neighbouring window and partition",
+      "passed": true,
+      "detail": "91 positions, each leaf opening outward to 85 degrees (opening stop to keep projecting handles clear of partition)"
+    },
+    {
+      "check": "Master stored with closed cabinet",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "limitations": "Spatial mockup; appliance specification, mounting, duct routing and loads require selected product instructions."
+}

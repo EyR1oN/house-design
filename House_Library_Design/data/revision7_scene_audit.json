@@ -1,0 +1,1994 @@
+[
+  {
+    "name": "R_L1_SOURCE_WALL_6",
+    "bounds": [
+      [
+        7.6995930671691895,
+        10.780179977416992
+      ],
+      [
+        1.9199450016021729,
+        4.599743843078613
+      ],
+      [
+        0.0,
+        2.9000000953674316
+      ]
+    ],
+    "materials": [
+      "LIBRARY_PBR_Warm_Plaster"
+    ],
+    "collections": [
+      "R_L1_WALLS"
+    ]
+  },
+  {
+    "name": "R_L1_LAUNDRY_DOOR_HEAD",
+    "bounds": [
+      [
+        8.34000015258789,
+        8.460000038146973
+      ],
+      [
+        2.5999999046325684,
+        3.299999952316284
+      ],
+      [
+        2.0999999046325684,
+        2.9000000953674316
+      ]
+    ],
+    "materials": [
+      "LIBRARY_PBR_Warm_Plaster"
+    ],
+    "collections": [
+      "R_L1_WALLS"
+    ]
+  },
+  {
+    "name": "R_L1_LAUNDRY_FLOOR_FINISH",
+    "bounds": [
+      [
+        8.460000038146973,
+        10.399999618530273
+      ],
+      [
+        2.5999999046325684,
+        3.799999952316284
+      ],
+      [
+        -0.019999999552965164,
+        0.0
+      ]
+    ],
+    "materials": [
+      "LIBRARY_PBR_Warm_Stone"
+    ],
+    "collections": [
+      "R_L1_FLOOR"
+    ]
+  },
+  {
+    "name": "R_L1_LAUNDRY_DOOR_JAMB_A",
+    "bounds": [
+      [
+        8.359999656677246,
+        8.4399995803833
+      ],
+      [
+        2.5999999046325684,
+        2.6549999713897705
+      ],
+      [
+        0.0,
+        2.0999999046325684
+      ]
+    ],
+    "materials": [
+      "DESIGN_Black"
+    ],
+    "collections": [
+      "R_L1_DOORS"
+    ]
+  },
+  {
+    "name": "R_L1_LAUNDRY_DOOR_JAMB_B",
+    "bounds": [
+      [
+        8.359999656677246,
+        8.4399995803833
+      ],
+      [
+        3.244999885559082,
+        3.299999952316284
+      ],
+      [
+        0.0,
+        2.0999999046325684
+      ]
+    ],
+    "materials": [
+      "DESIGN_Black"
+    ],
+    "collections": [
+      "R_L1_DOORS"
+    ]
+  },
+  {
+    "name": "R_L1_LAUNDRY_DOOR_FRAME_TOP",
+    "bounds": [
+      [
+        8.359999656677246,
+        8.4399995803833
+      ],
+      [
+        2.6549999713897705,
+        3.244999885559082
+      ],
+      [
+        2.0450000762939453,
+        2.0999999046325684
+      ]
+    ],
+    "materials": [
+      "DESIGN_Black"
+    ],
+    "collections": [
+      "R_L1_DOORS"
+    ]
+  },
+  {
+    "name": "R_L1_LAUNDRY_DOOR_FRAME_BOTTOM",
+    "bounds": [
+      [
+        8.359999656677246,
+        8.4399995803833
+      ],
+      [
+        2.6549999713897705,
+        3.244999885559082
+      ],
+      [
+        0.0,
+        0.054999999701976776
+      ]
+    ],
+    "materials": [
+      "DESIGN_Black"
+    ],
+    "collections": [
+      "R_L1_DOORS"
+    ]
+  },
+  {
+    "name": "R_L1_LAUNDRY_DOOR_LEAF",
+    "bounds": [
+      [
+        8.378000259399414,
+        8.42199993133545
+      ],
+      [
+        2.6610000133514404,
+        3.239000082015991
+      ],
+      [
+        0.014000000432133675,
+        2.0390000343322754
+      ]
+    ],
+    "materials": [
+      "door"
+    ],
+    "collections": [
+      "R_L1_DOORS"
+    ]
+  },
+  {
+    "name": "Crockery_oak_top",
+    "bounds": [
+      [
+        7.962500095367432,
+        8.547499656677246
+      ],
+      [
+        5.892499923706055,
+        7.027500152587891
+      ],
+      [
+        0.8600000143051147,
+        0.8899999856948853
+      ]
+    ],
+    "materials": [
+      "LIBRARY_PBR_Warm_Stone"
+    ],
+    "collections": [
+      "DESIGN_Kitchen"
+    ]
+  },
+  {
+    "name": "LIB_Stair_Decorative_Panel_Plane.020_PREPARED",
+    "bounds": [
+      [
+        6.624122142791748,
+        6.675000190734863
+      ],
+      [
+        8.84000015258789,
+        10.759674072265625
+      ],
+      [
+        0.8639843463897705,
+        2.1232821941375732
+      ]
+    ],
+    "materials": [
+      "Concrete.002"
+    ],
+    "collections": [
+      "LIB_Stair_Decorative_Panel"
+    ]
+  },
+  {
+    "name": "LIB_Stair_Decorative_Panel_Plane.017_PREPARED",
+    "bounds": [
+      [
+        6.63177490234375,
+        6.656051158905029
+      ],
+      [
+        9.131582260131836,
+        10.48460865020752
+      ],
+      [
+        0.03639001026749611,
+        2.813610076904297
+      ]
+    ],
+    "materials": [
+      "light.003"
+    ],
+    "collections": [
+      "LIB_Stair_Decorative_Panel"
+    ]
+  },
+  {
+    "name": "LIB_Stair_Decorative_Panel_Plane.016_PREPARED",
+    "bounds": [
+      [
+        6.631461143493652,
+        6.6563615798950195
+      ],
+      [
+        9.13145637512207,
+        10.484787940979004
+      ],
+      [
+        0.03500000014901161,
+        2.815000057220459
+      ]
+    ],
+    "materials": [
+      "Simple wood.002"
+    ],
+    "collections": [
+      "LIB_Stair_Decorative_Panel"
+    ]
+  },
+  {
+    "name": "LIB_Stair_Decorative_Panel_Plane.015_PREPARED",
+    "bounds": [
+      [
+        6.6241230964660645,
+        6.672892093658447
+      ],
+      [
+        9.13387393951416,
+        10.759575843811035
+      ],
+      [
+        0.03500496968626976,
+        2.814995288848877
+      ]
+    ],
+    "materials": [
+      "Simple wood.005"
+    ],
+    "collections": [
+      "LIB_Stair_Decorative_Panel"
+    ]
+  },
+  {
+    "name": "LIB_Stair_Decorative_Panel_Plane.014_PREPARED",
+    "bounds": [
+      [
+        6.619999885559082,
+        6.669261455535889
+      ],
+      [
+        8.840256690979004,
+        10.760000228881836
+      ],
+      [
+        0.035005174577236176,
+        2.814995050430298
+      ]
+    ],
+    "materials": [
+      "Simple wood.004"
+    ],
+    "collections": [
+      "LIB_Stair_Decorative_Panel"
+    ]
+  },
+  {
+    "name": "LIB_Door_L1_LAUNDRY_DOOR_Latch_PREPARED",
+    "bounds": [
+      [
+        9.050498008728027,
+        9.064093589782715
+      ],
+      [
+        2.6100172996520996,
+        2.637213945388794
+      ],
+      [
+        1.0082075595855713,
+        1.0675246715545654
+      ]
+    ],
+    "materials": [
+      "Door Handle",
+      "Material.028"
+    ],
+    "collections": [
+      "LIB_Door_L1_LAUNDRY_DOOR"
+    ]
+  },
+  {
+    "name": "LIB_Door_L1_LAUNDRY_DOOR_Latch.001_PREPARED",
+    "bounds": [
+      [
+        9.050498008728027,
+        9.074891090393066
+      ],
+      [
+        2.617325782775879,
+        2.6299052238464355
+      ],
+      [
+        1.0297207832336426,
+        1.0460114479064941
+      ]
+    ],
+    "materials": [
+      "Door Handle",
+      "Material.028"
+    ],
+    "collections": [
+      "LIB_Door_L1_LAUNDRY_DOOR"
+    ]
+  },
+  {
+    "name": "LIB_Door_L1_LAUNDRY_DOOR_Hinge Pin.002_PREPARED",
+    "bounds": [
+      [
+        8.408387184143066,
+        8.413309097290039
+      ],
+      [
+        2.598850965499878,
+        2.6049840450286865
+      ],
+      [
+        0.1223757341504097,
+        1.9513049125671387
+      ]
+    ],
+    "materials": [
+      "Door Handle"
+    ],
+    "collections": [
+      "LIB_Door_L1_LAUNDRY_DOOR"
+    ]
+  },
+  {
+    "name": "LIB_Door_L1_LAUNDRY_DOOR_Hinge Door Side.002_PREPARED",
+    "bounds": [
+      [
+        8.408332824707031,
+        8.413397789001465
+      ],
+      [
+        2.5987823009490967,
+        2.6336922645568848
+      ],
+      [
+        0.12246038764715195,
+        1.9509429931640625
+      ]
+    ],
+    "materials": [
+      "Door Handle"
+    ],
+    "collections": [
+      "LIB_Door_L1_LAUNDRY_DOOR"
+    ]
+  },
+  {
+    "name": "LIB_Door_L1_LAUNDRY_DOOR_Handle_PREPARED",
+    "bounds": [
+      [
+        8.943758010864258,
+        9.037374496459961
+      ],
+      [
+        2.552440881729126,
+        2.6947903633117676
+      ],
+      [
+        1.025212049484253,
+        1.0505201816558838
+      ]
+    ],
+    "materials": [
+      "Door Handle"
+    ],
+    "collections": [
+      "LIB_Door_L1_LAUNDRY_DOOR"
+    ]
+  },
+  {
+    "name": "LIB_Door_L1_LAUNDRY_DOOR_Handle Base_PREPARED",
+    "bounds": [
+      [
+        9.0018310546875,
+        9.052906036376953
+      ],
+      [
+        2.5929317474365234,
+        2.65429949760437
+      ],
+      [
+        1.0055713653564453,
+        1.0701608657836914
+      ]
+    ],
+    "materials": [
+      "Door Handle"
+    ],
+    "collections": [
+      "LIB_Door_L1_LAUNDRY_DOOR"
+    ]
+  },
+  {
+    "name": "LIB_Door_L1_LAUNDRY_DOOR_Door.001_PREPARED",
+    "bounds": [
+      [
+        8.411324501037598,
+        9.064093589782715
+      ],
+      [
+        2.60455060005188,
+        2.6426806449890137
+      ],
+      [
+        0.006000000052154064,
+        2.069732189178467
+      ]
+    ],
+    "materials": [
+      "Material.029"
+    ],
+    "collections": [
+      "LIB_Door_L1_LAUNDRY_DOOR"
+    ]
+  },
+  {
+    "name": "LIB_Door_L1_LAUNDRY_DOOR_Door Frame_PREPARED",
+    "bounds": [
+      [
+        8.317499160766602,
+        8.436158180236816
+      ],
+      [
+        2.6000001430511475,
+        3.299999952316284
+      ],
+      [
+        0.006000000052154064,
+        2.0999999046325684
+      ]
+    ],
+    "materials": [
+      "Material.029",
+      "Door Handle",
+      "Material.030"
+    ],
+    "collections": [
+      "LIB_Door_L1_LAUNDRY_DOOR"
+    ]
+  },
+  {
+    "name": "LIB_Door_L1_LAUNDRY_DOOR_Cube_PREPARED",
+    "bounds": [
+      [
+        8.388276100158691,
+        8.444055557250977
+      ],
+      [
+        3.2784430980682373,
+        3.281165361404419
+      ],
+      [
+        1.0077638626098633,
+        1.0672091245651245
+      ]
+    ],
+    "materials": [
+      "Door Handle"
+    ],
+    "collections": [
+      "LIB_Door_L1_LAUNDRY_DOOR"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_Top_PREPARED",
+    "bounds": [
+      [
+        8.695286750793457,
+        9.284713745117188
+      ],
+      [
+        3.2369208335876465,
+        3.759999990463257
+      ],
+      [
+        0.828359842300415,
+        0.8600000143051147
+      ]
+    ],
+    "materials": [
+      "Plastic",
+      "DarkerPlastic"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_Sides_PREPARED",
+    "bounds": [
+      [
+        8.694999694824219,
+        9.28499984741211
+      ],
+      [
+        3.225093364715576,
+        3.730029344558716
+      ],
+      [
+        0.040643010288476944,
+        0.829350471496582
+      ]
+    ],
+    "materials": [
+      "Aluminium"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_Midea_PREPARED",
+    "bounds": [
+      [
+        8.76755428314209,
+        8.826801300048828
+      ],
+      [
+        3.192760467529297,
+        3.19907283782959
+      ],
+      [
+        0.8032999038696289,
+        0.826885461807251
+      ]
+    ],
+    "materials": [
+      "Chrome.002"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_LEDDisplay_PREPARED",
+    "bounds": [
+      [
+        8.958120346069336,
+        9.021467208862305
+      ],
+      [
+        3.1852383613586426,
+        3.1997146606445312
+      ],
+      [
+        0.7815664410591125,
+        0.8440272808074951
+      ]
+    ],
+    "materials": [
+      "LEDDisplay"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_FrontTop.004_PREPARED",
+    "bounds": [
+      [
+        8.695286750793457,
+        8.893868446350098
+      ],
+      [
+        3.1850850582122803,
+        3.211578845977783
+      ],
+      [
+        0.7618080377578735,
+        0.8563677668571472
+      ]
+    ],
+    "materials": [
+      "Plastic"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_FrontTop.002_PREPARED",
+    "bounds": [
+      [
+        8.695286750793457,
+        9.284713745117188
+      ],
+      [
+        3.1839449405670166,
+        3.2369208335876465
+      ],
+      [
+        0.7076331377029419,
+        0.8599121570587158
+      ]
+    ],
+    "materials": [
+      "FrontPlasitc",
+      "LightEater"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_Front_PREPARED",
+    "bounds": [
+      [
+        8.695286750793457,
+        9.284713745117188
+      ],
+      [
+        3.1946680545806885,
+        3.7227325439453125
+      ],
+      [
+        0.05808061361312866,
+        0.7076331377029419
+      ]
+    ],
+    "materials": [
+      "Plastic"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_Feet_PREPARED",
+    "bounds": [
+      [
+        8.707090377807617,
+        9.272909164428711
+      ],
+      [
+        3.228478193283081,
+        3.733426809310913
+      ],
+      [
+        0.019999999552965164,
+        0.06258976459503174
+      ]
+    ],
+    "materials": [
+      "BlackPlastic"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_DrumRib_PREPARED",
+    "bounds": [
+      [
+        8.802021980285645,
+        9.178024291992188
+      ],
+      [
+        3.6958508491516113,
+        3.717367172241211
+      ],
+      [
+        0.21915113925933838,
+        0.6017572283744812
+      ]
+    ],
+    "materials": [
+      "Metal.001"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_Drum_PREPARED",
+    "bounds": [
+      [
+        8.771034240722656,
+        9.208965301513672
+      ],
+      [
+        3.318617105484009,
+        3.717367172241211
+      ],
+      [
+        0.24467188119888306,
+        0.6824982166290283
+      ]
+    ],
+    "materials": [
+      "Metal plate with holes"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_DoorWindow_PREPARED",
+    "bounds": [
+      [
+        8.780317306518555,
+        9.199682235717773
+      ],
+      [
+        3.1600000858306885,
+        3.1694281101226807
+      ],
+      [
+        0.25483885407447815,
+        0.6745913624763489
+      ]
+    ],
+    "materials": [
+      "Glass.004"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_DoorRubber_PREPARED",
+    "bounds": [
+      [
+        8.799907684326172,
+        9.180091857910156
+      ],
+      [
+        3.23223876953125,
+        3.30277681350708
+      ],
+      [
+        0.2774523198604584,
+        0.6574687957763672
+      ]
+    ],
+    "materials": [
+      "Rubber"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_Door_PREPARED",
+    "bounds": [
+      [
+        8.753740310668945,
+        9.226259231567383
+      ],
+      [
+        3.161198854446411,
+        3.2036590576171875
+      ],
+      [
+        0.22663967311382294,
+        0.6989122629165649
+      ]
+    ],
+    "materials": [
+      "Plastic",
+      "DarkerPlastic.001"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_ControlRollerDisplay_PREPARED",
+    "bounds": [
+      [
+        8.961896896362305,
+        9.017614364624023
+      ],
+      [
+        3.179940700531006,
+        3.1945736408233643
+      ],
+      [
+        0.7858297228813171,
+        0.8409340977668762
+      ]
+    ],
+    "materials": [
+      "Glass.004"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_ControlRoller_PREPARED",
+    "bounds": [
+      [
+        8.954519271850586,
+        9.024991989135742
+      ],
+      [
+        3.1747963428497314,
+        3.203770399093628
+      ],
+      [
+        0.7758353352546692,
+        0.8483273983001709
+      ]
+    ],
+    "materials": [
+      "Plastic",
+      "GreyPlastic"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_BottomPlastic_PREPARED",
+    "bounds": [
+      [
+        8.695591926574707,
+        9.284407615661621
+      ],
+      [
+        3.2122082710266113,
+        3.2250356674194336
+      ],
+      [
+        0.040705978870391846,
+        0.05826506018638611
+      ]
+    ],
+    "materials": [
+      "GreyPlastic"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_Bolt_PREPARED",
+    "bounds": [
+      [
+        8.727066993713379,
+        9.25293254852295
+      ],
+      [
+        3.2083308696746826,
+        3.212207078933716
+      ],
+      [
+        0.046787288039922714,
+        0.056411974132061005
+      ]
+    ],
+    "materials": [
+      "BoltMetal"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_BackCorpus_PREPARED",
+    "bounds": [
+      [
+        8.71015739440918,
+        9.269842147827148
+      ],
+      [
+        3.2250356674194336,
+        3.7555365562438965
+      ],
+      [
+        0.044081538915634155,
+        0.8276006579399109
+      ]
+    ],
+    "materials": [
+      "Metal.001"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Washer_10Year_PREPARED",
+    "bounds": [
+      [
+        9.216625213623047,
+        9.26084041595459
+      ],
+      [
+        3.194638252258301,
+        3.194638252258301
+      ],
+      [
+        0.6337521076202393,
+        0.6913458108901978
+      ]
+    ],
+    "materials": [
+      "10YearWarranty"
+    ],
+    "collections": [
+      "LIB_Laundry_Washer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Dryer_Top_PREPARED",
+    "bounds": [
+      [
+        9.345498085021973,
+        9.934502601623535
+      ],
+      [
+        3.2343945503234863,
+        3.759999990463257
+      ],
+      [
+        0.8440389633178711,
+        0.8594954013824463
+      ]
+    ],
+    "materials": [
+      "BaseMetal"
+    ],
+    "collections": [
+      "LIB_Laundry_Dryer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Dryer_Sides_PREPARED",
+    "bounds": [
+      [
+        9.345000267028809,
+        9.9350004196167
+      ],
+      [
+        3.2346627712249756,
+        3.759209632873535
+      ],
+      [
+        0.025514140725135803,
+        0.8437408804893494
+      ]
+    ],
+    "materials": [
+      "BaseMetal"
+    ],
+    "collections": [
+      "LIB_Laundry_Dryer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Dryer_RightPannel_PREPARED",
+    "bounds": [
+      [
+        9.53170108795166,
+        9.932660102844238
+      ],
+      [
+        3.2038187980651855,
+        3.2344958782196045
+      ],
+      [
+        0.7139206528663635,
+        0.85999995470047
+      ]
+    ],
+    "materials": [
+      "DryerControls"
+    ],
+    "collections": [
+      "LIB_Laundry_Dryer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Dryer_RightButton_PREPARED",
+    "bounds": [
+      [
+        9.702552795410156,
+        9.732132911682129
+      ],
+      [
+        3.1992316246032715,
+        3.2048377990722656
+      ],
+      [
+        0.7470688223838806,
+        0.7762317061424255
+      ]
+    ],
+    "materials": [
+      "DryerControls"
+    ],
+    "collections": [
+      "LIB_Laundry_Dryer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Dryer_LeftPannel_PREPARED",
+    "bounds": [
+      [
+        9.34734058380127,
+        9.53170108795166
+      ],
+      [
+        3.206589698791504,
+        3.2344958782196045
+      ],
+      [
+        0.7139201164245605,
+        0.85999995470047
+      ]
+    ],
+    "materials": [
+      "DryerControls"
+    ],
+    "collections": [
+      "LIB_Laundry_Dryer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Dryer_LeftButton_PREPARED",
+    "bounds": [
+      [
+        9.555281639099121,
+        9.58486270904541
+      ],
+      [
+        3.1992316246032715,
+        3.2048377990722656
+      ],
+      [
+        0.7470688223838806,
+        0.7762317061424255
+      ]
+    ],
+    "materials": [
+      "DryerControls"
+    ],
+    "collections": [
+      "LIB_Laundry_Dryer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Dryer_Knob_PREPARED",
+    "bounds": [
+      [
+        9.614582061767578,
+        9.671366691589355
+      ],
+      [
+        3.189284324645996,
+        3.2118000984191895
+      ],
+      [
+        0.7713766098022461,
+        0.8273597955703735
+      ]
+    ],
+    "materials": [
+      "Chrome.003"
+    ],
+    "collections": [
+      "LIB_Laundry_Dryer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Dryer_Front_PREPARED",
+    "bounds": [
+      [
+        9.34734058380127,
+        9.932660102844238
+      ],
+      [
+        3.2038187980651855,
+        3.2344958782196045
+      ],
+      [
+        0.025514166802167892,
+        0.7480291128158569
+      ]
+    ],
+    "materials": [
+      "DryerControls"
+    ],
+    "collections": [
+      "LIB_Laundry_Dryer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Dryer_Drum_PREPARED",
+    "bounds": [
+      [
+        9.382206916809082,
+        9.897794723510742
+      ],
+      [
+        3.241335391998291,
+        3.611166477203369
+      ],
+      [
+        0.21733765304088593,
+        0.725642204284668
+      ]
+    ],
+    "materials": [
+      "Drum"
+    ],
+    "collections": [
+      "LIB_Laundry_Dryer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Dryer_DoorGlass_PREPARED",
+    "bounds": [
+      [
+        9.423700332641602,
+        9.856300354003906
+      ],
+      [
+        3.173391580581665,
+        3.210397243499756
+      ],
+      [
+        0.25824540853500366,
+        0.6847344040870667
+      ]
+    ],
+    "materials": [
+      "Material.027"
+    ],
+    "collections": [
+      "LIB_Laundry_Dryer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Dryer_Door_PREPARED",
+    "bounds": [
+      [
+        9.381474494934082,
+        9.898526191711426
+      ],
+      [
+        3.1600000858306885,
+        3.241335391998291
+      ],
+      [
+        0.21661590039730072,
+        0.7263637781143188
+      ]
+    ],
+    "materials": [
+      "Chrome.003"
+    ],
+    "collections": [
+      "LIB_Laundry_Dryer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Dryer_Back_PREPARED",
+    "bounds": [
+      [
+        9.35056209564209,
+        9.929438591003418
+      ],
+      [
+        3.2343552112579346,
+        3.758902072906494
+      ],
+      [
+        0.019999999552965164,
+        0.8433994054794312
+      ]
+    ],
+    "materials": [
+      "BaseMetal"
+    ],
+    "collections": [
+      "LIB_Laundry_Dryer"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Towels_towels_PREPARED",
+    "bounds": [
+      [
+        9.244998931884766,
+        9.554999351501465
+      ],
+      [
+        3.2700002193450928,
+        3.570000171661377
+      ],
+      [
+        0.9100000262260437,
+        1.0199999809265137
+      ]
+    ],
+    "materials": [
+      "scantexture"
+    ],
+    "collections": [
+      "LIB_Laundry_Towels"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Full_Upper_Storage_Cylinder_PREPARED",
+    "bounds": [
+      [
+        9.148150444030762,
+        9.7118501663208
+      ],
+      [
+        3.4311153888702393,
+        3.4378809928894043
+      ],
+      [
+        1.5368791818618774,
+        2.840240001678467
+      ]
+    ],
+    "materials": [
+      "Silver Metallic"
+    ],
+    "collections": [
+      "LIB_Laundry_Full_Upper_Storage"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Full_Upper_Storage_Cylinder.008_PREPARED",
+    "bounds": [
+      [
+        9.774818420410156,
+        10.338517189025879
+      ],
+      [
+        3.4311153888702393,
+        3.4378809928894043
+      ],
+      [
+        1.5368791818618774,
+        2.840240001678467
+      ]
+    ],
+    "materials": [
+      "Silver Metallic"
+    ],
+    "collections": [
+      "LIB_Laundry_Full_Upper_Storage"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Full_Upper_Storage_Cylinder.007_PREPARED",
+    "bounds": [
+      [
+        8.785360336303711,
+        8.821548461914062
+      ],
+      [
+        3.422886848449707,
+        3.437346935272217
+      ],
+      [
+        1.599610686302185,
+        1.7400625944137573
+      ]
+    ],
+    "materials": [
+      "Silver Metallic"
+    ],
+    "collections": [
+      "LIB_Laundry_Full_Upper_Storage"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Full_Upper_Storage_Cylinder.006_PREPARED",
+    "bounds": [
+      [
+        8.785161972045898,
+        8.821745872497559
+      ],
+      [
+        3.419999837875366,
+        3.4264943599700928
+      ],
+      [
+        1.5854052305221558,
+        1.7542680501937866
+      ]
+    ],
+    "materials": [
+      "Silver Metallic"
+    ],
+    "collections": [
+      "LIB_Laundry_Full_Upper_Storage"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Full_Upper_Storage_Cylinder.005_PREPARED",
+    "bounds": [
+      [
+        10.03857421875,
+        10.074762344360352
+      ],
+      [
+        3.422886848449707,
+        3.437346935272217
+      ],
+      [
+        1.599610686302185,
+        1.7400625944137573
+      ]
+    ],
+    "materials": [
+      "Silver Metallic"
+    ],
+    "collections": [
+      "LIB_Laundry_Full_Upper_Storage"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Full_Upper_Storage_Cylinder.004_PREPARED",
+    "bounds": [
+      [
+        10.038375854492188,
+        10.074959754943848
+      ],
+      [
+        3.4200000762939453,
+        3.4264943599700928
+      ],
+      [
+        1.5854052305221558,
+        1.7542680501937866
+      ]
+    ],
+    "materials": [
+      "Silver Metallic"
+    ],
+    "collections": [
+      "LIB_Laundry_Full_Upper_Storage"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Full_Upper_Storage_Cylinder.003_PREPARED",
+    "bounds": [
+      [
+        8.521483421325684,
+        9.085182189941406
+      ],
+      [
+        3.4311153888702393,
+        3.4378809928894043
+      ],
+      [
+        1.536879301071167,
+        2.840240001678467
+      ]
+    ],
+    "materials": [
+      "Silver Metallic"
+    ],
+    "collections": [
+      "LIB_Laundry_Full_Upper_Storage"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Full_Upper_Storage_Cylinder.002_PREPARED",
+    "bounds": [
+      [
+        9.411906242370605,
+        9.448094367980957
+      ],
+      [
+        3.422886848449707,
+        3.437346935272217
+      ],
+      [
+        1.599610686302185,
+        1.7400625944137573
+      ]
+    ],
+    "materials": [
+      "Silver Metallic"
+    ],
+    "collections": [
+      "LIB_Laundry_Full_Upper_Storage"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Full_Upper_Storage_Cylinder.001_PREPARED",
+    "bounds": [
+      [
+        9.41170883178711,
+        9.448291778564453
+      ],
+      [
+        3.4200000762939453,
+        3.4264943599700928
+      ],
+      [
+        1.5854052305221558,
+        1.7542680501937866
+      ]
+    ],
+    "materials": [
+      "Silver Metallic"
+    ],
+    "collections": [
+      "LIB_Laundry_Full_Upper_Storage"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Full_Upper_Storage_Cube_PREPARED",
+    "bounds": [
+      [
+        9.116667747497559,
+        9.743332862854004
+      ],
+      [
+        3.428802013397217,
+        3.7599985599517822
+      ],
+      [
+        1.4999998807907104,
+        2.8749985694885254
+      ]
+    ],
+    "materials": [
+      "Matte Plastic"
+    ],
+    "collections": [
+      "LIB_Laundry_Full_Upper_Storage"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Full_Upper_Storage_Cube.007_PREPARED",
+    "bounds": [
+      [
+        9.800768852233887,
+        10.312567710876465
+      ],
+      [
+        3.4243369102478027,
+        3.426809787750244
+      ],
+      [
+        1.6001434326171875,
+        2.7753756046295166
+      ]
+    ],
+    "materials": [
+      "Glass",
+      "Plastic Gel Glossy"
+    ],
+    "collections": [
+      "LIB_Laundry_Full_Upper_Storage"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Full_Upper_Storage_Cube.006_PREPARED",
+    "bounds": [
+      [
+        9.743335723876953,
+        10.369999885559082
+      ],
+      [
+        3.4288036823272705,
+        3.760000228881836
+      ],
+      [
+        1.500001311302185,
+        2.875
+      ]
+    ],
+    "materials": [
+      "Matte Plastic"
+    ],
+    "collections": [
+      "LIB_Laundry_Full_Upper_Storage"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Full_Upper_Storage_Cube.005_PREPARED",
+    "bounds": [
+      [
+        9.772756576538086,
+        10.34057903289795
+      ],
+      [
+        3.420985460281372,
+        3.44000506401062
+      ],
+      [
+        1.5460840463638306,
+        2.829434871673584
+      ]
+    ],
+    "materials": [
+      "Matte Plastic.001"
+    ],
+    "collections": [
+      "LIB_Laundry_Full_Upper_Storage"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Full_Upper_Storage_Cube.004_PREPARED",
+    "bounds": [
+      [
+        8.547432899475098,
+        9.059231758117676
+      ],
+      [
+        3.4243369102478027,
+        3.426809787750244
+      ],
+      [
+        1.6001434326171875,
+        2.7753756046295166
+      ]
+    ],
+    "materials": [
+      "Glass",
+      "Plastic Gel Glossy"
+    ],
+    "collections": [
+      "LIB_Laundry_Full_Upper_Storage"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Full_Upper_Storage_Cube.003_PREPARED",
+    "bounds": [
+      [
+        8.519421577453613,
+        9.087244033813477
+      ],
+      [
+        3.420985460281372,
+        3.44000506401062
+      ],
+      [
+        1.5460841655731201,
+        2.829435110092163
+      ]
+    ],
+    "materials": [
+      "Matte Plastic.001"
+    ],
+    "collections": [
+      "LIB_Laundry_Full_Upper_Storage"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Full_Upper_Storage_Cube.002_PREPARED",
+    "bounds": [
+      [
+        8.489999771118164,
+        9.11666488647461
+      ],
+      [
+        3.4288036823272705,
+        3.759999990463257
+      ],
+      [
+        1.500001311302185,
+        2.875
+      ]
+    ],
+    "materials": [
+      "Matte Plastic"
+    ],
+    "collections": [
+      "LIB_Laundry_Full_Upper_Storage"
+    ]
+  },
+  {
+    "name": "LIB_Laundry_Full_Upper_Storage_Cube.001_PREPARED",
+    "bounds": [
+      [
+        9.146088600158691,
+        9.713912010192871
+      ],
+      [
+        3.4209866523742676,
+        3.44000506401062
+      ],
+      [
+        1.5460841655731201,
+        2.829435110092163
+      ]
+    ],
+    "materials": [
+      "Matte Plastic.001"
+    ],
+    "collections": [
+      "LIB_Laundry_Full_Upper_Storage"
+    ]
+  },
+  {
+    "name": "LIB_Ground_Flush_Laundry_Cylinder.011_PREPARED",
+    "bounds": [
+      [
+        9.356382369995117,
+        9.364134788513184
+      ],
+      [
+        3.28905987739563,
+        3.2969672679901123
+      ],
+      [
+        2.8178868293762207,
+        2.857848882675171
+      ]
+    ],
+    "materials": [
+      "Brushed used metal silver"
+    ],
+    "collections": [
+      "LIB_Ground_Flush_Laundry"
+    ]
+  },
+  {
+    "name": "LIB_Ground_Flush_Laundry_Cylinder.010_PREPARED",
+    "bounds": [
+      [
+        9.395878791809082,
+        9.403631210327148
+      ],
+      [
+        3.253664255142212,
+        3.2615714073181152
+      ],
+      [
+        2.8178868293762207,
+        2.857848882675171
+      ]
+    ],
+    "materials": [
+      "Brushed used metal silver"
+    ],
+    "collections": [
+      "LIB_Ground_Flush_Laundry"
+    ]
+  },
+  {
+    "name": "LIB_Ground_Flush_Laundry_Cylinder.009_PREPARED",
+    "bounds": [
+      [
+        9.395194053649902,
+        9.402946472167969
+      ],
+      [
+        3.3398289680480957,
+        3.347736120223999
+      ],
+      [
+        2.8178868293762207,
+        2.837831497192383
+      ]
+    ],
+    "materials": [
+      "Brushed used metal silver"
+    ],
+    "collections": [
+      "LIB_Ground_Flush_Laundry"
+    ]
+  },
+  {
+    "name": "LIB_Ground_Flush_Laundry_Cylinder.008_PREPARED",
+    "bounds": [
+      [
+        9.436327934265137,
+        9.444080352783203
+      ],
+      [
+        3.28905987739563,
+        3.2969672679901123
+      ],
+      [
+        2.8178868293762207,
+        2.837831497192383
+      ]
+    ],
+    "materials": [
+      "Brushed used metal silver"
+    ],
+    "collections": [
+      "LIB_Ground_Flush_Laundry"
+    ]
+  },
+  {
+    "name": "LIB_Ground_Flush_Laundry_Cube.079_PREPARED",
+    "bounds": [
+      [
+        9.353297233581543,
+        9.539999961853027
+      ],
+      [
+        3.2495648860931396,
+        3.43999981880188
+      ],
+      [
+        2.8578426837921143,
+        2.8761510848999023
+      ]
+    ],
+    "materials": [
+      "lampada"
+    ],
+    "collections": [
+      "LIB_Ground_Flush_Laundry"
+    ]
+  },
+  {
+    "name": "LIB_Ground_Flush_Laundry_Cube.078_PREPARED",
+    "bounds": [
+      [
+        9.356654167175293,
+        9.536643028259277
+      ],
+      [
+        3.2529892921447754,
+        3.4365756511688232
+      ],
+      [
+        2.8569936752319336,
+        2.877000093460083
+      ]
+    ],
+    "materials": [
+      "Metal Paint"
+    ],
+    "collections": [
+      "LIB_Ground_Flush_Laundry"
+    ]
+  },
+  {
+    "name": "LIB_Ground_Flush_Laundry_Cube.076_PREPARED",
+    "bounds": [
+      [
+        9.260000228881836,
+        9.446702003479004
+      ],
+      [
+        3.1599998474121094,
+        3.3504347801208496
+      ],
+      [
+        2.837815284729004,
+        2.856123685836792
+      ]
+    ],
+    "materials": [
+      "lampada"
+    ],
+    "collections": [
+      "LIB_Ground_Flush_Laundry"
+    ]
+  },
+  {
+    "name": "LIB_Ground_Flush_Laundry_Cube.075_PREPARED",
+    "bounds": [
+      [
+        9.337662696838379,
+        9.457752227783203
+      ],
+      [
+        3.2382824420928955,
+        3.3607726097106934
+      ],
+      [
+        2.7850000858306885,
+        2.8180127143859863
+      ]
+    ],
+    "materials": [
+      "Metal Paint"
+    ],
+    "collections": [
+      "LIB_Ground_Flush_Laundry"
+    ]
+  },
+  {
+    "name": "LIB_Ground_Flush_Laundry_Cube.074_PREPARED",
+    "bounds": [
+      [
+        9.263357162475586,
+        9.443345069885254
+      ],
+      [
+        3.163424015045166,
+        3.347010612487793
+      ],
+      [
+        2.8369662761688232,
+        2.8569726943969727
+      ]
+    ],
+    "materials": [
+      "Metal Paint"
+    ],
+    "collections": [
+      "LIB_Ground_Flush_Laundry"
+    ]
+  },
+  {
+    "name": "Laundry_counter",
+    "bounds": [
+      [
+        8.49000072479248,
+        10.369999885559082
+      ],
+      [
+        3.140000104904175,
+        3.7799999713897705
+      ],
+      [
+        0.8700000047683716,
+        0.9049999713897705
+      ]
+    ],
+    "materials": [
+      "DESIGN_Oak"
+    ],
+    "collections": [
+      "DESIGN_Laundry"
+    ]
+  },
+  {
+    "name": "LIB_Living_TV_Plane.082_PREPARED",
+    "bounds": [
+      [
+        6.789999485015869,
+        6.869999885559082
+      ],
+      [
+        8.94999885559082,
+        10.34999942779541
+      ],
+      [
+        1.0,
+        1.8100000619888306
+      ]
+    ],
+    "materials": [
+      "TV_Plastic Base 01",
+      "TV_Screen",
+      "TV_Led",
+      "TV_Bolt",
+      "TV_Metal scratched"
+    ],
+    "collections": [
+      "LIB_Living_TV"
+    ]
+  },
+  {
+    "name": "R3_Stair_Wall_South",
+    "bounds": [
+      [
+        6.489999771118164,
+        6.619999885559082
+      ],
+      [
+        7.03000020980835,
+        7.980000019073486
+      ],
+      [
+        0.0,
+        2.9000000953674316
+      ]
+    ],
+    "materials": [
+      "LIBRARY_PBR_Warm_Plaster"
+    ],
+    "collections": [
+      "DESIGN_Stair_Storage"
+    ]
+  },
+  {
+    "name": "R3_Stair_Wall_North",
+    "bounds": [
+      [
+        6.489999771118164,
+        6.619999885559082
+      ],
+      [
+        8.680000305175781,
+        11.829999923706055
+      ],
+      [
+        0.0,
+        2.9000000953674316
+      ]
+    ],
+    "materials": [
+      "LIBRARY_PBR_Warm_Plaster"
+    ],
+    "collections": [
+      "DESIGN_Stair_Storage"
+    ]
+  },
+  {
+    "name": "R3_Stair_Wall_Lintel",
+    "bounds": [
+      [
+        6.489999771118164,
+        6.619999885559082
+      ],
+      [
+        7.980000019073486,
+        8.680000305175781
+      ],
+      [
+        2.0999999046325684,
+        2.9000000953674316
+      ]
+    ],
+    "materials": [
+      "LIBRARY_PBR_Warm_Plaster"
+    ],
+    "collections": [
+      "DESIGN_Stair_Storage"
+    ]
+  }
+]

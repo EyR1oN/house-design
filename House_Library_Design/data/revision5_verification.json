@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "Four dining chairs",
+      "passed": true
+    },
+    {
+      "check": "Bench removed",
+      "passed": true
+    },
+    {
+      "check": "Old pedestal table removed",
+      "passed": true
+    },
+    {
+      "check": "All placement objects present",
+      "passed": true
+    },
+    {
+      "check": "Textures packed",
+      "passed": true
+    },
+    {
+      "check": "Four leg corners reach floor",
+      "passed": true
+    },
+    {
+      "check": "Other placement bounds unchanged",
+      "passed": true
+    },
+    {
+      "check": "Architecture unchanged",
+      "passed": true
+    }
+  ]
+}

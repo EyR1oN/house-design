@@ -1,0 +1,188 @@
+[
+  {
+    "section": "R",
+    "level": 1,
+    "name": "Прихожа",
+    "id": "ENTRY",
+    "scheduled_area_m2": 10.26,
+    "modeled_zone_area_m2": 10.26
+  },
+  {
+    "section": "R",
+    "level": 1,
+    "name": "Пральня",
+    "id": "LAUNDRY",
+    "scheduled_area_m2": 2.33,
+    "modeled_zone_area_m2": 2.328
+  },
+  {
+    "section": "R",
+    "level": 1,
+    "name": "Санвузол",
+    "id": "WC",
+    "scheduled_area_m2": 2.8,
+    "modeled_zone_area_m2": 2.799
+  },
+  {
+    "section": "R",
+    "level": 1,
+    "name": "Кухня",
+    "id": "KITCHEN",
+    "scheduled_area_m2": 8.12,
+    "modeled_zone_area_m2": 7.8155
+  },
+  {
+    "section": "R",
+    "level": 1,
+    "name": "Хол",
+    "id": "HALL",
+    "scheduled_area_m2": 4.61
+  },
+  {
+    "section": "R",
+    "level": 1,
+    "name": "Вітальня",
+    "id": "LIVING",
+    "scheduled_area_m2": 22.18
+  },
+  {
+    "section": "R",
+    "level": 2,
+    "name": "Спальня",
+    "id": "BEDROOM_REAR",
+    "scheduled_area_m2": 18.88,
+    "modeled_zone_area_m2": 18.8831
+  },
+  {
+    "section": "R",
+    "level": 2,
+    "name": "Спальня",
+    "id": "BEDROOM_SIDE",
+    "scheduled_area_m2": 12.76,
+    "modeled_zone_area_m2": 12.8904
+  },
+  {
+    "section": "R",
+    "level": 2,
+    "name": "Спальня",
+    "id": "BEDROOM_FRONT",
+    "scheduled_area_m2": 11.35,
+    "modeled_zone_area_m2": 11.343
+  },
+  {
+    "section": "R",
+    "level": 2,
+    "name": "Ванна кімната",
+    "id": "BATHROOM",
+    "scheduled_area_m2": 5.25,
+    "modeled_zone_area_m2": 5.2524
+  },
+  {
+    "section": "R",
+    "level": 2,
+    "name": "Гардероб",
+    "id": "WARDROBE",
+    "scheduled_area_m2": 3.88,
+    "modeled_zone_area_m2": 3.8766
+  },
+  {
+    "section": "R",
+    "level": 2,
+    "name": "Хол",
+    "id": "HALL",
+    "scheduled_area_m2": 10.47
+  },
+  {
+    "section": "L",
+    "level": 1,
+    "name": "Прихожа",
+    "id": "ENTRY",
+    "scheduled_area_m2": 10.26,
+    "modeled_zone_area_m2": 10.26
+  },
+  {
+    "section": "L",
+    "level": 1,
+    "name": "Пральня",
+    "id": "LAUNDRY",
+    "scheduled_area_m2": 2.33,
+    "modeled_zone_area_m2": 2.328
+  },
+  {
+    "section": "L",
+    "level": 1,
+    "name": "Санвузол",
+    "id": "WC",
+    "scheduled_area_m2": 2.8,
+    "modeled_zone_area_m2": 2.799
+  },
+  {
+    "section": "L",
+    "level": 1,
+    "name": "Кухня",
+    "id": "KITCHEN",
+    "scheduled_area_m2": 8.12,
+    "modeled_zone_area_m2": 7.8155
+  },
+  {
+    "section": "L",
+    "level": 1,
+    "name": "Хол",
+    "id": "HALL",
+    "scheduled_area_m2": 4.61
+  },
+  {
+    "section": "L",
+    "level": 1,
+    "name": "Вітальня",
+    "id": "LIVING",
+    "scheduled_area_m2": 22.18
+  },
+  {
+    "section": "L",
+    "level": 2,
+    "name": "Спальня",
+    "id": "BEDROOM_REAR",
+    "scheduled_area_m2": 18.88,
+    "modeled_zone_area_m2": 18.8831
+  },
+  {
+    "section": "L",
+    "level": 2,
+    "name": "Спальня",
+    "id": "BEDROOM_SIDE",
+    "scheduled_area_m2": 12.76,
+    "modeled_zone_area_m2": 12.8904
+  },
+  {
+    "section": "L",
+    "level": 2,
+    "name": "Спальня",
+    "id": "BEDROOM_FRONT",
+    "scheduled_area_m2": 11.35,
+    "modeled_zone_area_m2": 11.343
+  },
+  {
+    "section": "L",
+    "level": 2,
+    "name": "Ванна кімната",
+    "id": "BATHROOM",
+    "scheduled_area_m2": 5.25,
+    "modeled_zone_area_m2": 5.2524
+  },
+  {
+    "section": "L",
+    "level": 2,
+    "name": "Гардероб",
+    "id": "WARDROBE",
+    "scheduled_area_m2": 3.88,
+    "modeled_zone_area_m2": 3.8766
+  },
+  {
+    "section": "L",
+    "level": 2,
+    "name": "Хол",
+    "id": "HALL",
+    "scheduled_area_m2": 10.47
+  }
+]
