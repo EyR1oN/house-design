@@ -1,0 +1,49 @@
+name: Publish house 3D and PDF
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: house-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Check model and review synchronization
+        run: python automation/check_export_freshness.py
+      - name: Download current exported models and renders
+        run: |
+          git lfs install --local
+          git lfs pull --include="House_Browser_Viewer/House_Floor_*.glb,House_Library_Design/previews/*.png" --exclude=""
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: web/requirements.txt
+      - name: Install PDF build dependencies
+        run: python -m pip install -r web/requirements.txt
+      - name: Build public viewer and PDF
+        run: python automation/build_site.py
+      - name: Verify published assets
+        run: python automation/verify_site.py .site-dist
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: .site-dist
+      - uses: actions/deploy-pages@v4
+        id: deploy

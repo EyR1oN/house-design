@@ -25,3 +25,6 @@ Thumbs.db
 
 # Local smoke renders and rebuilt review files
 /.local-preview/
+
+# Generated GitHub Pages artifacts
+/.site-dist/
