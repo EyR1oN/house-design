@@ -7,6 +7,7 @@ import struct
 
 ROOT = Path(__file__).resolve().parents[1]
 MARKER = '__HOUSE_DATA_JSON__'
+FIRST_PERSON_MARKER = '__FIRST_PERSON_SCRIPT__'
 
 
 def read_asset(path):
@@ -38,6 +39,9 @@ def build(output):
     template = (ROOT / 'House_Browser_Viewer/viewer_template.html').read_text(encoding='utf-8')
     if template.count(MARKER) != 1:
         raise ValueError('Viewer template must contain exactly one data marker.')
+    if template.count(FIRST_PERSON_MARKER) != 1:
+        raise ValueError('Viewer template must contain exactly one first-person script marker.')
+    first_person = (ROOT / 'House_Browser_Viewer/first_person.js').read_text(encoding='utf-8')
     data = {'models': {}, 'photos': []}
     pivot_nodes = 0
     for floor in (1, 2):
@@ -68,6 +72,7 @@ def build(output):
             raise ValueError(f'Invalid PNG: {path}')
         data['photos'].append({'title': title, 'image': base64.b64encode(raw).decode('ascii'), 'mime': 'image/png'})
     prefix, suffix = template.split(MARKER)
+    suffix = suffix.replace(FIRST_PERSON_MARKER, first_person)
     output.parent.mkdir(parents=True, exist_ok=True)
     temporary = output.with_suffix('.building.tmp')
     try:
@@ -79,6 +84,7 @@ def build(output):
     finally:
         temporary.unlink(missing_ok=True)
     print(json.dumps({'output': str(output), 'floors': 2, 'photos': len(views), 'moving_pantry_nodes': pivot_nodes,
+                      'first_person_mode': True,
                       'size_mb': round(output.stat().st_size / 1_000_000, 1), 'blender_modified': False}))
 
 
