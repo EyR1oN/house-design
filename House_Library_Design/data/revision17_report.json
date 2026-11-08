@@ -1,0 +1,46 @@
+{
+  "revision": 17,
+  "stairs": {
+    "removed_upper_tv_wall_extension": "R3_Stair_Landing_Closure",
+    "removed_bounds_m": [
+      [
+        6.49,
+        7.03,
+        2.9
+      ],
+      [
+        6.62,
+        8.4,
+        5.87
+      ]
+    ],
+    "ground_floor_tv_storage_wall_preserved": "R3_Stair_Wall_South",
+    "ground_floor_wall_bounds_m": [
+      [
+        6.489999771118164,
+        7.03000020980835,
+        0.0
+      ],
+      [
+        6.619999885559082,
+        7.980000019073486,
+        2.9000000953674316
+      ]
+    ],
+    "closet_side_wall_preserved": "R_L2_SOURCE_WALL_1",
+    "closet_wall_face_count": 132,
+    "stair_threshold_preserved": "R3_Stair_Landing_Threshold",
+    "threshold_bounds_m": [
+      [
+        6.490000247955322,
+        7.03000020980835,
+        3.180000066757202
+      ],
+      [
+        6.650000095367432,
+        8.030000686645508,
+        3.200000047683716
+      ]
+    ]
+  }
+}

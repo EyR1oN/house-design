@@ -30,6 +30,9 @@ def verify(root):
     assert len(pdf.pages) == info['pdf_pages']
     assert 'Будинок' in pdf.pages[0].extract_text()
     assert 'window.CORNER_PANTRY=' in page
+    assert 'window.HOUSE_WALK' in page
+    assert 'KeyW' in page and 'ArrowUp' in page
+    assert '__FIRST_PERSON_SCRIPT__' not in page
     assert '__HOUSE_DATA_JSON__' not in page
     assert 'window.loadHouseModel(i)' in page
     assert not list(root.rglob('*.blend')), 'Master must not be part of the published website'

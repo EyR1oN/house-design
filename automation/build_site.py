@@ -21,6 +21,8 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfgen import canvas
 from build_viewer import ROOT, MARKER, read_asset, validate_glb
 
+FIRST_PERSON_MARKER = '__FIRST_PERSON_SCRIPT__'
+
 
 def sha(data):
     return hashlib.sha256(data).hexdigest()
@@ -143,6 +145,10 @@ def build(output, site_url):
         image_paths.append(image_path)
         data['photos'].append({'title': title, 'url': name})
     template = (ROOT / 'House_Browser_Viewer/viewer_template.html').read_text(encoding='utf-8')
+    if template.count(FIRST_PERSON_MARKER) != 1:
+        raise ValueError('Viewer template must contain exactly one first-person script marker.')
+    first_person = (ROOT / 'House_Browser_Viewer/first_person.js').read_text(encoding='utf-8')
+    template = template.replace(FIRST_PERSON_MARKER, first_person)
     old = 'ya[i]=await new Promise((e,t)=>s0.parse(o0(Gu.models[i]),"",n=>e(n.scene),t))'
     new = 'ya[i]=await window.loadHouseModel(i).then(b=>new Promise((e,t)=>s0.parse(b,"",n=>e(n.scene),t)))'
     if template.count(old) != 1:
