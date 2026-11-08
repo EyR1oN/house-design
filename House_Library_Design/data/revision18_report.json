@@ -1,0 +1,154 @@
+{
+  "revision": 18,
+  "dining_shift_m": [
+    1.11,
+    -0.21,
+    0
+  ],
+  "moved_objects": [
+    "LIB_Dining_Ceramics_Bowl_PREPARED",
+    "LIB_Dining_Ceramics_Coffee Cup.001_PREPARED",
+    "LIB_Dining_Ceramics_Coffee Cup_PREPARED",
+    "LIB_Dining_Ceramics_Glass_PREPARED",
+    "LIB_Dining_Ceramics_Plate_PREPARED",
+    "LIB_Dining_Chair_3_Chair",
+    "LIB_Dining_Chair_4_Chair",
+    "LIB_Dining_Chair_7.99_Chair_PREPARED",
+    "LIB_Dining_Table_Leg_PREPARED",
+    "LIB_Dining_Table_Support frame_PREPARED",
+    "LIB_Dining_Table_Table top_PREPARED",
+    "LIB_Pendant_Dining1_Circle.002_PREPARED",
+    "LIB_Pendant_Dining1_Circle.003_PREPARED",
+    "LIB_Pendant_Dining1_Cube_PREPARED",
+    "LIB_Pendant_Dining1_Inner Bulb_PREPARED",
+    "LIB_Pendant_Dining2_Circle.002_PREPARED",
+    "LIB_Pendant_Dining2_Circle.003_PREPARED",
+    "LIB_Pendant_Dining2_Cube_PREPARED",
+    "LIB_Pendant_Dining2_Inner Bulb_PREPARED"
+  ],
+  "straight_tread_depth_m": 0.2041666666666667,
+  "stair_riser_height_m": 0.17777777777777778,
+  "stair_closet_clearance_m": 0.0298,
+  "ceiling_heights_m": [
+    2.895,
+    5.895
+  ],
+  "stair_objects": [
+    "R_STAIR_LOWER_WINDER_01",
+    "R_STAIR_LOWER_WINDER_02",
+    "R_STAIR_LOWER_WINDER_03",
+    "R_STAIR_STRAIGHT_04",
+    "R_STAIR_RISER_04",
+    "R_STAIR_STRAIGHT_05",
+    "R_STAIR_RISER_05",
+    "R_STAIR_STRAIGHT_06",
+    "R_STAIR_RISER_06",
+    "R_STAIR_STRAIGHT_07",
+    "R_STAIR_RISER_07",
+    "R_STAIR_STRAIGHT_08",
+    "R_STAIR_RISER_08",
+    "R_STAIR_STRAIGHT_09",
+    "R_STAIR_RISER_09",
+    "R_STAIR_STRAIGHT_10",
+    "R_STAIR_RISER_10",
+    "R_STAIR_STRAIGHT_11",
+    "R_STAIR_RISER_11",
+    "R_STAIR_STRAIGHT_12",
+    "R_STAIR_RISER_12",
+    "R_STAIR_STRAIGHT_13",
+    "R_STAIR_RISER_13",
+    "R_STAIR_STRAIGHT_14",
+    "R_STAIR_RISER_14",
+    "R_STAIR_STRAIGHT_15",
+    "R_STAIR_RISER_15",
+    "R_STAIR_UPPER_WINDER_16",
+    "R_STAIR_UPPER_WINDER_17",
+    "R_STAIR_UPPER_WINDER_18",
+    "R_STAIR_STRINGER"
+  ],
+  "removed_objects": [
+    "LIB_Dining_Chair_8.99_Chair_PREPARED"
+  ],
+  "dining_corner_corrected": true,
+  "dining_table_bounds_m": [
+    [
+      8.82,
+      10.38
+    ],
+    [
+      7.51,
+      8.31
+    ]
+  ],
+  "dining_chairs": 3,
+  "ceiling_room_coverage": {
+    "1": [
+      "R_L1_FINISHED_FLOOR",
+      "R_L1_ENTRY_FLOOR_FINISH",
+      "R_L1_LAUNDRY_FLOOR_FINISH",
+      "R_L1_WC_FLOOR_FINISH",
+      "R_L1_KITCHEN_FLOOR_FINISH"
+    ],
+    "2": [
+      "R_L2_FINISHED_FLOOR",
+      "R_L2_BEDROOM_REAR_FLOOR_FINISH",
+      "R_L2_BEDROOM_SIDE_FLOOR_FINISH",
+      "R_L2_BEDROOM_FRONT_FLOOR_FINISH",
+      "R_L2_BATHROOM_FLOOR_FINISH",
+      "R_L2_WARDROBE_FLOOR_FINISH"
+    ]
+  },
+  "removed_landing_guard_objects": [
+    "Upper_void_guard_bar",
+    "Upper_void_guard_bar.001",
+    "Upper_void_guard_bar.002",
+    "Upper_void_guard_bar.003",
+    "Upper_void_guard_bar.004",
+    "Upper_void_guard_bar.005",
+    "Upper_void_guard_bar.006",
+    "Upper_void_guard_bar.007",
+    "Upper_void_guard_bar.008",
+    "Upper_void_guard_bar.009",
+    "Upper_void_guard_bar.010",
+    "Upper_void_guard_bar.011",
+    "Upper_void_guard_bar.012",
+    "Upper_void_guard_bar.013",
+    "Upper_void_guard_bar.014",
+    "Upper_void_guard_bar.015",
+    "Upper_void_guard_bar.016",
+    "Upper_void_guard_bar.017",
+    "Upper_void_guard_bar.018",
+    "Upper_void_guard_bar.019",
+    "Upper_void_guard_bar.020",
+    "Upper_void_guard_bar.021",
+    "Upper_void_guard_bar.022",
+    "Upper_void_guard_bar.023",
+    "Upper_void_guard_bar.024",
+    "Upper_void_guard_bar.025",
+    "Upper_void_guard_bar.026",
+    "Upper_void_guard_bar.027",
+    "Upper_void_guard_bar.028",
+    "Upper_void_guard_bar.029",
+    "Upper_void_guard_bar.030",
+    "Upper_void_guard_bar.031",
+    "Upper_void_guard_bar.032",
+    "Upper_void_guard_bar.033",
+    "Upper_void_guard_bar.034",
+    "Upper_void_guard_bar.035",
+    "Upper_void_guard_top"
+  ],
+  "hall_replacement_objects": [
+    "R3_Stair_Landing_Threshold"
+  ],
+  "electrical_points_preserved": true,
+  "stair_turn_fitted_between_walls": true,
+  "upper_turn_y_bounds_m": [
+    7.44,
+    8.38
+  ],
+  "stair_bedroom_wall_clearance_m": 0.01995,
+  "upper_turn_shift_y_range_m": [
+    0.35,
+    0.41
+  ]
+}
