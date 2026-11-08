@@ -1,0 +1,23 @@
+{
+  "revision": 18,
+  "browser": "headless Chrome",
+  "stairs_ground_to_upstairs_hall_passed": true,
+  "upstairs_eye_height_m": 4.82,
+  "page_errors": [],
+  "ceilings_clipped_in_orbit": true,
+  "ceilings_unclipped_in_walk": true,
+  "plan_button_removed": true,
+  "dining_chairs": 3,
+  "moving_pantry_nodes": 20,
+  "public_site_build_verified": true,
+  "photos": 36,
+  "pdf_pages": 37,
+  "visual_checks": [
+    "Living_Dining",
+    "Ground_Plan",
+    "Upper_Plan",
+    "Stair_Top",
+    "ground ceiling",
+    "upper ceiling"
+  ]
+}
