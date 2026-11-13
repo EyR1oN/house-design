@@ -1,0 +1,167 @@
+{
+  "revision": 20,
+  "title": "Ground-floor switch relocation",
+  "switches": [
+    {
+      "id": "E1_004_SWITCH",
+      "from": {
+        "x_m": 7.860000133514404,
+        "y_m": 3.794118881225586,
+        "face": "S"
+      },
+      "to": {
+        "x_m": 7.825,
+        "y_m": 3.9255,
+        "face": "N"
+      },
+      "room": "Kitchen",
+      "purpose": "Kitchen ceiling + task lights",
+      "objects": [
+        "E1_004_SWITCH",
+        "E1_004_SWITCH_rocker",
+        "E1_004_SWITCH_rocker.001"
+      ]
+    },
+    {
+      "id": "E1_025_SWITCH",
+      "from": {
+        "x_m": 6.515443801879883,
+        "y_m": 4.760000228881836,
+        "face": "E"
+      },
+      "to": {
+        "x_m": 6.515443801879883,
+        "y_m": 5.82,
+        "face": "E"
+      },
+      "room": "Ground_WC",
+      "purpose": "Shower room light / extract control",
+      "objects": [
+        "E1_025_SWITCH",
+        "E1_025_SWITCH_rocker",
+        "E1_025_SWITCH_rocker.001"
+      ]
+    },
+    {
+      "id": "E1_019_SWITCH",
+      "from": {
+        "x_m": 10.39460277557373,
+        "y_m": 7.769999980926514,
+        "face": "W"
+      },
+      "to": {
+        "x_m": 6.6255,
+        "y_m": 7.32,
+        "face": "E"
+      },
+      "room": "Living",
+      "purpose": "Living ceiling + dining pendants",
+      "objects": [
+        "E1_019_SWITCH",
+        "E1_019_SWITCH_rocker",
+        "E1_019_SWITCH_rocker.001"
+      ]
+    },
+    {
+      "id": "E1_090_SWITCH",
+      "from": {
+        "x_m": 10.39460277557373,
+        "y_m": 7.940000057220459,
+        "face": "W"
+      },
+      "to": {
+        "x_m": 6.6255,
+        "y_m": 7.5,
+        "face": "E"
+      },
+      "room": "Living",
+      "purpose": "Living LED strips dimmer",
+      "objects": [
+        "E1_090_SWITCH",
+        "E1_090_SWITCH_rocker",
+        "E1_090_SWITCH_rocker.001"
+      ]
+    }
+  ],
+  "surface_checks": [
+    {
+      "id": "E1_004_SWITCH",
+      "wall_object": "R_L1_SOURCE_WALL_6",
+      "surface_m": 3.9199,
+      "switch_face": "N",
+      "normal": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "E1_025_SWITCH",
+      "wall_object": "R_L1_SOURCE_WALL_3",
+      "surface_m": 6.5099,
+      "switch_face": "E",
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "E1_019_SWITCH",
+      "wall_object": "R3_Stair_Wall_South",
+      "surface_m": 6.62,
+      "switch_face": "E",
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "E1_090_SWITCH",
+      "wall_object": "R3_Stair_Wall_South",
+      "surface_m": 6.62,
+      "switch_face": "E",
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "clearances_m": {
+    "E1_004_SWITCH_to_kitchen_door_jamb_and_fridge_housing": 0.05,
+    "E1_025_SWITCH_to_WC_door_header_projection": 0.085,
+    "E1_019_E1_090_switch_cluster_to_E1_020_switch": 0.26
+  },
+  "all_switches_keep_original_height_aff_m": true,
+  "door_openings_and_furniture_unchanged": true,
+  "verification": "Wall raycasts hit the requested exposed wall planes; detailed screenshot review follows export.",
+  "browser_patch": {
+    "file": "revision20_switches_floor1.glb",
+    "bytes": 22972,
+    "exported_objects": [
+      "E1_004_SWITCH",
+      "E1_004_SWITCH_rocker",
+      "E1_004_SWITCH_rocker.001",
+      "E1_025_SWITCH",
+      "E1_025_SWITCH_rocker",
+      "E1_025_SWITCH_rocker.001",
+      "E1_019_SWITCH",
+      "E1_019_SWITCH_rocker",
+      "E1_019_SWITCH_rocker.001",
+      "E1_090_SWITCH",
+      "E1_090_SWITCH_rocker",
+      "E1_090_SWITCH_rocker.001"
+    ]
+  },
+  "json_points_match_report": true,
+  "rendered_screenshots": {
+    "Kitchen": true,
+    "Kitchen_Reverse": true,
+    "Ground_Shower_Reverse": true,
+    "Entry_Reverse": true,
+    "Ground_Hall": true,
+    "Living_Dining": true
+  }
+}

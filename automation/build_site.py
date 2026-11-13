@@ -148,7 +148,8 @@ def build(output, site_url):
     if template.count(FIRST_PERSON_MARKER) != 1:
         raise ValueError('Viewer template must contain exactly one first-person script marker.')
     first_person = (ROOT / 'House_Browser_Viewer/first_person.js').read_text(encoding='utf-8')
-    template = template.replace(FIRST_PERSON_MARKER, first_person)
+    electrical_mode = (ROOT / 'House_Browser_Viewer/electrical_mode.js').read_text(encoding='utf-8')
+    template = template.replace(FIRST_PERSON_MARKER, first_person + '\n' + electrical_mode)
     old = 'ya[i]=await new Promise((e,t)=>s0.parse(o0(Gu.models[i]),"",n=>e(n.scene),t))'
     new = 'ya[i]=await window.loadHouseModel(i).then(b=>new Promise((e,t)=>s0.parse(b,"",n=>e(n.scene),t)))'
     if template.count(old) != 1:

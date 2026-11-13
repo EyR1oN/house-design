@@ -1,0 +1,28 @@
+{
+  "revision": 20,
+  "updated_switch_objects": [
+    "E1_004_SWITCH",
+    "E1_004_SWITCH_rocker",
+    "E1_004_SWITCH_rocker.001",
+    "E1_019_SWITCH",
+    "E1_019_SWITCH_rocker",
+    "E1_019_SWITCH_rocker.001",
+    "E1_025_SWITCH",
+    "E1_025_SWITCH_rocker",
+    "E1_025_SWITCH_rocker.001",
+    "E1_090_SWITCH",
+    "E1_090_SWITCH_rocker",
+    "E1_090_SWITCH_rocker.001"
+  ],
+  "active_floor1_node_count": 576,
+  "switch_nodes_active_once": true,
+  "duplicate_active_node_names": 0,
+  "corner_pantry_pivot_nodes": 20,
+  "all_buffer_views_within_glb": true,
+  "floor2_glb_unchanged": true,
+  "embedded_viewer_rebuilt": true,
+  "gallery_photos_embedded": 36,
+  "floor1_glb_bytes": 166386772,
+  "viewer_html_bytes": 406763924,
+  "electrical_svg_updated": "House_Library_Design\\exports\\Electrical_Points_Floor_1.svg"
+}

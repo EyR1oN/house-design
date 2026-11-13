@@ -1,0 +1,114 @@
+{
+  "revision": 19,
+  "doors": [
+    {
+      "id": "L1_KITCHEN_DOOR",
+      "approach": "entry foyer",
+      "previous_hinge_world_m": [
+        6.733736515045166,
+        3.848674774169922,
+        0.0
+      ],
+      "new_hinge_world_m": [
+        6.733736515045166,
+        3.848674774169922,
+        0.0
+      ],
+      "previous_angle_deg": 90,
+      "new_angle_deg": -90,
+      "hinge_side": "left/west jamb, unchanged",
+      "rehinged": false,
+      "swing_description": "Opens toward the entry foyer, to the left when approached from the foyer",
+      "moving_objects": [
+        "LIB_Door_L1_KITCHEN_DOOR_Latch_PREPARED",
+        "LIB_Door_L1_KITCHEN_DOOR_Latch.001_PREPARED",
+        "LIB_Door_L1_KITCHEN_DOOR_Hinge Pin.002_PREPARED",
+        "LIB_Door_L1_KITCHEN_DOOR_Hinge Door Side.002_PREPARED",
+        "LIB_Door_L1_KITCHEN_DOOR_Handle_PREPARED",
+        "LIB_Door_L1_KITCHEN_DOOR_Handle Base_PREPARED",
+        "LIB_Door_L1_KITCHEN_DOOR_Door.001_PREPARED"
+      ],
+      "fixed_objects": [
+        "LIB_Door_L1_KITCHEN_DOOR_Door Frame_PREPARED",
+        "LIB_Door_L1_KITCHEN_DOOR_Cube_PREPARED"
+      ],
+      "bounds_m": [
+        [
+          6.662561416625977,
+          7.699999809265137
+        ],
+        [
+          2.900723457336426,
+          3.942499876022339
+        ],
+        [
+          0.006000000052154064,
+          2.0999999046325684
+        ]
+      ]
+    },
+    {
+      "id": "L1_LAUNDRY_DOOR",
+      "approach": "entry foyer",
+      "previous_hinge_world_m": [
+        8.411324501037598,
+        2.6236157417297363,
+        0.0
+      ],
+      "new_hinge_world_m": [
+        8.411324501037598,
+        2.6236157417297363,
+        0.0
+      ],
+      "previous_angle_deg": -90,
+      "new_angle_deg": 90,
+      "hinge_side": "south jamb (right jamb from the foyer approach)",
+      "rehinged": false,
+      "swing_description": "Pulls toward the entry foyer and parks to the right when approached from the foyer",
+      "moving_objects": [
+        "LIB_Door_L1_LAUNDRY_DOOR_Latch_PREPARED",
+        "LIB_Door_L1_LAUNDRY_DOOR_Latch.001_PREPARED",
+        "LIB_Door_L1_LAUNDRY_DOOR_Hinge Pin.002_PREPARED",
+        "LIB_Door_L1_LAUNDRY_DOOR_Hinge Door Side.002_PREPARED",
+        "LIB_Door_L1_LAUNDRY_DOOR_Handle_PREPARED",
+        "LIB_Door_L1_LAUNDRY_DOOR_Handle Base_PREPARED",
+        "LIB_Door_L1_LAUNDRY_DOOR_Door.001_PREPARED"
+      ],
+      "fixed_objects": [
+        "LIB_Door_L1_LAUNDRY_DOOR_Door Frame_PREPARED",
+        "LIB_Door_L1_LAUNDRY_DOOR_Cube_PREPARED"
+      ],
+      "bounds_m": [
+        [
+          7.747757911682129,
+          8.444055557250977
+        ],
+        [
+          2.5524415969848633,
+          3.299999952316284
+        ],
+        [
+          0.006000000052154064,
+          2.0999999046325684
+        ]
+      ]
+    }
+  ],
+  "changed_objects": [
+    "LIB_Door_L1_KITCHEN_DOOR_Latch_PREPARED",
+    "LIB_Door_L1_KITCHEN_DOOR_Latch.001_PREPARED",
+    "LIB_Door_L1_KITCHEN_DOOR_Hinge Pin.002_PREPARED",
+    "LIB_Door_L1_KITCHEN_DOOR_Hinge Door Side.002_PREPARED",
+    "LIB_Door_L1_KITCHEN_DOOR_Handle_PREPARED",
+    "LIB_Door_L1_KITCHEN_DOOR_Handle Base_PREPARED",
+    "LIB_Door_L1_KITCHEN_DOOR_Door.001_PREPARED",
+    "LIB_Door_L1_LAUNDRY_DOOR_Latch_PREPARED",
+    "LIB_Door_L1_LAUNDRY_DOOR_Latch.001_PREPARED",
+    "LIB_Door_L1_LAUNDRY_DOOR_Hinge Pin.002_PREPARED",
+    "LIB_Door_L1_LAUNDRY_DOOR_Hinge Door Side.002_PREPARED",
+    "LIB_Door_L1_LAUNDRY_DOOR_Handle_PREPARED",
+    "LIB_Door_L1_LAUNDRY_DOOR_Handle Base_PREPARED",
+    "LIB_Door_L1_LAUNDRY_DOOR_Door.001_PREPARED"
+  ],
+  "unchanged_other_door_instances": true
+}

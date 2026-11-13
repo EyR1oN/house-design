@@ -31,6 +31,9 @@ def verify(root):
     assert 'Будинок' in pdf.pages[0].extract_text()
     assert 'window.CORNER_PANTRY=' in page
     assert 'window.HOUSE_WALK' in page
+    assert 'window.HOUSE_ELECTRICAL_MODE' in page
+    assert 'electrical-toggle' in page
+    assert 'PROPOSED' in page
     assert 'KeyW' in page and 'ArrowUp' in page
     assert '__FIRST_PERSON_SCRIPT__' not in page
     assert '__HOUSE_DATA_JSON__' not in page
@@ -38,7 +41,7 @@ def verify(root):
     assert not list(root.rglob('*.blend')), 'Master must not be part of the published website'
     assert sum(p.stat().st_size for p in root.rglob('*') if p.is_file()) < 1_000_000_000
     print(json.dumps({'verified': True, 'floors': 2, 'photos': info['photos'], 'pdf_pages': len(pdf.pages),
-                      'source_commit': info['source_commit']}))
+                      'electrical_mode': True, 'source_commit': info['source_commit']}))
 
 
 if __name__ == '__main__':
