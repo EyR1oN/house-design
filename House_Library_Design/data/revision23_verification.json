@@ -1,0 +1,34 @@
+{
+  "revision": 23,
+  "child_room_points_match_schedule": [
+    "E2_080_SOCKET",
+    "E2_081_DATA",
+    "E2_082_SOCKET",
+    "E2_083_SWITCH",
+    "E2_084_SOCKET"
+  ],
+  "stale_bed_switch_mesh_faces_remaining": 0,
+  "standalone_socket_metadata_matches_schedule": true,
+  "fixed_light_nodes_present_on_both_floors": [
+    "R18_Ceiling_L1",
+    "LIB_Pendant_Dining1_Inner Bulb_PREPARED",
+    "LIB_Pendant_Dining1_Cube_PREPARED",
+    "LIB_Pendant_Dining1_Circle.003_PREPARED",
+    "LIB_Pendant_Dining1_Circle.002_PREPARED",
+    "LIB_Pendant_Dining2_Inner Bulb_PREPARED",
+    "LIB_Pendant_Dining2_Cube_PREPARED",
+    "LIB_Pendant_Dining2_Circle.003_PREPARED",
+    "LIB_Pendant_Dining2_Circle.002_PREPARED",
+    "R15_Hood_Underside_Light_6.233",
+    "R15_Hood_Underside_Light_6.747",
+    "R18_Ceiling_L2",
+    "LIB_Pendant_Bedroom",
+    "LIB_Bedroom_Bedside_Pendant_8.82",
+    "LIB_Bedroom_Bedside_Pendant_11.2",
+    "LIB_Pendant_Office",
+    "LIB_Upper_Bath_Sconce_9.06",
+    "LIB_Upper_Bath_Sconce_10.44"
+  ],
+  "glb_buffer_views_in_range": true,
+  "offline_viewer_matches_both_models_and_36_renders": true
+}

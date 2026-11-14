@@ -34,8 +34,8 @@
 <text x="423.50000000000006" y="1624.825" font-size="13" font-weight="bold" fill="#ae6928">002</text>
 <circle cx="450.1850000000001" cy="1420.8" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_003_SWITCH / Entry + hall light / 1.05m</title></circle>
 <text x="460.1850000000001" y="1413.8" font-size="13" font-weight="bold" fill="#4a8263">003</text>
-<circle cx="397.4000000000001" cy="1225.875" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_004_SWITCH / Kitchen ceiling + task lights / 1.05m</title></circle>
-<text x="407.4000000000001" y="1218.875" font-size="13" font-weight="bold" fill="#4a8263">004</text>
+<circle cx="394.582" cy="1177" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_004_SWITCH / Kitchen ceiling + task lights / 1.05m</title></circle>
+<text x="404.582" y="1170" font-size="13" font-weight="bold" fill="#4a8263">004</text>
 <circle cx="591.7500000000001" cy="1203.105" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_005_SOCKET / Kettle / corner worktop appliances / 1.14m</title></circle>
 <text x="601.7500000000001" y="1196.105" font-size="13" font-weight="bold" fill="#ae6928">005</text>
 <circle cx="655.0" cy="1203.105" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_006_SOCKET / Preparation worktop appliances / 1.14m</title></circle>
@@ -64,10 +64,10 @@
 <text x="695.475" y="439.75" font-size="13" font-weight="bold" fill="#ae6928">017</text>
 <circle cx="609.0" cy="303.345" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_018_SOCKET / Terrace-side general use / 0.3m</title></circle>
 <text x="619.0" y="296.345" font-size="13" font-weight="bold" fill="#ae6928">018</text>
-<circle cx="685.475" cy="766.45" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_019_SWITCH / Living ceiling + dining pendants / 1.05m</title></circle>
-<text x="695.475" y="759.45" font-size="13" font-weight="bold" fill="#4a8263">019</text>
-<circle cx="261.125" cy="750.35" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_020_SWITCH / Storage light / 1.05m</title></circle>
-<text x="271.125" y="743.35" font-size="13" font-weight="bold" fill="#4a8263">020</text>
+<circle cx="584.24" cy="828.55" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_019_SWITCH / Living ceiling + dining pendants / 1.05m</title></circle>
+<text x="594.24" y="821.55" font-size="13" font-weight="bold" fill="#4a8263">019</text>
+<circle cx="257.272" cy="650.875" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_020_SWITCH / Storage light / 1.05m</title></circle>
+<text x="267.272" y="643.875" font-size="13" font-weight="bold" fill="#4a8263">020</text>
 <circle cx="129.45000000000007" cy="669.85" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_021_SOCKET / Cordless vacuum charging / 0.3m</title></circle>
 <text x="139.45000000000007" y="662.85" font-size="13" font-weight="bold" fill="#ae6928">021</text>
 <circle cx="527.3500000000001" cy="1226.335" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_022_SOCKET / Washer; accessible above counter / 1.14m</title></circle>
@@ -76,8 +76,8 @@
 <text x="612.1000000000001" y="1219.335" font-size="13" font-weight="bold" fill="#ae6928">023</text>
 <circle cx="469.965" cy="1258.65" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_024_SWITCH / Laundry light / 1.05m</title></circle>
 <text x="479.965" y="1251.65" font-size="13" font-weight="bold" fill="#4a8263">024</text>
-<circle cx="246.52000000000004" cy="1112.6" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_025_SWITCH / Shower room light / extract control / 1.05m</title></circle>
-<text x="256.52000000000004" y="1105.6" font-size="13" font-weight="bold" fill="#4a8263">025</text>
+<circle cx="242.776" cy="990.7" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_025_SWITCH / Shower room light / extract control / 1.05m</title></circle>
+<text x="252.776" y="983.7" font-size="13" font-weight="bold" fill="#4a8263">025</text>
 <circle cx="128.5300000000001" cy="965.4" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_026_SOCKET / Grooming point outside shower footprint; wet-zone review required / 1.12m</title></circle>
 <text x="138.5300000000001" y="958.4" font-size="13" font-weight="bold" fill="#ae6928">026</text>
 <circle cx="310.0" cy="1453.0" r="8" fill="#9b873d" stroke="#fff" stroke-width="2"><title>L1_051 / Ceiling / 2.77m</title></circle>
@@ -101,6 +101,12 @@
 <circle cx="176.60000000000008" cy="1202.875" r="8" fill="#777b85" stroke="#fff" stroke-width="2"><title>E1_070_FAN_POINT / Humidity extraction provision; duct and supply specification pending / 2.4m</title></circle>
 <text x="186.60000000000008" y="1195.875" font-size="13" font-weight="bold" fill="#777b85">070</text>
 <text x="950" y="166" font-size="22" fill="#312e28">Номер · приміщення · пристрій · висота</text>
+<circle cx="584.24" cy="807.85" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_090_SWITCH / Living LED strips dimmer / 1.05m</title></circle>
+<text x="594.24" y="800.85" font-size="13" font-weight="bold" fill="#4a8263">090</text>
+<circle cx="257.272" cy="454.8" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_091_SWITCH / Living ceiling + dining pendants; stair-side second control / 1.05m</title></circle>
+<text x="267.272" y="447.8" font-size="13" font-weight="bold" fill="#4a8263">091</text>
+<circle cx="257.272" cy="431.8" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_092_SWITCH / Living LED strips dimmer; stair-side second control / 1.05m</title></circle>
+<text x="267.272" y="424.8" font-size="13" font-weight="bold" fill="#4a8263">092</text>
 <circle cx="953" cy="195" r="5" fill="#ae6928"/><text x="970" y="201" font-size="17" fill="#39342d">001 · Передпокій · Розетка ×2 · 0.30 м</text>
 <circle cx="953" cy="230" r="5" fill="#ae6928"/><text x="970" y="236" font-size="17" fill="#39342d">002 · Передпокій · Розетка ×2 · 0.66 м</text>
 <circle cx="953" cy="265" r="5" fill="#4a8263"/><text x="970" y="271" font-size="17" fill="#39342d">003 · Передпокій · Вимикач ×2 · 1.05 м</text>
@@ -137,7 +143,10 @@
 <circle cx="953" cy="1350" r="5" fill="#9b873d"/><text x="970" y="1356" font-size="17" fill="#39342d">058 · Пральня · Світло · 2.77 м</text>
 <circle cx="953" cy="1385" r="5" fill="#9b873d"/><text x="970" y="1391" font-size="17" fill="#39342d">059 · Комора · Світло · 1.90 м</text>
 <circle cx="953" cy="1420" r="5" fill="#777b85"/><text x="970" y="1426" font-size="17" fill="#39342d">070 · Душова · Вентилятор · 2.40 м</text>
-<text x="80" y="1754" font-size="18" fill="#39342d">Координати X/Y та призначення кожної точки: data/electrical_points.csv</text>
+<circle cx="953" cy="1455" r="5" fill="#4a8263"/><text x="970" y="1461" font-size="17" fill="#39342d">090 · Вітальня · Вимикач ×2 · 1.05 м</text>
+<circle cx="953" cy="1490" r="5" fill="#4a8263"/><text x="970" y="1496" font-size="17" fill="#39342d">091 · Вітальня · Вимикач ×2 · керування зі сходів · 1.05 м</text>
+<circle cx="953" cy="1525" r="5" fill="#4a8263"/><text x="970" y="1531" font-size="17" fill="#39342d">092 · Вітальня · Димер ×2 · керування зі сходів · 1.05 м</text>
+<text x="80" y="1754" font-size="18" fill="#39342d">Координати X/Y та призначення кожної точки: data/electrical_points.json</text>
 <text x="80" y="1786" font-size="17" fill="#665f52">Розетки у вологих кімнатах — кандидати для перевірки зон. Траси кабелю та захист ще не запроєктовані.</text>
 <text x="80" y="1818" font-size="17" fill="#665f52">Номери можуть накладатися біля блоків техніки: наведіть курсор на точку або відкрийте таблицю.</text>
 </g></svg>

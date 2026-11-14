@@ -1,0 +1,28 @@
+{
+  "revision": 23,
+  "removed_stale_child_bed_switch": "E2_085_SWITCH",
+  "removed_switch_triangles": 752,
+  "removed_switch_triangles_by_primitive": [
+    {
+      "material": 50,
+      "faces_removed": 188,
+      "faces_before": 1128
+    },
+    {
+      "material": 191,
+      "faces_removed": 0,
+      "faces_before": 1676
+    },
+    {
+      "material": 52,
+      "faces_removed": 564,
+      "faces_before": 1128
+    }
+  ],
+  "standalone_socket_metadata_corrected": [
+    "E2_080_SOCKET",
+    "E2_082_SOCKET",
+    "E2_084_SOCKET"
+  ],
+  "stationary_light_rule": "Preserve all fixed LIB lamp/pendant/sconce/light fixtures, ceiling structures, and R15 built-in hood lights; hide only office task lamps."
+}

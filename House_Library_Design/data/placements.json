@@ -1014,7 +1014,7 @@
       0.72
     ],
     "objects": [
-      "LIB_Office_3D_Printer_Zuf\u00fchrung_PREPARED",
+      "LIB_Office_3D_Printer_Zuführung_PREPARED",
       "LIB_Office_3D_Printer_USB-Port_PREPARED",
       "LIB_Office_3D_Printer_Umlenkrolle_PREPARED",
       "LIB_Office_3D_Printer_Umlenkrolle.winkel_PREPARED",
@@ -1071,7 +1071,7 @@
       "LIB_Office_3D_Printer_Filament.Arm_PREPARED",
       "LIB_Office_3D_Printer_filament cap_PREPARED",
       "LIB_Office_3D_Printer_Feder_PREPARED",
-      "LIB_Office_3D_Printer_Fan2.geh\u00e4use1_PREPARED",
+      "LIB_Office_3D_Printer_Fan2.gehäuse1_PREPARED",
       "LIB_Office_3D_Printer_Fan2.Blades_PREPARED",
       "LIB_Office_3D_Printer_Fan housing_PREPARED",
       "LIB_Office_3D_Printer_Fan blades_PREPARED",
@@ -4115,12 +4115,12 @@
     "license": "royalty_free",
     "bounds": [
       [
-        6.662562370300293,
+        6.662561416625977,
         7.699999809265137
       ],
       [
-        3.815943956375122,
-        4.796626567840576
+        2.900723457336426,
+        3.942499876022339
       ],
       [
         0.006000000052154064,
@@ -4191,11 +4191,11 @@
     "license": "royalty_free",
     "bounds": [
       [
-        8.317499160766602,
-        9.074891090393066
+        7.747757911682129,
+        8.444055557250977
       ],
       [
-        2.552440881729126,
+        2.5524415969848633,
         3.299999952316284
       ],
       [

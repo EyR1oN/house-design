@@ -1,0 +1,22 @@
+{
+  "revision": 22,
+  "active_floor2_node_count": 208,
+  "duplicate_active_node_names": 0,
+  "restored_child_socket_assemblies": [
+    "E2_080_SOCKET",
+    "E2_082_SOCKET"
+  ],
+  "retained_child_room_points": [
+    "E2_080_SOCKET",
+    "E2_081_DATA",
+    "E2_082_SOCKET",
+    "E2_083_SWITCH",
+    "E2_084_SOCKET"
+  ],
+  "removed_bedside_switch_absent_from_schedule_glb_and_svg": true,
+  "socket_positions_match_schedule": true,
+  "all_glb_buffer_views_in_range": true,
+  "floor2_electrical_svg_matches_schedule": true,
+  "office_task_lamp_visibility_logic": "See automation/verify_revision22_electrical.cjs",
+  "offline_viewer_rebuilt": true
+}

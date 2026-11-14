@@ -1,0 +1,130 @@
+{
+  "revision": 25,
+  "title": "Pantry switch moved between storage door and TV; living light controls added by stairs",
+  "proposed_multi_way_pairs": [
+    {
+      "stair_side": "E1_091_SWITCH",
+      "dining_side": "E1_019_SWITCH",
+      "circuit": "Living ceiling + dining pendants"
+    },
+    {
+      "stair_side": "E1_092_SWITCH",
+      "dining_side": "E1_090_SWITCH",
+      "circuit": "Living LED strips dimmer"
+    }
+  ],
+  "switches": [
+    {
+      "id": "E1_020_SWITCH",
+      "old": {
+        "x_m": 6.6255,
+        "y_m": 7.91,
+        "face": "E"
+      },
+      "to": {
+        "x_m": 6.6415,
+        "y_m": 8.775,
+        "face": "E"
+      },
+      "objects": [
+        "E1_020_SWITCH",
+        "E1_020_SWITCH_rocker"
+      ]
+    },
+    {
+      "id": "E1_091_SWITCH",
+      "to": {
+        "x_m": 6.6415,
+        "y_m": 10.48,
+        "face": "E"
+      },
+      "pair_with": "E1_019_SWITCH",
+      "purpose": "Living ceiling + dining pendants; stair-side second control",
+      "objects": [
+        "E1_091_SWITCH",
+        "E1_091_SWITCH_rocker",
+        "E1_091_SWITCH_rocker.001"
+      ]
+    },
+    {
+      "id": "E1_092_SWITCH",
+      "to": {
+        "x_m": 6.6415,
+        "y_m": 10.68,
+        "face": "E"
+      },
+      "pair_with": "E1_090_SWITCH",
+      "purpose": "Living LED strips dimmer; stair-side second control",
+      "objects": [
+        "E1_092_SWITCH",
+        "E1_092_SWITCH_rocker",
+        "E1_092_SWITCH_rocker.001"
+      ]
+    }
+  ],
+  "surface_checks": [
+    {
+      "id": "E1_020_SWITCH",
+      "wall_object": "R7_TV_Continuous_Plaster",
+      "surface_m": [
+        6.636,
+        8.775,
+        1.05
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "E1_091_SWITCH",
+      "wall_object": "R7_TV_Continuous_Plaster",
+      "surface_m": [
+        6.636,
+        10.48,
+        1.05
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "E1_092_SWITCH",
+      "wall_object": "R7_TV_Continuous_Plaster",
+      "surface_m": [
+        6.636,
+        10.68,
+        1.05
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "clearances_m": {
+    "storage_switch_to_storage_door_frame_m": 0.0575,
+    "storage_switch_to_tv_screen_m": 0.1375,
+    "tv_wall_end_to_stair_switch_group_m": 0.055,
+    "gap_between_stair_side_switch_plates_m": 0.05
+  },
+  "all_switches_height_aff_m": 1.05,
+  "status": "PROPOSED_NOT_AS_BUILT",
+  "export_patch": {
+    "file": "revision25_switches_floor1.glb",
+    "objects": [
+      "E1_020_SWITCH",
+      "E1_020_SWITCH_rocker",
+      "E1_091_SWITCH",
+      "E1_091_SWITCH_rocker",
+      "E1_091_SWITCH_rocker.001",
+      "E1_092_SWITCH",
+      "E1_092_SWITCH_rocker",
+      "E1_092_SWITCH_rocker.001"
+    ]
+  }
+}

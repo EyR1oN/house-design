@@ -1,0 +1,159 @@
+{
+  "revision": 21,
+  "title": "Corrected switch wall locations from user screenshots",
+  "correction_basis": "Screenshot-specific coordinates verified against the actual inner wall face at x=9.4902 m.",
+  "switches": [
+    {
+      "id": "E1_004_SWITCH",
+      "from": {
+        "x_m": 7.825,
+        "y_m": 3.9255,
+        "face": "N"
+      },
+      "to": {
+        "x_m": 7.8355,
+        "y_m": 4.2,
+        "face": "W"
+      },
+      "room": "Kitchen",
+      "purpose": "Kitchen ceiling + task lights",
+      "wall": "perpendicular fridge-return surface",
+      "objects": [
+        "E1_004_SWITCH",
+        "E1_004_SWITCH_rocker",
+        "E1_004_SWITCH_rocker.001"
+      ]
+    },
+    {
+      "id": "E1_019_SWITCH",
+      "from": {
+        "x_m": 6.6255,
+        "y_m": 7.32,
+        "face": "E"
+      },
+      "to": {
+        "x_m": 9.4847,
+        "y_m": 7.23,
+        "face": "W"
+      },
+      "room": "Living",
+      "purpose": "Living ceiling + dining pendants",
+      "wall": "inner junction wall between the end of the kitchen counter and the dining table",
+      "objects": [
+        "E1_019_SWITCH",
+        "E1_019_SWITCH_rocker",
+        "E1_019_SWITCH_rocker.001"
+      ],
+      "interim_to": {
+        "x_m": 10.39460277557373,
+        "y_m": 7.23,
+        "face": "W"
+      },
+      "surface_x_m": 9.4902,
+      "correction_note": "Placed on the exact wall face shown in the user screenshot; the previous point was on the far east exterior wall."
+    },
+    {
+      "id": "E1_090_SWITCH",
+      "from": {
+        "x_m": 6.6255,
+        "y_m": 7.5,
+        "face": "E"
+      },
+      "to": {
+        "x_m": 9.4847,
+        "y_m": 7.41,
+        "face": "W"
+      },
+      "room": "Living",
+      "purpose": "Living LED strips dimmer",
+      "wall": "inner junction wall between the end of the kitchen counter and the dining table",
+      "objects": [
+        "E1_090_SWITCH",
+        "E1_090_SWITCH_rocker",
+        "E1_090_SWITCH_rocker.001"
+      ],
+      "interim_to": {
+        "x_m": 10.39460277557373,
+        "y_m": 7.41,
+        "face": "W"
+      },
+      "surface_x_m": 9.4902,
+      "correction_note": "Placed on the exact wall face shown in the user screenshot; the previous point was on the far east exterior wall."
+    }
+  ],
+  "surface_checks": [
+    {
+      "id": "E1_004_SWITCH",
+      "wall_object": "R_L1_SOURCE_WALL_6",
+      "location_m": [
+        7.83,
+        4.2,
+        1.05
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "E1_019_SWITCH",
+      "wall_object": "R_L1_SOURCE_WALL_5",
+      "location_m": [
+        9.4902,
+        7.23,
+        1.05
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "E1_090_SWITCH",
+      "wall_object": "R_L1_SOURCE_WALL_5",
+      "location_m": [
+        9.4902,
+        7.41,
+        1.05
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "clearances_m": {
+    "dining_group_to_counter_end": 0.045,
+    "dining_group_to_table_edge": 0.025,
+    "E1_004_to_fridge_housing": 0.109,
+    "E1_004_to_kitchen_door_opening_along_y": 0.205
+  },
+  "all_switches_keep_original_height_aff_m": true,
+  "other_objects_unchanged": true,
+  "browser_patch": {
+    "file": "revision21_switches_floor1.glb",
+    "bytes": 17868,
+    "exported_objects": [
+      "E1_004_SWITCH",
+      "E1_004_SWITCH_rocker",
+      "E1_004_SWITCH_rocker.001",
+      "E1_019_SWITCH",
+      "E1_019_SWITCH_rocker",
+      "E1_019_SWITCH_rocker.001",
+      "E1_090_SWITCH",
+      "E1_090_SWITCH_rocker",
+      "E1_090_SWITCH_rocker.001"
+    ]
+  },
+  "stair_partition_switch_cluster_removed": true,
+  "json_points_match_report": true,
+  "rendered_screenshots": {
+    "Kitchen": true,
+    "Kitchen_Reverse": true,
+    "Living_Dining": true,
+    "Ground_Hall": true
+  }
+}

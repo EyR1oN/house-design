@@ -1,4 +1,4 @@
-# Будинок — бібліотечний дизайн, редакція 16
+# Будинок — бібліотечний дизайн, редакція 22
 
 Головний редагований файл: House_Library_Design.blend. Blender 4.5.3 LTS: ../Tools/blender-4.5.3-windows-x64/blender.exe (від кореня проєкту: Tools/blender-4.5.3-windows-x64/blender.exe). У корені пакета є Відкрити Blender.cmd.
 
