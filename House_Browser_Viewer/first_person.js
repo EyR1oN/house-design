@@ -16,6 +16,7 @@
   const sidebarModeStyle = document.createElement('style');
   sidebarModeStyle.textContent = `
     body.walk-mode aside > p{display:none!important}
+    body.walk-mode aside{overflow-anchor:none}
     #walk-fov-control{display:none;margin:10px 0 4px;font-size:13px}
     body.walk-mode #walk-fov-control{display:block}
     #walk-fov-value{float:right;font-variant-numeric:tabular-nums;color:#665a46}
@@ -378,7 +379,7 @@
     status.textContent = 'Завантажую обидва поверхи та сходи…';
     button.textContent = 'Завантажую…';
     document.body.classList.add('walk-mode');
-    lockPointer();
+    button.closest('aside').scrollTop = 0;
 
     try {
       await waitForViewer();
@@ -419,7 +420,7 @@
       api.setCut(false);
       for (const { root } of floorModels) {
         root.traverse(node => {
-          if (node.isMesh && node.userData.viewer_walls) {
+          if (node.isMesh && (node.userData.viewer_walls || node.userData.viewer_clip_with_walls)) {
             for (const material of Array.isArray(node.material) ? node.material : [node.material]) {
               material.clippingPlanes = [];
               material.needsUpdate = true;

@@ -24,7 +24,7 @@
 
 ## Відтворення
 
-`scripts/build_library_design.py` — історичний збирач ранньої редакції: він відтворює стан до пізніших рішень і може перезаписати master-файл. Не запускайте його для оновлення редакції 25. `scripts/render_library.py` створює зображення. Для перевірки поточного master з кореня пакета виконайте `blender -b --disable-autoexec --python-exit-code 1 --python House_Library_Design/scripts/verify_library.py`; звіт оновиться у `data/verification.json`. `download_library.py` потребує інтернету; підготовлені копії для повторного складання вже додані.
+`scripts/build_library_design.py` — історичний збирач ранньої редакції: він відтворює стан до пізніших рішень і може перезаписати master-файл. Не запускайте його для оновлення редакції 26. `scripts/render_library.py` створює зображення. Для перевірки поточного master з кореня пакета виконайте `blender -b --disable-autoexec --python-exit-code 1 --python House_Library_Design/scripts/verify_library.py`; звіт оновиться у `data/verification.json`. `download_library.py` потребує інтернету; підготовлені копії для повторного складання вже додані.
 
 ## Інженерні точки
 

@@ -11,8 +11,8 @@
   },
   {
     "path": "House_Library_Design.blend",
-    "bytes": 380489655,
-    "sha256": "488a9cfee8c1e2b84affc94efc1fe66fe23dd56c331ab0583b16e7d4339ea369"
+    "bytes": 380493354,
+    "sha256": "21b4ba0e8509db708d4dfbd6c50c79fd076fc19bd82c059d19ce005972be9fc6"
   },
   {
     "path": "Open_Library_Design.ps1",
@@ -27,7 +27,7 @@
   {
     "path": "README_UK.md",
     "bytes": 6480,
-    "sha256": "9ecbad6cf9ef559c221016f89ed3b1b9abdca185d0c8f04903888b6f4091b91d"
+    "sha256": "80de5149053fa38cbdd092d2c05aa60a13a87edba649d850b513f3d9623402dd"
   },
   {
     "path": "Ready_Furniture_Library.blend",
@@ -736,8 +736,8 @@
   },
   {
     "path": "data/electrical_points.json",
-    "bytes": 28219,
-    "sha256": "6208e7670055b5f983e21188c85342b8f07a0fd8b5bd512e55dfa67c01c98246"
+    "bytes": 27014,
+    "sha256": "2b81d3e49c58366857fbf0a70ee986cb916278f9f041493c5b17025d3773186b"
   },
   {
     "path": "data/extracted_walls.json",
@@ -1126,8 +1126,8 @@
   },
   {
     "path": "data/verification.json",
-    "bytes": 57265,
-    "sha256": "553c066982261e1c4508ff7b3673309d35d58f9a4269fada165466181c58975d"
+    "bytes": 54434,
+    "sha256": "1f5f283f9a605ad28c144fa6592bf17aa0bed754d73356194c9259cde0e3dd76"
   },
   {
     "path": "data/viewport_fix.json",
@@ -1136,13 +1136,13 @@
   },
   {
     "path": "exports/Electrical_Points_Floor_1.svg",
-    "bytes": 21648,
-    "sha256": "7dbc1b2751bf3411ea44226ccd9ee4f84e9d3f4080d820851e51314c3b32783d"
+    "bytes": 21474,
+    "sha256": "385faf942714c48c1d3bd2c7324def4a207617c2a099c41d63f61db0a95f5500"
   },
   {
     "path": "exports/Electrical_Points_Floor_2.svg",
-    "bytes": 22260,
-    "sha256": "43668c1989fdadfb61bca53fa3e5d4c11b2146d74ba1c7ef4beca489be572cd9"
+    "bytes": 22064,
+    "sha256": "04970210e6c266d20720dc7ec415a7394dc77240d50ac0a3952b1a17d74a320d"
   },
   {
     "path": "exports/revision10_replacements.glb",
@@ -1241,28 +1241,28 @@
   },
   {
     "path": "previews/Child_Storage.png",
-    "bytes": 1784891,
-    "sha256": "f1b8cc376c10dcb2edd9f8b854859e6f6d6f777b908d33d4d2ed1acc1b5babce"
+    "bytes": 1780203,
+    "sha256": "0156fb981f00dfe6940addd54615408c5bc112510a860d84b7650c26281df9dc"
   },
   {
     "path": "previews/Entry.png",
-    "bytes": 1698320,
-    "sha256": "9aa3661560fb0fe9327a0df826ce1d21d9dd7b943de97ce027d3749f3a582f2f"
+    "bytes": 1665318,
+    "sha256": "b33e218b1e6d69d1749247eb4ac78dfc97079154c5ff7734b34748c4238672ad"
   },
   {
     "path": "previews/Entry_Reverse.png",
-    "bytes": 1663304,
-    "sha256": "2fbc7d4dbd48296fcd73154787554e8b2184d2226ee3883ab92807fd9026be79"
+    "bytes": 1663181,
+    "sha256": "891ad460663dc86a904c7dd15e9d1cc5da2cf0e72850b1358bcfae4d957b4d5e"
   },
   {
     "path": "previews/Ground_Hall.png",
-    "bytes": 1675362,
-    "sha256": "0829102a3c2461fe18f52129a5c53967774d33f7b775a66d6fcb6847e10425c1"
+    "bytes": 1665140,
+    "sha256": "f415d582c9b6d3546ffe3ca2ac5535a5bee695f6e25472c64bfe1d1b46eecb17"
   },
   {
     "path": "previews/Ground_Hall_Reverse.png",
-    "bytes": 1527811,
-    "sha256": "3f438bad991de9ea439d87084ebe67d2650e03b70511f996a49b45d157e2f91f"
+    "bytes": 1525509,
+    "sha256": "c48217c78caff54c88d45bc09ffa23a789da65f0ecac302bec7372a92f0bfe4e"
   },
   {
     "path": "previews/Ground_Plan.png",
@@ -1271,13 +1271,13 @@
   },
   {
     "path": "previews/Ground_Shower.png",
-    "bytes": 1546603,
-    "sha256": "6512f6b8e25f68c83b7ab1e8f5c43ed5b971fb2bafbbfdca1a00e88899d4dd53"
+    "bytes": 1546471,
+    "sha256": "6a8ca61a212f5732335730e89d0ab25a92b261ad38e5f1b67c2d4de8caeddd3c"
   },
   {
     "path": "previews/Ground_Shower_Reverse.png",
-    "bytes": 1542810,
-    "sha256": "97f5e0863acce628a0b3cc58c7aa9a4471ce43ae386a43c83c1ca8295566206e"
+    "bytes": 1541031,
+    "sha256": "3327864c3550f893eb78289c7732e5c35f8a55da39e9ea1b810f5d7842e53182"
   },
   {
     "path": "previews/Kitchen.png",
@@ -1301,8 +1301,8 @@
   },
   {
     "path": "previews/Kitchen_Reverse.png",
-    "bytes": 1652613,
-    "sha256": "19c982c96a7acc94deedafa0d7f1bdfef4cbed54f6bcda85e1d999bcd63e841f"
+    "bytes": 1647784,
+    "sha256": "059ab5f762e190e62cf5e1540a5ff521e11e601c91b407a8639bd71c5453ffa6"
   },
   {
     "path": "previews/Laundry.png",
@@ -1331,8 +1331,8 @@
   },
   {
     "path": "previews/Living_TV.png",
-    "bytes": 1581213,
-    "sha256": "5bcddd2731d145434e9008a5efb7c075dd51840aeae8c08ab324e8f4e624198b"
+    "bytes": 1579718,
+    "sha256": "baecade0b612e969b7f8959262e83a6a3aaae6d237c2a89db6153fbe50a12041"
   },
   {
     "path": "previews/Office.png",
@@ -1341,8 +1341,8 @@
   },
   {
     "path": "previews/Office_Reverse.png",
-    "bytes": 1963714,
-    "sha256": "b1db6f580911c314007a63600100f257ceee534b1166d3342225c59de2533e65"
+    "bytes": 1725516,
+    "sha256": "9e81af849ee9e5ea9d6a76da50e814df90fd9ee995ba3c38c59ba6278033ff99"
   },
   {
     "path": "previews/Stair_Entry.png",
@@ -1361,23 +1361,23 @@
   },
   {
     "path": "previews/Upper_Bath.png",
-    "bytes": 1661874,
-    "sha256": "bc2b4109fca324376062e285da1b11e37078dd31f3a9388a2894c58419b04617"
+    "bytes": 1661929,
+    "sha256": "e26fa8ed15f956800c662d3b54837f07d4193b7dfa936d7f5fccb4774be664a3"
   },
   {
     "path": "previews/Upper_Bath_Reverse.png",
-    "bytes": 1727977,
-    "sha256": "2ae12eccb8466f4594daa9335219cd1c9b24d7542c27e373220b8b5a5fdae67b"
+    "bytes": 1726488,
+    "sha256": "f1615ad47ca1784f47a86b8ff70d585744f4dbd4d6ef299a10a8668287d560e6"
   },
   {
     "path": "previews/Upper_Hall.png",
-    "bytes": 1688749,
-    "sha256": "62c4f7bf1a84233cc4d0d3e76cdddb89678545e8bd746549b55b05cc5f911eb2"
+    "bytes": 1635853,
+    "sha256": "911fb74c08dcb87c5f3ea0041bd3f9b0bdd136bb4245e8978f1c9c83c2d635e5"
   },
   {
     "path": "previews/Upper_Hall_Reverse.png",
-    "bytes": 1540734,
-    "sha256": "eeaec98b8e264807844c234a22d9c9014b509c1f1549e6e25d3eed13df446ee8"
+    "bytes": 1495853,
+    "sha256": "c60632eb9a25a1b8cd8c04845850ae66998bd5d2bc35655f52326147cb3afa41"
   },
   {
     "path": "previews/Upper_Plan.png",
@@ -1743,6 +1743,11 @@
     "path": "scripts/refine_revision22_electrical.py",
     "bytes": 3126,
     "sha256": "b5f1ffd22da38bdaf6b8e49c3caad7f641a2627142312e8b4d8a655cde1ae759"
+  },
+  {
+    "path": "scripts/refine_revision26_visual.py",
+    "bytes": 3478,
+    "sha256": "da0812e44b559056045c762a421b9fee77ba649895b22992d5fe45c3bdda113c"
   },
   {
     "path": "scripts/refine_revision3.py",

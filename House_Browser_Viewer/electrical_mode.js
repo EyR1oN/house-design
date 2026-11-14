@@ -56,11 +56,12 @@
     if (!root || typeof root.traverse !== 'function') return;
     root.traverse(node => {
       if (node === root) return;
-      let kind = keepByName(node.name);
+      const classify = part => part.userData?.viewer_fixed_finish ? true : keepByName(part.name);
+      let kind = classify(node);
       if (kind === null && node.parent) {
         let parent = node.parent;
         while (parent && kind === null) {
-          kind = keepByName(parent.name);
+          kind = classify(parent);
           parent = parent.parent;
         }
       }

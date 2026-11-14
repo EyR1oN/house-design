@@ -62,8 +62,8 @@
 <text x="479.62" y="1467.85" font-size="13" font-weight="bold" fill="#ae6928">042</text>
 <circle cx="469.62" cy="1350.65" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_043_SOCKET / Fitness / cleaning / 0.3m</title></circle>
 <text x="479.62" y="1343.65" font-size="13" font-weight="bold" fill="#ae6928">043</text>
-<circle cx="691.8000000000001" cy="1632.975" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_044_SOCKET / Balcony-side general use / 0.3m</title></circle>
-<text x="701.8000000000001" y="1625.975" font-size="13" font-weight="bold" fill="#ae6928">044</text>
+<circle cx="664.200" cy="1632.975" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_044_SOCKET / Balcony-side general use / 0.3m</title></circle>
+<text x="674.200" y="1625.975" font-size="13" font-weight="bold" fill="#ae6928">044</text>
 <circle cx="449.1500000000001" cy="895.25" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E2_045_SWITCH / Bathroom ceiling / mirror / extract / 1.05m</title></circle>
 <text x="459.1500000000001" y="888.25" font-size="13" font-weight="bold" fill="#4a8263">045</text>
 <circle cx="470.42499999999995" cy="892.95" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_046_SOCKET / Grooming candidate location; wet-zone review required / 1.12m</title></circle>
@@ -74,8 +74,8 @@
 <text x="294.81500000000005" y="1074.55" font-size="13" font-weight="bold" fill="#ae6928">048</text>
 <circle cx="449.1500000000001" cy="843.5" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_049_SOCKET / Hall vacuum point / 0.3m</title></circle>
 <text x="459.1500000000001" y="836.5" font-size="13" font-weight="bold" fill="#ae6928">049</text>
-<circle cx="306.55000000000007" cy="1162.165" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E2_050_SWITCH / Hall and stairs; linked control proposal / 1.05m</title></circle>
-<text x="316.55000000000007" y="1155.165" font-size="13" font-weight="bold" fill="#4a8263">050</text>
+<circle cx="317.245" cy="1162.165" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E2_050_SWITCH / Hall and stairs; linked control proposal / 1.05m</title></circle>
+<text x="327.245" y="1155.165" font-size="13" font-weight="bold" fill="#4a8263">050</text>
 <circle cx="611.3000000000001" cy="553.7" r="8" fill="#9b873d" stroke="#fff" stroke-width="2"><title>L2_060 / Ceiling / 2.62m</title></circle>
 <text x="621.3000000000001" y="546.7" font-size="13" font-weight="bold" fill="#9b873d">060</text>
 <circle cx="725.1500000000001" cy="372.0" r="8" fill="#9b873d" stroke="#fff" stroke-width="2"><title>L2_061 / Bedside pendant / 1.27m</title></circle>
@@ -98,10 +98,10 @@
 <text x="378.6500000000001" y="997.5" font-size="13" font-weight="bold" fill="#9b873d">069</text>
 <circle cx="471.00000000000006" cy="818.1999999999999" r="8" fill="#777b85" stroke="#fff" stroke-width="2"><title>E2_071_FAN_POINT / Humidity extraction provision; duct and supply specification pending / 2.36m</title></circle>
 <text x="481.00000000000006" y="811.1999999999999" font-size="13" font-weight="bold" fill="#777b85">071</text>
-<circle cx="450.185" cy="1533.5" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_080_SOCKET / Child desk power / charger / 1.10m</title></circle>
-<text x="460.185" y="1526.5" font-size="13" font-weight="bold" fill="#ae6928">080</text>
-<circle cx="450.185" cy="1476" r="8" fill="#516dac" stroke="#fff" stroke-width="2"><title>E2_081_DATA / Child desk network / 1.10m</title></circle>
-<text x="460.185" y="1469" font-size="13" font-weight="bold" fill="#516dac">081</text>
+<circle cx="451.956" cy="1533.5" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_080_SOCKET / Child desk power / charger / 1.10m</title></circle>
+<text x="461.956" y="1526.5" font-size="13" font-weight="bold" fill="#ae6928">080</text>
+<circle cx="451.956" cy="1476" r="8" fill="#516dac" stroke="#fff" stroke-width="2"><title>E2_081_DATA / Child desk network / 1.10m</title></circle>
+<text x="461.956" y="1469" font-size="13" font-weight="bold" fill="#516dac">081</text>
 <circle cx="125.488" cy="1361" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_082_SOCKET / Child bedside charging / 0.95m</title></circle>
 <text x="135.488" y="1354" font-size="13" font-weight="bold" fill="#ae6928">082</text>
 <circle cx="324.95" cy="1179.948" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E2_083_SWITCH / Child main and reading light / 1.05m</title></circle>
@@ -147,9 +147,9 @@
 <circle cx="953" cy="1420" r="5" fill="#ae6928"/><text x="970" y="1426" font-size="17" fill="#39342d">080 · Дитяча · Розетка ×2 · 1.10 м</text>
 <circle cx="953" cy="1455" r="5" fill="#516dac"/><text x="970" y="1461" font-size="17" fill="#39342d">081 · Дитяча · Ethernet · 1.10 м</text>
 <circle cx="953" cy="1490" r="5" fill="#ae6928"/><text x="970" y="1496" font-size="17" fill="#39342d">082 · Дитяча · Розетка ×2 · 0.95 м</text>
-<circle cx="953" cy="1525" r="5" fill="#4a8263"/><text x="970" y="1531" font-size="17" fill="#39342d">083 · Дитяча · Вимикач ×3 · 1.05 м</text>
+<circle cx="953" cy="1525" r="5" fill="#4a8263"/><text x="970" y="1531" font-size="17" fill="#39342d">083 · Дитяча · Вимикач ×2 · 1.05 м</text>
 <circle cx="953" cy="1560" r="5" fill="#ae6928"/><text x="970" y="1566" font-size="17" fill="#39342d">084 · Дитяча · Розетка ×2 · 0.30 м</text>
-<text x="80" y="1754" font-size="18" fill="#39342d">Координати X/Y та призначення кожної точки: data/electrical_points.csv</text>
+<text x="80" y="1754" font-size="18" fill="#39342d">Координати X/Y та призначення кожної точки: data/electrical_points.json</text>
 <text x="80" y="1786" font-size="17" fill="#665f52">Розетки у вологих кімнатах — кандидати для перевірки зон. Траси кабелю та захист ще не запроєктовані.</text>
 <text x="80" y="1818" font-size="17" fill="#665f52">Номери можуть накладатися біля блоків техніки: наведіть курсор на точку або відкрийте таблицю.</text>
 </g></svg>
