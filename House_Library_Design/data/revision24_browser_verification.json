@@ -1,0 +1,17 @@
+{
+  "revision": 24,
+  "office_task_lamps_hidden": true,
+  "stationary_lighting_visible": true,
+  "child_room_electrical_visible": true,
+  "furniture_restored": true,
+  "preexisting_visibility_preserved": true,
+  "tested_fixed_fixtures": [
+    "ground-floor flush ceiling lights",
+    "upper hall flush light",
+    "upper bath flush light",
+    "wardrobe flush light",
+    "pendants",
+    "bath sconces",
+    "built-in hood lights"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "revision": 24,
+  "fixed_flush_ceiling_lights_kept": {
+    "1": [
+      "LIB_Ground_Flush_Entry",
+      "LIB_Ground_Flush_Kitchen",
+      "LIB_Ground_Flush_Laundry",
+      "LIB_Ground_Flush_Living_Dining",
+      "LIB_Ground_Flush_WC"
+    ],
+    "2": [
+      "LIB_Upper_Hall_Flush",
+      "LIB_Upper_Bath_Flush",
+      "LIB_Closet_Flush"
+    ]
+  },
+  "portable_office_task_lamps_hidden": [
+    "LIB_Office_Task_Lamp_1",
+    "LIB_Office_Task_Lamp_2"
+  ],
+  "viewer_rebuilt": true,
+  "updated_blender_geometry": false
+}
