@@ -334,6 +334,14 @@ def compact(document, binary, expected_pivots=0):
     }
 
 
+def has_unreferenced_payload(report):
+    removed_keys = (
+        'nodes_removed', 'meshes_removed', 'materials_removed', 'textures_removed',
+        'images_removed', 'accessors_removed', 'buffer_views_removed',
+    )
+    return any(report[key] for key in removed_keys) or report['source_bytes'] != report['compact_bytes']
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     action = parser.add_mutually_exclusive_group()
@@ -357,7 +365,7 @@ def main():
         temporary_paths = []
         try:
             for row in results:
-                if row['report']['saved_bytes'] <= 0:
+                if not has_unreferenced_payload(row['report']):
                     continue
                 temporary = row['path'].with_suffix('.compacting.tmp')
                 temporary.write_bytes(row['encoded'])
@@ -373,7 +381,7 @@ def main():
                 temporary.unlink(missing_ok=True)
     output = [row['report'] for row in results]
     print(json.dumps({'written': args.write, 'floors': output}, ensure_ascii=False, indent=2))
-    if not args.write and any(row['report']['saved_bytes'] for row in results):
+    if not args.write and any(has_unreferenced_payload(row['report']) for row in results):
         raise SystemExit('Models contain unreachable payload; review the report and run with --write to compact.')
 
 
