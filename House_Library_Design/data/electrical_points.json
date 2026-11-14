@@ -1054,20 +1054,6 @@
     "status": "PROPOSED_NOT_AS_BUILT"
   },
   {
-    "id": "E2_085_SWITCH",
-    "room": "Child_Room",
-    "level": 2,
-    "type": "SWITCH",
-    "x_m": 5.495545864105225,
-    "y_m": 2.299999952316284,
-    "height_aff_m": 1.1,
-    "face": "E",
-    "purpose": "Child bedside switching",
-    "proposed_group": "UPPER_CHILD",
-    "modules": 3,
-    "status": "PROPOSED_NOT_AS_BUILT"
-  },
-  {
     "id": "E1_090_SWITCH",
     "room": "Living",
     "level": 1,

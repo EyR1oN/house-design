@@ -1,0 +1,38 @@
+{
+  "revision": 22,
+  "title": "Child-room electrical points restored; bedside switch removed",
+  "restored_socket_assemblies": [
+    "E2_080_SOCKET",
+    "E2_082_SOCKET"
+  ],
+  "active_restored_components": [
+    "E2_080_SOCKET",
+    "E2_080_SOCKET_hole",
+    "E2_080_SOCKET_hole.001",
+    "E2_080_SOCKET_hole.002",
+    "E2_080_SOCKET_hole.003",
+    "E2_082_SOCKET",
+    "E2_082_SOCKET_hole",
+    "E2_082_SOCKET_hole.001",
+    "E2_082_SOCKET_hole.002",
+    "E2_082_SOCKET_hole.003"
+  ],
+  "removed_point": "E2_085_SWITCH",
+  "retained_child_room_points": [
+    "E2_080_SOCKET",
+    "E2_081_DATA",
+    "E2_082_SOCKET",
+    "E2_083_SWITCH",
+    "E2_084_SOCKET"
+  ],
+  "office_task_lamps_hidden_in_electrical_mode": [
+    "LIB_Office_Task_Lamp_1",
+    "LIB_Office_Task_Lamp_2"
+  ],
+  "preserved_ceiling_and_fixed_lighting": true,
+  "floor2_active_node_count": 208,
+  "floor2_electrical_svg_updated": "House_Library_Design\\exports\\Electrical_Points_Floor_2.svg",
+  "duplicate_active_node_names": 0,
+  "switch_point_geometry_clearance_m": 2.5009,
+  "all_buffer_views_within_glb": true
+}

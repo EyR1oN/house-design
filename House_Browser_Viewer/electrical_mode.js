@@ -15,7 +15,7 @@
   help.id = 'electrical-help';
   help.className = 'subtle';
   help.hidden = true;
-  help.innerHTML = '<strong>Електроточки на сцені</strong><br>Розетки, вимикачі, підключення, точки вентилятора та світильники.<br>Меблі й декор приховані. Позиції електрики попередні — PROPOSED, не виконавча схема.';
+  help.innerHTML = '<strong>Електроточки на сцені</strong><br>Розетки, вимикачі, підключення, точки вентилятора та стаціонарні світильники.<br>Настільні лампи з вилкою, меблі й декор приховані. Позиції електрики попередні — PROPOSED, не виконавча схема.';
   button.insertAdjacentElement('afterend', help);
 
   const style = document.createElement('style');
@@ -33,7 +33,9 @@
 
   function keepByName(name) {
     if (!name) return null;
-    if (/^(?:Walls|PART_R_|PART_Electrical_|E[12]_)/.test(name)) return true;
+    if (/^LIB_Office_Task_Lamp_[12]$/i.test(name)) return false;
+    if (/^(?:Walls|PART_R_|PART_Electrical_|E[12]_)/i.test(name)) return true;
+    if (/^LIB_.*(?:socket|switch|outlet|data|fan_point|connection)/i.test(name)) return true;
     if (/^(?:R_STAIR_|R3_Stair_|R3_LED_|R7_TV_|R18_Ceiling_)/.test(name)) return true;
     if (name === 'Corner_LED_strip' || name === 'PART_DESIGN_Lighting_Decor') return true;
     if (/^LIB_Door_/i.test(name)) return true;
