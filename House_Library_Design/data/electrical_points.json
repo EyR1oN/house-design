@@ -274,8 +274,8 @@
     "room": "Stair_storage",
     "level": 1,
     "type": "SWITCH",
-    "x_m": 6.625499725341797,
-    "y_m": 7.909999847412109,
+    "x_m": 6.6415,
+    "y_m": 8.775,
     "height_aff_m": 1.05,
     "face": "E",
     "purpose": "Storage light",
@@ -1080,5 +1080,37 @@
     "proposed_group": "UPPER_LIGHT",
     "modules": 3,
     "status": "PROPOSED_NOT_AS_BUILT"
+  },
+  {
+    "id": "E1_091_SWITCH",
+    "room": "Living",
+    "level": 1,
+    "type": "SWITCH",
+    "x_m": 6.6415,
+    "y_m": 10.48,
+    "height_aff_m": 1.05,
+    "face": "E",
+    "purpose": "Living ceiling + dining pendants; stair-side second control",
+    "proposed_group": "GROUND_LIGHT",
+    "modules": 2,
+    "status": "PROPOSED_NOT_AS_BUILT",
+    "control_pair_with": "E1_019_SWITCH",
+    "control_type": "PROPOSED_MULTI_WAY_SECOND_LOCATION"
+  },
+  {
+    "id": "E1_092_SWITCH",
+    "room": "Living",
+    "level": 1,
+    "type": "SWITCH",
+    "x_m": 6.6415,
+    "y_m": 10.68,
+    "height_aff_m": 1.05,
+    "face": "E",
+    "purpose": "Living LED strips dimmer; stair-side second control",
+    "proposed_group": "GROUND_LIGHT",
+    "modules": 2,
+    "status": "PROPOSED_NOT_AS_BUILT",
+    "control_pair_with": "E1_090_SWITCH",
+    "control_type": "PROPOSED_MULTI_WAY_SECOND_LOCATION"
   }
 ]
