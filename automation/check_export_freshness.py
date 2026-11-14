@@ -11,7 +11,7 @@ if event_path and os.environ.get('GITHUB_EVENT_NAME') == 'push':
     if before.strip('0') and after:
         paths = subprocess.check_output(['git', 'diff', '--name-only', before, after], text=True).splitlines()
         master_changed = 'House_Library_Design/House_Library_Design.blend' in paths
-        review_changed = any(p in ['House_Browser_Viewer/House_Floor_1.glb', 'House_Browser_Viewer/House_Floor_2.glb']
+        review_changed = any(p in [f'House_Browser_Viewer/House_Floor_{i}.glb' for i in (1, 2, 3)]
                              or p.startswith('House_Library_Design/previews/') for p in paths)
         if master_changed and not review_changed:
             raise SystemExit('Master changed, but exports and render images did not. Export the changed floor and update relevant renders before publishing.')

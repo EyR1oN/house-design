@@ -6,13 +6,13 @@
   },
   {
     "path": "Design_Gallery.html",
-    "bytes": 13823,
-    "sha256": "5135670759c51ca5fcbb3207c9524061eced4f9aa40ed136207e6aa7376c8f62"
+    "bytes": 14544,
+    "sha256": "3d8a0b7e28882ada9f8f3b61da82ec2815623390a1c726beaa74da4a1769e5e7"
   },
   {
     "path": "House_Library_Design.blend",
-    "bytes": 380491571,
-    "sha256": "0689608f136f98d630766dccd4bdb9edabb1c70a1cc6c5e28dc0015aa8956b99"
+    "bytes": 380564009,
+    "sha256": "f771ee0065b00c050691f806d56a0f5d77c375cfa40852772429d2c39f70fb53"
   },
   {
     "path": "Open_Library_Design.ps1",
@@ -746,8 +746,8 @@
   },
   {
     "path": "data/gallery_views.json",
-    "bytes": 3129,
-    "sha256": "b415eac31d1046a0b41acb8d0917b3445e040bf748d026fd23db2153ceff87cb"
+    "bytes": 3596,
+    "sha256": "84a34ba51f4a38cf0e43c14ec05ebe859d5fad1a617d87449a96b4ee018720ec"
   },
   {
     "path": "data/import_audit.json",
@@ -1285,6 +1285,21 @@
     "sha256": "891ad460663dc86a904c7dd15e9d1cc5da2cf0e72850b1358bcfae4d957b4d5e"
   },
   {
+    "path": "previews/Exterior_Balcony.png",
+    "bytes": 1778285,
+    "sha256": "1ad2c640e87baf7804bef818a2303d32a182b6b5cb65f30423d946ce93d64f8b"
+  },
+  {
+    "path": "previews/Exterior_Detail.png",
+    "bytes": 1639371,
+    "sha256": "b7e8f12b21bddd767ee474bc0095bb1d484c864cace9471ec0081c9ab738ff2c"
+  },
+  {
+    "path": "previews/Exterior_Entry.png",
+    "bytes": 1736335,
+    "sha256": "0741f9557f3ade7db5227ec924bed6bf4c240ee73a7ee0decd58d67307e64682"
+  },
+  {
     "path": "previews/Ground_Hall.png",
     "bytes": 1665140,
     "sha256": "f415d582c9b6d3546ffe3ca2ac5535a5bee695f6e25472c64bfe1d1b46eecb17"
@@ -1615,6 +1630,11 @@
     "sha256": "7a09ee936fde7ed67bdeb52e80e0b9660c400adf181352dbfeaeb94b55c9a2cf"
   },
   {
+    "path": "scripts/implement_revision30_exterior.py",
+    "bytes": 13788,
+    "sha256": "27767cc8bed55d8c27713479515ef2a25bc63daff98618d0d292a4f5402334ae"
+  },
+  {
     "path": "scripts/inspect_revision12.py",
     "bytes": 720,
     "sha256": "c80a99e87eeb06de15da8c38dda2dec9f959a9920ca28c82ecd623d6fa4b810b"
@@ -1863,6 +1883,11 @@
     "path": "scripts/render_revision16.py",
     "bytes": 1913,
     "sha256": "2e0983c6cfc00f630931353d15abea26e3e912da1b3c7cb11724d68862e911f8"
+  },
+  {
+    "path": "scripts/render_revision30_exterior.py",
+    "bytes": 1842,
+    "sha256": "1d226196f7fcd0f360d87b1bd2fdbe0b9f605471aad669240b17dfe6cff67c66"
   },
   {
     "path": "scripts/render_revision7_draft.py",

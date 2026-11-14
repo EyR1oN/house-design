@@ -349,7 +349,7 @@ def main():
     action.add_argument('--check', action='store_true', help='verify that both floor GLBs are already compacted (default)')
     args = parser.parse_args()
     results = []
-    for floor in (1, 2):
+    for floor in (1, 2, 3):
         path = VIEWER / f'House_Floor_{floor}.glb'
         document, binary = read_glb(path)
         expected_pivots = 20 if floor == 1 else 0

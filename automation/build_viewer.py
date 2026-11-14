@@ -90,10 +90,18 @@ def build(output):
     data = {'models': {}, 'photos': [], 'floorOffset': 3.2}
     asset_tags = []
     pivot_nodes = 0
-    for floor in (1, 2):
+    required_exterior = {
+        1: {'R30_Porch_Concrete'},
+        2: {'R30_Front_Balcony_Slab', 'R30_Rear_Balcony_Slab'},
+        3: {'R30_Roof_Slope_1', 'R30_Roof_Slope_2', 'R30_Roof_Slope_3'},
+    }
+    for floor in (1, 2, 3):
         path = ROOT / f'House_Browser_Viewer/House_Floor_{floor}.glb'
         raw = read_asset(path)
         document = validate_glb(raw, path)
+        names = {node.get('name') for node in document['nodes']}
+        if missing := required_exterior[floor] - names:
+            raise ValueError(f'Model {floor} is missing exterior components: {sorted(missing)}')
         if floor == 1:
             active = reachable_node_indices(document)
             pivot_nodes = sum(document['nodes'][i].get('extras', {}).get('pantry_role') == 'pivot' for i in active)
@@ -145,7 +153,7 @@ def build(output):
         temporary.replace(output)
     finally:
         temporary.unlink(missing_ok=True)
-    print(json.dumps({'output': str(output), 'floors': 2, 'photos': len(views), 'moving_pantry_nodes': pivot_nodes,
+    print(json.dumps({'output': str(output), 'floors': 2, 'roof': True, 'photos': len(views), 'moving_pantry_nodes': pivot_nodes,
                       'first_person_mode': True, 'electrical_mode': True,
                       'size_mb': round(output.stat().st_size / 1_000_000, 1), 'blender_modified': False}))
 

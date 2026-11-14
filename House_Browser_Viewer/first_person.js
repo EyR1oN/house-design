@@ -200,6 +200,17 @@
       root.updateMatrixWorld(true);
       root.traverse(mesh => {
         if (!mesh.isMesh || !mesh.geometry?.attributes?.position) return;
+        const exterior = mesh.userData.viewer_exterior_navigation;
+        if (exterior === 'ignore') return;
+        if (exterior === 'railing') {
+          // The top rail represents a barrier from the deck up to hand height.
+          mesh.geometry.computeBoundingBox();
+          const box = mesh.geometry.boundingBox.clone().applyMatrix4(mesh.matrixWorld);
+          const item = { minX: box.min.x, maxX: box.max.x, minZ: box.min.z, maxZ: box.max.z,
+            minY: box.max.y - 1.05, maxY: box.max.y };
+          addToGrid(obstacles, item.minX, item.maxX, item.minZ, item.maxZ, item);
+          return;
+        }
         // These combined second-floor room meshes contain both walls and
         // furnishings. Their bounding boxes cover whole rooms and falsely
         // seal the doors, so use their actual vertical faces as wall lines.
@@ -210,7 +221,7 @@
         const isFloor = isPartOf(mesh, `PART_R_L${floor}_FLOOR`);
         const isStairs = isPartOf(mesh, 'PART_R_STAIRS');
         const isSharedStairs = floor === 1 && isStairs;
-        if (isFloor || isSharedStairs) {
+        if (isFloor || isSharedStairs || exterior === 'surface') {
           const position = mesh.geometry.attributes.position;
           for (const ids of triangleIndices(mesh)) {
             const a = worldPoint(mesh, position, ids[0]);
@@ -371,27 +382,30 @@
     if (active || initializing) return;
     initializing = true;
     button.disabled = true;
-    const selected = Number(document.querySelector('[data-floor].active')?.dataset.floor || 1);
+    const view = Number(document.querySelector('[data-floor].active')?.dataset.floor || 1);
+    const selected = view === 2 ? 2 : 1;
     savedClip = document.querySelector('#cut')?.checked ?? true;
     savedFov = camera.fov;
     help.hidden = false;
     help.textContent = 'Готую будинок для прогулянки…';
-    status.textContent = 'Завантажую обидва поверхи та сходи…';
+    status.textContent = 'Завантажую обидва поверхи й дах…';
     button.textContent = 'Завантажую…';
     document.body.classList.add('walk-mode');
     button.closest('aside').scrollTop = 0;
 
     try {
       await waitForViewer();
-      await api.loadAllFloors();
+      await api.loadAllFloors(true);
       const lower = api.models[1];
       const upper = api.models[2];
-      if (!lower || !upper) throw new Error('Не вдалося завантажити обидва поверхи.');
+      const roof = api.models[3];
+      if (!lower || !upper || !roof) throw new Error('Не вдалося завантажити обидва поверхи й дах.');
 
       lower.position.y = 0;
       upper.position.y = floorOffset;
       lower.visible = true;
       upper.visible = true;
+      roof.visible = true;
       duplicatedStairs = [];
       upper.traverse(node => {
         if (node.name === 'PART_R_STAIRS') {
@@ -399,7 +413,8 @@
           node.visible = false;
         }
       });
-      scene.add(lower, upper);
+      scene.add(lower, upper, roof);
+      window.HOUSE_ELECTRICAL_MODE?.applyToFloor(roof);
       floorModels = [{ root: lower, floor: 1 }, { root: upper, floor: 2 }];
       scene.updateMatrixWorld(true);
       buildNavigation();
@@ -419,16 +434,6 @@
       camera.rotation.set(pitch, yaw, 0);
       api.controls.enabled = false;
       api.setCut(false);
-      for (const { root } of floorModels) {
-        root.traverse(node => {
-          if (node.isMesh && (node.userData.viewer_walls || node.userData.viewer_clip_with_walls)) {
-            for (const material of Array.isArray(node.material) ? node.material : [node.material]) {
-              material.clippingPlanes = [];
-              material.needsUpdate = true;
-            }
-          }
-        });
-      }
       api.setInternalMode('walk');
       active = true;
       previousTime = performance.now();
@@ -452,7 +457,7 @@
       button.textContent = 'Прогулянка по будинку';
       status.textContent = 'Не вдалося підготувати режим прогулянки.';
       console.error(error);
-      try { await api.showFloor(selected); } catch (_) {}
+      try { await api.showFloor(view); } catch (_) {}
     } finally {
       initializing = false;
       button.disabled = false;
