@@ -1,0 +1,16 @@
+{
+  "revision": 23,
+  "office_task_lamps_hidden": true,
+  "stationary_lighting_visible": true,
+  "child_room_electrical_visible": true,
+  "furniture_restored": true,
+  "preexisting_visibility_preserved": true,
+  "tested_fixed_fixtures": [
+    "dining pendants",
+    "bedroom pendants",
+    "office pendant",
+    "bath sconces",
+    "ceiling fixtures",
+    "built-in hood lights"
+  ]
+}

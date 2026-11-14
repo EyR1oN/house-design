@@ -37,6 +37,8 @@
     if (/^(?:Walls|PART_R_|PART_Electrical_|E[12]_)/i.test(name)) return true;
     if (/^LIB_.*(?:socket|switch|outlet|data|fan_point|connection)/i.test(name)) return true;
     if (/^(?:R_STAIR_|R3_Stair_|R3_LED_|R7_TV_|R18_Ceiling_)/.test(name)) return true;
+    // Built-in hood lights are fixed fixtures, unlike the two portable desk lamps.
+    if (/^R15_Hood_Underside_Light_/i.test(name)) return true;
     if (name === 'Corner_LED_strip' || name === 'PART_DESIGN_Lighting_Decor') return true;
     if (/^LIB_Door_/i.test(name)) return true;
     if (/^LIB_.*(?:lamp|pendant|sconce|light)/i.test(name)) return true;
