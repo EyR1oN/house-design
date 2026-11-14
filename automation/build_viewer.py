@@ -30,7 +30,44 @@ def validate_glb(data, path):
     for asset in document.get('buffers', []) + document.get('images', []):
         if 'uri' in asset and not asset['uri'].startswith('data:'):
             raise ValueError(f'External dependency in {path}: {asset["uri"]}')
+    active = reachable_node_indices(document)
+    nodes = document.get('nodes', [])
+    if len(active) != len(nodes):
+        raise ValueError(f'{path} contains unreachable scene nodes. Run automation/compact_viewer_models.py --write.')
+    meshes = document.get('meshes', [])
+    used_meshes = {nodes[index]['mesh'] for index in active if 'mesh' in nodes[index]}
+    if any(not isinstance(index, int) or index < 0 or index >= len(meshes) for index in used_meshes):
+        raise ValueError(f'{path} contains an invalid mesh reference.')
+    if used_meshes != set(range(len(meshes))):
+        raise ValueError(f'{path} contains unreferenced meshes. Run automation/compact_viewer_models.py --write.')
     return document
+
+
+def reachable_node_indices(document):
+    nodes = document.get('nodes', [])
+    scenes = document.get('scenes', [])
+    if not scenes:
+        raise ValueError('GLB has no scenes.')
+    active = set()
+    visiting = set()
+
+    def visit(index):
+        if not isinstance(index, int) or index < 0 or index >= len(nodes):
+            raise ValueError(f'Invalid node reference: {index}')
+        if index in visiting:
+            raise ValueError(f'Node cycle detected at index {index}.')
+        if index in active:
+            return
+        active.add(index)
+        visiting.add(index)
+        for child in nodes[index].get('children', []):
+            visit(child)
+        visiting.remove(index)
+
+    for scene in scenes:
+        for index in scene.get('nodes', []):
+            visit(index)
+    return active
 
 
 def build(output):
@@ -50,17 +87,7 @@ def build(output):
         raw = read_asset(path)
         document = validate_glb(raw, path)
         if floor == 1:
-            active = set()
-
-            def visit(index):
-                if index in active:
-                    return
-                active.add(index)
-                for child in document['nodes'][index].get('children', []):
-                    visit(child)
-
-            for index in document['scenes'][document.get('scene', 0)]['nodes']:
-                visit(index)
+            active = reachable_node_indices(document)
             pivot_nodes = sum(document['nodes'][i].get('extras', {}).get('pantry_role') == 'pivot' for i in active)
             if pivot_nodes != 20:
                 raise ValueError(f'Expected 20 moving pantry nodes, found {pivot_nodes}. Review exported pantry roles.')

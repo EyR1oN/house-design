@@ -30,6 +30,8 @@ jobs:
         run: |
           git lfs install --local
           git lfs pull --include="House_Browser_Viewer/House_Floor_*.glb,House_Library_Design/previews/*.png" --exclude=""
+      - name: Check exported viewer models are compact
+        run: python automation/compact_viewer_models.py --check
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'

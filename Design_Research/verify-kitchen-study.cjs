@@ -1,5 +1,5 @@
 const fs=require('fs'),path=require('path');
-const {chromium}=require('C:/Users/tatia/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const {chromium}=require('playwright');
 (async()=>{
  const browser=await chromium.launch({channel:'msedge',headless:true});const page=await browser.newPage({viewport:{width:900,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto('file:///'+path.join(__dirname,'kitchen-storage-preview.html').replaceAll('\\','/'));const frame=page.frameLocator('iframe');await frame.locator('#kitchen-study-oct27 svg').first().waitFor();
