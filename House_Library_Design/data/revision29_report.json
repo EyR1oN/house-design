@@ -106,6 +106,11 @@
       }
     }
   ],
+  "glb_payload_compaction": {
+    "accessors_removed": 3,
+    "buffer_views_removed": 3,
+    "saved_bytes": 90148
+  },
   "updated_artifacts": [
     "House_Library_Design/House_Library_Design.blend",
     "House_Library_Design/data/electrical_points.json",

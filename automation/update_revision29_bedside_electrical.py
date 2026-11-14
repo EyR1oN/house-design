@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'automation'))
 from open_stair_exit_viewer import accessor, read_glb, write_glb
 from build_viewer import build as build_viewer
+from compact_viewer_models import compact
 
 VIEWER = ROOT / 'House_Browser_Viewer'
 GLB_PATH = VIEWER / 'House_Floor_2.glb'
@@ -344,6 +345,11 @@ for buffer_view in document.get('bufferViews', []):
     if buffer_view.get('byteOffset', 0) + buffer_view['byteLength'] > len(binary):
         raise ValueError('The upper GLB contains a buffer view beyond its binary payload.')
 
+# Removing the previous plates leaves their aggregate index buffers unused.
+# Compact the finished GLB before building the offline viewer so CI and users
+# receive a self-contained model with no orphaned accessor or buffer-view data.
+document, binary, compaction = compact(document, binary, expected_pivots=0)
+
 temporary = GLB_PATH.with_suffix('.revision29.tmp')
 temporary.write_bytes(write_glb(document, binary))
 temporary.replace(GLB_PATH)
@@ -381,6 +387,7 @@ report = {
     } for point_id in IDS},
     'old_packed_faces_removed': removed_by_point,
     'removed_faces_by_primitive': removed_by_primitive,
+    'glb_payload_compaction': compaction,
     'updated_artifacts': [
         'House_Library_Design/House_Library_Design.blend',
         'House_Library_Design/data/electrical_points.json',
@@ -401,6 +408,7 @@ verification = {
     'all_floor_2_electrical_svg_legend_heights_match_schedule': True,
     'active_glb_node_names_unique': True,
     'glb_buffer_views_in_range': True,
+    'glb_payload_compacted': True,
     'offline_viewer_rebuilt_from_current_models': True,
     'expected_new_glb_nodes': sorted(EXPECTED_PATCH_NODES),
     'old_assembly_triangles_removed': removed_by_point,
