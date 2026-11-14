@@ -38,7 +38,7 @@
   const playerRadius = 0.19;
   const eyeHeight = 1.62;
   const playerHeight = 1.78;
-  const floorOffset = 3.2;
+  const floorOffset = window.HOUSE_DATA?.floorOffset || 3.2;
   const keyState = new Set();
 
   let active = false;
@@ -383,14 +383,15 @@
 
     try {
       await waitForViewer();
-      await api.showFloor(selected);
-      await api.showFloor(selected === 1 ? 2 : 1);
+      await api.loadAllFloors();
       const lower = api.models[1];
       const upper = api.models[2];
       if (!lower || !upper) throw new Error('Не вдалося завантажити обидва поверхи.');
 
       lower.position.y = 0;
       upper.position.y = floorOffset;
+      lower.visible = true;
+      upper.visible = true;
       duplicatedStairs = [];
       upper.traverse(node => {
         if (node.name === 'PART_R_STAIRS') {

@@ -1,0 +1,22 @@
+{
+  "revision": 27,
+  "purpose": "Load both floors, hide the upper floor in the first-floor view, and show the full lower floor beneath the second floor.",
+  "interfloor_structure": [
+    "R_L2_STRUCTURAL_SLAB",
+    "R_L2_SCREED"
+  ],
+  "source_master_modified": false,
+  "upper_viewer_glb_updated": true,
+  "both_floors_embedded": true,
+  "upper_stair_duplicate_hidden": true,
+  "first_person_uses_both_levels": true,
+  "floor_aware_cutaway": true,
+  "viewer_startup_payloads_are_inert_html_blocks": true,
+  "room_gallery_payloads_are_lazy": true,
+  "upper_floor_node_count": 224,
+  "added_nodes": [
+    "R_L2_SCREED",
+    "R_L2_STRUCTURAL_SLAB"
+  ],
+  "floor_offset_m": 3.2
+}

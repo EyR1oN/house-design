@@ -30,14 +30,14 @@
 <polygon points="239.9,299.5 239.9,694.0 264.3,694.0 268.6,694.0 268.6,693.4 268.6,680.2 264.3,680.2 253.6,680.2 253.6,299.5 396.6,299.5 400.8,299.5 400.8,263.3 400.8,250.1 396.6,250.1 239.9,250.1" fill="#cdc5b5" stroke="#948a78" stroke-width="1"/>
 <circle cx="396.25" cy="677.5550000000001" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E2_027_SWITCH / Bedroom main / reading / ambience / 1.05m</title></circle>
 <text x="406.25" y="670.5550000000001" font-size="13" font-weight="bold" fill="#4a8263">027</text>
-<circle cx="800.475" cy="369.6999999999998" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_028_SOCKET / Left bedside charging / 0.68m</title></circle>
-<text x="810.475" y="362.6999999999998" font-size="13" font-weight="bold" fill="#ae6928">028</text>
-<circle cx="800.475" cy="647.9999999999999" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_029_SOCKET / Right bedside charging / 0.68m</title></circle>
-<text x="810.475" y="640.9999999999999" font-size="13" font-weight="bold" fill="#ae6928">029</text>
-<circle cx="800.475" cy="369.6999999999998" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E2_030_SWITCH / Bedside scene / ceiling switching / 0.98m</title></circle>
-<text x="810.475" y="362.6999999999998" font-size="13" font-weight="bold" fill="#4a8263">030</text>
-<circle cx="800.475" cy="647.9999999999999" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E2_031_SWITCH / Bedside scene / ceiling switching / 0.98m</title></circle>
-<text x="810.475" y="640.9999999999999" font-size="13" font-weight="bold" fill="#4a8263">031</text>
+<circle cx="803.883" cy="358.2" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_028_SOCKET / Left bedside charging / 0.68m</title></circle>
+<text x="813.883" y="351.2" font-size="13" font-weight="bold" fill="#ae6928">028</text>
+<circle cx="803.883" cy="650.3" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_029_SOCKET / Right bedside charging / 0.68m</title></circle>
+<text x="813.883" y="643.3" font-size="13" font-weight="bold" fill="#ae6928">029</text>
+<circle cx="803.883" cy="358.2" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E2_030_SWITCH / Bedside scene / ceiling switching / 0.82m</title></circle>
+<text x="813.883" y="351.2" font-size="13" font-weight="bold" fill="#4a8263">030</text>
+<circle cx="803.883" cy="650.3" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E2_031_SWITCH / Bedside scene / ceiling switching / 0.82m</title></circle>
+<text x="813.883" y="643.3" font-size="13" font-weight="bold" fill="#4a8263">031</text>
 <circle cx="258.365" cy="538.75" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E2_032_SOCKET / TV behind screen / 1.43m</title></circle>
 <text x="268.365" y="531.75" font-size="13" font-weight="bold" fill="#ae6928">032</text>
 <circle cx="258.365" cy="506.5500000000002" r="8" fill="#516dac" stroke="#fff" stroke-width="2"><title>E2_033_DATA / Bedroom TV Ethernet / 1.43m</title></circle>
@@ -112,8 +112,8 @@
 <circle cx="953" cy="195" r="5" fill="#4a8263"/><text x="970" y="201" font-size="17" fill="#39342d">027 · Спальня · Вимикач ×3 · 1.05 м</text>
 <circle cx="953" cy="230" r="5" fill="#ae6928"/><text x="970" y="236" font-size="17" fill="#39342d">028 · Спальня · Розетка ×2 · 0.68 м</text>
 <circle cx="953" cy="265" r="5" fill="#ae6928"/><text x="970" y="271" font-size="17" fill="#39342d">029 · Спальня · Розетка ×2 · 0.68 м</text>
-<circle cx="953" cy="300" r="5" fill="#4a8263"/><text x="970" y="306" font-size="17" fill="#39342d">030 · Спальня · Вимикач ×2 · 0.98 м</text>
-<circle cx="953" cy="335" r="5" fill="#4a8263"/><text x="970" y="341" font-size="17" fill="#39342d">031 · Спальня · Вимикач ×2 · 0.98 м</text>
+<circle cx="953" cy="300" r="5" fill="#4a8263"/><text x="970" y="306" font-size="17" fill="#39342d">030 · Спальня · Вимикач ×2 · 0.82 м</text>
+<circle cx="953" cy="335" r="5" fill="#4a8263"/><text x="970" y="341" font-size="17" fill="#39342d">031 · Спальня · Вимикач ×2 · 0.82 м</text>
 <circle cx="953" cy="370" r="5" fill="#ae6928"/><text x="970" y="376" font-size="17" fill="#39342d">032 · Спальня · Розетка ×2 · 1.43 м</text>
 <circle cx="953" cy="405" r="5" fill="#516dac"/><text x="970" y="411" font-size="17" fill="#39342d">033 · Спальня · Ethernet · 1.43 м</text>
 <circle cx="953" cy="440" r="5" fill="#ae6928"/><text x="970" y="446" font-size="17" fill="#39342d">034 · Спальня · Розетка ×2 · 0.32 м</text>

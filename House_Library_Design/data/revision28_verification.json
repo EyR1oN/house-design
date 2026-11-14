@@ -1,0 +1,23 @@
+{
+  "revision": 28,
+  "checks": {
+    "upper_glb_contains_slab_and_screed": "pass",
+    "both_floor_assemblies_stay_visible_in_electrical_mode": "pass",
+    "fixed_ceiling_lights_and_electrical_points_stay_visible": "pass",
+    "furniture_and_plug_in_lamps_hide_in_electrical_mode": "pass",
+    "visibility_restores_when_mode_is_disabled": "pass",
+    "active_floor_wall_ceiling_stair_audit": "pass",
+    "browser_visual_check": "pass"
+  },
+  "audited_floor_layers": [
+    "R_L2_STRUCTURAL_SLAB",
+    "R_L2_SCREED"
+  ],
+  "browser_visual_check": {
+    "second_floor_electrical_mode": "Both levels remain displayed and the electrical-mode controls are active.",
+    "first_floor_electrical_mode": "Only the lower floor is shown; the electrical points remain visible.",
+    "mode_disabled": "Furniture and finishes return after leaving electrical mode."
+  },
+  "state_check": "A targeted JavaScript harness confirmed both floor-layer meshes and fixed electrical components stay visible; furniture and plug-in lamps hide and restore.",
+  "master_blend_modified": false
+}

@@ -8,6 +8,7 @@ import struct
 ROOT = Path(__file__).resolve().parents[1]
 MARKER = '__HOUSE_DATA_JSON__'
 FIRST_PERSON_MARKER = '__FIRST_PERSON_SCRIPT__'
+ASSET_MARKER = '__HOUSE_ASSET_TAGS__'
 
 
 def read_asset(path):
@@ -74,13 +75,20 @@ def build(output):
     if output.suffix.lower() != '.html':
         raise ValueError('Output must be an HTML file.')
     template = (ROOT / 'House_Browser_Viewer/viewer_template.html').read_text(encoding='utf-8')
+    template = template.replace('</body>', f'{ASSET_MARKER}</body>', 1)
     if template.count(MARKER) != 1:
         raise ValueError('Viewer template must contain exactly one data marker.')
+    if template.count(ASSET_MARKER) != 1:
+        raise ValueError('Viewer template must contain exactly one asset marker.')
     if template.count(FIRST_PERSON_MARKER) != 1:
         raise ValueError('Viewer template must contain exactly one first-person script marker.')
     first_person = (ROOT / 'House_Browser_Viewer/first_person.js').read_text(encoding='utf-8')
     electrical_mode = (ROOT / 'House_Browser_Viewer/electrical_mode.js').read_text(encoding='utf-8')
-    data = {'models': {}, 'photos': []}
+    for structural_node in ('R_L2_STRUCTURAL_SLAB', 'R_L2_SCREED'):
+        if structural_node not in electrical_mode:
+            raise ValueError(f'Electrical mode must keep the inter-floor structure: {structural_node}')
+    data = {'models': {}, 'photos': [], 'floorOffset': 3.2}
+    asset_tags = []
     pivot_nodes = 0
     for floor in (1, 2):
         path = ROOT / f'House_Browser_Viewer/House_Floor_{floor}.glb'
@@ -91,16 +99,42 @@ def build(output):
             pivot_nodes = sum(document['nodes'][i].get('extras', {}).get('pantry_role') == 'pivot' for i in active)
             if pivot_nodes != 20:
                 raise ValueError(f'Expected 20 moving pantry nodes, found {pivot_nodes}. Review exported pantry roles.')
-        data['models'][str(floor)] = base64.b64encode(raw).decode('ascii')
+        elif floor == 2:
+            active = reachable_node_indices(document)
+            names = {document['nodes'][i].get('name') for i in active}
+            missing = {'R_L2_STRUCTURAL_SLAB', 'R_L2_SCREED'} - names
+            if missing:
+                raise ValueError(f'Upper floor is missing its inter-floor structure: {sorted(missing)}')
+        encoded = base64.b64encode(raw).decode('ascii')
+        asset_tags.append(f'<script type="application/octet-stream" id="house-model-{floor}">{encoded}</script>')
     views = json.loads((ROOT / 'House_Library_Design/data/gallery_views.json').read_text(encoding='utf-8'))
-    for key, title in views:
+    for index, (key, title) in enumerate(views):
         path = ROOT / 'House_Library_Design/previews' / f'{key}.png'
         raw = read_asset(path)
         if not raw.startswith(b'\x89PNG\r\n\x1a\n'):
             raise ValueError(f'Invalid PNG: {path}')
-        data['photos'].append({'title': title, 'image': base64.b64encode(raw).decode('ascii'), 'mime': 'image/png'})
+        data['photos'].append({'title': title, 'mime': 'image/png'})
+        asset_tags.append(f'<script type="application/octet-stream" id="house-photo-{index}">{base64.b64encode(raw).decode("ascii")}</script>')
     prefix, suffix = template.split(MARKER)
     suffix = suffix.replace(FIRST_PERSON_MARKER, first_person + '\n' + electrical_mode)
+    suffix = suffix.replace(ASSET_MARKER, ''.join(asset_tags), 1)
+    old_model_source = 'o0(Gu.models[i])'
+    if old_model_source not in suffix:
+        raise ValueError('Could not find the floor model source to switch to inert payload tags.')
+    suffix = suffix.replace(old_model_source, 'o0(document.getElementById("house-model-"+i)?.textContent||"")', 1)
+    old_initial_load = 'ju();El(1);window.VIEWER_TEST='
+    if old_initial_load not in suffix:
+        raise ValueError('Could not find the initial floor load to defer until all asset tags are parsed.')
+    suffix = suffix.replace(
+        old_initial_load,
+        'ju();document.addEventListener("DOMContentLoaded",()=>El(1),{once:true});window.VIEWER_TEST=',
+        1,
+    )
+    old_gallery = 'Ke("photos-button").onclick=()=>{Ke("photos").classList.add("open")};Ke("close-photos").onclick=()=>{Ke("photos").classList.remove("open")};Ke("photos-grid").innerHTML=Gu.photos.map(i=>`<figure><img loading="lazy" alt="${i.title}" src="data:${i.mime||\'image/jpeg\'};base64,${i.image}"><figcaption>${i.title}</figcaption></figure>`).join("");'
+    new_gallery = 'let galleryBuilt=false;function showGallery(){if(galleryBuilt)return;galleryBuilt=true;Ke("photos-grid").innerHTML=Gu.photos.map((photo,index)=>{const image=document.getElementById("house-photo-"+index);return `<figure><img loading="lazy" alt="${photo.title}" src="data:${photo.mime||\'image/png\'};base64,${image?.textContent||\'\'}"><figcaption>${photo.title}</figcaption></figure>`}).join("")}Ke("photos-button").onclick=()=>{showGallery();Ke("photos").classList.add("open")};Ke("close-photos").onclick=()=>{Ke("photos").classList.remove("open")};'
+    if old_gallery not in suffix:
+        raise ValueError('Could not find the existing gallery initializer to make photo payloads lazy.')
+    suffix = suffix.replace(old_gallery, new_gallery, 1)
     output.parent.mkdir(parents=True, exist_ok=True)
     temporary = output.with_suffix('.building.tmp')
     try:
