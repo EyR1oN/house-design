@@ -47,7 +47,6 @@
   }
 
   function hideFurniture(node) {
-    if (!node.name || node.name === 'Scene') return;
     if (changedVisibility.has(node)) return;
     changedVisibility.set(node, node.visible);
     node.visible = false;
@@ -56,6 +55,7 @@
   function applyToModel(root) {
     if (!root || typeof root.traverse !== 'function') return;
     root.traverse(node => {
+      if (node === root) return;
       let kind = keepByName(node.name);
       if (kind === null && node.parent) {
         let parent = node.parent;
@@ -78,13 +78,6 @@
     api.markDirty?.();
   }
 
-  const originalShowFloor = api.showFloor.bind(api);
-  api.showFloor = async (...args) => {
-    const result = await originalShowFloor(...args);
-    if (enabled) applyToLoadedModels();
-    return result;
-  };
-
   function setEnabled(value) {
     enabled = value;
     if (enabled) {
@@ -104,5 +97,8 @@
   window.HOUSE_ELECTRICAL_MODE = {
     get active() { return enabled; },
     setActive: setEnabled,
+    applyToFloor(model) {
+      if (enabled) applyToModel(model);
+    },
   };
 })();

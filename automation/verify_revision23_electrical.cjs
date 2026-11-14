@@ -75,7 +75,11 @@ const document = {
 };
 const api = {
   models: { 1: makeFloor(1) },
-  async showFloor(level) { this.models[level] ??= makeFloor(level); return level; },
+  async showFloor(level) {
+    this.models[level] ??= makeFloor(level);
+    window.HOUSE_ELECTRICAL_MODE?.applyToFloor(this.models[level]);
+    return level;
+  },
   markDirty() {},
 };
 const window = { VIEWER_TEST: api };
