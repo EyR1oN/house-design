@@ -1,5 +1,7 @@
 {
-  "status": "BUILT_VERIFIED_REVISION_3",
+  "status": "HISTORICAL_BUILDER_OUTPUT_REVISION_4_NOT_CURRENT_MASTER",
+  "current_master_revision": 25,
+  "note": "This is an archived report from the initial builder. Current model checks are in data/verification.json and revision-specific reports.",
   "ready_asset_types_used": 58,
   "ready_asset_placements": 148,
   "missing_auxiliary_maps_repaired": [

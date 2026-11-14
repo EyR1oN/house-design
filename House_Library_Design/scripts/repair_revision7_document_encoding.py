@@ -5,7 +5,7 @@ if a>=0 and z>a:b=b[:a]+b[a:z].decode('cp1251').encode('utf8')+b[z:]
 path.write_bytes(b)
 (R/'README.md').write_text('''# Будинок — бібліотечний дизайн, редакція 7
 
-Головний редагований файл: House_Library_Design.blend. Blender 4.5.3 LTS: C:/Tetiana/Tools/blender-4.5.3-windows-x64/blender.exe. У корені пакета є Відкрити Blender.cmd.
+Головний редагований файл: House_Library_Design.blend. Blender 4.5.3 LTS або новіший. Використовуйте локальний Відкрити Blender.cmd; він шукає програму в Tools/, змінній BLENDER_EXE або PATH.
 
 Текстури упаковані. Design_Gallery.html показує рендери, сусідня папка House_Browser_Viewer містить автономний вебпереглядач. Бібліотека: Ready_Furniture_Library.blend, підготовлені активи — assets/prepared. Авторство та ліцензії — ASSET_CREDITS.md і data/library_manifest.json.
 
