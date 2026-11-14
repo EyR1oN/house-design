@@ -1,0 +1,12 @@
+{
+  "revision": 28,
+  "purpose": "Keep the inter-floor concrete structure visible in electrical mode.",
+  "root_cause": "The slab and screed GLB nodes were not matched by the electrical-mode keep rules, so their meshes were treated as furniture.",
+  "preserved_node_names": [
+    "R_L2_STRUCTURAL_SLAB",
+    "R_L2_SCREED"
+  ],
+  "preservation_rule": "Keep all nodes marked component_type=FLOOR_LAYER and explicitly retain the two inter-floor structure nodes by name.",
+  "other_structural_nodes_lost": [],
+  "master_blend_modified": false
+}

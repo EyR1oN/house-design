@@ -1,0 +1,26 @@
+{
+  "revision": 27,
+  "checks": {
+    "upper_glb_has_slab_and_screed": "pass",
+    "floor_1_selection_shows_only_floor_1": "pass",
+    "floor_2_selection_shows_both_floors_stacked": "pass",
+    "floor_2_cutaway_leaves_floor_1_walls_unclipped": "pass",
+    "viewer_reports_both_floors_loaded": "pass",
+    "walking_mode_loader_uses_both_floors": "pass",
+    "generated_viewer_executable_javascript_parses": "pass",
+    "browser_visual_check": "pass"
+  },
+  "browser_visual_check": {
+    "browser": "Microsoft Edge",
+    "first_floor": "Only the lower floor is visible when selected.",
+    "second_floor": "Both floors are visible in one stacked model; the lower floor remains visible beneath the upper floor.",
+    "startup": "The updated offline viewer rendered within the visual check window after the payload packaging fix."
+  },
+  "interfloor_structure_world_bounds_m": {
+    "structural_slab_y": [2.915, 3.115],
+    "screed_y": [3.115, 3.18],
+    "structural_slab_x": [5.3, 11.83],
+    "structural_slab_z": [-12.26, 0.18]
+  },
+  "master_blend_modified": false
+}

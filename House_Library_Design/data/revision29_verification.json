@@ -1,0 +1,37 @@
+{
+  "revision": 29,
+  "all_four_points_match_schedule": true,
+  "all_four_assemblies_active_in_glb": true,
+  "all_four_glb_extras_match_schedule": true,
+  "old_geometry_removed_from_electrical_aggregate": true,
+  "all_floor_2_electrical_svg_markers_match_schedule": true,
+  "all_floor_2_electrical_svg_labels_match_markers": true,
+  "all_floor_2_electrical_svg_legend_heights_match_schedule": true,
+  "active_glb_node_names_unique": true,
+  "glb_buffer_views_in_range": true,
+  "offline_viewer_rebuilt_from_current_models": true,
+  "expected_new_glb_nodes": [
+    "E2_028_SOCKET",
+    "E2_028_SOCKET_hole",
+    "E2_028_SOCKET_hole.001",
+    "E2_028_SOCKET_hole.002",
+    "E2_028_SOCKET_hole.003",
+    "E2_029_SOCKET",
+    "E2_029_SOCKET_hole",
+    "E2_029_SOCKET_hole.001",
+    "E2_029_SOCKET_hole.002",
+    "E2_029_SOCKET_hole.003",
+    "E2_030_SWITCH",
+    "E2_030_SWITCH_rocker",
+    "E2_030_SWITCH_rocker.001",
+    "E2_031_SWITCH",
+    "E2_031_SWITCH_rocker",
+    "E2_031_SWITCH_rocker.001"
+  ],
+  "old_assembly_triangles_removed": {
+    "E2_028_SOCKET": 684,
+    "E2_029_SOCKET": 684,
+    "E2_030_SWITCH": 564,
+    "E2_031_SWITCH": 564
+  }
+}

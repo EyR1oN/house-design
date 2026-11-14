@@ -1,0 +1,116 @@
+{
+  "revision": 29,
+  "date": "2026-11-14",
+  "summary": "Aligned both primary-bedroom bedside socket/switch pairs with their nightstands and lowered the bedside switches.",
+  "layout": {
+    "left_bedside": {
+      "nightstand_center_xy_m": [
+        11.087,
+        11.32
+      ],
+      "point_center_xy_m": [
+        11.394638,
+        11.32
+      ],
+      "wall_face": "W"
+    },
+    "right_bedside": {
+      "nightstand_center_xy_m": [
+        11.087,
+        8.78
+      ],
+      "point_center_xy_m": [
+        11.394638,
+        8.78
+      ],
+      "wall_face": "W"
+    },
+    "socket_center_height_m": 0.68,
+    "switch_center_height_m": 0.82,
+    "nightstand_top_height_m": 0.48,
+    "socket_center_above_tabletop_m": 0.2,
+    "switch_center_above_tabletop_m": 0.34,
+    "switch_to_socket_center_spacing_m": 0.14
+  },
+  "points": {
+    "E2_028_SOCKET": {
+      "x_m": 11.394638,
+      "y_m": 11.32,
+      "height_aff_m": 0.68,
+      "face": "W",
+      "purpose": "Left bedside charging"
+    },
+    "E2_029_SOCKET": {
+      "x_m": 11.394638,
+      "y_m": 8.78,
+      "height_aff_m": 0.68,
+      "face": "W",
+      "purpose": "Right bedside charging"
+    },
+    "E2_030_SWITCH": {
+      "x_m": 11.394638,
+      "y_m": 11.32,
+      "height_aff_m": 0.82,
+      "face": "W",
+      "purpose": "Bedside scene / ceiling switching"
+    },
+    "E2_031_SWITCH": {
+      "x_m": 11.394638,
+      "y_m": 8.78,
+      "height_aff_m": 0.82,
+      "face": "W",
+      "purpose": "Bedside scene / ceiling switching"
+    }
+  },
+  "old_packed_faces_removed": {
+    "E2_028_SOCKET": 684,
+    "E2_029_SOCKET": 684,
+    "E2_030_SWITCH": 564,
+    "E2_031_SWITCH": 564
+  },
+  "removed_faces_by_primitive": [
+    {
+      "primitive": 0,
+      "material": 45,
+      "faces_before": 4324,
+      "faces_removed": 752,
+      "faces_removed_by_point": {
+        "E2_028_SOCKET": 188,
+        "E2_029_SOCKET": 188,
+        "E2_030_SWITCH": 188,
+        "E2_031_SWITCH": 188
+      }
+    },
+    {
+      "primitive": 1,
+      "material": 47,
+      "faces_before": 2820,
+      "faces_removed": 752,
+      "faces_removed_by_point": {
+        "E2_028_SOCKET": 0,
+        "E2_029_SOCKET": 0,
+        "E2_030_SWITCH": 376,
+        "E2_031_SWITCH": 376
+      }
+    },
+    {
+      "primitive": 2,
+      "material": 186,
+      "faces_before": 7792,
+      "faces_removed": 992,
+      "faces_removed_by_point": {
+        "E2_028_SOCKET": 496,
+        "E2_029_SOCKET": 496,
+        "E2_030_SWITCH": 0,
+        "E2_031_SWITCH": 0
+      }
+    }
+  ],
+  "updated_artifacts": [
+    "House_Library_Design/House_Library_Design.blend",
+    "House_Library_Design/data/electrical_points.json",
+    "House_Library_Design/exports/Electrical_Points_Floor_2.svg",
+    "House_Browser_Viewer/House_Floor_2.glb",
+    "House_Browser_Viewer/House_Viewer.html"
+  ]
+}

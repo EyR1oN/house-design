@@ -11,8 +11,8 @@
   },
   {
     "path": "House_Library_Design.blend",
-    "bytes": 380493354,
-    "sha256": "21b4ba0e8509db708d4dfbd6c50c79fd076fc19bd82c059d19ce005972be9fc6"
+    "bytes": 380491571,
+    "sha256": "0689608f136f98d630766dccd4bdb9edabb1c70a1cc6c5e28dc0015aa8956b99"
   },
   {
     "path": "Open_Library_Design.ps1",
@@ -26,8 +26,8 @@
   },
   {
     "path": "README_UK.md",
-    "bytes": 6480,
-    "sha256": "80de5149053fa38cbdd092d2c05aa60a13a87edba649d850b513f3d9623402dd"
+    "bytes": 6725,
+    "sha256": "3db9ba481ea260c8188a9603d9a80208882f66c8c1f6825fe6cddbbc70cf31d4"
   },
   {
     "path": "Ready_Furniture_Library.blend",
@@ -736,8 +736,8 @@
   },
   {
     "path": "data/electrical_points.json",
-    "bytes": 27014,
-    "sha256": "2b81d3e49c58366857fbf0a70ee986cb916278f9f041493c5b17025d3773186b"
+    "bytes": 28042,
+    "sha256": "faae21ef1f9ef61bbd69adce499df9c641fd15724a6b8df8c59ac5a2f1eea361"
   },
   {
     "path": "data/extracted_walls.json",
@@ -1020,6 +1020,36 @@
     "sha256": "22fac8b43ebea4415fb8c8ffad35dcc2d5f7b0a37963369d029e1825af1d9514"
   },
   {
+    "path": "data/revision27_report.json",
+    "bytes": 678,
+    "sha256": "399943b93b5ec519b5bb815e8e5f032408dcc4a56be41662281bde1c053454f4"
+  },
+  {
+    "path": "data/revision27_verification.json",
+    "bytes": 1066,
+    "sha256": "93f02824f9b018def561b9deffc5fc2b8c7685fa6aaf0659d8844e6d2e8e4d64"
+  },
+  {
+    "path": "data/revision28_report.json",
+    "bytes": 541,
+    "sha256": "07659e7267257326024ef2a7a2d7a5053e36f87e38361d5047ff111d5c52f24c"
+  },
+  {
+    "path": "data/revision28_verification.json",
+    "bytes": 1068,
+    "sha256": "f78f7a92a3d646a20f2cddc11bf87c8999b371b8f72cd838de78311249500c4f"
+  },
+  {
+    "path": "data/revision29_report.json",
+    "bytes": 2923,
+    "sha256": "6d2572a47b0c4946219e19872c3a2140f3827e508a800b26ba77e93304f307eb"
+  },
+  {
+    "path": "data/revision29_verification.json",
+    "bytes": 1184,
+    "sha256": "3dda404b6aad8e59c8d8612dc264fa7f8427be19edcfaca0b5ea20d2ee579ee3"
+  },
+  {
     "path": "data/revision3_report.json",
     "bytes": 67793,
     "sha256": "71eb888ba9989079f00fa2ffae5fc2d9c6f5727e75e3737fb34857d49033b7a8"
@@ -1141,8 +1171,8 @@
   },
   {
     "path": "exports/Electrical_Points_Floor_2.svg",
-    "bytes": 22064,
-    "sha256": "04970210e6c266d20720dc7ec415a7394dc77240d50ac0a3952b1a17d74a320d"
+    "bytes": 22123,
+    "sha256": "688c250045aed6d6f3723b362f758576f42530a357d8e94969c78c25dc9519d5"
   },
   {
     "path": "exports/revision10_replacements.glb",
@@ -1470,6 +1500,11 @@
     "sha256": "08be19ebf86035111a71770343ee6f5f76e893778b86b39488efe052df132199"
   },
   {
+    "path": "scripts/export_interfloor_structure.py",
+    "bytes": 1472,
+    "sha256": "3f90585d9c04fdb06705c69959ff6b3f9787fcae35543acfb7889db23c16d733"
+  },
+  {
     "path": "scripts/export_revision7_patch.py",
     "bytes": 1136,
     "sha256": "fb1892088ca4f2288131a02b87d0bb982230c0c66eb08171d7c65ada0f61ede9"
@@ -1573,6 +1608,11 @@
     "path": "scripts/implement_revision25_stair_switches.py",
     "bytes": 8720,
     "sha256": "349116b6a6b0739d43007eb3faa080576f66e5c9cc5776093f95ea3ef0556a94"
+  },
+  {
+    "path": "scripts/implement_revision29_bedside_electrical.py",
+    "bytes": 5287,
+    "sha256": "7a09ee936fde7ed67bdeb52e80e0b9660c400adf181352dbfeaeb94b55c9a2cf"
   },
   {
     "path": "scripts/inspect_revision12.py",

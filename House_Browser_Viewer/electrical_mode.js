@@ -37,6 +37,7 @@
     if (/^(?:Walls|PART_R_|PART_Electrical_|E[12]_)/i.test(name)) return true;
     if (/^LIB_.*(?:socket|switch|outlet|data|fan_point|connection)/i.test(name)) return true;
     if (/^(?:R_STAIR_|R3_Stair_|R3_LED_|R7_TV_|R18_Ceiling_)/.test(name)) return true;
+    if (name === 'R_L2_STRUCTURAL_SLAB' || name === 'R_L2_SCREED') return true;
     // Built-in hood lights are fixed fixtures, unlike the two portable desk lamps.
     if (/^R15_Hood_Underside_Light_/i.test(name)) return true;
     if (name === 'Corner_LED_strip' || name === 'PART_DESIGN_Lighting_Decor') return true;
@@ -56,7 +57,10 @@
     if (!root || typeof root.traverse !== 'function') return;
     root.traverse(node => {
       if (node === root) return;
-      const classify = part => part.userData?.viewer_fixed_finish ? true : keepByName(part.name);
+      const classify = part => {
+        if (part.userData?.viewer_fixed_finish || part.userData?.component_type === 'FLOOR_LAYER') return true;
+        return keepByName(part.name);
+      };
       let kind = classify(node);
       if (kind === null && node.parent) {
         let parent = node.parent;
