@@ -14,6 +14,8 @@ def verify(root):
     page = (root / 'index.html').read_text(encoding='utf-8')
     marker = 'window.HOUSE_DATA='
     data, _ = json.JSONDecoder().raw_decode(page[page.index(marker) + len(marker):])
+    assert set(data['models']) == {'1', '2', '3'}, 'Expected both floors and the separate roof'
+    assert 'data-floor="3"' in page, 'Roof view control is missing'
     for floor, item in data['models'].items():
         raw = b''.join(gzip.decompress((root / part).read_bytes()) for part in item['parts'])
         assert len(raw) == item['bytes'], f'Floor {floor} length mismatch'

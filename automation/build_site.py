@@ -120,7 +120,7 @@ def build(output, site_url):
     (output / 'photos').mkdir(exist_ok=True)
     info = metadata()
     data = {'models': {}, 'photos': []}
-    for floor in (1, 2):
+    for floor in (1, 2, 3):
         path = ROOT / f'House_Browser_Viewer/House_Floor_{floor}.glb'
         raw = read_asset(path)
         validate_glb(raw, path)
