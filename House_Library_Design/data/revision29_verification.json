@@ -9,6 +9,7 @@
   "all_floor_2_electrical_svg_legend_heights_match_schedule": true,
   "active_glb_node_names_unique": true,
   "glb_buffer_views_in_range": true,
+  "glb_payload_compacted": true,
   "offline_viewer_rebuilt_from_current_models": true,
   "expected_new_glb_nodes": [
     "E2_028_SOCKET",
