@@ -1,0 +1,16 @@
+{
+  "revision": 31,
+  "floor_svg_markers_match_schedule": true,
+  "floor_svg_legend_matches_schedule": true,
+  "plan_labels_repositioned_around_dense_points": true,
+  "legacy_electrical_point_nodes_removed_before_replacement": true,
+  "replacement_points_active_in_glb": true,
+  "replacement_coordinates_and_metadata_match_schedule": true,
+  "all_scheduled_nonlight_points_present_and_tagged_on_both_floors": true,
+  "previously_missing_floor2_points_restored": 19,
+  "active_glb_node_names_unique": true,
+  "glb_buffer_views_in_range": true,
+  "moving_pantry_nodes_preserved": 20,
+  "offline_viewer_rebuilt_from_updated_models": true,
+  "portable_viewer_synced": true
+}

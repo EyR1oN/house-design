@@ -60,28 +60,30 @@
     "room": "Kitchen",
     "level": 1,
     "type": "SOCKET",
-    "x_m": 9.550000190734863,
-    "y_m": 3.973,
-    "height_aff_m": 2.79,
-    "face": "N",
-    "purpose": "Proposed accessible upper service socket inside corner pantry",
+    "x_m": 10.370499610900879,
+    "y_m": 7.0,
+    "height_aff_m": 1.12,
+    "face": "W",
+    "purpose": "Blender and mixer at the worktop beside the hob",
     "proposed_group": "KITCHEN_WORKTOP",
     "modules": 2,
-    "status": "PROPOSED_NOT_AS_BUILT"
+    "status": "PROPOSED_NOT_AS_BUILT",
+    "installation_detail": "On the hood backsplash beside the hob, outside the cooking surface footprint."
   },
   {
     "id": "E1_006_SOCKET",
     "room": "Kitchen",
     "level": 1,
     "type": "SOCKET",
-    "x_m": 10.100000381469727,
-    "y_m": 3.973,
-    "height_aff_m": 2.79,
-    "face": "N",
-    "purpose": "Proposed accessible upper service socket inside corner pantry",
+    "x_m": 10.370499610900879,
+    "y_m": 7.0,
+    "height_aff_m": 1.28,
+    "face": "W",
+    "purpose": "Second small appliance outlet at the worktop beside the hob",
     "proposed_group": "KITCHEN_WORKTOP",
     "modules": 2,
-    "status": "PROPOSED_NOT_AS_BUILT"
+    "status": "PROPOSED_NOT_AS_BUILT",
+    "installation_detail": "On the hood backsplash beside the hob, outside the cooking surface footprint."
   },
   {
     "id": "E1_007_SOCKET",
@@ -133,14 +135,15 @@
     "room": "Kitchen",
     "level": 1,
     "type": "SOCKET",
-    "x_m": 10.39460277557373,
-    "y_m": 6.920000076293945,
-    "height_aff_m": 0.35,
+    "x_m": 10.394603,
+    "y_m": 5.62,
+    "height_aff_m": 0.5,
     "face": "W",
-    "purpose": "Dishwasher; adjacent cabinet dry service compartment",
+    "purpose": "Dishwasher supply in the adjacent sink-base cabinet, not behind the appliance",
     "proposed_group": "DISHWASHER",
     "modules": 1,
-    "status": "PROPOSED_NOT_AS_BUILT"
+    "status": "PROPOSED_NOT_AS_BUILT",
+    "installation_detail": "Accessible service point at the dishwasher-facing end of the adjacent sink-base cabinet. Final mounting panel must stay clear of the trap, water valves and leaks; do not put the plug behind the dishwasher."
   },
   {
     "id": "E1_011_HOB_CONNECTION",
@@ -302,28 +305,30 @@
     "room": "Laundry",
     "level": 1,
     "type": "SOCKET",
-    "x_m": 9.28,
-    "y_m": 3.794118881225586,
-    "height_aff_m": 1.14,
-    "face": "S",
-    "purpose": "Washer; accessible north wall, proposed",
+    "x_m": 10.39460277557373,
+    "y_m": 3.45,
+    "height_aff_m": 0.55,
+    "face": "W",
+    "purpose": "Washer outlet directly behind the washer",
     "proposed_group": "WASHER",
     "modules": 1,
-    "status": "PROPOSED_NOT_AS_BUILT"
+    "status": "PROPOSED_NOT_AS_BUILT",
+    "installation_detail": "Centered behind the appliance on the wall facing its rear panel. Confirm plug clearance and service access with the selected appliance."
   },
   {
     "id": "E1_023_SOCKET",
     "room": "Laundry",
     "level": 1,
     "type": "SOCKET",
-    "x_m": 9.43,
-    "y_m": 3.794118881225586,
-    "height_aff_m": 1.14,
-    "face": "S",
-    "purpose": "Dryer; accessible north wall, proposed",
+    "x_m": 10.39460277557373,
+    "y_m": 3.45,
+    "height_aff_m": 1.45,
+    "face": "W",
+    "purpose": "Dryer outlet directly behind the dryer",
     "proposed_group": "DRYER",
     "modules": 1,
-    "status": "PROPOSED_NOT_AS_BUILT"
+    "status": "PROPOSED_NOT_AS_BUILT",
+    "installation_detail": "Centered behind the appliance on the wall facing its rear panel. Confirm plug clearance and service access with the selected appliance."
   },
   {
     "id": "E1_024_SWITCH",
@@ -365,7 +370,8 @@
     "purpose": "Grooming point outside shower footprint; wet-zone review required",
     "proposed_group": "WET_ROOM_REVIEW",
     "modules": 1,
-    "status": "PROPOSED_NOT_AS_BUILT"
+    "status": "PROPOSED_NOT_AS_BUILT",
+    "installation_detail": "Existing grooming position outside the modelled shower footprint; qualified designer/electrician must confirm the exact bathroom zone, IP rating and protection before installation."
   },
   {
     "id": "E2_027_SWITCH",
@@ -638,14 +644,15 @@
     "room": "Upper_Bath",
     "level": 2,
     "type": "SOCKET",
-    "x_m": 8.465670585632324,
-    "y_m": 6.670000076293945,
+    "x_m": 9.15,
+    "y_m": 5.5,
     "height_aff_m": 1.12,
-    "face": "E",
-    "purpose": "Grooming candidate location; wet-zone review required",
+    "face": "N",
+    "purpose": "Hair dryer and grooming at the vanity, left of the basin",
     "proposed_group": "WET_ROOM_REVIEW",
     "modules": 1,
-    "status": "PROPOSED_NOT_AS_BUILT"
+    "status": "PROPOSED_NOT_AS_BUILT",
+    "installation_detail": "Beside the left edge of the vanity; modelled about 1.43 m horizontally from the bathtub edge. A qualified designer/electrician must confirm the exact bathroom zone, IP rating and protection before installation."
   },
   {
     "id": "E2_047_SWITCH",
@@ -1112,5 +1119,20 @@
     "status": "PROPOSED_NOT_AS_BUILT",
     "control_pair_with": "E1_090_SWITCH",
     "control_type": "PROPOSED_MULTI_WAY_SECOND_LOCATION"
+  },
+  {
+    "id": "E1_093_SOCKET",
+    "room": "Laundry",
+    "level": 1,
+    "type": "SOCKET",
+    "x_m": 9.78,
+    "y_m": 2.6,
+    "height_aff_m": 1.85,
+    "face": "N",
+    "purpose": "Gas-boiler power provision beside the appliance",
+    "proposed_group": "BOILER",
+    "modules": 1,
+    "status": "PROPOSED_NOT_AS_BUILT",
+    "installation_detail": "Accessible on the adjacent wall, left of the boiler body, not behind it. Final supply type, rating, isolation and clearances must follow the selected boiler instructions and the licensed installer’s design."
   }
 ]

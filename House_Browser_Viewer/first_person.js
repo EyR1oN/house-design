@@ -243,6 +243,11 @@
         // Door leaves and frames are modeled as closed bounding boxes even
         // when the rendered leaf is open; let the wall opening define passage.
         if (isDoorPart(mesh)) return;
+        // Decorative finishes marked for clipping with architectural walls can
+        // span a whole room in their bounding box. The actual wall mesh above
+        // already supplies collision edges, so this overlay must not seal the
+        // doorway as one giant furniture obstacle.
+        if (mesh.userData.viewer_clip_with_walls) return;
         addObstacleBox(mesh);
       });
     }
