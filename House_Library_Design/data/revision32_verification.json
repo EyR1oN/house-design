@@ -1,0 +1,12 @@
+{
+  "revision": 32,
+  "unique_schedule_ids": true,
+  "changed_points_match_master_and_floor_1_glb": true,
+  "all_floor_1_nonlight_schedule_points_present_and_tagged": true,
+  "active_floor_1_glb_names_unique": true,
+  "floor_1_glb_buffer_views_in_range": true,
+  "electrical_svg_marker_count_matches_schedule": true,
+  "electrical_svg_legend_count_matches_schedule": true,
+  "portable_viewer_matches_repo": true,
+  "upper_bathroom_collision_fix_in_embedded_viewer": true
+}
