@@ -32,8 +32,8 @@
 <circle cx="413.5" cy="1636.35" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_002_SOCKET / Bench charging / 0.66m</title></circle>
 <circle cx="451.991" cy="1420.8" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_003_SWITCH / Entry + hall light / 1.05m</title></circle>
 <circle cx="393.317" cy="1177" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_004_SWITCH / Kitchen ceiling + task lights / 1.05m</title></circle>
-<circle cx="480.2" cy="967.7" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_005_SOCKET / Kitchen island double socket for blender, mixer and kettle / 0.76m</title></circle>
-<circle cx="480.2" cy="892.95" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_006_SOCKET / Kitchen island double socket for small appliances and spare use / 0.76m</title></circle>
+<circle cx="686.107" cy="855" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_005_SOCKET / Blender and mixer at the worktop beside the hob / 1.12m</title></circle>
+<circle cx="686.107" cy="855" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_006_SOCKET / Second small appliance outlet at the worktop beside the hob / 1.28m</title></circle>
 <circle cx="452.6" cy="1208.58" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_007_SOCKET / Fridge; accessible upper cabinet service position / 2.22m</title></circle>
 <circle cx="514.7" cy="1208.58" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_008_SOCKET / Oven; accessible upper cabinet service position / 2.22m</title></circle>
 <circle cx="545.75" cy="1208.58" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_009_SOCKET / Microwave; upper cabinet service position / 2.22m</title></circle>
@@ -49,8 +49,8 @@
 <circle cx="584.24" cy="828.55" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_019_SWITCH / Living ceiling + dining pendants / 1.05m</title></circle>
 <circle cx="257.272" cy="650.875" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_020_SWITCH / Storage light / 1.05m</title></circle>
 <circle cx="125.481" cy="669.85" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_021_SOCKET / Cordless vacuum charging / 0.30m</title></circle>
-<circle cx="646.95" cy="1223.678" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_022_SOCKET / Concealed rear-wall supply for the washing machine in the laundry stack / 0.55m</title></circle>
-<circle cx="646.95" cy="1223.678" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_023_SOCKET / Concealed rear-wall supply for the dryer above the washing machine / 1.45m</title></circle>
+<circle cx="688.879" cy="1263.25" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_022_SOCKET / Washer outlet directly behind the washer / 0.55m</title></circle>
+<circle cx="688.879" cy="1263.25" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_023_SOCKET / Dryer outlet directly behind the dryer / 1.45m</title></circle>
 <circle cx="467.045" cy="1258.65" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_024_SWITCH / Laundry light / 1.05m</title></circle>
 <circle cx="242.776" cy="990.7" r="8" fill="#4a8263" stroke="#fff" stroke-width="2"><title>E1_025_SWITCH / Shower room light / extract control / 1.05m</title></circle>
 <circle cx="125.481" cy="965.4" r="8" fill="#ae6928" stroke="#fff" stroke-width="2"><title>E1_026_SOCKET / Grooming point outside shower footprint; wet-zone review required / 1.12m</title></circle>
@@ -71,8 +71,8 @@
 <text x="423.5" y="1629.35" font-size="13" font-weight="bold" fill="#ae6928">002</text>
 <text x="461.991" y="1413.8" font-size="13" font-weight="bold" fill="#4a8263">003</text>
 <text x="403.317" y="1170" font-size="13" font-weight="bold" fill="#4a8263">004</text>
-<text x="490.2" y="960.7" font-size="13" font-weight="bold" fill="#ae6928">005</text>
-<text x="490.2" y="885.95" font-size="13" font-weight="bold" fill="#ae6928">006</text>
+<text x="696.107" y="848" font-size="13" font-weight="bold" fill="#ae6928">005</text>
+<text x="646.107" y="890" font-size="13" font-weight="bold" fill="#ae6928">006</text>
 <text x="462.6" y="1201.58" font-size="13" font-weight="bold" fill="#ae6928">007</text>
 <text x="480.7" y="1230.58" font-size="13" font-weight="bold" fill="#ae6928">008</text>
 <text x="555.75" y="1201.58" font-size="13" font-weight="bold" fill="#ae6928">009</text>
@@ -88,8 +88,8 @@
 <text x="594.24" y="821.55" font-size="13" font-weight="bold" fill="#4a8263">019</text>
 <text x="267.272" y="643.875" font-size="13" font-weight="bold" fill="#4a8263">020</text>
 <text x="135.481" y="662.85" font-size="13" font-weight="bold" fill="#ae6928">021</text>
-<text x="656.95" y="1216.678" font-size="13" font-weight="bold" fill="#ae6928">022</text>
-<text x="656.95" y="1245.678" font-size="13" font-weight="bold" fill="#ae6928">023</text>
+<text x="698.879" y="1256.25" font-size="13" font-weight="bold" fill="#ae6928">022</text>
+<text x="698.879" y="1285.25" font-size="13" font-weight="bold" fill="#ae6928">023</text>
 <text x="477.045" y="1251.65" font-size="13" font-weight="bold" fill="#4a8263">024</text>
 <text x="252.776" y="983.7" font-size="13" font-weight="bold" fill="#4a8263">025</text>
 <text x="135.481" y="958.4" font-size="13" font-weight="bold" fill="#ae6928">026</text>
@@ -116,9 +116,9 @@
 <circle cx="953" cy="335" r="5" fill="#4a8263"/>
 <text x="970" y="341" font-size="17" fill="#39342d">004 · Кухня · Вимикач ×2 · 1.05 м</text>
 <circle cx="953" cy="370" r="5" fill="#ae6928"/>
-<text x="970" y="376" font-size="17" fill="#39342d">005 · Кухня · Розетка ×2 · Острів · блендер/міксер/чайник · 0.76 м</text>
+<text x="970" y="376" font-size="17" fill="#39342d">005 · Кухня · Розетка ×2 · Острів · блендер/міксер/чайник · 1.12 м</text>
 <circle cx="953" cy="405" r="5" fill="#ae6928"/>
-<text x="970" y="411" font-size="17" fill="#39342d">006 · Кухня · Розетка ×2 · Острів · дрібна техніка · 0.76 м</text>
+<text x="970" y="411" font-size="17" fill="#39342d">006 · Кухня · Розетка ×2 · Острів · дрібна техніка · 1.28 м</text>
 <circle cx="953" cy="440" r="5" fill="#ae6928"/>
 <text x="970" y="446" font-size="17" fill="#39342d">007 · Кухня · Розетка · 2.22 м</text>
 <circle cx="953" cy="475" r="5" fill="#ae6928"/>
