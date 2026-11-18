@@ -58,6 +58,7 @@
     root.traverse(node => {
       if (node === root) return;
       const classify = part => {
+        if (part.userData?.electrical_point || part.userData?.viewer_fixed_light) return true;
         if (part.userData?.viewer_fixed_finish || part.userData?.component_type === 'FLOOR_LAYER') return true;
         return keepByName(part.name);
       };

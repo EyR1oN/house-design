@@ -9,7 +9,8 @@ ROOT = Path(__file__).resolve().parents[1]
 VIEWER = ROOT / 'House_Browser_Viewer'
 ALLOWED_EXTENSIONS = {
     'KHR_materials_anisotropy', 'KHR_materials_emissive_strength', 'KHR_materials_ior',
-    'KHR_materials_specular', 'KHR_materials_transmission', 'KHR_texture_transform',
+    'KHR_materials_sheen', 'KHR_materials_specular', 'KHR_materials_transmission',
+    'KHR_texture_transform',
 }
 
 

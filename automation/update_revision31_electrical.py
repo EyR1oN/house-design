@@ -303,14 +303,14 @@ def append_patch(document, binary, patch_path, floor, points, expected_ids, revi
         name = node.get('name', '')
         point_id = next((candidate for candidate in expected_ids
                          if name == candidate or name.startswith(candidate + '_')), None)
-        if point_id is None:
-            continue
-        point = point_rows[point_id]
         if index in roots and floor == 2:
             if 'matrix' in node:
                 node['matrix'][13] -= 3.2
             else:
                 node.setdefault('translation', [0, 0, 0])[1] -= 3.2
+        if point_id is None:
+            continue
+        point = point_rows[point_id]
         node.setdefault('extras', {}).update({
             'design_status': 'PROPOSED_INTERIOR',
             'section': 'RIGHT',
@@ -371,14 +371,15 @@ def sync_point_metadata(document, floor, points, revision=31):
     return rows
 
 
-def update_floor_glb(floor, points, revision=31):
+def update_floor_glb(floor, points, revision=31, *, patch_config=None):
     path = VIEWER / f'House_Floor_{floor}.glb'
     document, payload = read_glb(path.read_bytes())
     binary = bytearray(payload)
-    patch_ids = floor_patch_ids(floor, points)
-    replace_ids = patch_ids if floor == 2 else CHANGES[floor]['replace_ids']
+    config = CHANGES[floor] if patch_config is None else patch_config
+    patch_ids = floor_patch_ids(floor, points) if patch_config is None else config['ids']
+    replace_ids = patch_ids if floor == 2 and patch_config is None else config['replace_ids']
     removed = remove_legacy_point_nodes(document, floor, replace_ids)
-    patch_nodes = append_patch(document, binary, CHANGES[floor]['patch'], floor, points, patch_ids,
+    patch_nodes = append_patch(document, binary, config['patch'], floor, points, patch_ids,
                                revision=revision)
     document['buffers'][0]['byteLength'] = len(binary)
     expected_pivots = 20 if floor == 1 else 0
