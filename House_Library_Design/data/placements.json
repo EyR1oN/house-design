@@ -2686,8 +2686,8 @@
     "license": "royalty_free",
     "bounds": [
       [
-        6.59499979019165,
-        6.84499979019165
+        6.657474994659424,
+        6.844974994659424
       ],
       [
         11.630000114440918,
@@ -2699,7 +2699,7 @@
       ]
     ],
     "scale": [
-      0.21240733553348562,
+      0.1593055016501142,
       0.6228425446698244,
       0.9631804067557315
     ],
@@ -3522,76 +3522,6 @@
     ]
   },
   {
-    "label": "Upper_Bath_Sconce_9.06",
-    "role": "sconce",
-    "group": "Upper_Bath",
-    "level": 2,
-    "source_url": "https://www.blenderkit.com/asset-gallery-detail/31efb392-2e16-4b9c-8046-8bf1f5f1f56c/",
-    "license": "royalty_free",
-    "bounds": [
-      [
-        9.149999618530273,
-        9.270000457763672
-      ],
-      [
-        5.5,
-        5.619999885559082
-      ],
-      [
-        4.639999866485596,
-        5.130000114440918
-      ]
-    ],
-    "scale": [
-      0.9999999292194893,
-      0.7225621317874261,
-      1.0067135381734023
-    ],
-    "objects": [
-      "LIB_Upper_Bath_Sconce_9.06_Object014_PREPARED",
-      "LIB_Upper_Bath_Sconce_9.06_Cylinder008_PREPARED",
-      "LIB_Upper_Bath_Sconce_9.06_Cylinder.010_PREPARED",
-      "LIB_Upper_Bath_Sconce_9.06_Cylinder.008_PREPARED",
-      "LIB_Upper_Bath_Sconce_9.06_Cylinder.002_PREPARED",
-      "LIB_Upper_Bath_Sconce_9.06_Cylinder.001_PREPARED"
-    ]
-  },
-  {
-    "label": "Upper_Bath_Sconce_10.44",
-    "role": "sconce",
-    "group": "Upper_Bath",
-    "level": 2,
-    "source_url": "https://www.blenderkit.com/asset-gallery-detail/31efb392-2e16-4b9c-8046-8bf1f5f1f56c/",
-    "license": "royalty_free",
-    "bounds": [
-      [
-        10.229999542236328,
-        10.350000381469727
-      ],
-      [
-        5.5,
-        5.619999885559082
-      ],
-      [
-        4.639999866485596,
-        5.130000114440918
-      ]
-    ],
-    "scale": [
-      0.9999999292194893,
-      0.7225621317874261,
-      1.0067135381734023
-    ],
-    "objects": [
-      "LIB_Upper_Bath_Sconce_10.44_Object014_PREPARED",
-      "LIB_Upper_Bath_Sconce_10.44_Cylinder008_PREPARED",
-      "LIB_Upper_Bath_Sconce_10.44_Cylinder.010_PREPARED",
-      "LIB_Upper_Bath_Sconce_10.44_Cylinder.008_PREPARED",
-      "LIB_Upper_Bath_Sconce_10.44_Cylinder.002_PREPARED",
-      "LIB_Upper_Bath_Sconce_10.44_Cylinder.001_PREPARED"
-    ]
-  },
-  {
     "label": "Upper_Bath_Towel_Radiator",
     "role": "radiator",
     "group": "Upper_Bath",
@@ -3600,12 +3530,12 @@
     "license": "royalty_free",
     "bounds": [
       [
-        8.477500915527344,
-        8.55250072479248
+        8.770000457763672,
+        9.15000057220459
       ],
       [
-        6.699999809265137,
-        7.079999923706055
+        5.502000331878662,
+        5.577000617980957
       ],
       [
         3.819999933242798,
@@ -3630,12 +3560,12 @@
     "license": "royalty_free",
     "bounds": [
       [
-        8.5,
-        8.569999694824219
+        8.830000877380371,
+        9.090001106262207
       ],
       [
-        6.759999752044678,
-        7.0199995040893555
+        5.524499893188477,
+        5.594499588012695
       ],
       [
         4.860000133514404,
@@ -5411,6 +5341,261 @@
         0.0,
         2.875
       ]
+    ]
+  },
+  {
+    "label": "Ground_WC_Overtoilet_Cabinet",
+    "role": "wall_kitchen_cabinet",
+    "group": "WC",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/21f63b56-d21c-499c-96ea-de7df9bf0576/",
+    "license": "royalty_free",
+    "scale": [
+      0.9000000536441836,
+      0.8235164763811154,
+      0.7624999886378647
+    ],
+    "bounds": [
+      [
+        5.670000076293945,
+        6.210000038146973
+      ],
+      [
+        6.747999668121338,
+        7.0279998779296875
+      ],
+      [
+        1.4950000047683716,
+        2.1050000190734863
+      ]
+    ],
+    "objects": [
+      "LIB_Ground_WC_Overtoilet_Cabinet_Library_0",
+      "LIB_Ground_WC_Overtoilet_Cabinet_Library_1",
+      "LIB_Ground_WC_Overtoilet_Cabinet_Library_2",
+      "LIB_Ground_WC_Overtoilet_Cabinet_Library_3"
+    ]
+  },
+  {
+    "label": "Child_Reading_Sconce",
+    "role": "sconce",
+    "group": "Child_Room",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/31efb392-2e16-4b9c-8046-8bf1f5f1f56c/",
+    "license": "royalty_free",
+    "scale": [
+      1.0,
+      1.0,
+      0.6122445881442772
+    ],
+    "bounds": [
+      [
+        5.490049839019775,
+        5.610049724578857
+      ],
+      [
+        2.4799997806549072,
+        2.5999996662139893
+      ],
+      [
+        4.2900004386901855,
+        4.590000152587891
+      ]
+    ],
+    "objects": [
+      "L2_095",
+      "L2_095_Library_1",
+      "L2_095_Library_2",
+      "L2_095_Library_3",
+      "L2_095_Library_4",
+      "L2_095_Library_5"
+    ]
+  },
+  {
+    "label": "Stairs_Wall_Sconce",
+    "role": "sconce",
+    "group": "Stairs",
+    "level": 2,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/31efb392-2e16-4b9c-8046-8bf1f5f1f56c/",
+    "license": "royalty_free",
+    "scale": [
+      1.0,
+      1.0,
+      0.6122445881442772
+    ],
+    "bounds": [
+      [
+        5.490049839019775,
+        5.610049724578857
+      ],
+      [
+        8.059999465942383,
+        8.180000305175781
+      ],
+      [
+        4.500000476837158,
+        4.800000190734863
+      ]
+    ],
+    "objects": [
+      "L2_096",
+      "L2_096_Library_1",
+      "L2_096_Library_2",
+      "L2_096_Library_3",
+      "L2_096_Library_4",
+      "L2_096_Library_5"
+    ]
+  },
+  {
+    "label": "Stairs_Lower_Wall_Sconce",
+    "role": "sconce",
+    "group": "Stairs",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/31efb392-2e16-4b9c-8046-8bf1f5f1f56c/",
+    "license": "royalty_free",
+    "scale": [
+      1.0,
+      1.0,
+      0.6122445881442772
+    ],
+    "bounds": [
+      [
+        5.489980220794678,
+        5.60998010635376
+      ],
+      [
+        10.639999389648438,
+        10.760000228881836
+      ],
+      [
+        1.9300003051757812,
+        2.2300000190734863
+      ]
+    ],
+    "objects": [
+      "L1_097",
+      "L1_097_Library_1",
+      "L1_097_Library_2",
+      "L1_097_Library_3",
+      "L1_097_Library_4",
+      "L1_097_Library_5"
+    ]
+  },
+  {
+    "label": "PORCH_LIGHT",
+    "role": "sconce",
+    "group": "Exterior",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/31efb392-2e16-4b9c-8046-8bf1f5f1f56c/",
+    "license": "royalty_free",
+    "scale": [
+      1.0,
+      1.0,
+      0.6122445881442772
+    ],
+    "bounds": [
+      [
+        8.878000259399414,
+        8.998001098632812
+      ],
+      [
+        1.9299997091293335,
+        2.049999713897705
+      ],
+      [
+        1.8000001907348633,
+        2.1000001430511475
+      ]
+    ],
+    "objects": [
+      "L1_103",
+      "L1_103_Library_1",
+      "L1_103_Library_2",
+      "L1_103_Library_3",
+      "L1_103_Library_4",
+      "L1_103_Library_5"
+    ]
+  },
+  {
+    "label": "TERRACE_LIGHT",
+    "role": "sconce",
+    "group": "Exterior",
+    "level": 1,
+    "source_url": "https://www.blenderkit.com/asset-gallery-detail/31efb392-2e16-4b9c-8046-8bf1f5f1f56c/",
+    "license": "royalty_free",
+    "scale": [
+      1.0,
+      1.0,
+      0.6122445881442772
+    ],
+    "bounds": [
+      [
+        6.619999885559082,
+        6.739999771118164
+      ],
+      [
+        12.368000030517578,
+        12.488000869750977
+      ],
+      [
+        1.7200000286102295,
+        2.0199999809265137
+      ]
+    ],
+    "objects": [
+      "L1_104",
+      "L1_104_Library_1",
+      "L1_104_Library_2",
+      "L1_104_Library_3",
+      "L1_104_Library_4",
+      "L1_104_Library_5"
+    ]
+  },
+  {
+    "label": "Entry_Backup_Power_Reserve",
+    "role": "space_reserve",
+    "group": "Entry",
+    "level": 1,
+    "bounds": [
+      [
+        6.37,
+        6.93
+      ],
+      [
+        0.2,
+        0.72
+      ],
+      [
+        0,
+        0.7
+      ]
+    ],
+    "objects": [],
+    "note": "Clear standing area reserved for portable power station or battery. No device or connection selected."
+  },
+  {
+    "label": "Entry_Main_Distribution_Panel",
+    "role": "electrical_enclosure",
+    "group": "Entry",
+    "level": 1,
+    "bounds": [
+      [
+        6.450000286102295,
+        6.849999904632568
+      ],
+      [
+        0.20000000298023224,
+        0.31300002336502075
+      ],
+      [
+        1.184999942779541,
+        1.6150000095367432
+      ]
+    ],
+    "objects": [
+      "E1_106_PANEL",
+      "E1_106_PANEL_cover",
+      "E1_106_PANEL_latch"
     ]
   }
 ]
