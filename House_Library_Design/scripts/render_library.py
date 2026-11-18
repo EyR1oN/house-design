@@ -52,6 +52,8 @@ s.render.resolution_x=1300;s.render.resolution_y=1080;s.render.resolution_percen
 for name in [n for n in selection if n.endswith('Plan')]:
  ly='Upper_Design' if name.startswith('Upper') else 'Ground_Design';layer(ly);s.camera=cams[name];s.render.engine='BLENDER_WORKBENCH';s.display.shading.color_type='MATERIAL';s.display.shading.show_shadows=False;old=[];cap=4.3 if ly=='Upper_Design' else 1.1;wc='R_L2_WALLS' if ly=='Upper_Design' else 'R_L1_WALLS'
  for o in list(bpy.context.view_layer.objects):
+  if o.name.startswith('R18_Ceiling_') and not o.hide_render:
+   o.hide_render=True;old.append((o,None));continue
   if o.type=='MESH' and any(c.name==wc for c in o.users_collection):
    if min((o.matrix_basis@v.co).z for v in o.data.vertices)>cap:o.hide_render=True;old.append((o,None));continue
    orig=o.data;o.data=orig.copy();old.append((o,orig))
